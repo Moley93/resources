@@ -12,7 +12,6 @@
   <script src="vendor/vue.2.3.3.min.js" type="text/javascript"></script>
   <script src="./js/config.default.js" type="text/javascript"></script>
   <script src="./js/config.js" type="text/javascript"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -35,6 +34,7 @@
       </div>
       <div class="chat-input" v-show="showInput">
         <div>
+          <span class="prefix">➤</span>
           <textarea v-model="message"
                     ref="input"
                     type="text"

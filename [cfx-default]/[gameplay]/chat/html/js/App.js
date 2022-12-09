@@ -23,7 +23,7 @@ window.APP = {
     window.removeEventListener('message', this.listener);
   },
   mounted() {
-    post('https://chat/loaded', JSON.stringify({}));
+    post('http://chat/loaded', JSON.stringify({}));
     this.listener = window.addEventListener('message', (event) => {
       const item = event.data || event.detail; //'detail' is for debuging via browsers
       if (this[item.type]) {
@@ -90,8 +90,11 @@ window.APP = {
       }
 
       if (this.removedSuggestions.find(a => a.name == suggestion.name)) {
+        console.log(this.removedSuggestions.indexOf(suggestion.name))
         this.removedSuggestions.splice(this.removedSuggestions.indexOf(suggestion.name), 1)
       }
+
+      console.log('Adding Command Suggestion: ' + suggestion.name + ' ' + suggestion.help);
       this.backingSuggestions.push(suggestion);
     },
     ON_SUGGESTION_REMOVE({ name }) {
@@ -241,7 +244,7 @@ window.APP = {
     },
     send(e) {
       if(this.message !== '') {
-        post('https://chat/chatResult', JSON.stringify({
+        post('http://chat/chatResult', JSON.stringify({
           message: this.message,
         }));
         this.oldMessages.unshift(this.message);
@@ -253,7 +256,7 @@ window.APP = {
     },
     hideInput(canceled = false) {
       if (canceled) {
-        post('https://chat/chatResult', JSON.stringify({ canceled }));
+        post('http://chat/chatResult', JSON.stringify({ canceled }));
       }
       this.message = '';
       this.showInput = false;

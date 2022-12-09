@@ -43,22 +43,22 @@ Config.Shops = {
                 chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-                coords = vector4(-54.47, -1096.82, 25.95, 104.44),
+                coords = vector4(-54.47, -1096.82, 26.35, 104.44),
                 defaultVehicle = 'schafter2',
                 chosenVehicle = 'schafter2'
             },
             [3] = {
-                coords = vector4(-47.42, -1091.99, 25.95, 71.16),
+                coords = vector4(-47.42, -1091.99, 26.35, 71.16),
                 defaultVehicle = 'comet2',
                 chosenVehicle = 'comet2'
             },
             [4] = {
-                coords = vector4(-36.9, -1093.12, 25.95, 110.44),
+                coords = vector4(-36.9, -1093.12, 26.35, 110.44),
                 defaultVehicle = 'vigero',
                 chosenVehicle = 'vigero'
             },
             [5] = {
-                coords = vector4(-42.13, -1101.33, 25.95, 100.76),
+                coords = vector4(-42.13, -1101.33, 26.35, 100.76),
                 defaultVehicle = 't20',
                 chosenVehicle = 't20'
             },
