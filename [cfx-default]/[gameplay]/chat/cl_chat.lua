@@ -9,7 +9,7 @@ RegisterNetEvent('chat:addMessage')
 RegisterNetEvent('chat:addSuggestion')
 RegisterNetEvent('chat:addSuggestions')
 RegisterNetEvent('chat:removeSuggestion')
-RegisterNetEvent('chat:client:ClearChat')
+RegisterNetEvent('chat:clear')
 
 -- internal events
 RegisterNetEvent('__cfx_internal:serverPrint')
@@ -17,27 +17,28 @@ RegisterNetEvent('__cfx_internal:serverPrint')
 RegisterNetEvent('_chat:messageEntered')
 
 --deprecated, use chat:addMessage
-AddEventHandler('chatMessage', function(author, color, text)
+AddEventHandler('chatMessage', function(author, ctype, text)
   local args = { text }
   if author ~= "" then
     table.insert(args, 1, author)
   end
+  local ctype = ctype ~= false and ctype or "normal"
   SendNUIMessage({
     type = 'ON_MESSAGE',
     message = {
-      color = color,
-      args = args
+      template = '<div class="chat-message '..ctype..'"><div class="chat-message-body"><strong>{0}:</strong> {1}</div></div>',
+      args = {author, text}
     }
   })
 end)
 
 AddEventHandler('__cfx_internal:serverPrint', function(msg)
-  print(msg)
 
   SendNUIMessage({
     type = 'ON_MESSAGE',
     message = {
       templateId = 'print',
+      multiline = true,
       args = { msg }
     }
   })
@@ -77,13 +78,6 @@ AddEventHandler('chat:removeSuggestion', function(name)
   })
 end)
 
-RegisterNetEvent('chat:resetSuggestions')
-AddEventHandler('chat:resetSuggestions', function()
-  SendNUIMessage({
-    type = 'ON_COMMANDS_RESET'
-  })
-end)
-
 AddEventHandler('chat:addTemplate', function(id, html)
   SendNUIMessage({
     type = 'ON_TEMPLATE_ADD',
@@ -94,7 +88,7 @@ AddEventHandler('chat:addTemplate', function(id, html)
   })
 end)
 
-AddEventHandler('chat:client:ClearChat', function(name)
+AddEventHandler('chat:clear', function(name)
   SendNUIMessage({
     type = 'ON_CLEAR'
   })
@@ -102,7 +96,7 @@ end)
 
 RegisterNUICallback('chatResult', function(data, cb)
   chatInputActive = false
-  SetNuiFocus(false)
+  SetNuiFocus(false, false)
 
   if not data.canceled then
     local id = PlayerId()
@@ -193,10 +187,10 @@ end)
 
 Citizen.CreateThread(function()
   SetTextChatEnabled(false)
-  SetNuiFocus(false)
+  SetNuiFocus(false, false)
 
   while true do
-    Wait(0)
+    Wait(3)
 
     if not chatInputActive then
       if IsControlPressed(0, 245) --[[ INPUT_MP_TEXT_CHAT_ALL ]] then
@@ -232,6 +226,11 @@ Citizen.CreateThread(function()
           shouldHide = shouldBeHidden
         })
       end
+
+      RegisterCommand('limpar', function(source, args)
+        TriggerEvent('chat:clear')
+    end, false)
+
     end
   end
 end)
