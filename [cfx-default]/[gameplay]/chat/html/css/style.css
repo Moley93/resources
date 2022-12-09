@@ -38,7 +38,6 @@ em {
   left: 15px;
   width: 32vw;
   height: 20vh;
-  border-radius: 1.5em;
   background-color: rgba(255, 255, 255, 0);
   top: 5vh;
   -webkit-animation-duration: 2s;
@@ -52,7 +51,6 @@ em {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  border-radius: 1.5em;
 }
 
 
@@ -72,15 +70,14 @@ textarea {
   box-sizing: border-box;
   padding: 0.65vw;
   color: #ffffff;
-  background-color: #000000b6;
+  background-color: #00000060;
   width: 80%;
   min-height: 4.3vh;
   max-height: 4.3vh;
-  border: 1px solid #000000b6;
+  border: 1px solid #00000086;
   overflow: hidden;
   text-overflow: ellipsis;
   resize: none;
-  border-radius: 1.5em;
 }
 
 textarea:focus, input:focus {
@@ -93,15 +90,14 @@ textarea:focus, input:focus {
 
 .suggestions {
   list-style-type: none;
-  padding: 10px;
+  padding: 5px;
   padding-left: 27px;
   font-size: 0.9rem;
   box-sizing: border-box;
   color: white;
-  background-color: #000000b6;
-  border: 1px solid #000000b6;
+  background-color: #00000060;
+  border: 1px solid #00000086;
   width: 80%;
-  border-radius: 1.5em;
 }
 
 .help {
@@ -111,25 +107,23 @@ textarea:focus, input:focus {
 
 .disabled {
   margin-top: -10px;
-  color: #ffffff93;
+  color: #ffffff;
 }
 
 .suggestion {
   margin-bottom: 5px;
-  color: #ffffffec;
+  color: #ffffff;
 }
 
 .chat-message {
   display: inline-block !important;
   padding: 0.65vw;
   margin: 0.1vw;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(47, 114, 181, 0.6);
   width: fit-content;
   max-width: 100%;
   overflow: hidden;
   word-break: break-word;
-  border-radius: 1.5em;
 }
 
 .chat-message-body {
@@ -137,33 +131,33 @@ textarea:focus, input:focus {
 }
 
 .chat-message.advert {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(47, 92, 115, 0.6);
 }
 
 .warning {
-  background-color: rgba(255, 136, 0, 0.8);
+  background-color: rgba(255, 136, 0, 0.6);
 }
 
 .normal {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(47, 114, 181, 0.6);
 }
 
 .error {
-  background-color: rgba(191, 36, 36, 0.9);
+  background-color: rgba(191, 36, 36, 0.6);
 }
 
 .chat-message.system {
-  background-color: rgb(67, 57, 111);
+  background-color: rgb(67, 57, 111, 0.6);
 }
 
 .chat-message.emergency {
-  background-color: rgba(224, 50, 50, 0.8);
+  background-color: rgba(224, 50, 50, 0.6);
 }
 
 .chat-message.nonemergency {
-  background-color: rgba(112, 25, 25, 0.8);
+  background-color: rgba(112, 25, 25, 0.6);
 }
 
 .chat-message.report {
-  background-color: rgba(86, 173, 10, 0.8);
+  background-color: rgba(86, 173, 10, 0.6);
 }
