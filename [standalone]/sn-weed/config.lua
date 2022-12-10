@@ -160,7 +160,7 @@ Config.TacoShop = { -- delivery ped location
     vector4(1193.49, -1622.34, 45.22, 123.56),
     vector4(1005.17, -2128.42, 31.69, 264.73),
 }
-Config.Debug = true -- debug soils
+Config.Debug = false -- debug soils
 Config.CountPackage = 5 -- 5 packed buds for 1 package
 
 Config.MaterialHashes = { -- soils
