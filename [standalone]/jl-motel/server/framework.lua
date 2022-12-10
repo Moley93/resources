@@ -1,4 +1,4 @@
-lib.locale(qb)
+lib.locale()
 Core = nil
 if Config.Framework == "esx" then
     Core = exports['es_extended']:getSharedObject()
@@ -11,7 +11,7 @@ end
 ---@param identifier string
 ---@return table | nil
 function GetOfflinePlayerData(identifier)
-    if Config.Framework == "qb" then
+    if Config.Framework == "qbcore" then
         local success, xPlayer = pcall(Core.Player.GetOfflinePlayer, identifier)
         if not success then
             local result = MySQL.single.await('SELECT * FROM players WHERE citizenid = ?', { identifier })
