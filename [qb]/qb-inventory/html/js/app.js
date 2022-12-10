@@ -428,6 +428,31 @@ function FormatItemInfo(itemData) {
                 itemData.info.birthdate +
                 "</span></p>"
             );
+        }   else if (itemData.name == "motel_key") {
+                $(".item-info-title").html(
+                  "<p>" + itemData.label + " " + itemData.info.room.label + "</p>"
+                );
+                $(".item-info-description").html(
+                  "<p>" +
+                    itemData.description +
+                    "</p><p>" +
+                    "Motel: " +
+                    itemData.info.motel.label +
+                    "</p><p>" +
+                    "Room: " +
+                    itemData.info.room.label +
+                    "</p><p>" +
+                    "Owner: " +
+                    itemData.info.firstname +
+                    " " +
+                    itemData.info.lastname +
+                    "</p>" +
+                    "<p>" +
+                    "CID: " +
+                    itemData.info.owner +
+                    "</p>"
+                );
+              }    
         } else if (itemData.name == "lawyerpass") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
@@ -631,11 +656,7 @@ function FormatItemInfo(itemData) {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html("<p>" + itemData.description + "</p>");
         }
-    } else {
-        $(".item-info-title").html("<p>" + itemData.label + "</p>");
-        $(".item-info-description").html("<p>" + itemData.description + "</p>");
     }
-}
 
 function handleDragDrop() {
     $(".item-drag").draggable({
@@ -2989,3 +3010,4 @@ $("#item-give").droppable({
         );
     },
 });
+

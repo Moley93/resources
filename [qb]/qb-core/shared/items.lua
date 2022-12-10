@@ -550,5 +550,6 @@ QBShared.Items = {
 	['joint'] 					 	 = {['name'] = 'joint', 			 	  	  		['label'] = '2g Joint', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'joint.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Its a Joint, man.'},
 	['weedbaggie'] 					 = {['name'] = 'weedbaggie', 			 	  	  	['label'] = 'Baggie (7g)', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'weedbaggie.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Sold on the streets'},
 	['rollingpaper'] 				 = {['name'] = 'rollingpaper', 			 	  	  	['label'] = 'Rolling Paper', 					['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'rollingpaper.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Required to roll joints!'},
-
+ --jl-motels
+	['motel_key']                   = {['name'] = 'motel_key',                     ['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
 }
