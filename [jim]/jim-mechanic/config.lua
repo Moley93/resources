@@ -4,23 +4,23 @@ Config = {
 	Lan = "en", -- Pick your language here
 	Debug = false, -- Set to true to show green debug boxes to help track
 	img = "qb-inventory/html/images/", -- Set this to the directory for your inventory image files
-	JimShops = false, -- If using my free script jim-shops, enable this to use it with the mechanic stores.
+	JimShops = true, -- If using my free script jim-shops, enable this to use it with the mechanic stores.
 	JimMenu = true, -- If using my free edit of qb-menu enable this.
 	distkph = false, -- Set to false to read distance travelled in Miles.
 
 -- Main variables
-	isVehicleOwned = false, -- Keep this true if you only want changes to be made to owned vehicles
+	isVehicleOwned = true, -- Keep this true if you only want changes to be made to owned vehicles
 	RequiresJob = true,  -- Do the specfic items require the mechanic job?
 	LocationRequired = false, -- Are the mecahnics locked to specific locations?
 	LocationBlips = true, -- Enable to grab the blip locations from locations.lua
-	CosmeticsJob = false, -- Do vehicle cosmetics require a mechanic job role?
+	CosmeticsJob = true, -- Do vehicle cosmetics require a mechanic job role?
 	FreeRepair = false,  -- Are repairs free? True means yes
 	StashRepair = true, -- Enable for repair materials to be removed from a job stash (disabled if RequiresJob = false)
 	Stores = true, -- Set true to turn on shop storage features
 	Crafting = true, -- Set true to turn on crafting features
 	StashCraft = false,  -- Set true to grab materials from mechaincs stash for crafting
 	PreviewPhone = true, -- Enable this is preview menu generates an email, False if you want to give an item
-	PreviewJob = false, -- Enable this if you want /preview to require a Job Role
+	PreviewJob = true, -- Enable this if you want /preview to require a Job Role
 	PreviewLocation = false, -- Enable this if you want to lock /preview to a job location (ignored if LocationRequired is false)
 
 	PhoneMail = "qb", 	-- If PreviewPhone is true, change this to choose the correct phone system
@@ -50,12 +50,12 @@ Config = {
 	dutyMessage = "There is a Mechanic on duty!", -- This is the notification that pops up when a person tries to repair when a mechanic is on duty, choose what you want for it.
 
 	repairAnimate = true, -- Better than staring at a progress bar, "damaged" parts will be removed and replaced. Making it look more authentic
-	repairSpeed = 1500, -- The time between each task while using repairAnimate. 1500 Seems to be a reasonable time for it
+	repairSpeed = 2250, -- The time between each task while using repairAnimate. 1500 Seems to be a reasonable time for it
 
 -- NOS STUFF
 	NosRefillCharge = 1000, -- amount in dollars required to refill a nos can
 
-	NosTopSpeed = 55.0, -- Enabling this adds a multiplier to the top speed of the vehicle
+	NosTopSpeed = 45.0, -- Enabling this adds a multiplier to the top speed of the vehicle
 						-- Set this to "-1.0" to disable this
 						-- This doesn't affect the boost acceleration
 	NosBoostPower = { -- NOS boost acceleration power
@@ -73,7 +73,7 @@ Config = {
 
 	NitrousUseRate = 0.4, -- How fast the nitrous drains (halved for level1, doubled for level3)
 
-	NitrousCoolDown = 7000, -- 7000 = 7 Seconds, set to 0 to disable
+	NitrousCoolDown = 12000, -- 7000 = 7 Seconds, set to 0 to disable
 	CooldownConfirm = true, -- Will play a confirmation beep when cooldown is done
 
 	nosDamage = true, -- This enables NOS causing damage to engine while boosting
@@ -81,14 +81,14 @@ Config = {
 
 	-- Effects
 	EnableFlame = true, -- True adds exhaut flame effects while boosting
-	EnableTrails = true, -- True adds taillight effects while boosting
+	EnableTrails = false, -- True adds taillight effects while boosting
 	EnableScreen = true, -- True adds screen effects while boosting
 
 	skillcheck = "qb-skillbar", -- When adding Nos to a vehicle there are three script options available
 								-- "qb-skillbar" "qb-lock" "ps-ui"
 
 	explosiveFail = true, 		-- Better not fail that skill check. (1 in 10 chance of explosion)
-	explosiveFailJob = false, 	-- if true, mechanics can trigger an explosion
+	explosiveFailJob = true, 	-- if true, mechanics can trigger an explosion
 								-- if false, mechanics will never trigger an explosion
 
 -- Discord preview receipts
