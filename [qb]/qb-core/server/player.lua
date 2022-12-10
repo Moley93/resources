@@ -128,12 +128,7 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
         apartment = {
             apartmentType = nil,
             apartmentId = nil,
-        },
-        motel = {
-            motel = nil,
-            room = nil
         }
-    }
     }
     PlayerData.metadata['phonedata'] = PlayerData.metadata['phonedata'] or {
         SerialNumber = QBCore.Player.CreateSerialNumber(),

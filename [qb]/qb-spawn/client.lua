@@ -171,6 +171,7 @@ RegisterNUICallback('spawnplayer', function(data, cb)
             SetEntityHeading(ped, pd.position.a)
             FreezeEntityPosition(ped, false)
         end)
+
         if insideMeta.house ~= nil then
             local houseId = insideMeta.house
             TriggerEvent('qb-houses:client:LastLocationHouse', houseId)
@@ -178,14 +179,7 @@ RegisterNUICallback('spawnplayer', function(data, cb)
             local apartmentType = insideMeta.apartment.apartmentType
             local apartmentId = insideMeta.apartment.apartmentId
             TriggerEvent('qb-apartments:client:LastLocationHouse', apartmentType, apartmentId)
-        elseif insideMeta.motel ~= nil and insideMeta.motel.motel ~= nil and insideMeta.motel.room ~= nil then
-            local motel = insideMeta.motel.motel
-            local room = insideMeta.motel.room
-            TriggerEvent('jl-motel:client:spawnLastLocation', motel, room)
         end
-        TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
-        TriggerEvent('QBCore:Client:OnPlayerLoaded')
-        PostSpawnPlayer()
         TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
         TriggerEvent('QBCore:Client:OnPlayerLoaded')
         PostSpawnPlayer()
