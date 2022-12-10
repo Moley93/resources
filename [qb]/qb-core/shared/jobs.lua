@@ -165,7 +165,7 @@ QBShared.Jobs = {
         },
 	},
 	['hayesmech'] = {
-		label = 'Mechanic',
+		label = 'Hayes Mechanic',
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
@@ -194,7 +194,7 @@ QBShared.Jobs = {
         },
 	},
     ['r68mech'] = {
-		label = 'Mechanic',
+		label = 'Route 68 Mechanic',
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
@@ -223,7 +223,7 @@ QBShared.Jobs = {
         },
 	},
     ['ottomech'] = {
-		label = 'Mechanic',
+		label = 'Otto Mechanic',
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
@@ -252,7 +252,7 @@ QBShared.Jobs = {
         },
 	},
     ['paletomech'] = {
-		label = 'Mechanic',
+		label = 'Paleto Mechanic',
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
@@ -281,7 +281,7 @@ QBShared.Jobs = {
         },
 	},
     ['lsmech'] = {
-		label = 'Mechanic',
+		label = 'Los Santos Mechanic',
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
