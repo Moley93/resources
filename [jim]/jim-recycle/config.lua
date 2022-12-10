@@ -1,4 +1,3 @@
-print("^2Jim^7-^2Recycle v^42^7.^45 ^7- ^2Recycling Script by ^1Jimathy^7")
 
 Config = {
 	Lan = "en",

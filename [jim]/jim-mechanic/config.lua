@@ -1,5 +1,3 @@
-print("^2Jim^7-^2Mechanic v^42^7.^48^7.^45 ^7- ^2Mechanic Script by ^1Jimathy^7")
-
 Config = {
 	Lan = "en", -- Pick your language here
 	Debug = false, -- Set to true to show green debug boxes to help track
