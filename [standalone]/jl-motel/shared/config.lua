@@ -1,5 +1,5 @@
 Config = {
-    Framework = "qb-core",
+    Framework = "qb",
     -- Replace qb apartments
     ReplaceApartment = true,
     ESX = {
