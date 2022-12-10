@@ -39,28 +39,28 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-49.73, -1083.82, 26.31, 125.86), -- where the vehicle will spawn on display
-                defaultVehicle = 'adder', -- Default display vehicle
-                chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
+                defaultVehicle = 'asbo', -- Default display vehicle
+                chosenVehicle = 'asbo', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
                 coords = vector4(-54.47, -1096.82, 26.31, 104.44),
-                defaultVehicle = 'schafter2',
-                chosenVehicle = 'schafter2'
+                defaultVehicle = 'sentinel',
+                chosenVehicle = 'sentinel'
             },
             [3] = {
                 coords = vector4(-47.42, -1091.99, 26.31, 71.16),
-                defaultVehicle = 'comet2',
-                chosenVehicle = 'comet2'
+                defaultVehicle = 'ingot',
+                chosenVehicle = 'ingot'
             },
             [4] = {
                 coords = vector4(-36.9, -1093.12, 26.31, 110.44),
-                defaultVehicle = 'vigero',
-                chosenVehicle = 'vigero'
+                defaultVehicle = 'buccaneer',
+                chosenVehicle = 'buccaneer'
             },
             [5] = {
                 coords = vector4(-42.13, -1101.33, 26.20, 100.76),
-                defaultVehicle = 't20',
-                chosenVehicle = 't20'
+                defaultVehicle = 'landstalker',
+                chosenVehicle = 'landstalker'
             },
         }
     },
@@ -95,18 +95,18 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-1265.31, -354.44, 35.91, 205.08),
-                defaultVehicle = 'italirsx',
-                chosenVehicle = 'italirsx'
+                defaultVehicle = 'rmodbacalar',
+                chosenVehicle = 'rmodbacalar'
             },
             [2] = {
                 coords = vector4(-1270.06, -358.55, 35.91, 247.08),
-                defaultVehicle = 'italigtb',
-                chosenVehicle = 'italigtb'
+                defaultVehicle = 'rmodrs6',
+                chosenVehicle = 'rmodrs6'
             },
             [3] = {
                 coords = vector4(-1269.21, -365.03, 35.91, 297.12),
-                defaultVehicle = 'nero',
-                chosenVehicle = 'nero'
+                defaultVehicle = 'rmodmartin',
+                chosenVehicle = 'rmodmartin'
             },
             [4] = {
                 coords = vector4(-1252.07, -364.2, 35.91, 56.44),
