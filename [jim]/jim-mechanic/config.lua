@@ -131,7 +131,7 @@ Config = {
 
 	RemoveDuctTape = true, --If Enabled it will remove 1 duct after use. If false it will be constantly reusable
 
-	JobRoles = { "mechanic", }, -- These are the job roles who can use items if RequiresJob is enabled.
+	JobRoles = { "r68mech", "ottomech", "paletomech", "hayesmech", "lsmech" }, -- These are the job roles who can use items if RequiresJob is enabled.
 								-- Add your extra job roles here or just leave as "mechanic"
 	--Example--
 	--JobRoles = { "mechanic", "tuner" }
