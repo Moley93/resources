@@ -1,5 +1,5 @@
 -- You can customize this file to your needs.
-lib.locale()
+lib.locale(qb)
 SpawnedPed = {}
 PedZones = {}
 -- Keybind
@@ -110,7 +110,7 @@ function SpawnPed(motel)
 			}
 			exports.ox_target:addLocalEntity(ped, opt)
 		elseif GetResourceState('qtarget') == "started" or GetResourceState(Config.QB.script_name.target) then
-			exports[Config.Framework == "qbcore" and Config.QB.script_name.target or 'qtarget']:AddTargetEntity(ped, {
+			exports[Config.Framework == "qb" and Config.QB.script_name.target or 'qtarget']:AddTargetEntity(ped, {
 				options = {
 					{
 						action = function()
