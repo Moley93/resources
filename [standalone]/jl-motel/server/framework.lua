@@ -1,4 +1,4 @@
-lib.locale()
+lib.locale(qb)
 Core = nil
 if Config.Framework == "esx" then
     Core = exports['es_extended']:getSharedObject()

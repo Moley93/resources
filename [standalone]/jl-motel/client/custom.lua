@@ -1,5 +1,5 @@
 -- You can customize this file to your needs.
-lib.locale()
+lib.locale(qb)
 SpawnedPed = {}
 PedZones = {}
 -- Keybind
