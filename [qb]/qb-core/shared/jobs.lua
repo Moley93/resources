@@ -397,4 +397,43 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['ballas'] = {
+		label = 'Ballas',
+        type = "gang",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'LB: Little Balla',
+                payment = 50
+            },
+			['1'] = {
+                name = 'LYB: Little Young Balla',
+                payment = 75
+            },
+			['2'] = {
+                name = 'YB: Young Balla',
+                payment = 100
+            },
+			['3'] = {
+                name = 'B: Balla',
+                payment = 125
+            },
+			['4'] = {
+                name = 'OB: Original Balla',
+				isboss = true,
+                payment = 150
+            },
+            ['5'] = {
+                name = 'OOB: Double O.B',
+				isboss = true,
+                payment = 150
+            },
+            ['6'] = {
+                name = 'OOOB: Triple O.B',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
 }
