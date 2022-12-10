@@ -57,11 +57,18 @@ Config = {
 		"aluminum",
 		"bottle",
 		"can",
+		"snikkel_candy",
 	},
 	DumpItems = {
 		"bottle",
 		"can",
 		"sandwich",
+		"femaleseed",
+		"maleseed",
+		"stone",
+		"sprunk",
+		"beers",
+		"metalscrap",
 	},
 	ScrapItems = {
 		"steel",

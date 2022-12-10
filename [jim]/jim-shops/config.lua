@@ -58,6 +58,8 @@ Config = {
 			{ name = "weapon_hammer", price = 250, amount = 250, },
 			{ name = "weapon_bat", price = 500, amount = 50,  requiredGang = { "lostmc" } },  -- Gang only options in stores
 			{ name = "repairkit", price = 250, amount = 50,  requiredJob = { ["mechanic"] = 0, ["police"] = 0 } },
+			{ name = "wateringcan", price = 50, amount = 50, },
+			{ name = "fertilizer", price = 25, amount = 500, },
 			{ name = "screwdriverset", price = 350, amount = 50, },
 			{ name = "phone", price = 850, amount = 50, },
 			{ name = "radio", price = 250, amount = 50, },
@@ -71,11 +73,12 @@ Config = {
 			{ name = "advancedrepairkit", price = 500, amount = 50,  requiredJob = { ["mechanic"] = 0 } },
 		},
 		["weedshop"] = {
-			{ name = "joint", price = 10, amount = 1000, },
-			{ name = "weapon_poolcue", price = 100, amount = 1000, },
-			{ name = "weed_nutrition", price = 20, amount = 1000, },
-			{ name = "empty_weed_bag", price = 2, amount = 1000, },
-			{ name = "rolling_paper", price = 2, amount = 1000, },
+			{ name = "joint", price = 20, amount = 1000, },
+			{ name = "smallscales", price = 1000, amount = 1000, },
+			{ name = "qualityscales", price = 10000, amount = 1000, },
+			{ name = "fertilizer", price = 25, amount = 1000, },
+			{ name = "emptybaggies", price = 10, amount = 1000, },
+			{ name = "rollingpaper", price = 5, amount = 1000, },
 		},
 		["gearshop"] = {
 			{ name = "diving_gear", price = 2500, amount = 10, },
