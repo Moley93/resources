@@ -18,7 +18,6 @@ end
 AddEventHandler('mumbleConnected', function(address, isReconnecting)
 	logger.info('Connected to mumble server with address of %s, is this a reconnect %s', GetConvarInt('voice_hideEndpoints', 1) == 1 and 'HIDDEN' or address, isReconnecting)
 
-	logger.log('Connecting to mumble, setting targets.')
 	-- don't try to set channel instantly, we're still getting data.
 	local voiceModeData = Cfg.voiceModes[mode]
 	LocalPlayer.state:set('proximity', {
@@ -29,7 +28,6 @@ AddEventHandler('mumbleConnected', function(address, isReconnecting)
 
 	handleInitialState()
 
-	logger.log('Finished connection logic')
 end)
 
 AddEventHandler('mumbleDisconnected', function(address)

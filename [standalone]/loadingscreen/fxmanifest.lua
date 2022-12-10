@@ -12,7 +12,6 @@ client_script 'client.lua'
 files {
     'index.html',
     'css/style.css',
-    'js/script.js',
     'img/logo.png',
     'music/music.mp3',
     'video/video.mp4'

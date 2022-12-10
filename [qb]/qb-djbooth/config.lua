@@ -1,5 +1,3 @@
-print("QB-DJBooth v1.1 by Jimathy")
-
 Config = {
 	Lan = "en",
 	Debug = false, -- Set to true to show target locations

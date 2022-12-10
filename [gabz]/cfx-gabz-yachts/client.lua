@@ -87,5 +87,4 @@ CreateThread(function()
             end
         end
     end
-    print("^5[GABZ]^7 Yachts loaded.")
 end)

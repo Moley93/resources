@@ -791,5 +791,4 @@ CreateThread(function()
             RefreshInterior(interiorID)
         end
     end
-    print("Interior data loaded.")
 end)
