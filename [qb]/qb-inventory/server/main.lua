@@ -584,11 +584,6 @@ local function SaveStashItems(stashId, items)
 	Stashes[stashId].isOpen = false
 end
 
-RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
-	Stashes[stashId].items[slot] = item
-	SaveStashItems(stashId, Stashes[stashId].items)
-end)
-
 ---Add items to a stash
 ---@param stashId string Stash id to save it to
 ---@param slot number Slot of the stash to save the item to
@@ -2168,50 +2163,6 @@ QBCore.Commands.Add("giveitem", "Give An Item (Admin Only)", {{name="id", help="
 					info.quality = 100
 				elseif itemData["name"] == "harness" then
 					info.uses = 20
-				elseif itemData["name"] == "femaleseed" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "driedbud" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "smallbud" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "weedpackage" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "weedbaggie" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "wetbud" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-					info.dry = 0
-				elseif itemData["name"] == "joint" then
-					info.strain = "Unknown"
-					info.dry = 0
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "maleseed" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "wateringcan" then
-					info.water = 0
 				elseif itemData["name"] == "markedbills" then
 					info.worth = math.random(5000, 10000)
 				elseif itemData["name"] == "labkey" then
