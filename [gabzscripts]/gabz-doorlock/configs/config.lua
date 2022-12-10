@@ -32,7 +32,7 @@ Config.NotificationType = { --[ 'esx' / 'qbcore' / 'mythic_old' / 'mythic_new' /
 --╚═╝╚═╝     ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝
 
 
-Config.Debug = false --To enable debug prints.
+Config.Debug = true --To enable debug prints.
 Config.UseDutySystem = false --Do you want to use your frameworks (esx/qbcore) built-in duty system?
 Config.IdentifierType = 'license' --[ 'steam' / 'license' ] Choose the identifier type that your server uses.
 
