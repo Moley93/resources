@@ -1,0 +1,21 @@
+Locales = { 
+    ['EN'] = { --english
+        ['saving_cached_data'] = 'Saving cached data please wait....',
+        ['cached_data_saved'] = 'Saved all cached data.',
+        ['data_not_cached'] = 'Please try again in a few seconds...',
+        ['camera_unavailable'] = 'Camera unavailable. Try again when you are closer to the door',
+        ['door_locked'] = 'Door locked',
+        ['door_unlocked'] = 'Door unlocked',
+        ['webhook_message_1'] = '**Player Info**\nSource: **%s**\nPlayer Name: **%s**\nIdentifier: **%s**\n\n**Door Data**\nLocation Group: **%s**\nDoor Name: **%s**\nDoor Type: **%s**',
+        ['webhook_message_2'] = '**Player Info**\nSource: **%s**\nPlayer Name: **%s**\nIdentifier: **%s**\n\n**Import File Data**\nFile Name: **%s**\nDoor Count: **%s**',
+        ['webhook_message_3'] = '**Player Info**\nSource: **%s**\nPlayer Name: **%s**\nIdentifier: **%s**\n\n**Location Group Data**\nGroup Name: **%s**\nDoor Count: **%s**',
+        ['create'] = 'Created New Door',
+        ['delete'] = 'Deleted Door',
+        ['edit'] = 'Edited Door',
+        ['add_import_data'] = 'Added Imported Doors',
+        ['remove_import_data'] = 'Removed Imported Doors',
+        ['remove_full_locationgroup'] = 'Removed Full Location Group Doors',
+        ['bot_name'] = 'Doorlock',
+        ['waypoint_set'] = 'Waypoint Set',
+    },
+}
