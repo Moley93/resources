@@ -452,6 +452,55 @@ function FormatItemInfo(itemData) {
                 "<p>" + itemData.info.vehplate + "</p>" +
                 "<p>" + itemData.info.veh + "</p>"
             );
+        }else if (itemData.name == "maleseed") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "joint") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "weedbaggie") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "femaleseed") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "smallbud") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "weedpackage") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "driedbud") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
+            );
+        }else if (itemData.name == "wetbud") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Strain: </strong><span>" +
+                itemData.info.strain +
+                "</span></p><p><strong>Dry: </strong><span>" +
+                itemData.info.dry +"%.</p>"
+            );   
+        }else if (itemData.name == "wateringcan") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html(
+                "<p><strong>Water: </strong>" + itemData.info.water + "%.</p>"
+            );
+
         } else if (itemData.type == "weapon") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             if (itemData.info.ammo == undefined) {
