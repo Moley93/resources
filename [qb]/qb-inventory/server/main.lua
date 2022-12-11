@@ -1270,6 +1270,8 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 						Stashes[id].label = secondInv.label
 					end
 				end
+				local item = GetStashItems(id) or {}
+				TriggerEvent('sn-weed:server:checkDry',id, item)	
 			elseif name == "trunk" then
 				if Trunks[id] then
 					if Trunks[id].isOpen then
