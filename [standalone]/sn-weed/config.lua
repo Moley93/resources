@@ -14,7 +14,23 @@ Config.MaleZone = false -- If true, male plants will pollinate females around it
 Config.Boss = { -- you can add more boss location here, he switch locations every restart
     [1] = {
         ped = 'a_m_y_soucent_02',
-        pos = vector4(88.58, -1434.18, 29.31, 142.83)
+        pos = vector4(568.51, -1578.24, 28.24, 199.85)
+    },
+    [2] = {
+        ped = 'a_m_y_soucent_02',
+        pos = vector4(595.3, -456.22, 24.74, 304.81)
+    },
+    [3] = {
+        ped = 'a_m_y_soucent_02',
+        pos = vector4(-729.53, 187.46, 81.96, 145.06)
+    },
+    [4] = {
+        ped = 'a_m_y_soucent_02',
+        pos = vector4(-1238.27, -506.46, 38.6, 128.26)
+    },
+    [4] = {
+        ped = 'a_m_y_soucent_02',
+        pos = vector4(-930.75, -1421.01, 7.68, 67.79)
     },
 }
 Config.WaitPackage = 20000 -- Wait 20 seconds for boss to pack boxes
