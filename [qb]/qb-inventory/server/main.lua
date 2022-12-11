@@ -570,6 +570,10 @@ end
 ---@param stashId string The stash id to save the items from
 ---@param items table items to save
 local function SaveStashItems(stashId, items)
+	RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
+		Stashes[stashId].items[slot] = item
+		SaveStashItems(stashId, Stashes[stashId].items)
+	end)
 	if Stashes[stashId].label == "Stash-None" or not items then return end
 
 	for _, item in pairs(items) do
@@ -1205,6 +1209,8 @@ RegisterNetEvent('inventory:server:SetIsOpenState', function(IsOpen, type, id)
 
 	if type == "stash" then
 		Stashes[id].isOpen = false
+		local item = GetStashItems(id) or {}
+		TriggerEvent('sn-weed:server:checkDry',id, item)
 	elseif type == "trunk" then
 		Trunks[id].isOpen = false
 	elseif type == "glovebox" then
@@ -1264,6 +1270,8 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 						Stashes[id].label = secondInv.label
 					end
 				end
+				local item = GetStashItems(id) or {}
+				TriggerEvent('sn-weed:server:checkDry',id, item)	
 			elseif name == "trunk" then
 				if Trunks[id] then
 					if Trunks[id].isOpen then
@@ -2163,6 +2171,50 @@ QBCore.Commands.Add("giveitem", "Give An Item (Admin Only)", {{name="id", help="
 					info.quality = 100
 				elseif itemData["name"] == "harness" then
 					info.uses = 20
+				elseif itemData["name"] == "femaleseed" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "driedbud" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "smallbud" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "weedpackage" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "weedbaggie" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "wetbud" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+					info.dry = 0
+				elseif itemData["name"] == "joint" then
+					info.strain = "Unknown"
+					info.dry = 0
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "maleseed" then
+					info.strain = "Unknown"
+					info.n = 0
+					info.p = 0
+					info.k = 0
+				elseif itemData["name"] == "wateringcan" then
+					info.water = 0
 				elseif itemData["name"] == "markedbills" then
 					info.worth = math.random(5000, 10000)
 				elseif itemData["name"] == "labkey" then
