@@ -576,11 +576,6 @@ local function SaveStashItems(stashId, items)
 		item.description = nil
 	end
 
-	RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
-		Stashes[stashId].items[slot] = item
-		SaveStashItems(stashId, Stashes[stashId].items)
-	end)
-
 	MySQL.insert('INSERT INTO stashitems (stash, items) VALUES (:stash, :items) ON DUPLICATE KEY UPDATE items = :items', {
 		['stash'] = stashId,
 		['items'] = json.encode(items)
@@ -588,6 +583,11 @@ local function SaveStashItems(stashId, items)
 
 	Stashes[stashId].isOpen = false
 end
+
+RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
+	Stashes[stashId].items[slot] = item
+	SaveStashItems(stashId, Stashes[stashId].items)
+end)
 
 ---Add items to a stash
 ---@param stashId string Stash id to save it to
