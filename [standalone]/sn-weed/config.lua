@@ -28,7 +28,7 @@ Config.Button = {
 }
 
 Config.Factor = 1.3 -- How much longer should a male plant take to grow
-Config.GrowthTime = 240 -- Plant Growing time in minutes
+Config.GrowthTime = 0.5 -- Plant Growing time in minutes
 Config.LifeTime = 1440 -- Plant lifetime in minutes before wiped
 
 
@@ -53,7 +53,7 @@ Config.Collect = {
 }
 
 Config.HarvestPercent = 95 
-Config.Dry = 0.25 -- 6 hours to dry weed
+Config.Dry = 0.01 -- 6 hours to dry weed
 Config.DestroyReward = { -- destroying plants give you fertilizers
     min = 1,
     max = 3

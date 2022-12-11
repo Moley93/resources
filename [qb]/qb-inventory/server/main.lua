@@ -570,6 +570,10 @@ end
 ---@param stashId string The stash id to save the items from
 ---@param items table items to save
 local function SaveStashItems(stashId, items)
+	RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
+		Stashes[stashId].items[slot] = item
+		SaveStashItems(stashId, Stashes[stashId].items)
+	end)
 	if Stashes[stashId].label == "Stash-None" or not items then return end
 
 	for _, item in pairs(items) do
@@ -583,11 +587,6 @@ local function SaveStashItems(stashId, items)
 
 	Stashes[stashId].isOpen = false
 end
-
-RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
-	Stashes[stashId].items[slot] = item
-	SaveStashItems(stashId, Stashes[stashId].items)
-end)
 
 ---Add items to a stash
 ---@param stashId string Stash id to save it to
