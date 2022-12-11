@@ -570,15 +570,16 @@ end
 ---@param stashId string The stash id to save the items from
 ---@param items table items to save
 local function SaveStashItems(stashId, items)
-	RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
-		Stashes[stashId].items[slot] = item
-		SaveStashItems(stashId, Stashes[stashId].items)
-	end)
 	if Stashes[stashId].label == "Stash-None" or not items then return end
 
 	for _, item in pairs(items) do
 		item.description = nil
 	end
+
+	RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
+		Stashes[stashId].items[slot] = item
+		SaveStashItems(stashId, Stashes[stashId].items)
+	end)
 
 	MySQL.insert('INSERT INTO stashitems (stash, items) VALUES (:stash, :items) ON DUPLICATE KEY UPDATE items = :items', {
 		['stash'] = stashId,
