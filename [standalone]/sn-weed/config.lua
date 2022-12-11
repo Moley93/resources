@@ -2,8 +2,8 @@ Config = {}
 
 Config.Framework = 'qb-core'
 Config.Target = 'qb-target'
-Config.Inventory = 'lj-inventory' -- or qb-inventory.
-Config.MinCops = 1 -- allowed to do weed runs/cornering
+Config.Inventory = 'qb-inventory' -- or qb-inventory.
+Config.MinCops = 0 -- allowed to do weed runs/cornering
 Config.OutlineColor = {0, 0, 255}
 Config.PoliceAlert = {
     corner = 5, -- 5%
