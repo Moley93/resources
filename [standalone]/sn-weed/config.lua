@@ -69,7 +69,7 @@ Config.Collect = {
 }
 
 Config.HarvestPercent = 95 
-Config.Dry = 0.01 -- 6 hours to dry weed
+Config.Dry = 0.001 -- 6 hours to dry weed
 Config.DestroyReward = { -- destroying plants give you fertilizers
     min = 1,
     max = 3

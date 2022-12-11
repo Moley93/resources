@@ -219,9 +219,7 @@ end
 -- SHELL ONLY!!!
 RegisterNetEvent("jl-motel:client:onMotelEnter")
 AddEventHandler('jl-motel:client:onMotelEnter', function(motel, room)
-	print("ENTER MOTEL", motel, room)
 end)
 RegisterNetEvent("jl-motel:client:onMotelExit")
 AddEventHandler('jl-motel:client:onMotelExit', function(motel, room)
-	print("EXIT MOTEL", motel, room)
 end)
