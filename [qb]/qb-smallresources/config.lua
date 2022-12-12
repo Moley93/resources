@@ -37,6 +37,10 @@ ConsumablesDrink = {
     ["water_bottle"] = math.random(35, 54),
     ["kurkakola"] = math.random(35, 54),
     ["coffee"] = math.random(40, 50),
+    ["sprunk"] = math.random(40, 50),
+    ["sprunklight"] = math.random(40, 50),
+    ["ecola"] = math.random(40, 50),
+    ["ecolalight"] = math.random(40, 50),
 }
 
 ConsumablesAlcohol = {
