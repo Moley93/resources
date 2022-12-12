@@ -28,7 +28,7 @@ Config.Boss = { -- you can add more boss location here, he switch locations ever
         ped = 'a_m_y_soucent_02',
         pos = vector4(-1238.27, -506.46, 38.6, 128.26)
     },
-    [4] = {
+    [5] = {
         ped = 'a_m_y_soucent_02',
         pos = vector4(-930.75, -1421.01, 7.68, 67.79)
     },
