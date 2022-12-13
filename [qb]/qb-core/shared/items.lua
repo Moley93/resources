@@ -553,4 +553,8 @@ QBShared.Items = {
 
 	-- jl motel
 	['motel_key']                   = {['name'] = 'motel_key',                     ['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
+ 
+	-- qb-moneywash
+ 	["mwkey"]       = {["name"] = "mwkey",        ["label"] = "mwkey",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "Laundrette Access key!"},
+
 }
