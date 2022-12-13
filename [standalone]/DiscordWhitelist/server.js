@@ -16,7 +16,7 @@ var blacklistRoles = [ // Roles by Id that are blacklisted.
     "Cooldown"
 ];
 
-var notWhitelistedMessage = "You're Not Whitelisted. This sever is whitelisted and requires access to join.";
+var notWhitelistedMessage = "You're not in our serve Discord, Please join to gain access: dsc.gg/near-reality";
 var noGuildMessage = "Guild Not Detected. It seems you're not in the guild for this community.";
 var blacklistMessage = "You're blacklisted from this server.";
 var debugMode = false; // 
