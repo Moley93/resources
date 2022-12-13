@@ -109,24 +109,17 @@ RegisterNetEvent('qb-multicharacter:server:createCharacter', function(data)
         repeat
             Wait(10)
         until hasDonePreloading[src]
-        if Apartments.Starting then
-            local randbucket = (GetPlayerPed(src) .. math.random(1,999))
-            SetPlayerRoutingBucket(src, randbucket)
-            print('^2[qb-core]^7 '..GetPlayerName(src)..' has succesfully loaded!')
-            QBCore.Commands.Refresh(src)
-            loadHouseData(src)
-            TriggerClientEvent("qb-multicharacter:client:closeNUI", src)
-            TriggerClientEvent('apartments:client:setupSpawnUI', src, newData)
-            GiveStarterItems(src)
-        else
-            print('^2[qb-core]^7 '..GetPlayerName(src)..' has succesfully loaded!')
-            QBCore.Commands.Refresh(src)
-            loadHouseData(src)
-            TriggerClientEvent("qb-multicharacter:client:closeNUIdefault", src)
-            GiveStarterItems(src)
-        end
+        local randbucket = (GetPlayerPed(src) .. math.random(1, 999))
+        SetPlayerRoutingBucket(src, randbucket)
+        print('^2[qb-core]^7 ' .. GetPlayerName(src) .. ' has succesfully loaded!')
+        QBCore.Commands.Refresh(src)
+        loadHouseData(src)
+        TriggerClientEvent("qb-multicharacter:client:closeNUI", src)
+        TriggerClientEvent('apartments:client:setupSpawnUI', src, newData, true)
+        GiveStarterItems(src)
     end
 end)
+
 
 RegisterNetEvent('qb-multicharacter:server:deleteCharacter', function(citizenid)
     local src = source

@@ -168,18 +168,6 @@ Config.PhoneApplications = {
         slot = 13,
         Alerts = 0,
     },
-    ["crypto"] = {
-        app = "crypto",
-        color = "#000000",
-        color2 = "#000000",
-        icon = "fab fa-bitcoin",
-        tooltipText = "Crypto",
-        style = "font-size: 2.7vh";
-        job = false,
-        blockedjobs = {},
-        slot = 14,
-        Alerts = 0,
-    },
     ["jobcenter"] = {
         app = "jobcenter",
         color = "#151515",
@@ -298,7 +286,7 @@ Config.PhoneApplications = {
         tooltipText = "MDT",
         job = "police",
         blockedjobs = {},
-        slot = 24,
+        slot = 14,
         Alerts = 0,
     },
 
