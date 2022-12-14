@@ -168,6 +168,18 @@ Config.PhoneApplications = {
         slot = 13,
         Alerts = 0,
     },
+    ["racing"] = {
+        app = "racing",
+        color = "#353b48",
+        color2 = "#242830",
+        icon = "fas fa-flag-checkered",
+        tooltipText = "Racing",
+        style = "font-size: 3vh";
+        job = false,
+        blockedjobs = {},
+        slot = 14,
+        Alerts = 0,
+    },
     ["jobcenter"] = {
         app = "jobcenter",
         color = "#151515",
@@ -266,28 +278,6 @@ Config.PhoneApplications = {
         slot = 22,
         Alerts = 0,
     },
-    ["racing"] = {
-        app = "racing",
-        color = "#353b48",
-        color2 = "#242830",
-        icon = "fas fa-flag-checkered",
-        tooltipText = "Racing",
-        style = "font-size: 3vh";
-        job = false,
-        blockedjobs = {},
-        slot = 23,
-        Alerts = 0,
-    },
-    ["meos"] = {
-        app = "meos",
-        color = "#004682",
-        color2 = "#00325c",
-        icon = "fas fa-ad",
-        tooltipText = "MDT",
-        job = "police",
-        blockedjobs = {},
-        slot = 14,
-        Alerts = 0,
     },
 
 
@@ -319,7 +309,6 @@ Config.PhoneApplications = {
     --     slot = 15,
     --     Alerts = 0,
     -- },
-}
 Config.MaxSlots = 28
 
 Config.StoreApps = {
