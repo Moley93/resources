@@ -1,33 +1,53 @@
-fx_version 'cerulean'
-game 'common'
+--[[ FX Information ]]--
+fx_version   'cerulean'
+use_experimental_fxv2_oal 'yes'
+lua54        'yes'
+games        { 'rdr3', 'gta5' }
+rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
 
-name 'oxmysql'
-description 'Database wrapper for FXServer utilising node-mysql2 offering improved performance and security.'
-version '2.5.4'
-url 'https://github.com/overextended/oxmysql'
-author 'overextended'
+--[[ Resource Information ]]--
+name         'ox_lib'
+author       'Linden'
+version      '2.18.0'
+license      'LGPL-3.0-or-later'
+repository   'https://github.com/overextended/ox_lib'
+description  'A library of shared functions to utilise in other resources.'
 
+--[[ Manifest ]]--
 dependencies {
-	'/server:5104',
+	'/server:5848',
+    '/onesync',
 }
 
-client_script 'ui.lua'
-server_script 'dist/build.js'
+ui_page 'web/build/index.html'
 
 files {
-	'ui/build/index.html',
-	'ui/build/**/*'
+    'init.lua',
+    'imports/**/client.lua',
+    'imports/**/shared.lua',
+    'web/build/index.html',
+    'web/build/**/*',
+	'locales/*.json',
 }
 
-ui_page 'ui/build/index.html'
+shared_script 'resource/init.lua'
 
-provide 'mysql-async'
-provide 'ghmattimysql'
-
-convar_category 'OxMySQL' {
-	'Configuration',
-	{
-		{ 'Connection string', 'mysql_connection_string', 'CV_STRING', 'mysql://user:password@localhost/database' },
-		{ 'Debug', 'mysql_debug', 'CV_BOOL', 'false' }
-	}
+shared_scripts {
+    'resource/**/shared.lua',
+    'resource/**/shared/*.lua'
 }
+
+client_scripts {
+	'imports/callback/client.lua',
+	'imports/requestModel/client.lua',
+	'imports/requestAnimDict/client.lua',
+    'resource/**/client.lua',
+    'resource/**/client/*.lua'
+}
+
+server_scripts {
+	'imports/callback/server.lua',
+    'resource/**/server.lua',
+    'resource/**/server/*.lua'
+}
+
