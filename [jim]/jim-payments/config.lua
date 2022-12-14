@@ -59,17 +59,17 @@ Config = {
 	-- PayPerTicket should never be higher than MinAmountforTicket
 	-- Commission is a percentage eg "0.10" becomes 10%
 	Jobs = {
-		['beanmachine'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.10, },
-		['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['henhouse'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['pizzathis'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['popsdiner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['tequilala'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['vanilla'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['mechanic'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-		['lostmc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, gang = true, }, -- Example of a gang being supported
+--		['beanmachine'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.10, },
+--		['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['henhouse'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['pizzathis'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['popsdiner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['tequilala'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['vanilla'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+--		['mechanic'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
+--		['lostmc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, gang = true, }, -- Example of a gang being supported
 	},
 
 	------------------------------
@@ -172,37 +172,6 @@ Config = {
 	},
 
 	BankLocations = {
-		["legion"] = {
-			vector4(149.5, -1042.08, 29.37, 342.74), -- Legion Fleeca
-		},
-		["hawick"] = {
-			vector4(313.81, -280.43, 54.16, 342.29), -- Hawick Fleeca
-		},
-		["vinewood"] = {
-			vector4(-351.4, -51.24, 49.04, 338.4), -- Vinewood Fleeca
-		},
-		["delperro"] = {
-			vector4(-1212.11, -332.01, 37.78, 25.33), -- Del Perro Fleeca
-		},
-		["route1"] = {
-			vector4(-2961.17, 482.9, 15.7, 84.68), -- Route 1 Fleeca
-		},
-		["route68"] = {
-			vector4(1175.03, 2708.2, 38.09, 180.0), -- Route 68 Fleeca
-		},
-		["paleto"] = {
-			vector4(-111.22, 6470.03, 31.63, 133.86), -- Paleto Bank
-		},
-		["pacific"] = {
-			vector4(243.58, 226.25, 106.29, 169.06), -- Pacific Bank Window 1
-			vector4(247.08, 224.98, 106.29, 157.75), -- Pacific Bank Window 2
-		},
-	},
-}
--- If Gabz banks enabled, load these locations instead
-if Config.Gabz then
-	Config.CashInLocation = vector4(269.28, 217.24, 106.28, 69.0)
-	Config.BankLocations = {
 		["legion"] = {
 			vector4(149.5, -1042.08, 29.37, 342.74), -- Legion Fleeca
 		},
