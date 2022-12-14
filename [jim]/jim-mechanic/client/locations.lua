@@ -22,31 +22,6 @@ AddEventHandler('onResourceStart', function(resource) if GetCurrentResourceName(
 end)
 
 Config.Locations = {
-	-- HAYES AUTOS --
-	{	job = "hayesmech",
-		zones = {
-			vector2(490.57400512695, -1302.0946044922),
-			vector2(490.27529907227, -1305.3948974609),
-			vector2(509.71032714844, -1336.8293457031),
-			vector2(483.09429931641, -1339.0887451172),
-			vector2(479.38552856445, -1330.6906738281),
-			vector2(469.89437866211, -1309.5773925781)
-		},
-		stash = { { coords = vector3(478.84, -1326.94, 29.21), w = 1.6, d = 0.6, heading = 27.0, }, },
-		store = { { coords = vector3(474.83, -1308.06, 29.21), w = 1.6, d = 0.5, heading = 295.0, }, },
-		crafting = { { coords = vector3(472.54, -1313.22, 29.21), w = 3.2, d = 1.0, heading = 30.0, }, },
-		clockin = { { coords = vector3(485.88, -1319.49, 29.11), heading = 284.0, }, },
-		garage = { spawn = vector4(487.67, -1308.78, 28.6, 233.44),
-					out = vector4(483.06, -1311.35, 29.21, 298.78),
-					list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" } },
-		payments = { coords = vector3(471.76, -1311.61, 29.20), heading = 120.0, img = "<center><p><img src=https://static.wikia.nocookie.net/gtawiki/images/0/0c/HayesAutoBodyShop-GTAV-Logo.png width=150px></p>" },
-		blip = vector3(480.52, -1318.24, 29.2),
-		bliplabel = "Hayes Autos",
-		blipcolor = 57,
-		discordlink = "",
-		discordcolour = 39135,
-		discordimg = "https://static.wikia.nocookie.net/gtawiki/images/0/0c/HayesAutoBodyShop-GTAV-Logo.png",
-	},
 	-- LS CUSTOMS ROUTE 68 --
 	{	job = "r68mech",
 		zones = {
