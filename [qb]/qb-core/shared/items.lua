@@ -556,5 +556,7 @@ QBShared.Items = {
  
 	-- qb-moneywash
  	["mwkey"]       = {["name"] = "mwkey",        ["label"] = "mwkey",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "Laundrette Access key!"},
-
+	
+	-- jim-payments
+	["payticket"] 					 = {["name"] = "payticket", 				["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
 }
