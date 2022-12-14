@@ -36,23 +36,18 @@ Config.AlertShowInfo = 2 -- How many injuries a player must have before being al
 Config.Locations = { -- Edit the various interaction points for players or create new ones
     ["checking"] = {
 	    [1] = vector3(308.19, -595.35, 43.29),
-	    [2] = vector3(-254.54, 6331.78, 32.43), -- paleto
     },
     ["duty"] = {
         [1] = vector3(311.18, -599.25, 43.29),
-        [2] = vector3(-254.88, 6324.5, 32.58),
     },
     ["vehicle"] = {
         [1] = vector4(294.578, -574.761, 43.179, 35.79),
-        [2] = vector4(-234.28, 6329.16, 32.15, 222.5),
     },
     ["helicopter"] = {
         [1] = vector4(351.58, -587.45, 74.16, 160.5),
-        [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     ["armory"] = {
         [1] = vector3(309.93, -602.94, 43.29),
-        [2] = vector3(-245.13, 6315.71, 32.82),
     },
     ["roof"] = {
         [1] = vector4(338.5, -583.85, 74.16, 245.5),
@@ -74,10 +69,7 @@ Config.Locations = { -- Edit the various interaction points for players or creat
         [8] = {coords = vector4(313.92, -579.02, 43.02, 152.08), taken = false, model = -1091386327},
         [9] = {coords = vector4(319.39, -581.14, 43.02, 152.08), taken = false, model = -1091386327},
         [10] = {coords = vector4(324.13, -582.88, 43.02, 152.08), taken = false, model = -1091386327},
-	--- paleto
-	    [9] = {coords = vector4(-252.43, 6312.25, 32.34, 313.48), taken = false, model = 2117668672},
-        [10] = {coords = vector4(-247.04, 6317.95, 32.34, 134.64), taken = false, model = 2117668672},
-        [11] = {coords = vector4(-255.98, 6315.67, 32.34, 313.91), taken = false, model = 2117668672},
+
     },
     ["jailbeds"] = {
         [1] = {coords = vector4(1761.96, 2597.74, 45.66, 270.14), taken = false, model = 2117668672},
