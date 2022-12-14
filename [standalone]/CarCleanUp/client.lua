@@ -1,6 +1,6 @@
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(1)
+        Citizen.Wait(1800)
         car = GetVehiclePedIsIn(GetPlayerPed(-1), false)
         
         if car then
