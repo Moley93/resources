@@ -78,9 +78,10 @@ function getFormattedDate(date, prefomattedDate = false, hideYear = false) {
 }
 
 var quotes = [
-  'Project Sloth On Top!',
-  'A Discord rewrite fixes everything.',
-  'Does anyone even read these?',
+  'Wisdom is knowing the right path to take.',
+  'Evil is powerless if the good are unafraid.',
+  'Heroes don’t always wear capes.',
+  'Real heroes die serving the law, not resisting it.',
 ]
 
 function randomizeQuote() {
