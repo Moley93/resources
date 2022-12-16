@@ -1,7 +1,17 @@
 # qb-menu
-Menu System for the QBCore Framework
-
+Menu System for the QBCore Framework, attempted to add inventory images to the buttons
 This is a modified version of **[NH Context](https://forum.cfx.re/t/no-longer-supported-standalone-nerohiro-s-context-menu-dynamic-event-firing-menu/2564083)** by **[NeroHiro](https://github.com/nerohiro)**
+
+Original made by QBCore, edited by Jimathy
+
+For more releases join Renewed scripts https://discord.gg/NukW4RTF
+
+Edited again by Jimathy666#3450 - https://discord.gg/xKgQZ6wZvS
+
+### Screenshot of the Edited Menu
+![Example Menu](https://i.imgur.com/GFWRFwC.jpg)
+![Example Menu](https://cdn.discordapp.com/attachments/921124582616879196/968823661559689236/ezgif-4-f6ef4195b8.gif?size=4096)
+#
 
 --[[
 EXAMPLE MENU
@@ -13,6 +23,7 @@ RegisterCommand("qbmenutest", function(source, args, raw)
         {
             header = "Main Title",
             isMenuHeader = true, -- Set to true to make a nonclickable title
+            icon = "lockpick", -- Set this to any item named in the shared
         },
         {
             header = "Sub Menu Button",
