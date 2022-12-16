@@ -203,6 +203,12 @@ Config = {
 		['silverchain'] = 100,
 		['silverearring'] = 100,
 
+		['rolex'] = 100,
+		['diamond_ring'] = 100,
+		['diamond'] = 100,
+		['goldchain'] = 100,
+		['10kgoldchain'] = 100,
+		['goldbar'] = 100,
 	},
 
 ------------------------------------------------------------

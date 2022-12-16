@@ -552,11 +552,11 @@ QBShared.Items = {
 	['rollingpaper'] 				 = {['name'] = 'rollingpaper', 			 	  	  	['label'] = 'Rolling Paper', 					['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'rollingpaper.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Required to roll joints!'},
 
 	-- jl motel
-	['motel_key']                   = {['name'] = 'motel_key',                     ['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
+	['motel_key']                    = {['name'] = 'motel_key',                     	['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
  
 	-- qb-moneywash
- 	["mwkey"]       = {["name"] = "mwkey",        ["label"] = "Dodgy Key",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "The key engraving reads L_un_re_te"},
+ 	["mwkey"]       				 = {["name"] = "mwkey",        						["label"] = "Dodgy Key",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "The key engraving reads L_un_re_te"},
 	
 	-- jim-payments
-	["payticket"] 					 = {["name"] = "payticket", 				["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
+	["payticket"] 					 = {["name"] = "payticket", 						["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
 }
