@@ -54,7 +54,7 @@ CreateThread(function()
                 if prevPos then
                     if currentPos == prevPos then
                         if time then
-                            if time > 10000 then
+                            if time > 0 then
                                 local _type = timeMinutes[tostring(time)]
                                 if _type == 'minutes' then
                                     QBCore.Functions.Notify('You are AFK and will be kicked in ' .. math.ceil(time / 60) .. ' minute(s)!', 'error', 10000)

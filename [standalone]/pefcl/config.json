@@ -82,7 +82,7 @@
   },
   "target": {
     "type": "qtarget",
-    "debug": true,
+    "debug": false,
     "enabled": true,
     "bankZones": [
       {
@@ -184,7 +184,7 @@
     ]
   },
   "debug": {
-    "level": "silly",
+    "level": "error",
     "mockLicenses": false
   },
   "atmBlips": {
