@@ -5,7 +5,7 @@
     "exportFunction": "HasPhone"
   },
   "general": {
-    "useResourceIntegration": false,
+    "useResourceIntegration": true,
     "toggleKey": "m",
     "toggleCommand": "phone",
     "defaultLanguage": "en"
@@ -35,7 +35,7 @@
   },
   "debug": {
     "level": "error",
-    "enabled": true,
+    "enabled": false,
     "sentryEnabled": true
   },
   "defaultContacts": [],
