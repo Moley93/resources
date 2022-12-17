@@ -83,7 +83,7 @@
   "target": {
     "type": "qtarget",
     "debug": false,
-    "enabled": true,
+    "enabled": false,
     "bankZones": [
       {
         "position": {
