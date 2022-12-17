@@ -2,7 +2,7 @@ Config = Config or {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 -- Config --
 
-Config.StandDeposit = 250
+Config.StandDeposit = 150
 
 Config.MyLevel = 1
 Config.MaxReputation = 200

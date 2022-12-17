@@ -1,5 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local PaymentTax = 15
+local PaymentTax = 20
 local Bail = {}
 
 RegisterNetEvent('qb-trucker:server:DoBail', function(bool, vehInfo)
@@ -36,13 +36,13 @@ RegisterNetEvent('qb-trucker:server:01101110', function(drops)
     local DropPrice = math.random(100, 120)
 
     if drops >= 5 then
-        bonus = math.ceil((DropPrice / 10) * 5) + 100
+        bonus = math.ceil((DropPrice / 5) * 5) + 100
     elseif drops >= 10 then
-        bonus = math.ceil((DropPrice / 10) * 7) + 300
+        bonus = math.ceil((DropPrice / 5) * 7) + 300
     elseif drops >= 15 then
-        bonus = math.ceil((DropPrice / 10) * 10) + 400
+        bonus = math.ceil((DropPrice / 5) * 10) + 400
     elseif drops >= 20 then
-        bonus = math.ceil((DropPrice / 10) * 12) + 500
+        bonus = math.ceil((DropPrice / 5) * 12) + 500
     end
 
     local price = (DropPrice * drops) + bonus
@@ -57,6 +57,6 @@ RegisterNetEvent('qb-trucker:server:nano', function()
     local chance = math.random(1,100)
     if chance > 26 then return end
     local xPlayer = QBCore.Functions.GetPlayer(tonumber(source))
-    xPlayer.Functions.AddItem("cryptostick", 1, false)
-    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["cryptostick"], "add")
+    xPlayer.Functions.AddItem("snikkel_candy", 1, false)
+    TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["snikkel_candy"], "add")
 end)

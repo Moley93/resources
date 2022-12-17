@@ -3,10 +3,10 @@ Config = {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
 -- Price taken and given back when delivered a truck
-Config.TruckPrice = 250
+Config.TruckPrice = 150
 
 -- Want to give out a cryptostick per stop?
-Config.GiveCryptoStick = true
+Config.GiveCryptoStick = false
 
 -- Has to roll this number or higher to receive a cryptostick
 Config.CryptoStickChance = 75
@@ -15,10 +15,10 @@ Config.CryptoStickChance = 75
 Config.MinStops = 5
 
 -- Upper worth per bag
-Config.BagUpperWorth = 100
+Config.BagUpperWorth = 50
 
 -- Lower worth per bag
-Config.BagLowerWorth = 50
+Config.BagLowerWorth = 25
 
 -- Minimum bags per stop
 Config.MinBagsPerStop = 2
