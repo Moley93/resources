@@ -24,7 +24,7 @@ CreateThread(function ()
           DrawMarker(2, pos.x, pos.y, pos.z, 0.0, 0.0, 0.0, 0.0, 180.0, 0.0, 0.5, 0.5, 0.3, 255, 255, 255, 50, false, true, 2, nil, nil, false)
 
           if distBank <= 3.5 then
-            display_help_text("Open bank: ~INPUT_PICKUP~")
+            display_help_text("Access Bank Account: ~INPUT_PICKUP~")
             
 
             if IsControlJustReleased(0, 38) then
@@ -42,7 +42,7 @@ CreateThread(function ()
         local distAtm = #(player_coords - pos)
         
         if distAtm <= 2.0 then
-          display_help_text("Open atm: ~INPUT_PICKUP~")
+          display_help_text("Interact with ATM: ~INPUT_PICKUP~")
           
           if IsControlJustReleased(0, 38) then
             exports["pefcl"]:openAtm()

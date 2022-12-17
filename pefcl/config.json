@@ -184,7 +184,7 @@
     ]
   },
   "debug": {
-    "level": "error",
+    "level": "debug",
     "mockLicenses": false
   },
   "atmBlips": {
