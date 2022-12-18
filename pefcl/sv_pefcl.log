@@ -1082,3 +1082,11 @@
 {"level":"debug","message":{"identifier":"LWW74622","name":"terry bean","source":1},"module":"user","timestamp":"2022-12-18T20:58:27.459Z"}
 {"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2022-12-18T20:58:27.463Z"}
 {"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-18T20:58:28.006Z"}
+{"level":"debug","message":"Loading player for pefcl.","module":"user","timestamp":"2022-12-18T21:00:03.197Z"}
+{"level":"debug","message":{"identifier":"UWU33357","name":"asd asd","source":2},"module":"user","timestamp":"2022-12-18T21:00:03.198Z"}
+{"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2022-12-18T21:00:03.198Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-18T21:00:03.690Z"}
+{"level":"debug","message":"Adding user to unique account ..","module":"accounts","timestamp":"2022-12-18T21:17:31.712Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-18T21:17:31.999Z"}
+{"level":"debug","message":"Adding user to unique account ..","module":"accounts","timestamp":"2022-12-18T21:17:39.955Z"}
+{"level":"debug","message":"User already exists in shared account. (You can safely ignore this)","module":"accounts","timestamp":"2022-12-18T21:17:39.968Z"}
