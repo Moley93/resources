@@ -158,8 +158,8 @@ Garages = {
     --},
     ["impoundlot"] = {
         label = "Impound Lot",
-        takeVehicle = vector3(409.89, -1623.51, 29.29),
-        spawnPoint = vector4(407.92, -1646.29, 29.29, 226.39),
+        takeVehicle = vector3(vector3(-191.18, -1165.71, 23.67)),
+        spawnPoint = vector4(-191.0, -1174.12, 23.04, 198.67),
         showBlip = true,
         blipName = "Impound Lot",
         blipNumber = 68,
