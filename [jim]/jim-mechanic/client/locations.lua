@@ -86,7 +86,7 @@ Config.Locations = {
 					list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" } },
 		payments = { coords = vector3(873.69, -2100.81, 30.40), heading = 175, img = "<center><p><img src=https://static.wikia.nocookie.net/gtawiki/images/f/f2/GTAV-LSCustoms-Logo.png width=150px></p>" },
 		blip = vector3(892.15, -2113.27, 30.46),
-		bliplabel = "East Mech Customs",
+		bliplabel = "East Customs",
 		blipcolor = 81,
 		discordlink = "",
 		discordcolour = 2571775,
