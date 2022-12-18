@@ -281,7 +281,7 @@ QBShared.Jobs = {
         },
 	},
     ['lsmech'] = {
-		label = 'Los Santos Mechanic',
+		label = 'East Customs',
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
