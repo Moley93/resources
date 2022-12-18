@@ -894,3 +894,22 @@
 {"level":"debug","message":{"identifier":"UWU33357","name":"asd asd","source":1},"module":"user","timestamp":"2022-12-18T09:55:11.899Z"}
 {"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2022-12-18T09:55:11.903Z"}
 {"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-18T09:55:12.396Z"}
+{"level":"debug","message":"Initializing...","module":"base","timestamp":"2022-12-18T15:40:55.781Z"}
+{"level":"debug","message":"Initialized Boot controller","module":"base","timestamp":"2022-12-18T15:40:55.788Z"}
+{"level":"debug","message":"Initialized User controller","module":"base","timestamp":"2022-12-18T15:40:55.788Z"}
+{"level":"debug","message":"Initialized Cash controller","module":"base","timestamp":"2022-12-18T15:40:55.789Z"}
+{"level":"debug","message":"Initialized Invoice controller","module":"base","timestamp":"2022-12-18T15:40:55.790Z"}
+{"level":"debug","message":"Initialized Account controller","module":"base","timestamp":"2022-12-18T15:40:55.790Z"}
+{"level":"debug","message":"Initialized Transaction controller","module":"base","timestamp":"2022-12-18T15:40:55.790Z"}
+{"level":"debug","message":"Initialized Broadcast controller","module":"base","timestamp":"2022-12-18T15:40:55.791Z"}
+{"level":"debug","message":"Loading language from config: en","module":"i18n","timestamp":"2022-12-18T15:40:55.791Z"}
+{"level":"debug","message":"Checking database connection ..","module":"boot","timestamp":"2022-12-18T15:41:06.692Z"}
+{"level":"debug","message":"Connected to database.","module":"boot","timestamp":"2022-12-18T15:41:07.066Z"}
+{"level":"info","message":"Framework integration is enabled.","module":"boot","timestamp":"2022-12-18T15:41:07.067Z"}
+{"level":"debug","message":"Verifying exports ..","module":"boot","timestamp":"2022-12-18T15:41:07.067Z"}
+{"level":"debug","message":"Checking exports from resource: qb-pefcl","module":"frameworkIntegration","timestamp":"2022-12-18T15:41:07.068Z"}
+{"level":"info","message":"Starting pefcl.","module":"boot","timestamp":"2022-12-18T15:41:07.070Z"}
+{"level":"debug","message":"Loading player for pefcl.","module":"user","timestamp":"2022-12-18T15:42:23.575Z"}
+{"level":"debug","message":{"identifier":"UWU33357","name":"asd asd","source":1},"module":"user","timestamp":"2022-12-18T15:42:23.576Z"}
+{"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2022-12-18T15:42:23.580Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-18T15:42:24.065Z"}
