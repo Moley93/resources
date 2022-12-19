@@ -8,7 +8,7 @@ Config.EnableProne = true
 Config.JointEffectTime = 60
 Config.RemoveWeaponDrops = true
 Config.RemoveWeaponDropsTimer = 25
-Config.DefaultPrice = 20 -- Default price for the carwash
+Config.DefaultPrice = 250 -- Default price for the carwash
 Config.DirtLevel = 0.1 -- Threshold for the dirt level to be counted as dirty
 Config.DisableAmbience = false -- Disabled distance sirens, distance car alarms, etc
 
@@ -180,5 +180,9 @@ Config.CarWash = { -- carwash
     [5] = {
         ["label"] = "Hands Free Carwash",
         ["coords"] = vector3(-699.62, -932.7, 19.01),
+    },
+    [6] = {
+        ["label"] = "Hands Free Carwash",
+        ["coords"] = vector3(851.79, -2110.84, 30.58),
     }
 }
