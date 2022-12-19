@@ -25,8 +25,8 @@ Citizen.CreateThread(function()
             First paramater is the button index (0 or 1), second is the title and 
             last is the url (this has to start with "fivem://connect/" or "https://") 
         ]]--
-        SetDiscordRichPresenceAction(0, "Join Discord!", "https://")
-        SetDiscordRichPresenceAction(1, "Join Server!", "https://discord.gg/hNBq8KgtvF")
+        SetDiscordRichPresenceAction(0, "Join Discord!", "https://dsg.gg/near-reality")
+        SetDiscordRichPresenceAction(1, "Join Server!", "fivem://147.189.170.236:30120")
 
         -- It updates every minute just in case.
 		Citizen.Wait(60000)
