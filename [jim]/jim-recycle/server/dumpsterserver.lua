@@ -8,17 +8,29 @@ end)
 RegisterServerEvent('jim-recycle:Dumpsters:Reward', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
-	for i = 1, math.random(1, 4) do
+	for i = 1, math.random(1, 1) do
 		local item = Config.DumpItems[math.random(1, #Config.DumpItems)]
-		local amount = math.random(1, 3)
+		local amount = math.random(1, 1)
 		Player.Functions.AddItem(item, amount)
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], 'add', amount)
 		Citizen.Wait(100)
 	end
 	--If two random numbers match, give reward
-	if math.random(1, 4) == math.random(1, 4) then
+	if math.random(1, 3) == math.random(1, 3) then
 		local random = math.random(1, 4)
 		Player.Functions.AddItem("rubber", random)
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["rubber"], 'add', random)
+	end
+		--If two random numbers match, give reward
+	if math.random(1, 5) == math.random(1, 5) then
+		local random = math.random(1, 5)
+		Player.Functions.AddItem("rubber", random)
+		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["femaleseed"], 'add', random)
+	end
+			--If two random numbers match, give reward
+	if math.random(1, 4) == math.random(1, 4) then
+		local random = math.random(1, 4)
+		Player.Functions.AddItem("rubber", random)
+		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["maleseed"], 'add', random)
 	end
 end)

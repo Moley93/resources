@@ -10,8 +10,8 @@ Config = {
 	JobRole = nil, -- Whats the job role you want to use this? "nil" for none
 	EnableOpeningHours = true, -- Enable opening hours? If disabled you can always open the pawnshop.
 	OpenHour = 9, -- From what hour should the pawnshop be open?
-	CloseHour = 21, -- From what hour should the pawnshop be closed?
-	PayAtDoor = nil, -- Set to nil stop turn this off, set to a number to enable
+	CloseHour = 18, -- From what hour should the pawnshop be closed?
+	PayAtDoor = 100, -- Set to nil stop turn this off, set to a number to enable
 
 	Minigame = "qb-skillbar", -- Enable minigame when searching. qb-skillbar/qb-lock/ps-ui
 
@@ -35,16 +35,16 @@ Config = {
 		},
 	},
 	Prices = {
-		['copper'] = 10,
-		['plastic'] = 10,
-		['metalscrap'] = 10,
-		['steel'] = 10,
-		['glass'] = 10,
-		['iron'] = 10,
-		['rubber'] = 10,
-		['aluminum'] = 10,
-		['bottle'] = 5,
-		['can'] = 5,
+		['copper'] = 5,
+		['plastic'] = 5,
+		['metalscrap'] = 5,
+		['steel'] = 5,
+		['glass'] = 5,
+		['iron'] = 5,
+		['rubber'] = 5,
+		['aluminum'] = 5,
+		['bottle'] = 3,
+		['can'] = 3,
 	},
 	TradeTable = {
 		"copper",
@@ -63,12 +63,11 @@ Config = {
 		"bottle",
 		"can",
 		"sandwich",
-		"femaleseed",
-		"maleseed",
 		"stone",
 		"sprunk",
-		"beers",
+		"beer",
 		"metalscrap",
+		"gold_ring",
 	},
 	ScrapItems = {
 		"steel",
