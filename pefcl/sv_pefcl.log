@@ -1303,3 +1303,35 @@
 {"level":"debug","message":"Verifying exports ..","module":"boot","timestamp":"2022-12-20T14:04:06.905Z"}
 {"level":"debug","message":"Checking exports from resource: qb-pefcl","module":"frameworkIntegration","timestamp":"2022-12-20T14:04:06.906Z"}
 {"level":"info","message":"Starting pefcl.","module":"boot","timestamp":"2022-12-20T14:04:06.909Z"}
+{"level":"debug","message":"Initializing...","module":"base","timestamp":"2022-12-20T17:00:32.026Z"}
+{"level":"debug","message":"Initialized Boot controller","module":"base","timestamp":"2022-12-20T17:00:32.033Z"}
+{"level":"debug","message":"Initialized User controller","module":"base","timestamp":"2022-12-20T17:00:32.034Z"}
+{"level":"debug","message":"Initialized Cash controller","module":"base","timestamp":"2022-12-20T17:00:32.034Z"}
+{"level":"debug","message":"Initialized Invoice controller","module":"base","timestamp":"2022-12-20T17:00:32.035Z"}
+{"level":"debug","message":"Initialized Account controller","module":"base","timestamp":"2022-12-20T17:00:32.035Z"}
+{"level":"debug","message":"Initialized Transaction controller","module":"base","timestamp":"2022-12-20T17:00:32.036Z"}
+{"level":"debug","message":"Initialized Broadcast controller","module":"base","timestamp":"2022-12-20T17:00:32.036Z"}
+{"level":"debug","message":"Loading language from config: en","module":"i18n","timestamp":"2022-12-20T17:00:32.037Z"}
+{"level":"debug","message":"Checking database connection ..","module":"boot","timestamp":"2022-12-20T17:00:42.370Z"}
+{"level":"debug","message":"Connected to database.","module":"boot","timestamp":"2022-12-20T17:00:42.752Z"}
+{"level":"info","message":"Framework integration is enabled.","module":"boot","timestamp":"2022-12-20T17:00:42.753Z"}
+{"level":"debug","message":"Verifying exports ..","module":"boot","timestamp":"2022-12-20T17:00:42.753Z"}
+{"level":"debug","message":"Checking exports from resource: qb-pefcl","module":"frameworkIntegration","timestamp":"2022-12-20T17:00:42.754Z"}
+{"level":"info","message":"Starting pefcl.","module":"boot","timestamp":"2022-12-20T17:00:42.756Z"}
+{"level":"debug","message":"Loading player for pefcl.","module":"user","timestamp":"2022-12-20T17:17:39.870Z"}
+{"level":"debug","message":{"identifier":"UWU33357","name":"asd asd","source":1},"module":"user","timestamp":"2022-12-20T17:17:39.871Z"}
+{"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2022-12-20T17:17:39.876Z"}
+{"level":"debug","message":"Adding user to unique account ..","module":"accounts","timestamp":"2022-12-20T17:17:39.917Z"}
+{"level":"debug","message":"User already exists in shared account. (You can safely ignore this)","module":"accounts","timestamp":"2022-12-20T17:17:39.932Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-20T17:17:40.356Z"}
+{"level":"debug","message":"Loading player for pefcl.","module":"user","timestamp":"2022-12-20T17:36:37.495Z"}
+{"level":"debug","message":{"identifier":"QIF86937","name":"Santiago Ramos","source":2},"module":"user","timestamp":"2022-12-20T17:36:37.496Z"}
+{"level":"debug","message":"Player loaded. Emitting: pefcl:userLoaded","module":"user","timestamp":"2022-12-20T17:36:37.497Z"}
+{"level":"info","message":"Syncing initial bank balance from framework.","module":"accounts","timestamp":"2022-12-20T17:36:37.529Z"}
+{"level":"debug","message":"Checking exports from resource: qb-pefcl","module":"frameworkIntegration","timestamp":"2022-12-20T17:36:37.530Z"}
+{"level":"info","message":"Moving bank balance from export to initial account.","module":"accounts","timestamp":"2022-12-20T17:36:37.531Z"}
+{"level":"info","message":{"balance":0,"identifier":"QIF86937"},"module":"accounts","timestamp":"2022-12-20T17:36:37.531Z"}
+{"level":"debug","message":"Creating initial account .. ","module":"accounts","timestamp":"2022-12-20T17:36:37.532Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-20T17:36:37.882Z"}
+{"level":"debug","message":"Successfully created initial account.","module":"accounts","timestamp":"2022-12-20T17:36:37.952Z"}
+{"level":"debug","message":"Retrieving accounts","module":"accounts","timestamp":"2022-12-20T17:40:31.177Z"}
