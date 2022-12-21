@@ -1,7 +1,7 @@
 --------------------TAKE DOWNS---------------------
-tkd_masterswitch = false
+tkd_masterswitch = true
 --	Enables plugin, allowing users to toggle takedowns.
-tkd_key = 189
+tkd_key = 188
 --	Key to toggle TKD light. (default: 74 (H))
 tkd_combokey = 326
 --  Key that needs to be pressed in combination with tkd_key. Set to false to disable. (default: 21 (Left Shift))

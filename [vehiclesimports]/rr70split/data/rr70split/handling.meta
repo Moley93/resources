@@ -39,10 +39,10 @@
       <fAntiRollBarBiasFront value="0.5" />
       <fRollCentreHeightFront value="-0.1" />
       <fRollCentreHeightRear value="-0.1" />
-      <fCollisionDamageMult value="1.5" />
-      <fWeaponDamageMult value="0.7" />
-      <fDeformationDamageMult value="2" />
-      <fEngineDamageMult value="1.3" />
+			<fCollisionDamageMult value="2.5" />
+			<fWeaponDamageMult value="2.5" />
+			<fDeformationDamageMult value="2.5" />
+			<fEngineDamageMult value="4.5" />
       <fPetrolTankVolume value="65" />
       <fOilVolume value="5" />
       <fSeatOffsetDistX value="0" />

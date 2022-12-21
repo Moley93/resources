@@ -21,7 +21,7 @@ reminder_rate = 10
 --	How often, in luxart key presses, to remind you that your siren controller is locked.
 
 -----------------HUD FUNCTIONALITY-----------------
-hud_first_default = true
+hud_first_default = false
 --	First state of HUD, otherwise it uses the players KVP setting (previous state). 
 
 ---------------MAIN SIREN SETTINGS-----------------
