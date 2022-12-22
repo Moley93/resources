@@ -21,16 +21,4 @@ RegisterServerEvent('jim-recycle:Dumpsters:Reward', function()
 		Player.Functions.AddItem("rubber", random)
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["rubber"], 'add', random)
 	end
-		--If two random numbers match, give reward
-	if math.random(1, 5) == math.random(1, 5) then
-		local random = math.random(1, 5)
-		Player.Functions.AddItem("rubber", random)
-		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["femaleseed"], 'add', random)
-	end
-			--If two random numbers match, give reward
-	if math.random(1, 4) == math.random(1, 4) then
-		local random = math.random(1, 4)
-		Player.Functions.AddItem("rubber", random)
-		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["maleseed"], 'add', random)
-	end
 end)
