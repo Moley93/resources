@@ -5,9 +5,9 @@ tkd_key = 188
 --	Key to toggle TKD light. (default: 74 (H))
 tkd_combokey = 326
 --  Key that needs to be pressed in combination with tkd_key. Set to false to disable. (default: 21 (Left Shift))
-tkd_intensity_default = 100
+tkd_intensity_default = 200
 --  Overall brightness of TKD light.
-tkd_radius_default = 50
+tkd_radius_default = 40
 --  Angle of spread from 0 (narrow/small) to 90 (almost 180 degrees)
 tkd_distance_default = 50
 --	Max distance light can reach. 

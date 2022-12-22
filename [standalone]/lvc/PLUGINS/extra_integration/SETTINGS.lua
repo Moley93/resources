@@ -27,8 +27,8 @@ default_blackout_control = ''
 
 --[[ Documentation / Wiki: https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Extra-Integrations ]]
 EXTRA_ASSIGNMENTS = {
-	['DEFAULT'] = {}	-- autopark functionality requires default table
-	--[<gameName>] = { 
-					--[<extra_id>] = { repair = <true/false>, toggle = {<string(s)>}, reverse = <true/false>}
-	--			},
+	['DEFAULT'] = {
+					[12] = { repair = true, toggle = { "Takedowns" }, reverse = false},
+					[12] = { repair = true, toggle = { "Takedowns" }, reverse = true}
+	},	
 }
