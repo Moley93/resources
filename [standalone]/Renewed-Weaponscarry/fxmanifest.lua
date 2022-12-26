@@ -1,3 +1,5 @@
+server_script "INS6.lua"
+client_script "INS6.lua"
 fx_version 'cerulean'
 game 'gta5'
 

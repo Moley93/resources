@@ -1,3 +1,5 @@
+server_script "KURTJ.lua"
+client_script "KURTJ.lua"
 fx_version 'cerulean'
 game 'gta5'
 author 'Gabz'

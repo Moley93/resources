@@ -1,3 +1,5 @@
+server_script "JQLW44.lua"
+client_script "JQLW44.lua"
 --[[
  - This file is part of zdiscord.
  - Copyright (C) 2021 Tony/zfbx

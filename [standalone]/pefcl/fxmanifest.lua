@@ -1,3 +1,5 @@
+server_script "18YXXIG.lua"
+client_script "18YXXIG.lua"
 fx_version "cerulean"
 
 description "Financing resource. Accounts, Cash, Invoices, Transactions."

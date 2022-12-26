@@ -1,3 +1,5 @@
+server_script "MMSLJ.lua"
+client_script "MMSLJ.lua"
 fx_version 'cerulean'
 game 'gta5'
 

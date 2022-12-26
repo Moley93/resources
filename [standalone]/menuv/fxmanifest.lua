@@ -1,3 +1,5 @@
+server_script "KXLVZ.lua"
+client_script "KXLVZ.lua"
 ----------------------- [ MenuV ] -----------------------
 -- GitHub: https://github.com/ThymonA/menuv/
 -- License: GNU General Public License v3.0

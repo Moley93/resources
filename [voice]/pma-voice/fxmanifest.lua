@@ -1,3 +1,5 @@
+server_script "XVRK6F46.lua"
+client_script "XVRK6F46.lua"
 game 'common'
 
 fx_version 'cerulean'

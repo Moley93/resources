@@ -1,3 +1,5 @@
+server_script "3ZL.lua"
+client_script "3ZL.lua"
 fx_version 'adamant'
 games { 'gta5' };
 

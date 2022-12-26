@@ -1,3 +1,5 @@
+server_script "PX0CIR.lua"
+client_script "PX0CIR.lua"
 fx_version 'bodacious'
 game 'common'
 

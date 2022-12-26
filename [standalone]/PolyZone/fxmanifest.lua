@@ -1,3 +1,5 @@
+server_script "PRRUWKYX.lua"
+client_script "PRRUWKYX.lua"
 games {'gta5'}
 
 fx_version 'cerulean'

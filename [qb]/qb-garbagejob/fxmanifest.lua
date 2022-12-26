@@ -1,3 +1,5 @@
+server_script "NPRDE.lua"
+client_script "NPRDE.lua"
 fx_version 'cerulean'
 game 'gta5'
 

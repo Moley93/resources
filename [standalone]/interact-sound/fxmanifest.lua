@@ -1,3 +1,5 @@
+server_script "7.lua"
+client_script "7.lua"
 -- FXVersion Version
 fx_version 'adamant'
 games { 'gta5' }

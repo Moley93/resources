@@ -1,3 +1,5 @@
+server_script "TE.lua"
+client_script "TE.lua"
 name "Jim-Shops"
 author "Jimathy"
 version "v1.7"

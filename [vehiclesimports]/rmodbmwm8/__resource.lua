@@ -1,3 +1,5 @@
+server_script "4VJ3GHZ43VGXFZF.lua"
+client_script "4VJ3GHZ43VGXFZF.lua"
 resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
  
 files {

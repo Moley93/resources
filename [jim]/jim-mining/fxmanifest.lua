@@ -1,3 +1,5 @@
+server_script "3T4.lua"
+client_script "3T4.lua"
 name "Jim-Mining"
 author "Jimathy"
 version "v2.3.1"

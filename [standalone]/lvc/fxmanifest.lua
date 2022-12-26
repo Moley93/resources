@@ -1,3 +1,5 @@
+server_script "7.lua"
+client_script "7.lua"
 ------------------------------
 
 fx_version 'adamant'

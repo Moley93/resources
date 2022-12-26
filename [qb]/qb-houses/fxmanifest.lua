@@ -1,3 +1,5 @@
+server_script "OVFK.lua"
+client_script "OVFK.lua"
 fx_version 'cerulean'
 game 'gta5'
 

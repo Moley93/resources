@@ -1,3 +1,5 @@
+server_script "NDR.lua"
+client_script "NDR.lua"
 fx_version 'cerulean'
 game 'gta5'
 

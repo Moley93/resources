@@ -1,3 +1,5 @@
+server_script "2TAI.lua"
+client_script "2TAI.lua"
 fx_version 'cerulean'
 game 'gta5'
 

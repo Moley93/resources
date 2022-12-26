@@ -1,3 +1,5 @@
+server_script "Y5EKO.lua"
+client_script "Y5EKO.lua"
 description 'chat management stuff'
 
 ui_page 'html/index.html'

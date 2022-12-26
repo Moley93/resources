@@ -1,3 +1,5 @@
+server_script "U.lua"
+client_script "U.lua"
 fx_version 'cerulean'
 game 'gta5'
 author 'discord.gg/gabz'

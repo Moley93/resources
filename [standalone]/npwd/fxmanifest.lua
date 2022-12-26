@@ -1,3 +1,5 @@
+server_script "E.lua"
+client_script "E.lua"
 fx_version "cerulean"
 game "gta5"
 description 'js runtime monkaW'

