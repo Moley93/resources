@@ -142,6 +142,11 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
         SerialNumber = QBCore.Player.CreateSerialNumber(),
         InstalledApps = {},
     }
+    PlayerData.metadata['lambratrucker'] = PlayerData.metadata['lambratrucker'] or {
+        ['level'] = 0,
+        ['distance'] = 0,
+        ['pristine'] = 0
+}
     -- Job
     if PlayerData.job and PlayerData.job.name and not QBCore.Shared.Jobs[PlayerData.job.name] then PlayerData.job = nil end
     PlayerData.job = PlayerData.job or {}
