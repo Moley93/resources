@@ -266,3 +266,9 @@ RegisterCommand('toggleseatbelt', function()
 end, false)
 
 RegisterKeyMapping('toggleseatbelt', 'Toggle Seatbelt', 'keyboard', 'B')
+
+local function checkseatbelt()
+    return seatbeltOn
+end
+
+exports('checkseatbelt', checkseatbelt)
