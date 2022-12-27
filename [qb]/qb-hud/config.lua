@@ -18,27 +18,27 @@ Config.Intensity = {
         [1] = {
             min = 50,
             max = 60,
-            intensity = 0.12,
+            intensity = 0.06,
         },
         [2] = {
             min = 60,
             max = 70,
-            intensity = 0.17,
+            intensity = 0.09,
         },
         [3] = {
             min = 70,
             max = 80,
-            intensity = 0.22,
+            intensity = 0.11,
         },
         [4] = {
             min = 80,
             max = 90,
-            intensity = 0.28,
+            intensity = 0.14,
         },
         [5] = {
             min = 90,
             max = 100,
-            intensity = 0.32,
+            intensity = 0.16,
         },
     }
 }
@@ -47,26 +47,26 @@ Config.EffectInterval = {
     [1] = {
         min = 50,
         max = 60,
-        timeout = math.random(50000, 60000)
+        timeout = math.random(40000, 50000)
     },
     [2] = {
         min = 60,
         max = 70,
-        timeout = math.random(40000, 50000)
+        timeout = math.random(30000, 40000)
     },
     [3] = {
         min = 70,
         max = 80,
-        timeout = math.random(30000, 40000)
+        timeout = math.random(20000, 30000)
     },
     [4] = {
         min = 80,
         max = 90,
-        timeout = math.random(20000, 30000)
+        timeout = math.random(10000, 20000)
     },
     [5] = {
         min = 90,
         max = 100,
-        timeout = math.random(15000, 20000)
+        timeout = math.random(5000, 15000)
     }
 }
