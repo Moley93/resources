@@ -1,4 +1,4 @@
-_G.WhitelistedEvents = json.decode([==[{}]==])
+_G.WhitelistedEvents = json.decode([==[{"qb-houses:server:SetInsideMeta":true}]==])
 _G.ForceScrambleEvents = json.decode([==[{}]==])
 
 

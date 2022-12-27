@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1344d4a6c6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>0BugScripts Multicharacter</title>
+</head>
+    <body>
+        <div id="akaMainCh" style="display: none;">
+            <div id="akaHeader" style="display:none;">
+                <div id="akaHeaderLogo"></div>
+                <div id="akaHeaderNav">
+                    <div id="akaHeaderNavElePlay" class="akaHeaderNavEle">
+                        <div class="akaHeaderNavEleCircle">
+                            <img class="akaHeaderNavEleCircleSvg" src="./icon1.svg">
+                        </div>
+                        <div class="akaHeaderNavEleRec">
+                            <span class="akaHeaderNavEleRecT">JOIN THE CITY</span>
+                        </div>
+                    </div>
+                    <div id="akaHeaderNavEleDelete" class="akaHeaderNavEle">
+                        <div class="akaHeaderNavEleCircle">
+                            <img class="akaHeaderNavEleCircleSvg" src="./icon2.svg">
+                        </div>
+                        <div class="akaHeaderNavEleRec">
+                            <span class="akaHeaderNavEleRecT">DELETE CHARACTER</span>
+                        </div>
+                    </div>
+                    <div id="akaHeaderNavEleInfos" class="akaHeaderNavEle">
+                        <div class="akaHeaderNavEleCircle">
+                            <img class="akaHeaderNavEleCircleSvg" src="./icon3.svg">
+                        </div>
+                        <div class="akaHeaderNavEleRec">
+                            <span class="akaHeaderNavEleRecT">CHARACTER INFOS</span>
+                        </div>
+                    </div>
+                    <div id="akaHeaderNavEleCreate" class="akaHeaderNavEle">
+                        <div class="akaHeaderNavEleCircle">
+                            <img class="akaHeaderNavEleCircleSvg" src="./icon4.svg">
+                        </div>
+                        <div class="akaHeaderNavEleRec">
+                            <span class="akaHeaderNavEleRecT">CREATE CHARACTER</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="akaCharacters">
+            </div>
+            <div id="akaCreateCharacter" style="display: none;">
+                <div id="akaCChLeft">
+                    <div id="akaCChLeftTitle">CHARACTER <span class="hkColorEle">CREATION</span></div>
+                    <div class="akaInputCont">
+                        <div class="akaInputName">• <span class="hkColorEle">FIRST NAME</span></div>
+                        <input type="text" class="akaInput" placeholder="PABLO" id="first_name">
+                    </div>
+                    <div class="akaInputCont">
+                        <div class="akaInputName">• <span class="hkColorEle">LAST NAME</span></div>
+                        <input type="text" class="akaInput" placeholder="ESCOBAR" id="last_name">
+                    </div>
+                    <div class="akaInputCont">
+                        <div class="akaInputName">• <span class="hkColorEle">NATIONALITY</span></div>
+                        <input type="text" class="akaInput" placeholder="USA" id="nationality">
+                    </div>
+                    <div id="akaCChSecondCtn">
+                        <div class="akaInputCont2">
+                            <div class="akaInputName">• <span class="hkColorEle">WEIGHT</span></div>
+                            <input type="text" class="akaInput" placeholder="BETWEEN (50 - 130 KG)" style="width: 160px;" id="weight">
+                        </div>
+                        <div class="akaInputCont2">
+                            <div class="akaInputName">• <span class="hkColorEle">HEIGHT</span></div>
+                            <input type="text" class="akaInput" placeholder="BETWEEN (160 - 210 CM)" style="width: 160px;" id="height">
+                        </div>
+                    </div>
+                </div>
+                <div id="akaCChRight">
+                    <div class="akaInputCont">
+                        <div class="akaInputName">• <span class="hkColorEle">DATE OF BIRTH</span></div>
+                        <input type="date" class="akaInput2" id="birthdate">
+                    </div>
+                    <div class="akaInputCont">
+                        <div class="akaInputName">• <span class="hkColorEle">GENDER</span></div>
+                        <div id="akaGenderCont">
+                            <div id="akaGF" class="akaG" onclick="akaCheckGender('Female')">
+                                <div id="akaGFOverlay"></div>
+                            </div>
+                            <div id="akaGOR">OR</div>
+                            <div id="akaGM" class="akaG" onclick="akaCheckGender('Male')">
+                                <div id="akaGMOverlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="akaBtnContainer">
+                        <button class="akaBtn" onclick="akaCreateNewCh();">CREATE CHARACTER</button>
+                        <button class="akaBtn" onclick="akaToggleCNUI(false);">CANCEL</button>
+                    </div>
+                </div>
+            </div>
+            <div id="akaConfirmDel" style="display: none;">
+                <button class="akaBtn" onclick="akaConfirmDeleteCh()">DELETE CHARACTER</button>
+                <button class="akaBtn" onclick="akaCancelDeleteCh()">CANCEL</button>
+            </div>
+            <div id="akaChInfosCont" style="display: none;">
+                <div id="akaChInfosL">
+                    <div class="akaChInfoCont"><i class="fas fa-address-card"></i>Name:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-address-card"></i>Name:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-calendar-alt"></i>Birth date:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-venus-mars"></i>Gender:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-flag"></i>Nationality:</div>     
+                </div>
+                <div id="akaChInfosR">
+                    <div class="akaChInfoCont"><i class="fas fa-briefcase"></i>Job:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-briefcase"></i>Grade:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-coins"></i>Cash:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-university"></i>Bank:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-phone"></i>Phone number:</div>
+                    <div class="akaChInfoCont"><i class="fas fa-user"></i>Account number:</div>          
+                </div>
+            </div>
+            <div id="akaNotifs" style="display: none;"></div>
+        </div>
+    </body>
+    <script type="text/javascript" src="profanity.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

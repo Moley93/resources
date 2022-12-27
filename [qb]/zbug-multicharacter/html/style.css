@@ -1,0 +1,437 @@
+/* #################################################################################################### */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --goDark: #151827;
+    --goMinDark: #1A1D30;
+    --goMain: #FFBB00;
+}
+
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 0.833vw;
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently */
+}
+
+#akaMainCh {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./akaOverlay.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#akaHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.563vw;
+}
+
+#akaHeaderLogo {
+    background-image: url('./logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15.365vw;
+    height: 4.583vw;
+    margin-left: 2.604vw;
+}
+
+#akaHeaderNav {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;  
+    margin-right: 2.604vw; 
+}
+.akaHeaderNavEle {
+    width: 15.625vw;
+    height: 3.438vw;
+    display: flex;
+    align-items: center;
+    opacity: 60%;
+}
+
+.akaHeaderNavEleON {
+    opacity: 100%;
+}
+
+.akaHeaderNavEleCircle {
+    height: 3.438vw;
+    width: 3.438vw;
+    background-color: var(--goDark);
+    border-radius: 50%;
+    border: 0.208vw solid var(--goMain);
+}
+
+.akaHeaderNavEleCircleSvg {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.akaHeaderNavEleRec {
+    width: 13.021vw;
+    height: 2.292vw;
+    margin-left: -1.354vw;
+    border-radius: 0.521vw;
+    background-color: var(--goDark);
+}
+
+.akaHeaderNavEleRecT {
+    color: white;
+    font-weight: bold;
+    line-height: 2.292vw;
+    vertical-align: middle;
+    margin-left: 1.302vw;
+}
+
+/* #################################################################################################### */
+
+#akaCharacters {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 75.926vh;
+}
+
+.akaCharactersEle {
+    width: 10.417vw;
+    height: 10.417vw;
+    background-color: var(--goDark);
+    border-radius: 0.521vw;
+    color: white;
+    font-weight: bold;
+    margin-left: 1.302vw;
+    margin-right: 1.302vw;
+}
+
+.akaCharactersEleSel {
+    border-bottom: 0.313vw solid var(--goMain);
+}
+
+.akaCharactersEleCont {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.akaChIcon {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.akaChName {
+    display: block;
+    text-align: center;
+    margin-top: 0.521vw;
+    font-size: 0.938vw;
+}
+
+.akaChID {
+    display: block;
+    text-align: center;
+    color: var(--goMain);
+    font-size: 0.938vw;
+}
+
+
+/* #################################################################################################### */
+
+#akaCreateCharacter{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 50vh;
+}
+
+#akaCChLeft {
+    width: 26.042vw;
+    height: 22.917vw;
+    background-color: var(--goMinDark);
+    border-radius: 0.521vw;
+    margin-right: 9.375vw;
+}
+
+#akaCChLeftTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 0.833vw;
+    margin-top: 1.302vw;
+    text-align: center;
+}
+
+.akaInputCont {
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 1.302vw;
+}
+
+.akaInputCont2 {
+    margin-top: 1.302vw;
+}
+
+.akaInputName {
+    color: white;
+    font-size: 0.625vw;
+    font-weight: bold;
+}
+
+.akaInput {
+    width: 18.229vw;
+    height: 2.083vw;
+    padding-left: 0.781vw;
+    font-weight: bold;
+    background-color: var(--goDark);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.573vw;
+    margin-top: 0.521vw;
+    border-radius: 0.313vw;
+}
+
+.akaInput2 {
+    width: 18.229vw;
+    height: 2.083vw;
+    padding-left: 0.781vw;
+    font-weight: bold;
+    background-color: var(--goMinDark);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.573vw;
+    margin-top: 0.521vw;
+    border-radius: 0.313vw;
+}
+
+.akaInput::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+.akaInput2::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.akaInput:focus {
+    border: solid 0.052vw rgba(255, 187, 0, 0.6);
+}
+
+#akaCChSecondCtn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 18.229vw;
+}
+
+
+
+#akaCChRight {
+    width: 26.042vw;
+    height: 22.917vw;
+    background-color: var(--goDark);  
+    border-radius: 0.521vw;
+    margin-left: 9.375vw;
+}
+
+#akaGenderCont {
+    margin-top: 0.521vw;
+    width: 18.229vw;
+    height: 10.417vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.akaG {
+    width: 7.813vw;
+    height: 100%;
+    border-radius: 0.417vw;
+    background-color: var(--goMinDark);
+}
+
+#akaGF {
+    background-image: url('./akaGF.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#akaGM {
+    background-image: url('./akaGM.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#akaGOR {
+    color: white;
+    font-weight: bold;
+    font-size: 0.625vw;
+}
+
+#akaBtnContainer {
+    width: 18.229vw;
+    height: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.302vw;
+}
+
+.akaBtn {
+    width: fit-content;
+    height: 2.083vw;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 187, 0, 1);
+    color: white;
+    font-weight: bold;
+    font-size: 0.625vw;
+    border-radius: 0.313vw;
+    width: 8.333vw;
+    opacity: 70%;
+}
+
+.akaBtn:hover {
+    opacity: 100%;
+}
+
+.hkColorEle {
+    color: #FFBB00;
+}
+
+
+/* #################################################################################################### */
+
+#akaConfirmDel {
+    width: 20.833vw;
+    height: fit-content;
+    background-color: var(--goDark);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.563vw;
+    border-radius: 0.521vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#akaGFOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 187, 0, 0.3);
+    display: none;
+}
+
+#akaGMOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 187, 0, 0.3);
+    display: none;
+}
+
+#akaNotifs {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--goDark);
+    color: white;
+    text-align: center;
+    padding-top: 0.781vw;
+    padding-bottom: 0.781vw;
+    padding-left: 0.781vw;
+    padding-right: 0.781vw;
+    border-radius: 0.313vw;
+    position: fixed;
+    top: 40%;
+    transform: translateY(-40%);
+    margin-left: 2.083vw;
+    font-weight: bold;
+    font-size: 0.677vw;
+    border-left: solid 0.156vw var(--goMain);
+}
+
+/* #################################################################################################### */
+
+
+#akaChInfosCont {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#akaChInfosL {
+    width: 18.229vw;
+    height: 11.458vw; 
+    background-color: var(--goMinDark);
+    float: left;
+    margin-right: 25vw;
+    border-radius: 0.521vw;
+}
+
+#akaChInfosR {
+    width: 18.229vw;
+    height: 11.458vw; 
+    background-color: var(--goMinDark);
+    float: left;
+    margin-left: 25vw;
+    border-radius: 0.521vw;
+}
+
+.akaChInfoCont {
+    color: white;
+    width: 100%;
+    height: 2.083vw;
+    padding-left: 1.042vw;
+    padding-top: 1.042vw;
+    font-weight: bold;
+    font-size: 0.833vw;
+}
+
+.fas {
+    font-size: 0.729vw;
+    margin-right: 0.521vw;
+}
+
+.akaChInfoData {
+    color: var(--goMain);
+    margin-left: 0.521vw;
+}
