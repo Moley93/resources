@@ -82,7 +82,27 @@ Config.TargetBones = {
 }
 
 Config.TargetModels = {
+	["goldheist-ped"] = {
+        models = {
+            "mp_m_securoguard_01",
 
+        },
+        options = {
+            {
+                type = "client",
+                event = "qb-goldheist:cinematic:goldstart",
+                icon = "fas fa-eye", 
+                label = "Sell Bars to Dealer",
+            },
+            {
+                type = "client",
+                event = "qb-goldheist:policetryingheist",
+                icon = "fas fa-eye", 
+                label = "Start Heist",
+            }
+        },
+        distance = 2.5,
+    },
 }
 
 Config.GlobalPedOptions = {
@@ -102,6 +122,15 @@ Config.GlobalPlayerOptions = {
 }
 
 Config.Peds = {
+
+	{ --goldheist
+        model = 'mp_m_securoguard_01',
+        coords = vector4(113.56, -1088.03, 28.19, 348.45),
+        gender = 'male',
+        freeze = true,
+        invincible = false,
+        blockevents = false,
+    },
 
 }
 
