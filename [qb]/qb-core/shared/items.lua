@@ -559,4 +559,24 @@ QBShared.Items = {
 	
 	-- jim-payments
 	["payticket"] 					 = {["name"] = "payticket", 						["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
+	--TV prop item
+	['bigtv'] 				 	     = {['name'] = 'bigtv', 			  	  		['label'] = 'TV', 						['weight'] = 70000, 	['type'] = 'item', 		['image'] = 'stolentv.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Definitely not stolen'},
+	
+	--PC prop item
+	['computer'] 				 	 = {['name'] = 'computer', 			  	  		['label'] = 'Computer', 				['weight'] = 70000, 	['type'] = 'item', 		['image'] = 'stolencomputer.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Definitely not stolen'},
+	
+	--Microwave prop item
+	['microwave'] 				 	 = {['name'] = 'microwave', 			  	  	['label'] = 'Microwave', 				['weight'] = 70000, 	['type'] = 'item', 		['image'] = 'stolenmicro.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Definitely not stolen'},
+	
+	--Stereo prop item
+	['stereo'] 				 	     = {['name'] = 'stereo', 			  	  		['label'] = 'HIFI', 					['weight'] = 70000, 	['type'] = 'item', 		['image'] = 'stolenstereo.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Definitely not stolen'},
+	
+	--T1 safe key item
+	['t1_safe_key'] 			 	 = {['name'] = 't1_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
+	
+	--T2 safe key item
+	['t2_safe_key'] 			 	 = {['name'] = 't2_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
+	
+	--T3 safe key item
+	['t3_safe_key'] 			 	 = {['name'] = 't3_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
 }
