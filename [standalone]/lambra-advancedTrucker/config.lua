@@ -3,7 +3,7 @@ Config = {}
 Config.Blip = {
     ["id"] = 477,
     ["color"] = 64,
-    ["scale"] = 1.0
+    ["scale"] = 0.6
 }
 
 Config.TruckerCenter = {
