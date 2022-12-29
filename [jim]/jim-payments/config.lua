@@ -4,7 +4,7 @@
 
 Config = {
 	Lan = "en",
-	Debug = false,
+	Debug = true,
 	Notify = "qb",
 
 	---------------------------------
@@ -36,11 +36,11 @@ Config = {
 		`U_F_M_CasinoShop_01`,
 	},
 
-	PhoneBank = false, 	-- Set this to false to use the popup payment system FOR CARD/BANK PAYMENTS instead of using phone invoices
+	PhoneBank = true, 	-- Set this to false to use the popup payment system FOR CARD/BANK PAYMENTS instead of using phone invoices
 						-- This doesn't affect Cash payments as they by default use confirmation now
 						-- This is helpful for phones that don't support invoices well
 
-	PhoneType = "qb", -- Change this setting to make invoices work with your phone script [still testing this currently]
+	PhoneType = "npwd", -- Change this setting to make invoices work with your phone script [still testing this currently]
 						-- "qb" for qb-phone
 						-- "gks"" for GKSPhone
 
@@ -98,7 +98,7 @@ Config = {
 	BankBlips = false, -- Enable this if you disabled qb-banking and need bank locations
 	ATMBlips = false, -- Enable this if you are a pyscho and need every ATM to be on the map too
 
-	Gabz = false, 	-- "true" to enable Gabz Bank locations
+	Gabz = true, 	-- "true" to enable Gabz Bank locations
 					-- this corrects the ATM/Bank Cashier + Ticket Cash in location
 
 	ATMModels = { `prop_atm_01`, `prop_atm_02`, `prop_atm_03`, `prop_fleeca_atm` },

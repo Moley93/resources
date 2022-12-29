@@ -130,7 +130,7 @@ Config.JammerFilter = {
     },
 }
 
-Config.AllChanelsHaveUserList = false -- If enabled, all channels will have user list
+Config.AllChanelsHaveUserList = true -- If enabled, all channels will have user list
 Config.AllWhitelistedChannelsHaveUserList = true -- If enabled, all radio will have user list
 
 Config.QuickJoinCommand = 'qradio' -- Command to join radio channel, to disable it set it to false
@@ -149,7 +149,7 @@ Config.WhitelistedAccess = {
 }
 
 Config.ChannelsWhichHasList = {
-    -- [1] = true
+    [1] = true
 }
 
 -- Disables range for specific channels
@@ -157,9 +157,8 @@ Config.DisableRangeForChannels = {
     [1] = true
 }
 
-Config.AllChannelsCanBeLocked = false -- Specify if all public channels can be locked (won't work on whitelisted channels)
+Config.AllChannelsCanBeLocked = true -- Specify if all public channels can be locked (won't work on whitelisted channels)
 Config.ChannelsWhichCanBeLocked = { -- if above is false, Specify which channels can be locked (won't work on whitelisted channels)
-    [2] = true
 }
 
 Config.AllowJammers = false -- Allow jammers to be used

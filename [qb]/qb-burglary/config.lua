@@ -44,11 +44,11 @@ Config.DoorSkillcheck = "lockpick"
 
 -- Set the skill check minigame for disabling the security system
 -- Options: "circle", "ps-circle", "ps-scrambler", "square"
-Config.SecuritySkillcheck = "square"
+Config.SecuritySkillcheck = "ps-scrambler"
 
 -- Set the skill check minigame for cracking the safe
 -- Options: "circle", "ps-circle", "square"
-Config.SafeSkillcheck = "square"
+Config.SafeSkillcheck = "ps-scrambler"
 
 -- Example: if the time is 5AM or later you cannot break in
 -- You can remove the time check in cl_public.lua
@@ -75,7 +75,7 @@ Config.QbNotify = true
 -- You can do this by importing the "boss_reputation.sql" file
 -- If true the player will level up when robbing houses, eventually unlocking high tier houses
 -- If false the player will receive a random tier house
-Config.Reputation = false
+Config.Reputation = true
 
 -- Max reputation = Config.MaxLevel * 10000 = 100000
 -- 10% max rep = Lvl 1, 20% max rep = lvl 2, 30% max rep = lvl 3
@@ -89,7 +89,7 @@ Config.Departments = {
 }
 
 -- Set the amount of on duty cops required
-Config.MinPolice = 0
+Config.MinPolice = 1
 
 -- If true when the player completes a job they will receive a random sell location
 Config.BuyersEnabled = true
