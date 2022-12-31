@@ -16,7 +16,7 @@ AddEventHandler('onResourceStart', function(resource) if GetCurrentResourceName(
 end)
 
 QBCore.Commands.Add("cashregister", Loc[Config.Lan].command["cash_reg"], {}, false, function(source) TriggerClientEvent("jim-payments:client:Charge", source, {}, true) end)
-QBCore.Commands.Add("polcharge", Loc[Config.Lan].command["charge"], {}, false, function(source) TriggerClientEvent("jim-payments:client:PolCharge", source) end)
+QBCore.Commands.Add("bill", Loc[Config.Lan].command["charge"], {}, false, function(source) TriggerClientEvent("jim-payments:client:PolCharge", source) end)
 
 RegisterServerEvent('jim-payments:Tickets:Give', function(data, biller, gang)
     local billed = QBCore.Functions.GetPlayer(source) -- This should always be from the person who accepted the payment
@@ -193,8 +193,8 @@ RegisterServerEvent("jim-payments:server:PolCharge", function(citizen, price)
 				if Config.Debug then print("^5Debug^7: ^3QB-Management^7(^3Job^7): ^2Adding ^7$^6"..(price - takecomm).." ^2to account ^7'^6"..tostring(biller.PlayerData.job.name).."^7' ($^6"..exports["qb-management"]:GetAccount(biller.PlayerData.job.name).."^7)") end
 			end
 
-			triggerNotify(nil, billed.PlayerData.charinfo.firstname..Loc[Config.Lan].success["charged"]..(price - commission), "success", src)
-			triggerNotify(nil, Loc[Config.Lan].success["you_charged"]..(price - commission), nil, billed.PlayerData.source)
+			triggerNotify(nil, billed.PlayerData.charinfo.firstname..Loc[Config.Lan].success["charged"]..(price), "success", src)
+			triggerNotify(nil, Loc[Config.Lan].success["you_charged"]..(price), nil, billed.PlayerData.source)
 		else
 			TriggerClientEvent("jim-payments:client:PolPopup", billed.PlayerData.source, price, src, biller.PlayerData.job.label)
 		end

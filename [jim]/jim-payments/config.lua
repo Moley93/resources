@@ -4,14 +4,14 @@
 
 Config = {
 	Lan = "en",
-	Debug = true,
+	Debug = false,
 	Notify = "qb",
 
 	---------------------------------
 	-- Default Job Payment Systems --
 	---------------------------------
 
-	RenewedBanking = false, -- Enable if using Renewed-Banking false if using QB-Management
+	RenewedBanking = true, -- Enable if using Renewed-Banking false if using QB-Management
 
 	ApGov = false, -- Toggle support for AP-Goverment Tax
 
@@ -84,8 +84,8 @@ Config = {
 	-- The /polcharge command requires specific jobs to be set
 	-- No tickets for these, it's just commission (0.25 = 25%)
 	FineJobs = {
-		['police'] = { Commission = 0.25, },
-		['ambulance'] = { Commission = 0.25, },
+		['police'] = { Commission = 0.1, },
+		['ambulance'] = { Commission = 0.1, },
 	},
 	FineJobConfirmation = false, --"true" makes it so fines need confirmation, "false" skips this ands just removes the money
 	FineJobList = true, -- "true" to use nearby player list feature in the cash registers, "false" for manual id entry

@@ -148,14 +148,14 @@ Config.Teleports = {
     --Coke Processing Enter/Exit
     [2] = {
         [1] = {
-            coords = vector4(909.49, -1589.22, 30.51, 92.24),
+            coords = vector4(843.37, 2192.54, 52.29, 156.27),
             ["AllowVehicle"] = false,
-            drawText = '[E] Enter Coke Processing'
+            drawText = 'Enter [E]'
         },
         [2] = {
             coords = vector4(1088.81, -3187.57, -38.99, 181.7),
             ["AllowVehicle"] = false,
-            drawText = '[E] Leave'
+            drawText = 'Leave [E]'
         },
     },
 }

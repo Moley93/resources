@@ -8,7 +8,7 @@ allow_custom_controls = true
 	EXTRA_CONTROLS = {
 		['DEFAULT'] = { 
 					--  	{ '<name>', Extras = {<extras table>}, Combo = <default combo>, Key = <default key>, (opt.) Audio = < button soundFX> }
-							{ Name = 'Takedowns', Extras = { toggle = 12, repair = true }, Combo = 326, Key = 188, Audio = true },
+							 Name = 'Takedowns', Extras = { toggle = 12, repair = true }, Combo = 326, Key = 188, Audio = true
 				},	
 	}
 

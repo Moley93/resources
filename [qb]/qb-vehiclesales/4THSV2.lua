@@ -1,4 +1,4 @@
-_G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true}]==])
+_G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true,"NetworkIsInSpectatorMode() == true":true}]==])
 _G.ForceScrambleEvents = json.decode([==[{}]==])
 
 

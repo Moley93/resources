@@ -1,5 +1,5 @@
 --------------------EXTRA INTEGRATION SETTINGS---------------------
-ei_masterswitch = false
+ei_masterswitch = true
 --	Determines if extra_integration plugin can be activated.
 ei_run_out_of_vehicle = false
 --  Continue running state checks when player is out of vehicle, only after EI vehicle was last driven. (this is necessary for proper seat / door check)
@@ -28,7 +28,6 @@ default_blackout_control = ''
 --[[ Documentation / Wiki: https://github.com/TrevorBarns/luxart-vehicle-control/wiki/Extra-Integrations ]]
 EXTRA_ASSIGNMENTS = {
 	['DEFAULT'] = {
-					[12] = { repair = true, toggle = { "Takedowns" }, reverse = false},
-					[12] = { repair = true, toggle = { "Takedowns" }, reverse = true}
+					[12] = { repair = true, toggle = { "Takedowns" } },
 	},	
 }

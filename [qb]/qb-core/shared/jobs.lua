@@ -37,7 +37,8 @@ QBShared.Jobs = {
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 150,
+                bankAuth = true
             },
         },
 	},
@@ -65,7 +66,8 @@ QBShared.Jobs = {
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 150,
+                bankAuth = true
             },
         },
 	},
@@ -94,6 +96,7 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
+                bankAuth = true
             },
         },
 	},
@@ -122,6 +125,7 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
+                bankAuth = true
             },
         },
 	},
@@ -161,35 +165,7 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
-            },
-        },
-	},
-	['hayesmech'] = {
-		label = 'Hayes Mechanic',
-        type = "mechanic",
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-            ['0'] = {
-                name = 'Recruit',
-                payment = 50
-            },
-			['1'] = {
-                name = 'Novice',
-                payment = 75
-            },
-			['2'] = {
-                name = 'Experienced',
-                payment = 100
-            },
-			['3'] = {
-                name = 'Advanced',
-                payment = 125
-            },
-			['4'] = {
-                name = 'Manager',
-				isboss = true,
-                payment = 150
+                bankAuth = true
             },
         },
 	},
@@ -219,6 +195,7 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
+                bankAuth = true
             },
         },
 	},
@@ -248,6 +225,7 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
+                bankAuth = true
             },
         },
 	},
@@ -276,7 +254,8 @@ QBShared.Jobs = {
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 
+                bankAuth = true
             },
         },
 	},
@@ -306,6 +285,7 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
+                bankAuth = true
             },
         },
 	},
@@ -394,45 +374,6 @@ QBShared.Jobs = {
             ['0'] = {
                 name = 'Sales',
                 payment = 50
-            },
-        },
-	},
-    ['ballas'] = {
-		label = 'Ballas',
-        type = "gang",
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-            ['0'] = {
-                name = 'LB: Little Balla',
-                payment = 50
-            },
-			['1'] = {
-                name = 'LYB: Little Young Balla',
-                payment = 75
-            },
-			['2'] = {
-                name = 'YB: Young Balla',
-                payment = 100
-            },
-			['3'] = {
-                name = 'B: Balla',
-                payment = 125
-            },
-			['4'] = {
-                name = 'OB: Original Balla',
-				isboss = true,
-                payment = 150
-            },
-            ['5'] = {
-                name = 'OOB: Double O.B',
-				isboss = true,
-                payment = 150
-            },
-            ['6'] = {
-                name = 'OOOB: Triple O.B',
-				isboss = true,
-                payment = 150
             },
         },
 	},
