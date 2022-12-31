@@ -19,25 +19,61 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Cadet',
                 payment = 25
             },
 			['1'] = {
-                name = 'Officer',
+                name = 'Probationary Officer',
                 payment = 50
             },
 			['2'] = {
+                name = 'Officer',
+                payment = 75
+            },
+			['3'] = {
+                name = 'Senior Officer',
+                payment = 100
+            },
+            ['4'] = {
+                name = 'Corporal',
+                payment = 100
+            },
+			['5'] = {
                 name = 'Sergeant',
                 payment = 100
             },
-			['3'] = {
-                name = 'Lieutenant',
-                payment = 125
+			['6'] = {
+                name = 'Master Sergeant',
+                payment = 100
             },
-			['4'] = {
+			['7'] = {
+                name = 'Lieutenant',
+                payment = 100
+            },
+            ['8'] = {
+                name = 'Captain',
+                payment = 100
+            },
+			['9'] = {
+                name = 'Commander',
+                payment = 100
+            },
+			['10'] = {
+                name = 'Deputy Chief',
+                payment = 100
+            },
+			['11'] = {
+                name = 'Assistant Chief',
+                payment = 100
+            },
+            ['12'] = {
                 name = 'Chief',
+                payment = 100
+            },
+			['13'] = {
+                name = 'Commissioner',
 				isboss = true,
-                payment = 150,
+                payment = 100,
                 bankAuth = true
             },
         },
@@ -48,23 +84,23 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Medical Student',
                 payment = 25
             },
 			['1'] = {
-                name = 'Paramedic',
+                name = 'Junior Doctor',
                 payment = 50
             },
 			['2'] = {
-                name = 'Doctor',
+                name = 'Senior Doctor',
                 payment = 75
             },
 			['3'] = {
-                name = 'Surgeon',
+                name = 'Senior Surgeon',
                 payment = 100
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Medical Director',
 				isboss = true,
                 payment = 100,
                 bankAuth = true
