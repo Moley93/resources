@@ -14,7 +14,7 @@ QB.Spawns = {
     },
 
     ["rockfordstation"] = {
-        coords = vector4(-831.66, 102.09, 27.84, 207.86),
+        coords = vector4(-831.66, -102.09, 27.84, 207.86),
         location = "rockfordhills",
         label = "Rockford Hills Station",
     },

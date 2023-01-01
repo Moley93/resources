@@ -1,6 +1,0 @@
-Citizen.CreateThread(function()
-AddTextEntry("FORD", "Ford")
-AddTextEntry("f450plat", "F-450 Platinum '21")
-AddTextEntry("f450lightbar", "Lightbar")
-AddTextEntry("f450wing", "Spare Tire Carrier")
-end)
