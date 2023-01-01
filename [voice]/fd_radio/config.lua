@@ -1,7 +1,7 @@
 Config = {}
-Config.Framework = 'QB - QBCore' -- Server core: QB - QBCore, ESX - ESX, none - Standalone
+Config.Framework = 'QB' -- Server core: QB - QBCore, ESX - ESX, none - Standalone
 Config.CoreResource = 'qb-core' -- Only used for QBCore servers
-Config.oldItemCheckingForQBCore = false -- Only used for QBCore servers
+Config.oldItemCheckingForQBCore = true -- Only used for QBCore servers
 
 Config.DefaultColor = "red" -- Options: default, white, red, blue, green, yellow
 Config.AllowColorChange = true -- Allow personal color switch
@@ -12,10 +12,10 @@ Config.RadioAnims = true -- This enables pma-voice radio animations
 Config.CanMoveWhileRadioIsOpen = false -- Allow user to move while radio is open
 Config.MaxFrequency = 999
 
-Config.OpenRadioCommand = "radio" -- Command to open radio, false to disable
+Config.OpenRadioCommand = false -- Command to open radio, false to disable
 Config.UseItem = true -- Use item to open radio, this will work only for QB or ESX
 Config.UseItemName = "radio" -- Item name to open radio
-Config.UseRadioKey = 'u' -- Use radio key to open radio, if you want to disable this set it to false (command should be enabled if you want to use keybind)
+Config.UseRadioKey = false -- Use radio key to open radio, if you want to disable this set it to false (command should be enabled if you want to use keybind)
 
 Config.UseRanges = true
 Config.DisableRangesForJobs = { 'police', 'ambulance' } -- disable ranges for custom jobs, example: { 'police', 'ambulance' }, used only for ESX and QB
