@@ -1,7 +1,10 @@
 Config = {}
 
 Config.Jobs = {
-    "mechanic",
+    "lsmech",
+    "r68mech",
+    "paletomech",
+    "ottomech",
     "cardealer",
     "realestate",
     "taxi",
