@@ -40,7 +40,7 @@
   },
   "defaultContacts": [],
   "disabledApps": [],
-  "apps": [],
+  "apps": ["npwd_qb_mail", "npwd_qb_banking", "npwd_qb_housing", "npwd_services", "npwd_qb_garage"],
   "voiceMessage": {
     "enabled": false,
     "authorizationHeader": "PE-Secret",
