@@ -13,11 +13,18 @@ local cam2 = nil
 -- Functions
 
 local function SetDisplay(bool)
+    local translations = {}
+    for k in pairs(Lang.fallback and Lang.fallback.phrases or Lang.phrases) do
+        if k:sub(0, #'ui.') then
+            translations[k:sub(#'ui.' + 1)] = Lang:t(k)
+        end
+    end
     choosingSpawn = bool
     SetNuiFocus(bool, bool)
     SendNUIMessage({
         action = "showUi",
-        status = bool
+        status = bool,
+        translations = translations
     })
 end
 
@@ -171,6 +178,7 @@ RegisterNUICallback('spawnplayer', function(data, cb)
             SetEntityHeading(ped, pd.position.a)
             FreezeEntityPosition(ped, false)
         end)
+
         if insideMeta.house ~= nil then
             local houseId = insideMeta.house
             TriggerEvent('qb-houses:client:LastLocationHouse', houseId)
@@ -178,10 +186,6 @@ RegisterNUICallback('spawnplayer', function(data, cb)
             local apartmentType = insideMeta.apartment.apartmentType
             local apartmentId = insideMeta.apartment.apartmentId
             TriggerEvent('qb-apartments:client:LastLocationHouse', apartmentType, apartmentId)
-        elseif insideMeta.motel ~= nil and insideMeta.motel.motel ~= nil and insideMeta.motel.room ~= nil then
-            local motel = insideMeta.motel.motel
-            local room = insideMeta.motel.room
-            TriggerEvent('jl-motel:client:spawnLastLocation', motel, room)
         end
         TriggerServerEvent('QBCore:Server:OnPlayerLoaded')
         TriggerEvent('QBCore:Client:OnPlayerLoaded')
