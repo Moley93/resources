@@ -82,7 +82,7 @@ Config = {
 	EnableTrails = false, -- True adds taillight effects while boosting
 	EnableScreen = true, -- True adds screen effects while boosting
 
-	skillcheck = "qb-skillbar", -- When adding Nos to a vehicle there are three script options available
+	skillcheck = "ps-ui", -- When adding Nos to a vehicle there are three script options available
 								-- "qb-skillbar" "qb-lock" "ps-ui"
 
 	explosiveFail = true, 		-- Better not fail that skill check. (1 in 10 chance of explosion)

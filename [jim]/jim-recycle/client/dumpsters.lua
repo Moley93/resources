@@ -73,12 +73,14 @@ RegisterNetEvent('jim-recycle:Dumpsters:Search', function()
                                 ClearPedTasks(PlayerPedId())
                             end
                         elseif Config.Minigame == "qb-skillbar" then
-                            local Skillbar = exports['qb-skillbar']:GetSkillbarObject()
-                            Skillbar.Start({
-                                duration = math.random(2500,5000),
-                                pos = math.random(10, 30),
-                                width = math.random(10, 20),
-                            }, function()
+                            local Skillbar = exports['ps-ui']:Circle(function(success)
+                                if success then
+                                    print("success")
+                                else
+                                    print("fail")
+                                end
+                            end, 2, 20) -- NumberOfCircles, MS
+                            , function()
                                 TriggerEvent("QBCore:Notify", Loc[Config.Lan].success["get_trash"], "success")
                                 startSearching(GetEntityCoords(dumpster))
                                 searched[i+1] = dumpster
@@ -88,7 +90,7 @@ RegisterNetEvent('jim-recycle:Dumpsters:Search', function()
                                 searched[i+1] = dumpster
                                 ClearPedTasks(PlayerPedId())
                                 Citizen.Wait(1000)
-                            end)
+                            end
                         elseif Config.Minigame == "ps-ui" then
                             exports['ps-ui']:Circle(function(success)
                                 if success then
