@@ -47,9 +47,9 @@ body {
     background-image: url('./logo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 22.365vw;
-    height: 5.583vw;
-    margin-left: 2.0vw;
+    width: 15.365vw;
+    height: 12.583vw;
+    margin-left: 5.0vw;
 }
 
 #akaHeaderNav {
