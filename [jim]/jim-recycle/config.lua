@@ -83,7 +83,7 @@ Config = {
 		"certificate",
 		"rollingpaper",
 		"grape",
-		"kurkacola",
+		"kurkakola",
 		"coffee",
 		"tosti",
 	},
