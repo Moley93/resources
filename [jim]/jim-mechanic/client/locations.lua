@@ -80,7 +80,6 @@ Config.Locations = {
 		store = { { coords = vector3(916.45, -2100.73, 30.46), w = 1.6, d = 3.0, heading = 0.0, }, },
 		crafting = { { coords = vector3(915.97, -2105.97, 30.46), w = 0.6, d = 1.0, heading = 0.0, }, },
 		clockin = { { coords = vector3(877.34, -2095.82, 30.36), heading = 350.0, }, },
-		nosrefill = { { coords = vector4(899.97, -2106.37, 30.46, 265.76) } },
 		garage = { spawn = vector4(848.58, -2130.43, 30.54, 264.41),
 					out = vector4(847.57, -2126.67, 30.54, 262.49),
 					list = { "towtruck", "panto", "slamtruck", "cheburek", "utillitruck3" } },
