@@ -3755,8 +3755,8 @@ $(document).ready(() => {
           "--color-10",
           "#8f741b"
         );
-        $(".badge-logo").attr("src", "img/sasp_badge.webp");
-        $(".header-title").html("SAN ANDREAS STATE POLICE");
+        $(".badge-logo").attr("src", "img/SAseal.webp");
+        $(".header-title").html("San Andreas Law Enforcement");
         $(".bolo-nav-item").html("BOLOs");
         $(".bolos-search-title").html("Bolos");
         $("#bolos-search-input").attr("placeholder", "Search Bolo...");

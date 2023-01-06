@@ -48,7 +48,7 @@ SIRENS = {
 --ASSIGN SIRENS TO VEHICLES
 SIREN_ASSIGNMENTS = {
 	--['<gameName>'] = {tones},
-	['DEFAULT'] = { 112, 113, 114, 115 }, 
+	['DEFAULT'] = { 1, 2, 3, 4 }, 
 	['FIRETRUK'] = { 12, 13, 14, 11 }, 
 	['AMBULAN'] = { 1, 2, 3, 4, 11 }, 
 	['LGUARD'] = { 1, 2, 3, 4, 11 },

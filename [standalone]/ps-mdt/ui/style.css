@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 :root {
-    --color-1: #1E3955;
-    --color-2: #213F5F;
-    --color-3: #2C537B;
-    --color-4: #23405E;
-    --color-5: #152638;
-    --color-6: #121f2c;
-    --color-7: rgb(28, 54, 82);
-    --color-8: #2554cc;
+    --color-1: #4e4e4e;
+    --color-2: #666666;
+    --color-3: #7e7e7e;
+    --color-4: #5e5e5e;
+    --color-5: #383838;
+    --color-6: #2e2e2e;
+    --color-7: rgb(82, 82, 82);
+    --color-8: #d1d1d1;
     --color-9: #6E707C;
     --color-10: #8f741b;
 }
