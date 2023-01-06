@@ -555,37 +555,58 @@ Config.Outfits = {
                 -- Grade Level
                 [1] = {
                     -- Outfits
-                    outfitLabel = 'Short Sleeve',
+                    outfitLabel = 'Class A',
                     outfitData = {
-                        ['pants'] = {item = 24, texture = 0}, -- Pants
-                        ['arms'] = {item = 19, texture = 0}, -- Arms
-                        ['t-shirt'] = {item = 58, texture = 0}, -- T Shirt
+                        ['pants'] = {item = 35, texture = 0}, -- Pants
+                        ['arms'] = {item = 75, texture = 0}, -- Arms
+                        ['t-shirt'] = {item = 143, texture = 1}, -- T Shirt
                         ['vest'] = {item = 0, texture = 0}, -- Body Vest
-                        ['torso2'] = {item = 55, texture = 0}, -- Jacket
-                        ['shoes'] = {item = 51, texture = 0}, -- Shoes
-                        ['accessory'] = {item = 0, texture = 0}, -- Neck Accessory
-                        ['bag'] = {item = 0, texture = 0}, -- Bag
-                        ['hat'] = {item = -1, texture = -1}, -- Hat
+                        ['torso2'] = {item = 200, texture = 0}, -- Jacket
+                        ['shoes'] = {item = 2, texture = 0}, -- Shoes
+                        ['accessory'] = {item = 8, texture = 0}, -- Neck Accessory
+                        ['bag'] = {item = 52, texture = 0}, -- Bag
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
+                        ['hat'] = {item = 1, texture = -1}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
                 },
                 [2] = {
-                    outfitLabel = 'Trooper Tan',
+                    -- Outfits
+                    outfitLabel = 'Class B',
                     outfitData = {
-                        ['pants'] = {item = 24, texture = 0}, -- Pants
-                        ['arms'] = {item = 20, texture = 0}, -- Arms
-                        ['t-shirt'] = {item = 58, texture = 0}, -- T Shirt
+                        ['pants'] = {item = 35, texture = 0}, -- Pants
+                        ['arms'] = {item = 1, texture = 0}, -- Arms
+                        ['t-shirt'] = {item = 143, texture = 1}, -- T Shirt
                         ['vest'] = {item = 0, texture = 0}, -- Body Vest
-                        ['torso2'] = {item = 317, texture = 3}, -- Jacket
-                        ['shoes'] = {item = 51, texture = 0}, -- Shoes
-                        ['accessory'] = {item = 0, texture = 0}, -- Neck Accessory
-                        ['bag'] = {item = 0, texture = 0}, -- Bag
-                        ['hat'] = {item = 58, texture = 0}, -- Hat
+                        ['torso2'] = {item = 193, texture = 0}, -- Jacket
+                        ['shoes'] = {item = 2, texture = 0}, -- Shoes
+                        ['accessory'] = {item = 8, texture = 0}, -- Neck Accessory
+                        ['bag'] = {item = 52, texture = 0}, -- Bag
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
+                        ['hat'] = {item = -1, texture = -1}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
+                [3] = {
+                    -- Outfits
+                    outfitLabel = 'Class C',
+                    outfitData = {
+                        ['pants'] = {item = 35, texture = 0}, -- Pants
+                        ['arms'] = {item = 75, texture = 0}, -- Arms
+                        ['t-shirt'] = {item = 143, texture = 1}, -- T Shirt
+                        ['vest'] = {item = 0, texture = 0}, -- Body Vest
+                        ['torso2'] = {item = 200, texture = 0}, -- Jacket
+                        ['shoes'] = {item = 2, texture = 0}, -- Shoes
+                        ['accessory'] = {item = 8, texture = 0}, -- Neck Accessory
+                        ['bag'] = {item = 52, texture = 0}, -- Bag
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
+                        ['hat'] = {item = 1, texture = -1}, -- Hat
+                        ['glass'] = {item = 0, texture = 0}, -- Glasses
+                        ['mask'] = {item = 0, texture = 0} -- Mask
+                    }
+                },
             },
 			-- Gender
             [1] = {
