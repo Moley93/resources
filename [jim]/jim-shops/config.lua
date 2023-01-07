@@ -12,11 +12,11 @@ Config = {
 	Peds = true, -- Set to true if you want Shops to have Peds
 	Limit = true, -- Enable this to add Stash features, This adds limits to items and gets refilled at each restart
 	MaxSlots = 41, -- Set this to your player inventory slot count, this is default "41"
-	BlackMarket = false, -- enable to add blackmarket locations (defined at the bottom of this file)
+	BlackMarket = true, -- enable to add blackmarket locations (defined at the bottom of this file)
 	Measurement = "kg", -- Custom Weight measurement
 	Gabz247 = false,  -- Enable if using gabz 247 stores
 	GabzAmmu = false, -- Enable if using gabz Ammunation stores
-	VendOverride = false, -- Enable this if you want all the vending machines to use this script
+	VendOverride = true, -- Enable this if you want all the vending machines to use this script
 	RandomAmount = true, -- Sets wether a stash should have a "random" amount of stock or full.
 
 	Scenarios = { -- List of scenarios the peds do, This is called "fun", much better than standing staring at the void.
@@ -109,6 +109,7 @@ Config = {
 			{ name = "screwdriverset", price = 700, amount = 50, },
 			{ name = "binoculars", price = 400, amount = 50, },
 			{ name = "fitbit", price = 1000, amount = 150, },
+
 		},
 		["vending"] = {
 			{ name = "water_bottle", price = 100, amount = 25, },
@@ -121,7 +122,16 @@ Config = {
 			{ name = "snikkel_candy", price = 100, amount = 25, },
 		},
 		["blackmarket"] = {
-			{ name = "radioscanner", price = 850, amount = 5 },
+			{ name = "radioscanner", price = 2500, amount = 5 },
+			{ name = "laptop", price = 5000, amount = 2, },
+			{ name = "VPN", price = 2500, amount = 2, },
+			{ name = "pistol_ammo", price = 500, amount = 10}
+			{ name = "weapon_pistol", price = 20000, amount = 1},
+			{ name = "weapon_snspistol", price = 15000, amount = 1},
+			{ name = "weapon_vintagepistol", price = 12000, amount = 1},
+			{ name = "armor", price = 10000, amount = 1},
+			{ name = "heavyarmor", price = 18000, amount = 1},
+			{ name = "handcuffs", price = 13000, amount = 1},
 		},
 	},
 }
@@ -458,11 +468,11 @@ if Config.BlackMarket then
 			`MP_M_Meth_01`,
 		},
 		["coords"] = {
-			vector4(776.24, 4184.08, 41.8, 92.12),
-			vector4(2482.51, 3722.28, 43.92, 39.98),
-			vector4(462.67, -1789.16, 28.59, 317.53),
-			vector4(-115.15, 6369.07, 31.52, 232.08),
-			vector4(752.52, -3198.33, 6.07, 301.72)
+			vector4(726.79, 4169.33, 40.71, 359.64),
+			vector4(2728.09, 4142.1, 44.29, 66.32),
+			vector4(417.08, -1833.34, 28.07, 136.99),
+			vector4(-101.28, 6506.3, 31.49, 133.8),
+			vector4(858.58, -3202.78, 5.99, 187.24)
 		},
 		["products"] = Config.Products["blackmarket"],
 		["hideblip"] = true,
