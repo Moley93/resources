@@ -54,7 +54,7 @@ Crafting = {
 		{ ['externals'] = { ['plastic'] = 50, ['steel'] = 10, } },
 		{ ['customplate'] = { ['steel'] = 50, } },
 		{ ['headlights'] = { ['plastic'] = 50, ['steel'] = 10, } },
-		{ ['rims'] = { ['iron'] = 50, } ['steel'] = 50, },
+		{ ['rims'] = { ['iron'] = 50, ['steel'] = 50, } },
 		{ ['rollcage'] = { ['steel'] = 50, } ['iron'] = 20, },
 		{ ['noscolour'] = { ['plastic'] = 50, } },
 	},
