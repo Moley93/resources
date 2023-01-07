@@ -1,6 +1,6 @@
 Config.Boosting = {}
 
-Config.Boosting.MinCops = 1
+Config.Boosting.MinCops = 0
 
 Config.Boosting.Notifications = "NPWD" -- Use this for qb // renewed phone intergration, use "notify" for normal QBCore Notifications // NWPD for New Phone Who Dis
 
@@ -600,13 +600,13 @@ Config.Boosting.RandomNames = {
 }
 
 Config.Boosting.MetaReward = {
-    ["D"] = { min = 1, max = 1 },
-    ["C"] = { min = 1, max = 2 },
-    ["B"] = { min = 1, max = 3 },
-    ["A"] = { min = 2, max = 4 },
-    ["A+"] = { min = 2, max = 5 },
-    ["S"] = { min = 2, max = 6 },
-    ["S+"] = { min = 3, max = 7 },
+    ["D"] = { min = 1000, max = 2500 },
+    ["C"] = { min = 2000, max = 3500 },
+    ["B"] = { min = 3000, max = 4500 },
+    ["A"] = { min = 4000, max = 5500 },
+    ["A+"] = { min = 5000, max = 6500 },
+    ["S"] = { min = 6000, max = 6500 },
+    ["S+"] = { min = 7000, max = 7500 },
 }
 
 Config.Boosting.ReturnLocation = {

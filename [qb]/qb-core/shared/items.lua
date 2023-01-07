@@ -553,8 +553,8 @@ QBShared.Items = {
 
 	-- jl
 	['motel_key']                    = {['name'] = 'motel_key',                     	['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
-	['VPN']                  = {['name'] = 'VPN',                     ['label'] = 'VPN',                 ['weight'] = 2000,         ['type'] = 'item',         ['image'] = 'VPN.png',             ['unique'] = true,         ['useable'] = true,      ['shouldClose'] = true,     ['combinable'] = nil,     ['description'] = 'VPN for Laptop'},
-	['trackerdisabler']            = {['name'] = "trackerdisabler",                ['label'] = "Hacking device",        ['weight'] = 500,        ['type'] = 'item',         ['image'] = 'hacking_device.png',            ['unique'] = true,        ['useable']    = true,            ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = "A multi purpose hacking device"},
+	['vpn']                  		 = {['name'] = 'vpn',                     			['label'] = 'VPN',                 		['weight'] = 2000,         ['type'] = 'item',         ['image'] = 'VPN.png',             ['unique'] = true,         ['useable'] = true,      ['shouldClose'] = true,     ['combinable'] = nil,     ['description'] = 'VPN for Laptop'},
+	['trackerdisabler']            	 = {['name'] = "trackerdisabler",                	['label'] = "Hacking device",        	['weight'] = 500,        ['type'] = 'item',         ['image'] = 'hacking_device.png',            ['unique'] = true,        ['useable']    = true,            ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = "A multi purpose hacking device"},
 	
 	-- qb-moneywash
  	["mwkey"]       				 = {["name"] = "mwkey",        						["label"] = "Dodgy Key",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "The key engraving reads L_un_re_te"},
