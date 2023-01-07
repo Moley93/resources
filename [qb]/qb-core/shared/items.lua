@@ -551,9 +551,11 @@ QBShared.Items = {
 	['weedbaggie'] 					 = {['name'] = 'weedbaggie', 			 	  	  	['label'] = 'Baggie (7g)', 					['weight'] = 7, 		['type'] = 'item', 		['image'] = 'weedbaggie.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Sold on the streets'},
 	['rollingpaper'] 				 = {['name'] = 'rollingpaper', 			 	  	  	['label'] = 'Rolling Paper', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'rollingpaper.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Required to roll joints!'},
 
-	-- jl motel
+	-- jl
 	['motel_key']                    = {['name'] = 'motel_key',                     	['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
- 
+	['VPN']                  = {['name'] = 'VPN',                     ['label'] = 'VPN',                 ['weight'] = 2000,         ['type'] = 'item',         ['image'] = 'VPN.png',             ['unique'] = true,         ['useable'] = true,      ['shouldClose'] = true,     ['combinable'] = nil,     ['description'] = 'VPN for Laptop'},
+	['trackerdisabler']            = {['name'] = "trackerdisabler",                ['label'] = "Hacking device",        ['weight'] = 500,        ['type'] = 'item',         ['image'] = 'hacking_device.png',            ['unique'] = true,        ['useable']    = true,            ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = "A multi purpose hacking device"},
+	
 	-- qb-moneywash
  	["mwkey"]       				 = {["name"] = "mwkey",        						["label"] = "Dodgy Key",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "The key engraving reads L_un_re_te"},
 	

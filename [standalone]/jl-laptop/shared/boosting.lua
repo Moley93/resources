@@ -1,20 +1,20 @@
 Config.Boosting = {}
 
-Config.Boosting.MinCops = 0
+Config.Boosting.MinCops = 1
 
-Config.Boosting.Notifications = "phone" -- Use this for qb // renewed phone intergration, use "notify" for normal QBCore Notifications // NWPD for New Phone Who Dis
+Config.Boosting.Notifications = "NPWD" -- Use this for qb // renewed phone intergration, use "notify" for normal QBCore Notifications // NWPD for New Phone Who Dis
 
 Config.Boosting.Debug = true -- Make this true to make boosting faster lmao
 
-Config.Boosting.HackingDevice = "phone" -- Whatever item you use to hack a car with
+Config.Boosting.HackingDevice = "trackerdisabler" -- Whatever item you use to hack a car with
 
 Config.Boosting.HackDelayMin = 30 -- Seconds
 Config.Boosting.HackDelayMax = 60 -- Seconds
 
 
-Config.Boosting.Frequency = 60 -- Whats the max time for a boost ping for cops? - Standard 30 seconds
+Config.Boosting.Frequency = 45 -- Whats the max time for a boost ping for cops? - Standard 30 seconds
 
-Config.Boosting.MaxBoosts = 5 -- The amount of boosts a player can hold in their laptop at any given time.
+Config.Boosting.MaxBoosts = 2 -- The amount of boosts a player can hold in their laptop at any given time.
 
 Config.Boosting.MinusOne = true -- true or false, detmains wheather the Z is minus 1 or not.
 
@@ -577,15 +577,26 @@ Config.Boosting.Price = {
 }
 
 Config.Boosting.RandomNames = {
-    "XgamerX",
-    "Just Lazzy",
-    "Zooster",
-    "Hype Squad",
-    "Lowkey Paul",
-    "Jimathy yorass",
-    "Paul Zac",
-    "Gov",
-    "Kareem",
+    "Zahraa Lamb",
+    "Penny Webb",
+    "Dylan Reilly",
+    "Abel Frost",
+    "Haider Howe",
+    "Vinnie John",
+    "Cerys Murray",
+    "Reuben Barnes",
+    "Ivan Tyler",
+    "Hafsa Hines",
+    "Kathleen Hendricks",
+    "Princess Carlson",
+    "Brodie Harrell",
+    "Gladys Michael",
+    "Henrietta Sharp",
+    "Lucinda Shields",
+    "Joe Bonilla",
+    "Byron Farmer",
+    "Karen Lee",
+    "Yunus Barlow"
 }
 
 Config.Boosting.MetaReward = {

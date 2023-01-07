@@ -132,6 +132,7 @@ Config = {
 			{ name = "armor", price = 10000, amount = 1},
 			{ name = "heavyarmor", price = 18000, amount = 1},
 			{ name = "handcuffs", price = 13000, amount = 1},
+			{ name = "trackerdisabler", price = 1000, amount = 10},
 		},
 	},
 }
