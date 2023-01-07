@@ -138,6 +138,11 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
             room = nil
         }
     }
+    PlayerData.metadata['laptop'] = PlayerData.metadata['laptop'] or {
+        background = 'default',
+        darkfont = false,
+    }
+    PlayerData.metadata['carboostrep'] = PlayerData.metadata['carboostrep'] or 0
     PlayerData.metadata['phonedata'] = PlayerData.metadata['phonedata'] or {
         SerialNumber = QBCore.Player.CreateSerialNumber(),
         InstalledApps = {},
