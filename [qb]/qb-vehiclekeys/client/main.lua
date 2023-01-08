@@ -404,7 +404,7 @@ function LockpickDoor(isAdvanced)
     if GetVehicleDoorLockStatus(vehicle) <= 0 then return end
 
     usingAdvanced = isAdvanced
-    Config.LockPickDoorEvent()
+        Config.LockPickDoorEvent()
 end
 
 function LockpickFinishCallback(success)

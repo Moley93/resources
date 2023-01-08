@@ -10,7 +10,7 @@ local Translations = {
             tracker_off = "The tracker has been deactivated for %{time} seconds, There will be %{tracker_left} trackers left",
             youllbepaid = "You will be paid when I sucessfully retracted the vehicle",
             gps_dropoff = "GPS updated with the drop-off location. Bring the car there.",
-            received_reward = "You have received your reward of %{reward} crypto",
+            received_reward = "You have received your reward of %{reward}",
             disable_tracker = "Successfully removed tracker",
             vin_dropoff = "GPS updated with vin location, go there to scratch the vin"
         },
