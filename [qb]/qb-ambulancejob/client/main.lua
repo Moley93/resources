@@ -629,13 +629,15 @@ end)
 
 RegisterNetEvent('hospital:client:HealInjuries', function(type)
     if type == "full" then
+        SetEntityHealth(PlayerPedId(), GetEntityHealth(PlayerPedId()) + 25)
         ResetAll()
     else
+        SetEntityHealth(PlayerPedId(), GetEntityHealth(PlayerPedId()) + 10)
         ResetPartial()
     end
     TriggerServerEvent("hospital:server:RestoreWeaponDamage")
     QBCore.Functions.Notify(Lang:t('success.wounds_healed'), 'success')
-end)
+end) 
 
 RegisterNetEvent('hospital:client:SendToBed', function(id, data, isRevive)
     bedOccupying = id
