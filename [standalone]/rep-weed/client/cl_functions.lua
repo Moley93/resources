@@ -1,5 +1,5 @@
 function Notification(msg, type , time)
-    QBCore.Functions.Notify(msg, type, time)
+    Core.Functions.Notify(msg, type, time)
 end
 
 function policeAlert()

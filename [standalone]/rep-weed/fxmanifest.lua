@@ -1,11 +1,9 @@
-server_script "MMSLJ.lua"
-client_script "MMSLJ.lua"
 fx_version 'cerulean'
 game 'gta5'
 
-name "Sunny Dev - Weed"
+name "Rep Scripts - Weed"
 author "Q4D#1905"
-version "1.0.0"
+version "1.5.2"
 
 client_scripts {
 	'client/*.lua'
@@ -16,7 +14,10 @@ server_scripts {
     'server/*.lua',
 }
 
-shared_script 'config.lua'
+shared_scripts {
+    '@ox_lib/init.lua',
+    'config.lua',
+}
 lua54 'yes'
 
 escrow_ignore {

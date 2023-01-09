@@ -472,7 +472,9 @@ function FormatItemInfo(itemData) {
                 );
         } else if (itemData.name == "motelkeys") {
             $(".item-info-title").html('<p>'+itemData.label+'</p>')
-            $(".item-info-description").html('<p>Oda No: ' + itemData.info.motel + '</p>');
+            $(".item-info-description").html
+            ('<p>Oda No: ' + itemData.info.motel + '</p>'
+            );
         }else if (itemData.name == "maleseed") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
@@ -520,8 +522,7 @@ function FormatItemInfo(itemData) {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(
                 "<p><strong>Water: </strong>" + itemData.info.water + "%.</p>"
-            );
-    
+            );    
         } else if (itemData.name == "mechboard") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             $(".item-info-description").html(

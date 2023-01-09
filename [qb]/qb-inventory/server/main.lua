@@ -584,7 +584,7 @@ local function SaveStashItems(stashId, items)
 	Stashes[stashId].isOpen = false
 end
 
-RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
+RegisterNetEvent('rep-weed:server:updateDry',function (stashId, slot, item)
 	Stashes[stashId].items[slot] = item
 	SaveStashItems(stashId, Stashes[stashId].items)
 end)
@@ -1211,7 +1211,7 @@ RegisterNetEvent('inventory:server:SetIsOpenState', function(IsOpen, type, id)
 	if type == "stash" then
 		Stashes[id].isOpen = false
 		local item = GetStashItems(id) or {}
-		TriggerEvent('sn-weed:server:checkDry',id, item)
+		TriggerEvent('rep-weed:server:checkDry',id, item)
 	elseif type == "trunk" then
 		Trunks[id].isOpen = false
 	elseif type == "glovebox" then
@@ -2220,8 +2220,6 @@ QBCore.Commands.Add("giveitem", "Give An Item (Admin Only)", {{name="id", help="
 					info.water = 0
 				elseif itemData["name"] == "markedbills" then
 					info.worth = math.random(5000, 10000)
-				elseif itemData["name"] == "labkey" then
-					info.lab = exports["qb-methlab"]:GenerateRandomLab()
 				elseif itemData["name"] == "printerdocument" then
 					info.url = "https://cdn.discordapp.com/attachments/870094209783308299/870104331142189126/Logo_-_Display_Picture_-_Stylized_-_Red.png"
 				end

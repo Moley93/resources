@@ -84,9 +84,8 @@ local props = {
 		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
 	["microwave"]      = { carry = true, model = "prop_microwave_1", bone = 24817, x = -0.20, y = 0.43, z = 0.05, xr = 91.0,
 		yr = 0.0, zr = -265.0, blockAttack = true, blockCar = true, blockRun = true },
-
-	["weedpackage"] =  { carry = true, model = "hei_prop_heist_weed_block_01", bone = 28422, x = 0.01, y = -0.02, z = -0.12, xr = 0.0,
-		yr = 0.0, zr = 0.0, blockAttack = true, blockCar = true, blockRun = true},
+		["weedpackage"] =  { carry = true, model = "hei_prop_heist_weed_block_01", bone = 28422, x = 0.01, y = -0.02, z = -0.12, xr = 0.0,
+		 yr = 0.0, zr = 0.0, blockAttack = true, blockCar = true, blockRun = true},
 }
 
 local items_attatched = {}
@@ -96,8 +95,6 @@ local override = false
 local PlayerData = QBCore.Functions.GetPlayerData()
 
 local FullyLoaded = LocalPlayer.state.isLoggedIn
-
-
 
 local function loadmodel(hash)
 	if HasModelLoaded(hash) then return end

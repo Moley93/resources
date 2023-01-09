@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS `weed_plants` (
 `water` float(2) DEFAULT 10,
 `strain` text DEFAULT NULL,
 `maleseeds` text DEFAULT NULL,
+`harvest` int(1) DEFAULT 0,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
@@ -44,7 +45,7 @@ PRIMARY KEY (`id`)
 - Add these codes to your `qb-core > shared >items.lua` under the Items section
 
 ```lua
--- sn-weed
+-- rep-weed
 ['femaleseed'] 					 = {['name'] = 'femaleseed', 			 	  	  	['label'] = 'Female Marijuana Seed', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'weed-seed.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Surely I can just plant this, right?'},
 	['maleseed'] 					 = {['name'] = 'maleseed', 			 	  	  	['label'] = 'Male Marijuana Seed', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'weed-seed.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Add this to a planted female seed to make it pregnant? You are pretty sure this seed has a penis.'},
 	['wateringcan'] 					 = {['name'] = 'wateringcan', 			 	  	  	['label'] = 'Watering Can', 					['weight'] = 7000, 		['type'] = 'item', 		['image'] = 'wateringcan.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Fill this at a river or lake.'},
@@ -55,15 +56,15 @@ PRIMARY KEY (`id`)
 	['weedpackage'] 					 = {['name'] = 'weedpackage', 			 	  	  	['label'] = 'Suspicious Package', 					['weight'] = 25000, 		['type'] = 'item', 		['image'] = 'weedpackage.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Marked for Police Seizure'},
 	['qualityscales'] 					 = {['name'] = 'qualityscales', 			 	  	  	['label'] = 'High Quality Scales', 					['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'qualityscales.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Weighs Baggies with no loss'},
 	['smallscales'] 					 = {['name'] = 'smallscales', 			 	  	  	['label'] = 'Small Scales', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'smallscales.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Weighs Baggies with minimal loss'},
-	['emptybaggies'] 					 = {['name'] = 'emptybaggies', 			 	  	  	['label'] = 'Empty Baggies', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'emptybaggies.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Empty Baggies'},
+	['emptybaggies'] 					 = {['name'] = 'emptybaggies', 			 	  	  	['label'] = 'Empty Baggies', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'emptybaggies.png', 				['unique'] = false, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Empty Baggies'},
 	['joint'] 					 = {['name'] = 'joint', 			 	  	  	['label'] = '2g Joint', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'joint.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Its a Joint, man.'},
 	['weedbaggie'] 					 = {['name'] = 'weedbaggie', 			 	  	  	['label'] = 'Baggie (7g)', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'weedbaggie.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Sold on the streets'},
-	['rollingpaper'] 					 = {['name'] = 'rollingpaper', 			 	  	  	['label'] = 'Rolling Paper', 					['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'rollingpaper.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Required to roll joints!'},
+	['rollingpaper'] 					 = {['name'] = 'rollingpaper', 			 	  	  	['label'] = 'Rolling Paper', 					['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'rollingpaper.png', 				['unique'] = false, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Required to roll joints!'},
 
 ```
 
-## Inventory strain metadata:
-
+## Inventory strain metadata: 
+# lj or qb inventory
 - Go to your `lj/qb-inventory > html > js > app.js`
 
 - Search for 
@@ -193,7 +194,7 @@ local function SaveStashItems(stashId, items)
 
 add this after that whole function:
 ```lua
-RegisterNetEvent('sn-weed:server:updateDry',function (stashId, slot, item)
+RegisterNetEvent('rep-weed:server:updateDry',function (stashId, slot, item)
 	Stashes[stashId].items[slot] = item
 	SaveStashItems(stashId, Stashes[stashId].items)
 end)
@@ -212,9 +213,133 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 add:
 ```lua
 				local item = GetStashItems(id) or {}
-				TriggerEvent('sn-weed:server:checkDry',id, item)
+				TriggerEvent('rep-weed:server:checkDry',id, item)
 ```
 
+
+# OX Inventory
+- Go to Locales file
+--#Search for
+```json
+	"ui_durability": "Durability",
+```
+add this after
+```json
+	"ui_strain": "Strain",
+	"ui_dry": "Dry",
+	"ui_water": "Water",
+```
+-Then go to \web\src\components\inventory\SlotTooltip.tsx
+--#Search for
+```tsx
+	     {item.metadata?.serial && (
+            <p>
+              {Locale.ui_serial}: {item.metadata.serial}
+            </p>
+          )}
+```
+add this after
+```tsx
+	   {item.metadata?.strain && (
+            <p>
+              {Locale.ui_strain}: {item.metadata.strain}
+            </p>
+        )}
+		{item.metadata?.dry && (
+            <p>
+              {Locale.ui_dry}: {item.metadata.dry}
+            </p>
+        )}
+		{item.metadata?.water && (
+            <p>
+              {Locale.ui_water}: {item.metadata.water}
+            </p>
+        )}
+```
+## Rebuild after add
+-- Go to \client.lua
+--#Search for
+```lua
+	function client.openInventory(inv, data)
+	...
+		currentInventory = right or defaultInventory
+```
+add this after
+```lua
+	if inv == 'stash' then
+		TriggerServerEvent('rep-weed:server:checkDry', data.id, currentInventory)
+	end
+
+```
+
+--  Go to \modules\inventory\server.lua
+```lua
+local function minimal(inv)
+```
+
+add this after funtion
+```lua
+RegisterNetEvent('rep-weed:server:updateDry', function (id, slot, item)
+	Inventory(id).items[slot] = item
+end)
+```
+-- Go to \modules\inventory\server.lua
+--#Search for
+
+```lua
+local metadata = args.metatype and { type = tonumber(args.metatype) or args.metatype }
+```
+add this after
+```lua
+		if args.item.name == "femaleseed" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "driedbud" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "smallbud" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "weedpackage" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "weedbaggie" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "wetbud" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+			metadata.dry = 0
+		elseif args.item.name == "joint" then
+			metadata.strain = "Unknown"
+			metadata.dry = 0
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "maleseed" then
+			metadata.strain = "Unknown"
+			metadata.n = 0
+			metadata.p = 0
+			metadata.k = 0
+		elseif args.item.name == "wateringcan" then
+			metadata.water = 0
+		end
+```
+
+
+##########################
 - **If u use qb-smallresources, delete use joint event**
 
 - Go to your `Renewed-Weaponscarry`
@@ -224,3 +349,8 @@ add:
  ["weedpackage"] =  { carry = true, model = "hei_prop_heist_weed_block_01", bone = 28422, x = 0.01, y = -0.02, z = -0.12, xr = 0.0,
   yr = 0.0, zr = 0.0, blockAttack = true, blockCar = true, blockRun = true},
   ```
+
+  function QBCore.Player.CheckPlayerData(source, PlayerData)
+
+  add 
+  PlayerData.metadata['weed-rep'] = PlayerData.metadata['weed-rep'] or 0
