@@ -1999,13 +1999,13 @@ Config.Outfits = {
             [0] = {
                 -- Grade Level
                 [1] = {
-                    outfitLabel = 'Sweater',
+                    outfitLabel = 'Paramedic',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
-                        ['torso2'] = {item = 239, texture = 15}, -- Jackets
+                        ['torso2'] = {item = 311, texture = 24}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2022,11 +2022,11 @@ Config.Outfits = {
                 [1] = {
                     outfitLabel = 'Paramedic',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 24}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2043,11 +2043,11 @@ Config.Outfits = {
                 [1] = {
                     outfitLabel = 'Paramedic',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 24}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2061,11 +2061,11 @@ Config.Outfits = {
                 [2] = {
                     outfitLabel = 'Paramedic Supervisor',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 23}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2082,11 +2082,11 @@ Config.Outfits = {
                 [1] = {
                     outfitLabel = 'Paramedic',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 24}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2100,11 +2100,11 @@ Config.Outfits = {
                 [2] = {
                     outfitLabel = 'Paramedic Supervisor',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 23}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2139,11 +2139,11 @@ Config.Outfits = {
                 [1] = {
                     outfitLabel = 'Paramedic',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 24}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
@@ -2157,11 +2157,11 @@ Config.Outfits = {
                 [2] = {
                     outfitLabel = 'Paramedic Supervisor',
                     outfitData = {
-                        ['arms'] = {item = 90, texture = 0}, -- Arms
+                        ['arms'] = {item = 85, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 129, texture = 0}, -- T-Shirt
                         ['torso2'] = {item = 311, texture = 23}, -- Jackets
                         ['vest'] = {item = 0, texture = 0}, -- Vest
-                        ['decals'] = {item = 58, texture = 0}, -- Decals
+                        ['decals'] = {item = 0, texture = 0}, -- Decals
                         ['accessory'] = {item = 127, texture = 0}, -- Neck
                         ['bag'] = {item = 0, texture = 0}, -- Bag
                         ['pants'] = {item = 96, texture = 0}, -- Pants
