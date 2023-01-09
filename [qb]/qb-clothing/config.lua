@@ -538,9 +538,9 @@ Config.Stores = {
 -- set isGang to true if the requiredJob is a gang
 Config.ClothingRooms = {
     [1] = {requiredJob = 'police', isGang = false, coords = vector3(462.97, -999.03, 30.69), width = 2, length = 2, cameraLocation = vector4(461.01, -999.26, 31.08, 271.64)},
-    [2] = {requiredJob = 'ambulance', isGang = false, coords = vector3(318.15, -599.35, 43.29), width = 2, length = 2, cameraLocation = vector4(318.15, -599.35, 43.29, 332.09)}, -- Right double door in Hospital Map that is on QBCore GitHub
+    [2] = {requiredJob = 'ambulance', isGang = false, coords = vector3(299.15, -598.36, 43.28), width = 2, length = 2, cameraLocation = vector4(299.8, -596.07, 43.28, 157.91)}, -- Right double door in Hospital Map that is on QBCore GitHub
     [3] = {requiredJob = 'police', isGang = false, coords = vector3(462.99, -996.54, 30.69), width = 2, length = 2, cameraLocation = vector4(461.15, -996.76, 31.08, 266.84)},
-    [4] = {requiredJob = 'ambulance', isGang = false, coords = vector3(338.70, 659.61, 14.71), width = 2, length = 2, cameraLocation = vector4(339.27, 661.63, 14.71, 315.5)},
+    [4] = {requiredJob = 'ambulance', isGang = false, coords = vector3(301.6, -599.11, 43.28), width = 2, length = 2, cameraLocation = vector4(302.53, -596.75, 43.28, 155.2)},
     [5] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-1098.45, 1751.71, 23.35), width = 2, length = 2, cameraLocation = vector4(-1097.15, 1750.19, 23.35, 38.70)},
     [6] = {requiredJob = 'police', isGang = false, coords = vector3(-77.59, -129.17, 5.03), width = 2, length = 2, cameraLocation = vector4(-80.36, -130.76, 5.03, 300.44)},
     [7] = {requiredJob = "realestate", isGang = false, coords = vector3(-131.45, -633.74, 168.82), width = 2, length = 2, cameraLocation = vector4(-131.45, -633.74, 168.82,  2.18)}

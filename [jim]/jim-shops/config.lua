@@ -16,7 +16,7 @@ Config = {
 	Measurement = "kg", -- Custom Weight measurement
 	Gabz247 = false,  -- Enable if using gabz 247 stores
 	GabzAmmu = false, -- Enable if using gabz Ammunation stores
-	VendOverride = true, -- Enable this if you want all the vending machines to use this script
+	VendOverride = false, -- Enable this if you want all the vending machines to use this script
 	RandomAmount = true, -- Sets wether a stash should have a "random" amount of stock or full.
 
 	Scenarios = { -- List of scenarios the peds do, This is called "fun", much better than standing staring at the void.
@@ -43,7 +43,7 @@ Config = {
 			{ name = "vodka", price = 25, amount = 50, },
 			{ name = "bandage", price = 250, amount = 50, },
 			{ name = "lighter", price = 15, amount = 50, },
-			{ name = "rolling_paper", price = 10, amount = 5000,  },
+			{ name = "rollingpaper", price = 10, amount = 5000,  },
 		},
 		["bar"] = {
 			{ name = "water_bottle", price = 15, amount = 50, },
@@ -122,10 +122,10 @@ Config = {
 			{ name = "snikkel_candy", price = 100, amount = 25, },
 		},
 		["blackmarket"] = {
-			{ name = "radioscanner", price = 2500, amount = 5 },
-			{ name = "laptop", price = 5000, amount = 2, },
-			{ name = "VPN", price = 2500, amount = 2, },
-			{ name = "pistol_ammo", price = 500, amount = 10}
+			{ name = "radioscanner", price = 2500, amount = 5},
+			{ name = "laptop", price = 5000, amount = 2},
+			{ name = "vpn", price = 2500, amount = 2},
+			{ name = "pistol_ammo", price = 500, amount = 10},
 			{ name = "weapon_pistol", price = 20000, amount = 1},
 			{ name = "weapon_snspistol", price = 15000, amount = 1},
 			{ name = "weapon_vintagepistol", price = 12000, amount = 1},

@@ -1,114 +1,144 @@
 Config = {}
-
+-- Config Depen
 Config.Framework = 'qb-core'
-Config.Target = 'qb-target'
-Config.Inventory = 'qb-inventory' -- or qb-inventory.
-Config.MinCops = 0 -- allowed to do weed runs/cornering
-Config.OutlineColor = {0, 0, 255}
-Config.PoliceAlert = {
-    corner = 5, -- 5%
-    taco = 15,
-}
-Config.MaleZone = false -- If true, male plants will pollinate females around it, and turn them into males, in a perimeter of 20
-
+Config.UseOxLib = true -- If false will use qb-menu and qb-input
+Config.OxInventory = true -- Use Oxinventory
+Config.Target = 'qb-target' -- ox_target or qtarget, qb-taget
 Config.Boss = { -- you can add more boss location here, he switch locations every restart
     [1] = {
         ped = 'a_m_y_soucent_02',
-        pos = vector4(568.51, -1578.24, 28.24, 199.85)
-    },
-    [2] = {
-        ped = 'a_m_y_soucent_02',
-        pos = vector4(595.3, -456.22, 24.74, 304.81)
-    },
-    [3] = {
-        ped = 'a_m_y_soucent_02',
-        pos = vector4(-729.53, 187.46, 81.96, 145.06)
-    },
-    [4] = {
-        ped = 'a_m_y_soucent_02',
-        pos = vector4(-1238.27, -506.46, 38.6, 128.26)
-    },
-    [5] = {
-        ped = 'a_m_y_soucent_02',
-        pos = vector4(-930.75, -1421.01, 7.68, 67.79)
+        pos = vector4(88.58, -1434.18, 29.31, 142.83)
     },
 }
-Config.WaitPackage = 20000 -- Wait 20 seconds for boss to pack boxes
-Config.Joint = {min =1, max = 2, per= 5, -- Smoking weed gives you 1-2 seeds of the same strain, at 5%
+
+Config.MinCops = {
+    Corner = 2, -- allowed to do weed runs/cornering
+    Taco = 3,
 }
 
--- **Plants**
-Config.Button = {
-    Plant = 38,
-    Cancel = 44,
+Config.PoliceAlert = {
+    Corner = 5, -- 5%
+    Taco = 15,
 }
 
-Config.Factor = 1.3 -- How much longer should a male plant take to grow
-Config.GrowthTime = 0.5 -- Plant Growing time in minutes
-Config.LifeTime = 1440 -- Plant lifetime in minutes before wiped
-
-
--- Water drained from plants per minutes
-Config.MinusWater = 0.05 -- 0.05% per minute on plants
-Config.Water = { -- Watering Can
-    minus = 10, -- Minus 10% water in can per watering
-    add = 50, -- Add 50% to plant per water
+Config.Plant = {
+    Button = {
+        Plant = 38,
+        Cancel = 44,
+    },
+    GrowthObjects = {
+        {hash = `bkr_prop_weed_01_small_01b`, zOffset = -0.5},
+        {hash = `bkr_prop_weed_med_01a`, zOffset = -3.0},
+        {hash = `bkr_prop_weed_med_01b`, zOffset = -3.0},
+        {hash = `bkr_prop_weed_lrg_01a`, zOffset = -3.0},
+        {hash = `bkr_prop_weed_lrg_01b`, zOffset = -3.0},
+    },
+    Factor = 1.3, -- How much longer should a male plant take to grow
+    GrowthTime = 1, -- Plant Growing time in minutes 240
+    LifeTime = 1440, -- Plant lifetime in minutes before wiped-- Water drained from plants per minutes
+    MinusWater = 0.25, -- 0.05% per minute on plants
+    Water = { -- Watering Can
+        Minus = 10, -- Minus 10% water in can per watering
+        Add = 50, -- Add 50% to plant per water
+    },
+    HarvestPercent = 95, -- If more than it can destroy and can't add male or fertilizers
+    MaleZone = false, -- If true, male plants will pollinate females around it, and turn them into males, in a perimeter of 20
+    Dry = 0.01, -- 6 hours to dry weed
+    Job = { -- Jobs that can destroy weed at any stage
+        'police', -- Add more job if u want
+    },
+    -- Water rewards
+    Collect = {
+        [1] = {min = 1, max = 1},
+        [2] = {min = 1, max = 1},
+        [3] = {min = 1, max = 2},
+        [4] = {min = 2, max = 2},
+        [5] = {min = 2, max = 2},
+        [6] = {min = 2, max = 2},
+        [7] = {min = 2, max = 3},
+        [8] = {min = 2, max = 3},
+        [9] = {min = 2, max = 4}, -- at 80-90% ...
+        [10] = {min = 3, max = 4}, -- at 90-100% water, you can harvest 3-4 buds/seeds
+    },
+    DestroyReward = { -- destroying plants give you fertilizers
+        min = 1,
+        max = 3
+    },
+    Debug = false, -- debug soils
+    MaterialHashes = { -- soils
+        [951832588] = true,  ---If u want plant more soil to plant, turn on debug and it in there
+        [-461750719] = true,
+        [930824497] = true,
+        [581794674] = true,
+        [-2041329971] = true,
+        [-309121453] = true,
+        [-913351839] = true,
+        [-1885547121] = true,
+        [-1915425863] = true,
+        [-1833527165] = true,
+        [2128369009] = true,
+        [-124769592] = true,
+        [-840216541] = true,
+        [-2073312001] = true,
+        [627123000] = true,
+        [1333033863] = true,
+        [-1286696947] = true,
+        [-1942898710] = true,
+        [-1595148316] = true,
+        [435688960] = true,
+        [223086562] = true,
+        [1109728704] = true
+    },
+    MaxHarvest = 5,
 }
--- Water rewards
-Config.Collect = { 
-    [1] = {min = 1, max = 1},
-    [2] = {min = 1, max = 1},
-    [3] = {min = 1, max = 2},
-    [4] = {min = 2, max = 2},
-    [5] = {min = 2, max = 2},
-    [6] = {min = 2, max = 2},
-    [7] = {min = 2, max = 3},
-    [8] = {min = 2, max = 3},
-    [9] = {min = 2, max = 4}, -- at 80-90% ...
-    [10] = {min = 3, max = 4}, -- at 90-100% water, you can harvest 3-4 buds/seeds
-}
 
-Config.HarvestPercent = 95 
-Config.Dry = 0.001 -- 6 hours to dry weed
-Config.DestroyReward = { -- destroying plants give you fertilizers
-    min = 1,
-    max = 3
-}
-Config.Job = { -- Jobs that can destroy weed at any stage
-    'police',
-}
-Config.GrowthObjects = {
-    {hash = `bkr_prop_weed_01_small_01b`, zOffset = -0.5},
-    {hash = `bkr_prop_weed_med_01a`, zOffset = -3.0},
-    {hash = `bkr_prop_weed_med_01b`, zOffset = -3.0},
-    {hash = `bkr_prop_weed_lrg_01a`, zOffset = -3.0},
-    {hash = `bkr_prop_weed_lrg_01b`, zOffset = -3.0},
-}
-
-
-Config.Corner = { -- Maybe don't touch this
-    PopulateRate = 1000 * 60 * 2, -- default: 2 min/populate, -1 to disable
-    TimeBetweenAcquisition = 60 * 1000, -- default: 1 min/ped
-    Money = 50
-}
-
--- *Money Laundering
-Config.BandsItem = 'bands'
-Config.MinBandsPayout = 450
-Config.MaxBandsPayout = 550
-Config.BandsLaunderingChance = 10
-Config.MaxBandsToClean = 20
-Config.MinBandsToClean = 10
-
-Config.RollsItem = 'rolls'
-Config.MaxRollsToCleanPayout = 100
-Config.MinRollsToCleanPayout = 45
-Config.RollsLaunderingChance = 5
-Config.MaxRollsToClean = 60
-Config.MinRollsToClean = 30
-
--- *Weed runs
-Config.Ped = { -- Weed run peds
+Config.TacoShop = {
+    Points = { -- delivery ped location
+        vector4(-148.64, -1687.41, 36.17, 151.55),
+        vector4(-157.73, -1679.89, 36.97, 151.15),
+        vector4(-158.86, -1680.02, 36.97, 38.57),
+        vector4(-162.4, -1637.61, 34.03, 322.81),
+        vector4(26.43, -1815.44, 25.21, 331.3),
+        vector4(207.34, -1759.71, 29.27, 302.74),
+        vector4(420.54, -1564.77, 29.29, 51.76),
+        vector4(165.02, -1322.19, 29.29, 160.84),
+        vector4(141.48, -1059.3, 29.19, 167.76),
+        vector4(299.42, -761.64, 29.33, 295.08),
+        vector4(-3.57, -582.11, 38.83, 345.77),
+        vector4(-269.38, -587.98, 33.56, 272.09),
+        vector4(-574.35, -678.01, 32.36, 269.44),
+        vector4(-731.48, -729.87, 28.46, 76.75),
+        vector4(-753.3, -977.06, 16.13, 17.82),
+        vector4(-951.79, -901.44, 2.16, 302.86),
+        vector4(-1111.55, -902.22, 3.79, 124.29),
+        vector4(-1305.86, -929.61, 12.36, 12.7),
+        vector4(-1359.23, -710.65, 24.79, 127.05),
+        vector4(-1453.27, -653.2, 29.58, 83.48),
+        vector4(-1547.25, -524.91, 35.85, 35.97),
+        vector4(-1715.72, -446.77, 42.65, 47.7),
+        vector4(-1790.35, -368.79, 45.11, 337.98),
+        vector4(-1533.63, -326.94, 47.91, 51.61),
+        vector4(-1369.52, -169.13, 47.49, 79.62),
+        vector4(-1159.79, -219.77, 41.5, 252.27),
+        vector4(-813.33, -195.63, 37.48, 25.26),
+        vector4(-635.99, 44.07, 42.7, 84.02),
+        vector4(-520.8, 162.07, 71.08, 274.57),
+        vector4(-620.23, 208.61, 74.21, 200.95),
+        vector4(-942.9, 312.36, 71.35, 181.5),
+        vector4(-1114.9, 492.23, 82.19, 171.26),
+        vector4(-1370.26, 356.42, 64.25, 166.22),
+        vector4(-1648.91, 247.28, 62.39, 213.02),
+        vector4(-1898.71, 132.68, 81.98, 303.35),
+        vector4(-1896.2, 641.93, 130.21, 138.15),
+        vector4(1171.41, -291.82, 69.02, 318.51),
+        vector4(1221.25, -669.01, 63.49, 74.95),
+        vector4(802.08, -725.23, 27.81, 52.3),
+        vector4(857.44, -942.94, 26.28, 115.7),
+        vector4(978.15, -1500.15, 31.51, 85.26),
+        vector4(1193.49, -1622.34, 45.22, 123.56),
+        vector4(1005.17, -2128.42, 31.69, 264.73),
+    },
+    Ped = { -- Weed run peds
     'ig_money',
 	'a_m_y_beachvesp_02',
 	'a_m_y_breakdance_01',
@@ -129,79 +159,32 @@ Config.Ped = { -- Weed run peds
     'g_m_y_mexgang_01',
     'g_m_m_chigoon_01',
     'g_f_importexport_01',
+    },
+    Delivery = 3, -- 3 box per deliver
+    CountPackage = 5,-- 5 packed buds for 1 package
 }
-Config.Delivery = 3 -- 3 box per delivery
-Config.TacoShop = { -- delivery ped location
-    vector4(-148.64, -1687.41, 36.17, 151.55),
-    vector4(-157.73, -1679.89, 36.97, 151.15),
-    vector4(-158.86, -1680.02, 36.97, 38.57),
-    vector4(-162.4, -1637.61, 34.03, 322.81),
-    vector4(26.43, -1815.44, 25.21, 331.3),
-    vector4(207.34, -1759.71, 29.27, 302.74),
-    vector4(420.54, -1564.77, 29.29, 51.76),
-    vector4(165.02, -1322.19, 29.29, 160.84),
-    vector4(141.48, -1059.3, 29.19, 167.76),
-    vector4(299.42, -761.64, 29.33, 295.08),
-    vector4(-3.57, -582.11, 38.83, 345.77),
-    vector4(-269.38, -587.98, 33.56, 272.09),
-    vector4(-574.35, -678.01, 32.36, 269.44),
-    vector4(-731.48, -729.87, 28.46, 76.75),
-    vector4(-753.3, -977.06, 16.13, 17.82),
-    vector4(-951.79, -901.44, 2.16, 302.86),
-    vector4(-1111.55, -902.22, 3.79, 124.29),
-    vector4(-1305.86, -929.61, 12.36, 12.7),
-    vector4(-1359.23, -710.65, 24.79, 127.05),
-    vector4(-1453.27, -653.2, 29.58, 83.48),
-    vector4(-1547.25, -524.91, 35.85, 35.97),
-    vector4(-1715.72, -446.77, 42.65, 47.7),
-    vector4(-1790.35, -368.79, 45.11, 337.98),
-    vector4(-1533.63, -326.94, 47.91, 51.61),
-    vector4(-1369.52, -169.13, 47.49, 79.62),
-    vector4(-1159.79, -219.77, 41.5, 252.27),
-    vector4(-813.33, -195.63, 37.48, 25.26),
-    vector4(-635.99, 44.07, 42.7, 84.02),
-    vector4(-520.8, 162.07, 71.08, 274.57),
-    vector4(-620.23, 208.61, 74.21, 200.95),
-    vector4(-942.9, 312.36, 71.35, 181.5),
-    vector4(-1114.9, 492.23, 82.19, 171.26),
-    vector4(-1370.26, 356.42, 64.25, 166.22),
-    vector4(-1648.91, 247.28, 62.39, 213.02),
-    vector4(-1898.71, 132.68, 81.98, 303.35),
-    vector4(-1896.2, 641.93, 130.21, 138.15),
-    vector4(1171.41, -291.82, 69.02, 318.51),
-    vector4(1221.25, -669.01, 63.49, 74.95),
-    vector4(802.08, -725.23, 27.81, 52.3),
-    vector4(857.44, -942.94, 26.28, 115.7),
-    vector4(978.15, -1500.15, 31.51, 85.26),
-    vector4(1193.49, -1622.34, 45.22, 123.56),
-    vector4(1005.17, -2128.42, 31.69, 264.73),
+-- Weed runs payout
+Config.Price = { 
+    ['weedpackage'] = 500, 
+    ['weedpackage_bonus'] = 10,
+    ['weedpackage_divisor'] = 200,
+    ['weedpackage_max'] = 3500, -- Total payout can't exceed $3500.
+    ['perRep'] = {
+        divisor = 800,
+        money = 5,
+     }
 }
-Config.Debug = true -- debug soils
-Config.CountPackage = 5 -- 5 packed buds for 1 package
+-- payout = StrainRepMoney + PersonalRepMoney + WeedPackage.
+-- StrainRepMoney = (StrainRepPoints / weedpackage_divisor * weedpackage_bonus)
+-- PersonalRepMoney = (PerRep Points / PerRep.divisor)* money
+--
+Config.Meta = {  -- Per Meta
+    type = 'weed-rep',
+    amount = 1, -- Add if people sell for 1 cornerselling
+}
 
-Config.MaterialHashes = { -- soils
-    [951832588] = true,
-    [-461750719] = true,
-    [930824497] = true,
-    [581794674] = true,
-    [-2041329971] = true,
-    [-309121453] = true,
-    [-913351839] = true,
-    [-1885547121] = true,
-    [-1915425863] = true,
-    [-1833527165] = true,
-    [2128369009] = true,
-    [-124769592] = true,
-    [-840216541] = true,
-    [-2073312001] = true,
-    [627123000] = true,
-    [1333033863] = true,
-    [-1286696947] = true,
-    [-1942898710] = true,
-    [-1595148316] = true,
-    [435688960] = true,
-    [223086562] = true,
-    [1109728704] = true
+Config.WaitPackage = 20000 -- Wait 20 seconds for boss to pack boxes
+Config.Joint = {min =1, max = 2, per= 5, -- Smoking weed gives you 1-2 seeds of the same strain, at 5%
 }
 
 Config.Blip = {
@@ -226,34 +209,6 @@ Config.Amount = {
     ['weedpackage'] = 5, -- 1 weedpackge = 5 weed baggies
     ['weedbaggie'] = 8 -- 1 weed baggie = 8 joints
 }
-    
-Config.Aromor = 4.0 -- Armor add per 10s after use joints
-Config.AromorTime = 180 -- Time Effect
-Config.WhitelistedZones = { -- Whitelisted zones https://docs.fivem.net/natives/?_0xCD90657D4C30E1CA
-    ['EBURO'] = true,
-    ['MURRI'] = true,
-    ['MIRR'] = true,
-    ['EAST_V'] = true,
-    ['CHAMH'] = true,
-    ['DAVIS'] = true,
-    ['CYPRE'] = true,
-    ['HAWICK'] = true,
-    ['DTVINE'] = true,
-    ['BURTON'] = true,
-    ['MOVIE'] = true,
-    ['ROCKF'] = true,
-    ['RICHM'] = true,
-    ['PBLUFF'] = true,
-    ['DELPE'] = true,
-    ['BEACH'] = true,
-    ['TERMINA'] = true,
-    ['PBOX'] = true,
-    ['KOREAT'] = true,
-}
-
-
-
-
 
 -- *Reputation
 Config.RepName = 40000 -- 40k rep points to be able to change names
@@ -276,13 +231,80 @@ Config.RepString = { -- Rep = 10 means 10 baggies need to be sold to level up
 
 
 -- *Payouts calculations
--- (Rep points / weedpackage_rep * weedpackage_bonus)
--- Example, 60k / 200 * 10 + 500 = 3500 per weedbox at 60k rep
-Config.Price = {  
-    ['weedpackage'] = 500,
-    ['weedpackage_bonus'] = 10, 
-    ['weedpackage_rep'] = 200,
+
+Config.Corner = { -- Maybe don't touch this
+    On = true, -- On if want u my conrnerselling
+    PopulateRate = 1000 * 60 * 2, -- default: 2 min/populate, -1 to disable
+    TimeBetweenAcquisition = 60 * 1000, -- default: 1 min/ped
+    Money = 50,
+    -- Purchase
+    areaRep = { -- Area rep is server wide, and will become 0 every tsunami/script restart.
+        -- areaRep = (x/25)*1 -- x will +1 every sale made (not baggies sold)
+        max = 120, -- Capped at $120 
+        divisor = 25, -- 25 sales (not baggies sold).
+        money = 1, -- Tiên nhận được sau mỗi cấp
+    },
+    perRep = { -- Personal Rep will be persistent forever. +1 every cornering sales done.
+        -- for every "divisor" you have + $1 in your payout 
+        max = 40, -- Capped at 40 dollars
+        divisor = 800, -- 800 sales (not baggies sold).
+        money = 1, -- Tiền nhận được sau mỗi cấp
+    },
+    strainRep = { -- Strain Rep will be persistent forever
+        max = 60, -- Capped at $60
+        divisor = 1000, -- 1000 sales (not baggies sold).
+        money = 1, -- Tiền nhận được sau mỗi cấp
+    },
+    -- Payout = Area Rep + Personal Rep + Strain Rep + Money
+    -- Example 1: You hit max rep on all factors with our default setting above. Estimated to be atleast 6 months of work? (not sure, feel free to make suggestions)
+    -- Payout = 120 + 40 + 60 + 50 = $270 per baggie. Now this is capped and wont go higher.
+    --
+    -- Example 2: Lil Seoul currently has 1200 areaRep points. You have 25000 perRep points. Strain level 6, 25000 strainRep points.
+    -- Payout = (1200/25) + (25000/800) + (25000/1000) + 50 = $154/baggie
+    --
+    -- Example 3: Just start selling weed for the first time, in your own shit strain, but selling at a hot zone that everyones been selling to max areaRep.
+    -- Payout = 120(areaRep.max) + 0 + 0 + 50 = 170
+        WhitelistedZones = { -- Whitelisted zones https://docs.fivem.net/natives/?_0xCD90657D4C30E1CA
+        ['EBURO'] = true,
+        ['MURRI'] = true,
+        ['MIRR'] = true,
+        ['EAST_V'] = true,
+        ['CHAMH'] = true,
+        ['DAVIS'] = true,
+        ['CYPRE'] = true,
+        ['HAWICK'] = true,
+        ['DTVINE'] = true,
+        ['BURTON'] = true,
+        ['MOVIE'] = true,
+        ['ROCKF'] = true,
+        ['RICHM'] = true,
+        ['PBLUFF'] = true,
+        ['DELPE'] = true,
+        ['BEACH'] = true,
+        ['TERMINA'] = true,
+        ['PBOX'] = true,
+        ['KOREAT'] = true,
+    },
+    Effect = {
+        Amount = 1.0, -- Aromor add
+        Time = 60, -- time /s
+    },
 }
+-- Extra clean money when sell cornering
+-- *Money Laundering
+Config.BandsItem = 'bands'
+Config.MinBandsPayout = 450
+Config.MaxBandsPayout = 550
+Config.BandsLaunderingChance = 10
+Config.MaxBandsToClean = 20
+Config.MinBandsToClean = 10
+
+Config.RollsItem = 'rolls'
+Config.MaxRollsToCleanPayout = 100
+Config.MinRollsToCleanPayout = 45
+Config.RollsLaunderingChance = 5
+Config.MaxRollsToClean = 60
+Config.MinRollsToClean = 30
 
 Config.Lang = {
     ['fill_water'] = {label = "Filling Can", time = 3000},
@@ -329,7 +351,7 @@ Config.Lang = {
     ['start_sell'] = {label = "Started selling drugs", type = "primary", time = 5000},
     ['name'] = {label = "You have successfully named your strain!", type = "success", time = 5000},
     ['myStrain'] = {header = "My Strains"},
-    ['changename'] = {header = "My Strains", txt = "Max Length : 21", submit = "Submit"},
+    ['changename'] = {header = "My Strains", txt = "Max Length : 21", submit = "Submit", label = "New names"},
     ['strainrep'] = {txt = "Strain's Rep: "},
     ['plant'] = {label = "Plant seed"},
     ['growth'] = {label = "Growth: "},
