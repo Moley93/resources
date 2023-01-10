@@ -8,7 +8,7 @@ Config = {}
 --╚═╝╚═╝     ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝
 
 
-Config.DebugPrints = true --To enable debug prints.
+Config.DebugPrints = false --To enable debug prints.
 
 
 --  ██████╗ ██████╗  ██████╗ ██████╗ ██████╗ ███████╗
@@ -25,7 +25,7 @@ Config.DebugPrints = true --To enable debug prints.
 Config.Locations = {
     ["mrpd"] = {
         resourceName = "cfx-gabz-mrpd",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(420.49, -975.24, 30.0),
         PedCoords = {
             [1] = {coords = vector4(433.90, -984.28, 30.71, 71.31), model = "s_m_y_cop_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
@@ -41,7 +41,7 @@ Config.Locations = {
     },
     ["barber1"] = {
         resourceName = "cfx-gabz-barber",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(130.20, -1714.81, 29.22),
         PedCoords = {
             [1] = {coords = vector4(130.91, -1711.88, 29.28, 140.37), model = "ig_car3guy1", scenario = "WORLD_HUMAN_SMOKING"},
@@ -51,7 +51,7 @@ Config.Locations = {
     },
     ["barber2"] = {
         resourceName = "cfx-gabz-barber",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1291.081, -1116.42, 6.633),
         PedCoords = {
             [1] = {coords = vector4(-1290.53, -1114.37, 6.70, 93.97), model = "ig_car3guy1", scenario = "WORLD_HUMAN_SMOKING"},
@@ -61,7 +61,7 @@ Config.Locations = {
     },
     ["barber3"] = {
         resourceName = "cfx-gabz-barber",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1935.83, 3721.41, 32.86),
         PedCoords = {
             [1] = {coords = vector4(1932.91, 3724.30, 32.79, 242.79), model = "ig_car3guy1", scenario = "WORLD_HUMAN_SMOKING"},
@@ -71,7 +71,7 @@ Config.Locations = {
     },
     ["barber4"] = {
         resourceName = "cfx-gabz-barber",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1202.6, -469.6, 66.24),
         PedCoords = {
             [1] = {coords = vector4(1205.52, -469.18, 66.27, 166.09), model = "ig_car3guy1", scenario = "WORLD_HUMAN_SMOKING"},
@@ -81,7 +81,7 @@ Config.Locations = {
     },
     ["barber5"] = {
         resourceName = "cfx-gabz-barber",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-29.314, -144.949, 57.014),
         PedCoords = {
             [1] = {coords = vector4(-31.25, -146.02, 57.03, 309.50), model = "ig_car3guy1", scenario = "WORLD_HUMAN_SMOKING"},
@@ -91,7 +91,7 @@ Config.Locations = {
     },
     ["barber6"] = {
         resourceName = "cfx-gabz-barber",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-284.46, 6235.14, 31.4703),
         PedCoords = {
             [1] = {coords = vector4(-281.37, 6234.94, 31.48, 109.82), model = "ig_car3guy1", scenario = "WORLD_HUMAN_SMOKING"},
@@ -101,7 +101,7 @@ Config.Locations = {
     },
     ["ammunation1"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(10.90, -1105.65, 28.79),
         PedCoords = {
             [1] = {coords = vector4(9.37, -1110.34, 29.79, 341.39), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -111,7 +111,7 @@ Config.Locations = {
     },
     ["ammunation2"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(821.144, -2154.89, 28.61),
         PedCoords = {
             [1] = {coords = vector4(817.76, -2152.80, 29.61, 359.06), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -119,9 +119,9 @@ Config.Locations = {
             [3] = {coords = vector4(826.90, -2162.26, 29.61, 89.41), model = "csb_mweather", scenario = "WORLD_HUMAN_CLIPBOARD"},
         }
     },
-    ["ammunation3"] = {true
+    ["ammunation3"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-3167.29, 1084.71, 19.83),
         PedCoords = {
             [1] = {coords = vector4(-3164.48, 1086.34, 20.83, 155.25), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -130,7 +130,7 @@ Config.Locations = {
     },
     ["ammunation4"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-663.17, -940.75, 20.82),
         PedCoords = {
             [1] = {coords = vector4(-665.31, -939.51, 21.82, 269.77), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -139,7 +139,7 @@ Config.Locations = {
     },
     ["ammunation5"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(843.29, -1028.10, 27.19),
         PedCoords = {
             [1] = {coords = vector4(845.98, -1026.66, 28.19, 91.70), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -148,7 +148,7 @@ Config.Locations = {
     },
     ["ammunation6"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(2568.83, 299.78, 107.73),
         PedCoords = {
             [1] = {coords = vector4(2565.83, 293.90, 108.73, 271.39), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -157,7 +157,7 @@ Config.Locations = {
     },
     ["ammunation7"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1310.87, -392.0, 35.69),
         PedCoords = {
             [1] = {coords = vector4(-1313.08, -393.56, 36.69, 344.54), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -166,7 +166,7 @@ Config.Locations = {
     },
     ["ammunation8"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1696.95, 3755.44, 33.70),
         PedCoords = {
             [1] = {coords = vector4(1693.64, 3762.00, 34.70, 138.33), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -175,7 +175,7 @@ Config.Locations = {
     },
     ["ammunation9"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-327.17, 6079.25, 30.45),
         PedCoords = {
             [1] = {coords = vector4(-328.92, 6077.41, 31.45, 314.86), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -184,7 +184,7 @@ Config.Locations = {
     },
     ["ammunation10"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(247.37, -47.24, 68.94),
         PedCoords = {
             [1] = {coords = vector4(251.86, -50.42, 69.94, 30.92), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -193,7 +193,7 @@ Config.Locations = {
     },
     ["ammunation11"] = {
         resourceName = "cfx-gabz-ammunation",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1114.84, 2693.81, 17.55),
         PedCoords = {
             [1] = {coords = vector4(-1115.37, 2697.86, 18.55, 133.31), model = "s_m_m_security_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -202,7 +202,7 @@ Config.Locations = {
     },
     ["247x1"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1960.68, 3744.54, 31.34),
         PedCoords = {
             [1] = {coords = vector4(1966.45, 3746.34, 31.34, 301.06), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -212,7 +212,7 @@ Config.Locations = {
     },
     ["247x2"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1731.95, 6417.24, 34.03),
         PedCoords = {
             [1] = {coords = vector4(1736.79, 6413.43, 34.03, 243.54), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -222,7 +222,7 @@ Config.Locations = {
     },
     ["247x3"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(2553.69, 383.73, 107.62),
         PedCoords = {
             [1] = {coords = vector4(2555.29, 389.68, 107.62, 359.10), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -232,7 +232,7 @@ Config.Locations = {
     },
     ["247x4"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(165.05, 6642.21, 30.69),
         PedCoords = {
             [1] = {coords = vector4(168.34, 6636.99, 30.69, 227.18), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -242,7 +242,7 @@ Config.Locations = {
     },
     ["247x5"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(2676.21, 3283.60, 54.24),
         PedCoords = {
             [1] = {coords = vector4(2680.30, 3288.14, 54.24, 334.21), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -252,7 +252,7 @@ Config.Locations = {
     },
     ["247x6"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-3043.27, 586.07, 6.908),
         PedCoords = {
             [1] = {coords = vector4(-3043.94, 592.29, 6.90, 19.80), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -262,7 +262,7 @@ Config.Locations = {
     },
     ["247x7"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-3245.64, 1003.06, 11.83),
         PedCoords = {
             [1] = {coords = vector4(-3243.82, 1008.92, 11.83, 354.01), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -272,7 +272,7 @@ Config.Locations = {
     },
     ["247x8"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(376.13, 329.26, 102.56),
         PedCoords = {
             [1] = {coords = vector4(381.53, 326.53, 102.56, 255.13), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -282,7 +282,7 @@ Config.Locations = {
     },
     ["247x9"] = {
         resourceName = "cfx-gabz-247",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(27.248, -1343.6, 28.49),
         PedCoords = {
             [1] = {coords = vector4(33.31, -1345.00, 28.49, 270.45), model = "a_m_y_beachvesp_02", scenario = "PROP_HUMAN_ATM"},
@@ -292,7 +292,7 @@ Config.Locations = {
     },
     ["binco1"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1693.45, 4823.67, 40.88),
         PedCoords = {
             [1] = {coords = vector4(1690.20, 4818.03, 42.06, 8.14), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -301,7 +301,7 @@ Config.Locations = {
     },
     ["binco2"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(5.26, 6513.2, 30.69),
         PedCoords = {
             [1] = {coords = vector4(1.20, 6510.13, 31.88, 312.72), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -310,7 +310,7 @@ Config.Locations = {
     },
     ["binco3"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1101.9, 2709.7, 17.92),
         PedCoords = {
             [1] = {coords = vector4(-1094.90, 2709.58, 19.11, 132.01), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -319,7 +319,7 @@ Config.Locations = {
     },
     ["binco4"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1195.75, 2709.89, 37.04),
         PedCoords = {
             [1] = {coords = vector4(1200.04, 2710.49, 38.22, 179.42), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -328,7 +328,7 @@ Config.Locations = {
     },
     ["binco5"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(425.24, -805.33, 28.31),
         PedCoords = {
             [1] = {coords = vector4(420.75, -810.40, 29.49, 1.27), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -337,7 +337,7 @@ Config.Locations = {
     },
     ["binco6"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-823.02, -1074.29, 10.14),
         PedCoords = {
             [1] = {coords = vector4(-817.86, -1072.95, 11.33, 120.14), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -346,7 +346,7 @@ Config.Locations = {
     },
     ["binco7"] = {
         resourceName = "cfx-gabz-binco",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(75.70, -1393.81, 28.19),
         PedCoords = {
             [1] = {coords = vector4(78.32, -1388.67, 29.37, 180.04), model = "ig_drfriedlander", dict = "anim@amb@nightclub@lazlow@ig1_vip@", anim = "clubvip_base_laz"},
@@ -355,7 +355,7 @@ Config.Locations = {
     },
     ["tattoo1"] = {
         resourceName = "cfx-gabz-tattoo",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-287.43, 6201.58, 31.45),
         PedCoords = {
             [1] = {coords = vector4(-292.65, 6196.62, 31.49, 293.35), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_STAND_MOBILE"},
@@ -364,7 +364,7 @@ Config.Locations = {
     },
     ["tattoo2"] = {
         resourceName = "cfx-gabz-tattoo",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1856.848, 3747.04, 33.10),
         PedCoords = {
             [1] = {coords = vector4(1863.76, 3751.54, 33.03, 92.58), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_STAND_MOBILE"},
@@ -373,7 +373,7 @@ Config.Locations = {
     },
     ["tattoo3"] = {
         resourceName = "cfx-gabz-tattoo",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-3165.63, 1073.301, 20.83),
         PedCoords = {
             [1] = {coords = vector4(-3172.79, 1073.76, 20.83, 222.01), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_STAND_MOBILE"},
@@ -382,7 +382,7 @@ Config.Locations = {
     },
     ["tattoo4"] = {
         resourceName = "cfx-gabz-tattoo",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(319.8, 175.1, 103.9),
         PedCoords = {
             [1] = {coords = vector4(320.6, 183.2, 103.59, 115.98), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_STAND_MOBILE"},
@@ -391,7 +391,7 @@ Config.Locations = {
     },
     ["tattoo5"] = {
         resourceName = "cfx-gabz-tattoo",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1157.709, -1418.70, 4.62),
         PedCoords = {
             [1] = {coords = vector4(-1150.95, -1425.83, 4.96, 359.94), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_STAND_MOBILE"},
@@ -400,7 +400,7 @@ Config.Locations = {
     },
     ["tattoo6"] = {
         resourceName = "cfx-gabz-tattoo",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1320.69, -1648.813, 52.14),
         PedCoords = {
             [1] = {coords = vector4(1325.94, -1652.08, 52.28, 356.58), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_STAND_MOBILE"},
@@ -409,7 +409,7 @@ Config.Locations = {
     },
     ["ponsonbys1"] = {
         resourceName = "cfx-gabz-ponsonbys",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-165.24, -304.39, 38.07),
         PedCoords = {
             [1] = {coords = vector4(-171.52, -305.44, 38.73, 72.73), model = "a_m_y_hasjew_01", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -420,7 +420,7 @@ Config.Locations = {
     },
     ["ponsonbys2"] = {
         resourceName = "cfx-gabz-ponsonbys",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1448.10, -236.84, 48.15),
         PedCoords = {
             [1] = {coords = vector4(-1442.5, -238.35, 48.82, 264.64), model = "a_m_y_hasjew_01", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -431,7 +431,7 @@ Config.Locations = {
     },
     ["ponsonbys3"] = {
         resourceName = "cfx-gabz-ponsonbys",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-709.81, -150.62, 35.75),
         PedCoords = {
             [1] = {coords = vector4(-706.51, -145.68, 36.42, 301.83), model = "a_m_y_hasjew_01", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -442,7 +442,7 @@ Config.Locations = {
     },
     ["suburban1"] = {
         resourceName = "cfx-gabz-suburban",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(124.97, -217.62, 55.81),
         PedCoords = {
             [1] = {coords = vector4(118.17, -222.66, 54.56, 65.14), model = "ig_jimmyboston", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -453,7 +453,7 @@ Config.Locations = {
     },
     ["suburban2"] = {
         resourceName = "cfx-gabz-suburban",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(617.47, 2757.48, 43.34),
         PedCoords = {
             [1] = {coords = vector4(621.47, 2765.05, 42.09, 272.43), model = "ig_jimmyboston", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -464,7 +464,7 @@ Config.Locations = {
     },
     ["suburban3"] = {
         resourceName = "cfx-gabz-suburban",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1195.86, -773.57, 18.58),
         PedCoords = {
             [1] = {coords = vector4(-1187.62, -773.14, 17.33, 218.38), model = "ig_jimmyboston", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -475,7 +475,7 @@ Config.Locations = {
     },
     ["suburban4"] = {
         resourceName = "cfx-gabz-suburban",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-3170.96, 1049.93, 22.12),
         PedCoords = {
             [1] = {coords = vector4(-3177.64, 1045.13, 20.86, 71.07), model = "ig_jimmyboston", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
@@ -486,7 +486,7 @@ Config.Locations = {
     },
     ["paletobank"] = {
         resourceName = "cfx-gabz-paletobank",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-109.299, 6464.035, 31.627),
         PedCoords = {
             [1] = {coords = vector4(-107.0, 6474.54, 31.63, 225.52), model = "cs_debra", scenario = "WORLD_HUMAN_CLIPBOARD"},
@@ -498,7 +498,7 @@ Config.Locations = {
     },
     ["pacificbank"] = {
         resourceName = "cfx-gabz-pacificbank",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(223.313, 208.295, 105.521),
         PedCoords = {
             [1] = {coords = vector4(262.14, 226.38, 106.28, 151.31), model = "s_f_y_airhostess_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
@@ -509,7 +509,7 @@ Config.Locations = {
     },
     ["bobcat"] = {
         resourceName = "cfx-gabz-bobcat",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(919.2, -2122.193, 30.49),
         PedCoords = {
             [1] = {coords = vector4(915.17, -2123.99, 30.23, 266.82), model = "s_m_y_cop_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -519,7 +519,7 @@ Config.Locations = {
     },
     ["townhall"] = {
         resourceName = "cfx-gabz-townhall",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-541.01, -210.01, 37.01),
         PedCoords = {
             [1] = {coords = vector4(-554.53, -199.45, 38.22, 299.53), model = "ig_fbisuit_01", scenario = "WORLD_HUMAN_GUARD_STAND"},
@@ -536,7 +536,7 @@ Config.Locations = {
     },
     ["ottos"] = {
         resourceName = "cfx-gabz-ottos",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(793.01, -817.01, 27.01),
         PedCoords = {
             [1] = {coords = vector4(836.0, -811.73, 25.35, 267.69), model = "s_m_y_xmech_02_mp", scenario = "PROP_HUMAN_BUM_BIN"},
@@ -549,7 +549,7 @@ Config.Locations = {
     },
     ["casino"] = {
         resourceName = "cfx-gabz-casino",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(918.01, 51.01, 80.01),
         PedCoords = {
             [1] = {coords = vector4(952.58, 21.65, 71.9, 0.65), model = "mp_m_g_vagfun_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
@@ -580,7 +580,7 @@ Config.Locations = {
     },
     ["arcade"] = {
         resourceName = "cfx-gabz-arcade",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1648.761, -1084.628, 13.156),
         PedCoords = {
             [1] = {coords = vector4(-1657.1, -1063.41, 11.16, 340.57), model = "a_f_m_salton_01", scenario = "WORLD_HUMAN_PARTYING"},
@@ -595,7 +595,7 @@ Config.Locations = {
     },
     ["beanmachine"] = {
         resourceName = "cfx-gabz-beanmachine",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(116.16, -1022.99, 29.3),
         PedCoords = {
             [1] = {coords = vector4(121.46, -1041.06, 29.27, 70.39), model = "s_m_y_barman_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
@@ -606,7 +606,7 @@ Config.Locations = {
     },
     ["bowling"] = {
         resourceName = "cfx-gabz-bowling",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(760.792, -777.724, 26.456),
         PedCoords = {
             [1] = {coords = vector4(756.55, -774.73, 26.34, 93.17), model = "ig_car3guy1", scenario = "WORLD_HUMAN_CLIPBOARD"},
@@ -619,7 +619,7 @@ Config.Locations = {
     },
     ["carmeet"] = {
         resourceName = "cfx-gabz-carmeet",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(952.7775, -1700.9637, 29.7632),
         PedCoords = {
             [1] = {coords = vector4(951.1806640625, -1831.2072753906, 21.035543441772, 31.616861343384), model = "u_m_y_tattoo_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -629,7 +629,7 @@ Config.Locations = {
     },
     ["catcafe"] = {
         resourceName = "cfx-gabz-catcafe",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-580.862, -1079.083, 22.330),
         PedCoords = {
             [1] = {coords = vector4(-581.97, -1054.8, 22.43, 15.79), model = "a_c_cat_01", scenario = nil, dict = "creatures@cat@amb@world_cat_sleeping_ground@base", anim = "base"},
@@ -643,7 +643,7 @@ Config.Locations = {
     },
     ["davispd"] = {
         resourceName = "cfx-gabz-davispd",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(383.423, -1590.407, 29.276),
         PedCoords = {
             [1] = {coords = vector4(379.97, -1589.32, 28.28, 27.82), model = "s_m_y_cop_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -657,7 +657,7 @@ Config.Locations = {
     },
     ["diner"] = {
         resourceName = "cfx-gabz-diner",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1576.905, 6451.104, 25.006),
         PedCoords = {
             [1] = {coords = vector4(1582.82, 6451.13, 24.21, 202.69), model = "a_m_o_acult_02", scenario = "WORLD_HUMAN_SMOKING"},
@@ -669,7 +669,7 @@ Config.Locations = {
     },
     ["esbltd"] = {
         resourceName = "cfx-gabz-esbltd",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-58.676, -1757.732, 29.077),
         PedCoords = {
             [1] = {coords = vector4(-63.07, -1776.07, 28.9, 34.88), model = "g_m_y_ballaeast_01", scenario = "WORLD_HUMAN_DRUG_DEALER"},
@@ -681,7 +681,7 @@ Config.Locations = {
     },
     ["firedept1"] = {
         resourceName = "cfx-gabz-firedept",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1197.553, -1454.430, 34.958),
         PedCoords = {
             [1] = {coords = vector4(1209.38, -1461.88, 33.84, 55.5), model = "s_m_y_fireman_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -694,7 +694,7 @@ Config.Locations = {
     },
     ["firedept2"] = {
         resourceName = "cfx-gabz-firedept",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(217.21, -1636.09, 30.44),
         PedCoords = {
             [1] = {coords = vector4(205.13, -1635.77, 28.88, 304.42), model = "s_m_y_fireman_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -707,7 +707,7 @@ Config.Locations = {
     },
     ["harmony"] = {
         resourceName = "cfx-gabz-harmony",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1178.985, 2653.985, 37.862),
         PedCoords = {
             [1] = {coords = vector4(1189.02, 2651.27, 36.84, 132.34), model = "s_m_y_xmech_02_mp", scenario = "WORLD_HUMAN_SMOKING"},
@@ -719,7 +719,7 @@ Config.Locations = {
     },
     ["haters"] = {
         resourceName = "cfx-gabz-haters",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1115.524, -1439.953, 5.107),
         PedCoords = {
             [1] = {coords = vector4(-1127.12, -1440.13, 4.23, 285.41), model = "csb_isldj_03", scenario = "WORLD_HUMAN_GUARD_STAND"},
@@ -731,7 +731,7 @@ Config.Locations = {
     },
     ["hayes"] = {
         resourceName = "cfx-gabz-hayes",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-1434.173, -441.539, 35.624),
         PedCoords = {
             [1] = {coords = vector4(-1432.35, -445.31, 34.67, 30.04), model = "s_m_y_xmech_02_mp", scenario = "WORLD_HUMAN_SMOKING"},
@@ -743,7 +743,7 @@ Config.Locations = {
     },
     ["hub"] = {
         resourceName = "cfx-gabz-hub",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-50.734, -1041.996, 28.163),
         PedCoords = {
             -- bennys
@@ -768,7 +768,7 @@ Config.Locations = {
     },
     ["import"] = {
         resourceName = "cfx-gabz-import",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(946.637, -990.316, 39.228),
         PedCoords = {
             [1] = {coords = vector4(937.55, -987.31, 37.4, 182.91), model = "s_m_y_xmech_02", scenario = "WORLD_HUMAN_SMOKING"},
@@ -782,7 +782,7 @@ Config.Locations = {
     },
     ["lamesapd"] = {
         resourceName = "cfx-gabz-lamesapd",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(825.3735, -1291.083, 29.2664),
         PedCoords = {
             [1] = {coords = vector4(815.80, -1296.12, 26.26, 3.19), model = "s_m_y_cop_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -797,7 +797,7 @@ Config.Locations = {
     },
     ["lostmc"] = {
         resourceName = "cfx-gabz-lost",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(957.232, -143.250, 74.496),
         PedCoords = {
             [1] = {coords = vector4(966.18, -141.21, 74.45, 43.22), model = "g_f_y_lost_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -814,7 +814,7 @@ Config.Locations = {
     },
     ["lsc"] = {
         resourceName = "cfx-gabz-lostsc",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(716.214, -1088.703, 22.365),
         PedCoords = {
             [1] = {coords = vector4(721.79, -1082.66, 22.21, 132.30), model = "s_m_y_xmech_02", scenario = "WORLD_HUMAN_SMOKING"},
@@ -826,7 +826,7 @@ Config.Locations = {
     },
     ["paletoliquorstore"] = {
         resourceName = "cfx-gabz-paletoliquor",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-154.363, 6329.432, 31.565),
         PedCoords = {
             [1] = {coords = vector4(-155.11, 6326.26, 31.58, 324.32), model = "u_f_o_prolhost_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -836,7 +836,7 @@ Config.Locations = {
     },
     ["paletopd"] = {
         resourceName = "cfx-gabz-paletopd",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-432.177, 6019.605, 31.490),
         PedCoords = {
             [1] = {coords = vector4(-433.03, 6020.97, 31.48, 290.91), model = "a_m_m_salton_02", scenario = "WORLD_HUMAN_SMOKING"},
@@ -851,7 +851,7 @@ Config.Locations = {
     },
     ["parkranger"] = {
         resourceName = "cfx-gabz-parkranger",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(388.640, 787.820, 187.474),
         PedCoords = {
             [1] = {coords = vector4(394.05, 790.31, 187.67, 134.52), model = "s_f_y_ranger_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -863,7 +863,7 @@ Config.Locations = {
     },
     ["pillbox"] = {
         resourceName = "cfx-gabz-pillbox",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(286.562, -570.565, 43.168),
         PedCoords = {
             [1] = {coords = vector4(284.27, -613.55, 43.32, 295.72), model = "a_m_m_fatlatin_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -881,7 +881,7 @@ Config.Locations = {
     },
     ["pinkcage"] = {
         resourceName = "cfx-gabz-pinkcage",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(322.326, -218.825, 54.087),
         PedCoords = {
             [1] = {coords = vector4(327.31, -200.59, 54.22, 249.78), model = "a_m_m_trampbeac_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -895,7 +895,7 @@ Config.Locations = {
     },
     ["pizzeria"] = {
         resourceName = "cfx-gabz-pizzeria",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(789.087, -758.266, 26.728),
         PedCoords = {
             [1] = {coords = vector4(800.28, -741.74, 26.78, 263.50), model = "a_m_o_beach_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -908,7 +908,7 @@ Config.Locations = {
     },
     ["prison"] = {
         resourceName = "cfx-gabz-prison",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1855.556, 2586.384, 45.673),
         PedCoords = {
             [1] = {coords = vector4(1845.90, 2584.32, 45.67, 270.56), model = "s_m_m_prisguard_01", scenario = "WORLD_HUMAN_COP_IDLES"},
@@ -930,7 +930,7 @@ Config.Locations = {
     },
     ["records"] = {
         resourceName = "cfx-gabz-records",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(-832.578, -698.627, 27.280),
         PedCoords = {
             [1] = {coords = vector4(-830.26, -704.85, 28.05, 228.87), model = "g_m_m_chigoon_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -948,7 +948,7 @@ Config.Locations = {
     },
     ["sandypd"] = {
         resourceName = "cfx-gabz-records",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(1871.4530, 3664.9644, 33.6869),
         PedCoords = {
             [1] = {coords = vector4(1844.62, 3674.93, 33.97, 150.71), model = "csb_cop", scenario = "WORLD_HUMAN_SMOKING"},
@@ -963,7 +963,7 @@ Config.Locations = {
     },
     ["studio"] = {
         resourceName = "cfx-gabz-studio",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(478.9987, -108.6757, 63.1550),
         PedCoords = {
             [1] = {coords = vector4(481.09, -109.05, 63.15, 109.34), model = "g_m_m_chigoon_01", scenario = "WORLD_HUMAN_SMOKING"},
@@ -978,7 +978,7 @@ Config.Locations = {
     },
     ["tuner"] = {
         resourceName = "cfx-gabz-tuner",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(166.715, -3014.122, 5.888),
         PedCoords = {
             [1] = {coords = vector4(156.30, -3047.55, 7.03, 336.76), model = "s_m_y_xmech_02", scenario = "WORLD_HUMAN_SMOKING"},
@@ -991,7 +991,7 @@ Config.Locations = {
     },
     ["vu"] = {
         resourceName = "cfx-gabz-vu",
-        isEnabled = true, -- will be true for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
+        isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(135.409, -1308.931, 28.991),
         PedCoords = {
             [1] = {coords = vector4(128.13, -1299.43, 29.23, 210.45), model = "s_m_m_bouncer_01", scenario = "WORLD_HUMAN_GUARD_STAND"},
