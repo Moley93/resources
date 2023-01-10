@@ -14,15 +14,14 @@ Config = {
 	MaxSlots = 41, -- Set this to your player inventory slot count, this is default "41"
 	BlackMarket = true, -- enable to add blackmarket locations (defined at the bottom of this file)
 	Measurement = "kg", -- Custom Weight measurement
-	Gabz247 = false,  -- Enable if using gabz 247 stores
-	GabzAmmu = false, -- Enable if using gabz Ammunation stores
+	Gabz247 = true,  -- Enable if using gabz 247 stores
+	GabzAmmu = true, -- Enable if using gabz Ammunation stores
 	VendOverride = false, -- Enable this if you want all the vending machines to use this script
 	RandomAmount = true, -- Sets wether a stash should have a "random" amount of stock or full.
 
 	Scenarios = { -- List of scenarios the peds do, This is called "fun", much better than standing staring at the void.
 		"WORLD_HUMAN_GUARD_PATROL",
 		"WORLD_HUMAN_JANITOR",
-		"WORLD_HUMAN_MUSCLE_FLEX",
 		"PROP_HUMAN_STAND_IMPATIENT",
 		"WORLD_HUMAN_VALET",
 		"WORLD_HUMAN_AA_COFFEE",
