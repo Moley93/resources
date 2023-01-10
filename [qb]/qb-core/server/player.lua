@@ -22,6 +22,7 @@ function QBCore.Player.Login(source, citizenid, newData)
                     PlayerData.gang = {}
                 end
                 QBCore.Player.CheckPlayerData(source, PlayerData)
+
             else
                 DropPlayer(source, Lang:t("info.exploit_dropped"))
                 TriggerEvent('qb-log:server:CreateLog', 'anticheat', 'Anti-Cheat', 'white', GetPlayerName(source) .. ' Has Been Dropped For Character Joining Exploit', false)
@@ -58,6 +59,7 @@ function QBCore.Player.GetOfflinePlayer(citizenid)
 end
 
 function QBCore.Player.CheckPlayerData(source, PlayerData)
+
     PlayerData = PlayerData or {}
     local Offline = true
     if source then
@@ -100,6 +102,7 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
     PlayerData.metadata['status'] = PlayerData.metadata['status'] or {}
     PlayerData.metadata['phone'] = PlayerData.metadata['phone'] or {}
     PlayerData.metadata['fitbit'] = PlayerData.metadata['fitbit'] or {}
+    PlayerData.metadata['weed-rep'] = PlayerData.metadata['weed-rep'] or 0
     PlayerData.metadata['commandbinds'] = PlayerData.metadata['commandbinds'] or {}
     PlayerData.metadata['bloodtype'] = PlayerData.metadata['bloodtype'] or QBCore.Config.Player.Bloodtypes[math.random(1, #QBCore.Config.Player.Bloodtypes)]
     PlayerData.metadata['dealerrep'] = PlayerData.metadata['dealerrep'] or 0
@@ -138,11 +141,14 @@ function QBCore.Player.CheckPlayerData(source, PlayerData)
             room = nil
         }
     }
+
     PlayerData.metadata['laptop'] = PlayerData.metadata['laptop'] or {
         background = 'default',
         darkfont = false,
     }
+
     PlayerData.metadata['carboostrep'] = PlayerData.metadata['carboostrep'] or 0
+
     PlayerData.metadata['phonedata'] = PlayerData.metadata['phonedata'] or {
         SerialNumber = QBCore.Player.CreateSerialNumber(),
         InstalledApps = {},

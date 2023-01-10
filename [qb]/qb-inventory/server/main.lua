@@ -1210,8 +1210,6 @@ RegisterNetEvent('inventory:server:SetIsOpenState', function(IsOpen, type, id)
 
 	if type == "stash" then
 		Stashes[id].isOpen = false
-		local item = GetStashItems(id) or {}
-		TriggerEvent('rep-weed:server:checkDry',id, item)
 	elseif type == "trunk" then
 		Trunks[id].isOpen = false
 	elseif type == "glovebox" then
@@ -1273,7 +1271,7 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 				end
 
 				local item = GetStashItems(id) or {}
-				TriggerEvent('sn-weed:server:checkDry',id, item)
+				TriggerEvent('rep-weed:server:checkDry',id, item)
 
 			elseif name == "trunk" then
 				if Trunks[id] then

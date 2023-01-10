@@ -74,6 +74,7 @@ PRIMARY KEY (`id`)
     $(".item-info-description").html(
         "<p>" + itemData.info.uses + " uses left.</p>"
     );
+
 ```
 - Directly underneath this add:
 ```js
