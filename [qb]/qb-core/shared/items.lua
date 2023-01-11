@@ -551,6 +551,10 @@ QBShared.Items = {
 	['weedbaggie'] 					 = {['name'] = 'weedbaggie', 			 	  	  	['label'] = 'Baggie (7g)', 					['weight'] = 7, 		['type'] = 'item', 		['image'] = 'weedbaggie.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Sold on the streets'},
 	['rollingpaper'] 				 = {['name'] = 'rollingpaper', 			 	  	  	['label'] = 'Rolling Paper', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'rollingpaper.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Required to roll joints!'},
 
+	-- Crazy Zipties & HeadBags
+	['ziptie']						 ={['name'] = 'ziptie', 						['label'] = 'Zip tie',                  ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'ziptie.png',      			['unique'] = false, 	['useable'] = true,		['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A zip tie'},
+	['headbag']						 ={['name'] = 'headbag', 						['label'] = 'Head Bag',                 ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'headbag.png',      		['unique'] = true, 		['useable'] = true,		['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A bag to cover someones head'},
+
 	-- jl
 	['motel_key']                    = {['name'] = 'motel_key',                     	['label'] = 'Motel Key',                ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'motel_key.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Motel key'},
 	['vpn']                  		 = {['name'] = 'vpn',                     			['label'] = 'VPN',                 		['weight'] = 2000,         ['type'] = 'item',         ['image'] = 'VPN.png',             ['unique'] = true,         ['useable'] = true,      ['shouldClose'] = true,     ['combinable'] = nil,     ['description'] = 'VPN for Laptop'},
