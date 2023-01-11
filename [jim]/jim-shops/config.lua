@@ -68,6 +68,7 @@ Config = {
 			{ name = "fitbit", price = 1000, amount = 150, },
 			{ name = "cleaningkit", price = 300, amount = 150, },
 			{ name = "advancedrepairkit", price = 1450, amount = 50,  requiredJob = { ["mechanic"] = 0 } },
+			{ name = "ziptie", price = 150, amount = 100},
 		},
 		["weedshop"] = {
 			{ name = "joint", price = 20, amount = 1000, },
@@ -132,6 +133,8 @@ Config = {
 			{ name = "heavyarmor", price = 18000, amount = 1},
 			{ name = "handcuffs", price = 13000, amount = 1},
 			{ name = "trackerdisabler", price = 1000, amount = 10},
+			{ name = "headbag", price = 15000, amount = 1},
+			{ name = "ziptie", price = 100, amount = 100},
 		},
 	},
 }
