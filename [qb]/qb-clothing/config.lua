@@ -2584,7 +2584,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -2732,7 +2732,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -2880,7 +2880,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3028,7 +3028,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3176,7 +3176,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3324,7 +3324,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3472,7 +3472,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3620,7 +3620,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3768,7 +3768,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
@@ -3916,7 +3916,7 @@ Config.Outfits = {
                         ['glass'] = {item = 5, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
                     }
-                }
+                },
                 [4] = {
                     -- Outfits
                     outfitLabel = 'Detective',
