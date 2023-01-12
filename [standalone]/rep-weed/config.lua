@@ -2,7 +2,7 @@ Config = {}
 -- Config Depen
 Config.Framework = 'qb-core'
 Config.UseOxLib = true -- If false will use qb-menu and qb-input
-Config.OxInventory = false -- Use Oxinventory
+Config.OxInventory = true -- Use Oxinventory
 Config.Target = 'qb-target' -- ox_target or qtarget, qb-taget
 Config.Boss = { -- you can add more boss location here, he switch locations every restart
     [1] = {
@@ -34,7 +34,7 @@ Config.Plant = {
         {hash = `bkr_prop_weed_lrg_01b`, zOffset = -3.0},
     },
     Factor = 1.3, -- How much longer should a male plant take to grow
-    GrowthTime = 1, -- Plant Growing time in minutes 240
+    GrowthTime = 240, -- Plant Growing time in minutes 240
     LifeTime = 1440, -- Plant lifetime in minutes before wiped-- Water drained from plants per minutes
     MinusWater = 0.25, -- 0.05% per minute on plants
     Water = { -- Watering Can
@@ -43,7 +43,7 @@ Config.Plant = {
     },
     HarvestPercent = 95, -- If more than it can destroy and can't add male or fertilizers
     MaleZone = false, -- If true, male plants will pollinate females around it, and turn them into males, in a perimeter of 20
-    Dry = 0.001, -- 6 hours to dry weed
+    Dry = 0.25, -- 6 hours to dry weed
     Job = { -- Jobs that can destroy weed at any stage
         'police', -- Add more job if u want
     },
