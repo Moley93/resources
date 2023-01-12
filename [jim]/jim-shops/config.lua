@@ -134,7 +134,11 @@ Config = {
 			{ name = "handcuffs", price = 13000, amount = 1},
 			{ name = "trackerdisabler", price = 1000, amount = 10},
 			{ name = "headbag", price = 15000, amount = 1},
-			{ name = "ziptie", price = 100, amount = 100},
+			{ name = "ziptie", price = 100, amount = 100},	
+		},
+		["fishing"] = {
+			{ name = "fishingrod", price = 250, amount = 50},
+			{ name = "fishingbait", price = 3, amount = 2000},	
 		},
 	},
 }
@@ -352,6 +356,20 @@ Config.Locations = {
 		["blipsprite"] = 52,
 		["blipcolour"] = 3,
 	},
+
+	    -- Fishing Shop Location
+		["fishing"] = {
+			["label"] = "Angler Store",
+			["type"] = "items",
+			["model"] = {
+				`mp_m_boatstaff_01`,
+				`a_m_y_beach_01`,
+			},
+			["coords"] = { vector4(-1597.9, 5201.15, 4.39, 69.79), },
+			["products"] = Config.Products["fishing"],
+			["blipsprite"] = 68,
+			["blipcolour"] = 38,
+		},
 
     -- Leisure Shop Locations
     ["leisureshop"] = {
