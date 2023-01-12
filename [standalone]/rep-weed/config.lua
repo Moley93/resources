@@ -2,7 +2,7 @@ Config = {}
 -- Config Depen
 Config.Framework = 'qb-core'
 Config.UseOxLib = true -- If false will use qb-menu and qb-input
-Config.OxInventory = true -- Use Oxinventory
+Config.OxInventory = false -- Use Oxinventory
 Config.Target = 'qb-target' -- ox_target or qtarget, qb-taget
 Config.Boss = { -- you can add more boss location here, he switch locations every restart
     [1] = {
