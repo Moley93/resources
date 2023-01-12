@@ -16,7 +16,7 @@ Config.Boosting.Frequency = 45 -- Whats the max time for a boost ping for cops? 
 
 Config.Boosting.MaxBoosts = 2 -- The amount of boosts a player can hold in their laptop at any given time.
 
-Config.Boosting.MinusOne = true -- true or false, detmains wheather the Z is minus 1 or not.
+Config.Boosting.MinusOne = false -- true or false, detmains wheather the Z is minus 1 or not.
 
 Config.Boosting.PedSettings = {
     ["D"] = { weapons = { "weapon_bat", "weapon_pistol" } },
