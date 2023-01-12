@@ -669,9 +669,9 @@ $(document).ready(() => {
     ".manage-incidents-create",
     function () {
       let tempalte =
-        "📝 Summary:\n\n[Insert Report Summary Here]\n\n🧍 Hostage: [Name Here]\n\n🔪 Weapons/Items Confiscated:\n\n· [Insert List Here]\n\n-----\n💸 Fine:\n⌚ Sentence:\n-----";
+        "LOCATION:(Postal, Street)\n\nHOSTAGE:(name)\n\nITEMS/WEAPONS SEIZED:\n-(insert)\n-(list here)\n\nVEHICLE:\n(License Plate)\n(Color, Year, Make, Model)\n\nSUMMARY:\n\n----------\nFine:\nSentence:\nNotes:\n----------\n\nSignature:";
       $("#manage-incidents-title-input").val(
-        "Name - Charge - " + $(".date").html()
+        "Suspect Name - Report Type - " + $(".date").html()
       );
       $(".manage-incidents-reports-content").val(tempalte);
 
@@ -3755,8 +3755,8 @@ $(document).ready(() => {
           "--color-10",
           "#8f741b"
         );
-        $(".badge-logo").attr("src", "img/SAseal.webp");
-        $(".header-title").html("San Andreas Law Enforcement");
+        $(".badge-logo").attr("src", "img/lspdlogo.webp");
+        $(".header-title").html("LOS SANTOS POLICE DEPARTMENT");
         $(".bolo-nav-item").html("BOLOs");
         $(".bolos-search-title").html("Bolos");
         $("#bolos-search-input").attr("placeholder", "Search Bolo...");
