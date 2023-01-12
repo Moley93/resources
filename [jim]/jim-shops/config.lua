@@ -140,6 +140,12 @@ Config = {
 			{ name = "fishingrod", price = 250, amount = 50},
 			{ name = "fishingbait", price = 3, amount = 2000},	
 		},
+		["hunting"] = {
+			{ name = "weapon_musket", price = 1500, amount = 10},
+			{ name = "shotgun_ammo", price = 100, amount = 50},
+			{ name = "huntingbait", price = 100, amount = 200},
+			{ name = "weapon_knife", price = 2500, amount = 20},	
+		},
 	},
 }
 
@@ -356,6 +362,18 @@ Config.Locations = {
 		["blipsprite"] = 52,
 		["blipcolour"] = 3,
 	},
+	    -- Hunting Store Location
+		["hunting"] = {
+			["label"] = "Hunting Store",
+			["type"] = "items",
+			["model"] = {
+				`MP_M_ExArmy_01`,
+			},
+			["coords"] = { vector4(-679.47, 5834.49, 17.33, 127.62), },
+			["products"] = Config.Products["hunting"],
+			["blipsprite"] = 626,
+			["blipcolour"] = 1,
+		},
 
 	    -- Fishing Shop Location
 		["fishing"] = {
