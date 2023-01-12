@@ -5,8 +5,8 @@ Config.FinanceCommission = 0.05 -- Percent that goes to sales person from a fina
 Config.FinanceZone = vector3(-29.53, -1103.67, 26.42)-- Where the finance menu is located
 Config.PaymentWarning = 10 -- time in minutes that player has to make payment before repo
 Config.PaymentInterval = 24 -- time in hours between payment being due
-Config.MinimumDown = 10 -- minimum percentage allowed down
-Config.MaximumPayments = 4 -- maximum payments allowed
+Config.MinimumDown = 50 -- minimum percentage allowed down
+Config.MaximumPayments = 12 -- maximum payments allowed
 Config.PreventFinanceSelling = true -- allow/prevent players from using /transfervehicle if financed
 Config.Shops = {
     ['pdm'] = {
@@ -214,6 +214,56 @@ Config.Shops = {
                 coords = vector4(-1663.74, -3126.32, 12.99, 275.03),
                 defaultVehicle = 'frogger',
                 chosenVehicle = 'frogger'
+            },
+        },
+    },
+    ['truck'] = {
+        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Zone'] = {
+            ['Shape'] = {--polygon that surrounds the shop
+                vector2(872.23, -1173.5),
+                vector2(868.88, -1162.7),
+                vector2(900.91, -1156.54),
+                vector2(901.96, -1173.71),
+                vector2(883.59, -1174.47),
+                vector2(884.59, -1161.29),
+                vector2(890.06, -1155.0),
+                vector2(907.71, -1168.71)
+            },
+            ['minZ'] = 25.0, -- min height of the shop zone
+            ['maxZ'] = 28.0, -- max height of the shop zone
+            ['size'] = 5.75 -- size of the vehicles zones
+        },
+        ['Job'] = 'none', -- Name of job or none
+        ['ShopLabel'] = 'Truck Motor Shop', -- Blip name
+        ['showBlip'] = true, -- true or false
+        ['blipSprite'] = 477, -- Blip sprite
+        ['blipColor'] = 2, -- Blip color
+        ['TestDriveTimeLimit'] = 0.5, -- Time in minutes until the vehicle gets deleted
+        ['Location'] = vector3(900.47, -1155.74, 25.16), -- Blip Location
+        ['ReturnLocation'] = vector3(900.47, -1155.74, 25.16), -- Location to return vehicle, only enables if the vehicleshop has a job owned
+        ['VehicleSpawn'] = vector4(909.35, -1181.58, 25.55, 177.57), -- Spawn location when vehicle is bought
+        ['TestDriveSpawn'] = vector4(867.65, -1192.4, 25.37, 95.72), -- Spawn location for test drive
+        ['ShowroomVehicles'] = {
+            [1] = {
+                coords = vector4(890.84, -1170.92, 25.08, 269.58), -- where the vehicle will spawn on display
+                defaultVehicle = 'hauler', -- Default display vehicle
+                chosenVehicle = 'hauler', -- Same as default but is dynamically changed when swapping vehicles
+            },
+            [2] = {
+                coords = vector4(878.45, -1171.04, 25.05, 273.08),
+                defaultVehicle = 'phantom',
+                chosenVehicle = 'phantom'
+            },
+            [3] = {
+                coords = vector4(880.44, -1163.59, 24.87, 273.08),
+                defaultVehicle = 'mule',
+                chosenVehicle = 'mule'
+            },
+            [4] = {
+                coords = vector4(896.95, -1162.62, 24.98, 273.08),
+                defaultVehicle = 'mixer',
+                chosenVehicle = 'mixer'
             },
         },
     },
