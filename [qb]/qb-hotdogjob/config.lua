@@ -28,20 +28,20 @@ Config.Stock = {
         Label = Lang:t("info.label_a"),
         Price = {
             [1] = {
-                min = 8,
-                max = 12,
+                min = 15,
+                max = 24,
             },
             [2] = {
-                min = 9,
-                max = 13,
+                min = 18,
+                max = 26,
             },
             [3] = {
-                min = 10,
-                max = 14,
+                min = 20,
+                max = 28,
             },
             [4] = {
-                min = 11,
-                max = 15,
+                min = 22,
+                max = 30,
             },
         }
     },
@@ -56,20 +56,20 @@ Config.Stock = {
         Label = Lang:t("info.label_b"),
         Price = {
             [1] = {
-                min = 6,
-                max = 9,
+                min = 12,
+                max = 18,
             },
             [2] = {
-                min = 7,
-                max = 10,
+                min = 14,
+                max = 20,
             },
             [3] = {
-                min = 8,
-                max = 11,
+                min = 16,
+                max = 22,
             },
             [4] = {
-                min = 9,
-                max = 12,
+                min = 18,
+                max = 24,
             },
         }
     },
@@ -84,20 +84,20 @@ Config.Stock = {
         Label = Lang:t('info.label_c'),
         Price = {
             [1] = {
-                min = 4,
-                max = 6,
+                min = 8,
+                max = 12,
             },
             [2] = {
-                min = 5,
-                max = 7,
+                min = 10,
+                max = 14,
             },
             [3] = {
-                min = 6,
-                max = 9,
+                min = 12,
+                max = 18,
             },
             [4] = {
-                min = 7,
-                max = 9,
+                min = 14,
+                max = 18,
             },
         }
     },
