@@ -54,7 +54,7 @@ Config.AnimalBlip = {
 Config.callPoliceChance = { 25, 75 }
 
 Config.llegalHuntingNotification = function(animalCoord)
-    TriggerEvent("police:client:policeAlert", animalCoord, "illegal Hunting in area")
+    TriggerEvent("police:client:policeAlert", animalCoord, "Illegal Hunting in area")
 end
 
 -- loot Multiplier settings
@@ -137,14 +137,14 @@ Config.Animals = { {
 
 Config.HuntingArea = {
     {
-        name = "llegal hunting Area",
+        name = "Legal hunting Area",
         coord = vector3(-840.6, 4183.3, 215.29),
         radius = 1000.0,
         llegal = true,
         showBlip = true
     },
     {
-        name = "illlegal hunting Area",
+        name = "Illegal hunting Area",
         coord = vector3(870.01, 5158.01, 452.54),
         radius = 500.0,
         llegal = false,
