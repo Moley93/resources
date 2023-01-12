@@ -857,7 +857,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1005,7 +1005,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1153,7 +1153,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1301,7 +1301,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1449,7 +1449,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1597,7 +1597,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1745,7 +1745,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -1893,7 +1893,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -2041,7 +2041,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -2189,7 +2189,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
@@ -2266,14 +2266,14 @@ Config.Outfits = {
                     outfitLabel = 'Detective',
                     outfitData = {
                         ['pants'] = {item = 10, texture = 0}, -- Pants
-                        ['arms'] = {item = 1, texture = 0}, -- Arms
-                        ['t-shirt'] = {item = 56, texture = 1}, -- T Shirt
-                        ['vest'] = {item = 0, texture = 0}, -- Body Vest
-                        ['torso2'] = {item = 190, texture = 1}, -- Jacket
+                        ['arms'] = {item = 4, texture = 0}, -- Arms
+                        ['t-shirt'] = {item = 178, texture = 0}, -- T Shirt
+                        ['vest'] = {item = 24, texture = 0}, -- Body Vest
+                        ['torso2'] = {item = 4, texture = 0}, -- Jacket
                         ['shoes'] = {item = 10, texture = 0}, -- Shoes
-                        ['accessory'] = {item = 8, texture = 0}, -- Neck Accessory
-                        ['bag'] = {item = 52, texture = 5}, -- Bag
-                        ['decals'] = {item = 15, texture = 4}, -- Decals
+                        ['accessory'] = {item = 21, texture = 12}, -- Neck Accessory
+                        ['bag'] = {item = 68, texture = 0}, -- Bag
+                        ['decals'] = {item = 0, texture = 6}, -- Decals
                         ['hat'] = {item = -1, texture = 0}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
@@ -2285,13 +2285,13 @@ Config.Outfits = {
                     outfitData = {
                         ['pants'] = {item = 35, texture = 0}, -- Pants
                         ['arms'] = {item = 11, texture = 0}, -- Arms
-                        ['t-shirt'] = {item = 56, texture = 1}, -- T Shirt
+                        ['t-shirt'] = {item = 177, texture = 1}, -- T Shirt
                         ['vest'] = {item = 16, texture = 0}, -- Body Vest
                         ['torso2'] = {item = 190, texture = 1}, -- Jacket
-                        ['shoes'] = {item = 25, texture = 0}, -- Shoes
+                        ['shoes'] = {item = 10, texture = 0}, -- Shoes
                         ['accessory'] = {item = 8, texture = 0}, -- Neck Accessory
                         ['bag'] = {item = 52, texture = 5}, -- Bag
-                        ['decals'] = {item = 44, texture = 4}, -- Decals
+                        ['decals'] = {item = 41, texture = 0}, -- Decals
                         ['hat'] = {item = -1, texture = 0}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
@@ -2309,7 +2309,7 @@ Config.Outfits = {
                         ['shoes'] = {item = 25, texture = 0}, -- Shoes
                         ['accessory'] = {item = 1, texture = 0}, -- Neck Accessory
                         ['bag'] = {item = 74, texture = 0}, -- Bag
-                        ['decals'] = {item = 44, texture = 4}, -- Decals
+                        ['decals'] = {item = 41, texture = 4}, -- Decals
                         ['hat'] = {item = 135, texture = 0}, -- Hat
                         ['glass'] = {item = 0, texture = 0}, -- Glasses
                         ['mask'] = {item = 0, texture = 0} -- Mask
@@ -2337,7 +2337,7 @@ Config.Outfits = {
                     -- Outfits
                     outfitLabel = 'SWAT',
                     outfitData = {
-                        ['pants'] = {item = 31, texture = 2}, -- Pants
+                        ['pants'] = {item = 31, texture = 0}, -- Pants
                         ['arms'] = {item = 96, texture = 0}, -- Arms
                         ['t-shirt'] = {item = 94, texture = 1}, -- T Shirt
                         ['vest'] = {item = 25, texture = 0}, -- Body Vest
