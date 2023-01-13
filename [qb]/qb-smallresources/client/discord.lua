@@ -22,7 +22,7 @@ CreateThread(function()
         SetDiscordRichPresenceAssetSmallText('Get involved today!')
 
         QBCore.Functions.TriggerCallback('smallresources:server:GetCurrentPlayers', function(result)
-            SetRichPresence('Players: '..result..'/128')
+            SetRichPresence('Players: '..result..'/100')
         end)
 
         -- (26-02-2021) New Native:
