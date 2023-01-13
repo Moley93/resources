@@ -4,7 +4,7 @@ Crafting = {
 		{ ['toolbox'] = { ['iron'] = 50, } },
 		{ ['ducttape'] = { ['plastic'] = 50, } },
 		{ ['paintcan'] = { ['aluminum'] = 50, } },
-		{ ['tint_supplies'] = { ['iron'] = 50, } },
+		{ ['tint_supplies'] = { ['plastic'] = 50, } },
 		{ ['underglow_controller'] = { ['iron'] = 50, } },
 		{ ['cleaningkit'] = { ['rubber'] = 50, } },
 

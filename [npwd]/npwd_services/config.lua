@@ -15,4 +15,4 @@ Config.Jobs = {
     "police",
 }
 
-Config.ShowOffDuty = false --show players who aren't currently on duty (QBcore Only)
+Config.ShowOffDuty = true --show players who aren't currently on duty (QBcore Only)
