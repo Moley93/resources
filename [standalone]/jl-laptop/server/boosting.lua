@@ -248,7 +248,7 @@ QBCore.Functions.CreateCallback('jl-laptop:server:CanStartBoosting', function(so
                 exports['qb-phone']:RemoveCrypto(src, "gne", currentContracts[CID][id].cost)
             else
                 if not
-                    Player.Functions.RemoveMoney("bank", currentContracts[CID][id].cost,
+                    Player.Functions.RemoveMoney("crypto", currentContracts[CID][id].cost,
                         Lang:t('boosting.info.bought_boost')) then
                     cb("busy")
                     return
@@ -498,7 +498,9 @@ RegisterNetEvent('jl-laptop:server:finishBoost', function(netId, isvin)
         end
         local reward = math.ceil(currentRuns[CID].cost * math.random(2, 3))
         if Config.RenewedPhone then
-            Player.Functions.AddMoney("bank", reward, Lang:t('boosting.info.rewardboost'))
+            exports['qb-phone']:AddCrypto(src, "gne", reward)
+        else
+            Player.Functions.AddMoney("crypto", reward, Lang:t('boosting.info.rewardboost'))
         end
         Notify(src, Lang:t('boosting.success.received_reward', { reward = reward }), "success", 7500)
         if DoesEntityExist(NetworkGetEntityFromNetworkId(currentRuns[CID].NetID)) then

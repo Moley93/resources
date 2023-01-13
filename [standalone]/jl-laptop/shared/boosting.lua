@@ -2,21 +2,21 @@ Config.Boosting = {}
 
 Config.Boosting.MinCops = 0
 
-Config.Boosting.Notifications = "NPWD" -- Use this for qb // renewed phone intergration, use "notify" for normal QBCore Notifications // NWPD for New Phone Who Dis
+Config.Boosting.Notifications = "phone" -- Use this for qb // renewed phone intergration, use "notify" for normal QBCore Notifications // NWPD for New Phone Who Dis
 
 Config.Boosting.Debug = true -- Make this true to make boosting faster lmao
 
-Config.Boosting.HackingDevice = "trackerdisabler" -- Whatever item you use to hack a car with
+Config.Boosting.HackingDevice = "phone" -- Whatever item you use to hack a car with
 
 Config.Boosting.HackDelayMin = 30 -- Seconds
 Config.Boosting.HackDelayMax = 60 -- Seconds
 
 
-Config.Boosting.Frequency = 45 -- Whats the max time for a boost ping for cops? - Standard 30 seconds
+Config.Boosting.Frequency = 60 -- Whats the max time for a boost ping for cops? - Standard 30 seconds
 
-Config.Boosting.MaxBoosts = 2 -- The amount of boosts a player can hold in their laptop at any given time.
+Config.Boosting.MaxBoosts = 5 -- The amount of boosts a player can hold in their laptop at any given time.
 
-Config.Boosting.MinusOne = false -- true or false, detmains wheather the Z is minus 1 or not.
+Config.Boosting.MinusOne = true -- true or false, detmains wheather the Z is minus 1 or not.
 
 Config.Boosting.PedSettings = {
     ["D"] = { weapons = { "weapon_bat", "weapon_pistol" } },
@@ -577,36 +577,25 @@ Config.Boosting.Price = {
 }
 
 Config.Boosting.RandomNames = {
-    "Zahraa Lamb",
-    "Penny Webb",
-    "Dylan Reilly",
-    "Abel Frost",
-    "Haider Howe",
-    "Vinnie John",
-    "Cerys Murray",
-    "Reuben Barnes",
-    "Ivan Tyler",
-    "Hafsa Hines",
-    "Kathleen Hendricks",
-    "Princess Carlson",
-    "Brodie Harrell",
-    "Gladys Michael",
-    "Henrietta Sharp",
-    "Lucinda Shields",
-    "Joe Bonilla",
-    "Byron Farmer",
-    "Karen Lee",
-    "Yunus Barlow"
+    "XgamerX",
+    "Just Lazzy",
+    "Zooster",
+    "Hype Squad",
+    "Lowkey Paul",
+    "Jimathy yorass",
+    "Paul Zac",
+    "Gov",
+    "Kareem",
 }
 
 Config.Boosting.MetaReward = {
-    ["D"] = { min = 1000, max = 2500 },
-    ["C"] = { min = 2000, max = 3500 },
-    ["B"] = { min = 3000, max = 4500 },
-    ["A"] = { min = 4000, max = 5500 },
-    ["A+"] = { min = 5000, max = 6500 },
-    ["S"] = { min = 6000, max = 6500 },
-    ["S+"] = { min = 7000, max = 7500 },
+    ["D"] = { min = 1, max = 1 },
+    ["C"] = { min = 1, max = 2 },
+    ["B"] = { min = 1, max = 3 },
+    ["A"] = { min = 2, max = 4 },
+    ["A+"] = { min = 2, max = 5 },
+    ["S"] = { min = 2, max = 6 },
+    ["S+"] = { min = 3, max = 7 },
 }
 
 Config.Boosting.ReturnLocation = {
