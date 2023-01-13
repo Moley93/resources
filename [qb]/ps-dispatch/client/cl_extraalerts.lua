@@ -177,7 +177,7 @@ local function CarBoosting(vehicle)
     local gender = GetPedGender()
     TriggerServerEvent("dispatch:server:notify",{
         dispatchcodename = "carboosting", -- has to match the codes in sv_dispatchcodes.lua so that it generates the right blip
-        dispatchCode = "10-50",
+        dispatchCode = "10-16",
         firstStreet = locationInfo,
         gender = gender,
         model = vehdata.name,
