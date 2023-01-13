@@ -95,18 +95,18 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-1265.31, -354.44, 35.91, 205.08),
-                defaultVehicle = 'rmodbacalar',
-                chosenVehicle = 'rmodbacalar'
+                defaultVehicle = 'adder',
+                chosenVehicle = 'adder'
             },
             [2] = {
                 coords = vector4(-1270.06, -358.55, 35.91, 247.08),
-                defaultVehicle = 'rmodrs6',
-                chosenVehicle = 'rmodrs6'
+                defaultVehicle = 'adder',
+                chosenVehicle = 'adder'
             },
             [3] = {
                 coords = vector4(-1269.21, -365.03, 35.91, 297.12),
-                defaultVehicle = 'rmodmartin',
-                chosenVehicle = 'rmodmartin'
+                defaultVehicle = 'adder',
+                chosenVehicle = 'adder'
             },
             [4] = {
                 coords = vector4(-1252.07, -364.2, 35.91, 56.44),
