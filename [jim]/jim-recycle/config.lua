@@ -57,7 +57,6 @@ Config = {
 		"aluminum",
 		"bottle",
 		"can",
-		"snikkel_candy",
 	},
 	DumpItems = {
 		"bottle",

@@ -60,6 +60,30 @@ QBCore.Functions.CreateUseableItem("kurkakola", function(source, item)
     TriggerClientEvent("consumables:client:Drink", source, item.name)
 end)
 
+QBCore.Functions.CreateUseableItem("ecola", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
+    TriggerClientEvent("consumables:client:Drink", source, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("ecolalight", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
+    TriggerClientEvent("consumables:client:Drink", source, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("sprunk", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
+    TriggerClientEvent("consumables:client:Drink", source, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("sprunklight", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
+    TriggerClientEvent("consumables:client:Drink", source, item.name)
+end)
+
 ----------- / Drug
 
 QBCore.Functions.CreateUseableItem("joint", function(source, item)
