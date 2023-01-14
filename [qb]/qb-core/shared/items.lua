@@ -567,7 +567,7 @@ QBShared.Items = {
 
 	--fishing
 	['fishingrod'] 					 = {['name'] = 'fishingrod', 					['label'] = 'Fishing Rod', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'fishingrod.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'With this I can catch the fish..'},
-['fishingbait'] 				 = {['name'] = 'fishingbait', 					['label'] = 'Fishing Bait', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'fishingbait.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'With this I can lure the fishessss..'},
+['fishingbait'] 				 = {['name'] = 'fishingbait', 					['label'] = 'Fishing Bait', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'fishbait.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'With this I can lure the fishessss..'},
 ['catfish'] 			 		 = {['name'] = 'catfish', 						['label'] = 'Catfish', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'catfish.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'A Fish'},
 ['fish'] 						 = {['name'] = 'fish', 							['label'] = 'Fish', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'fish.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'A Fish'},
 ['fish2'] 						 = {['name'] = 'fish2', 						['label'] = 'Fish', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'fish2.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'A Fish'},
