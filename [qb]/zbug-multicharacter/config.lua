@@ -10,7 +10,7 @@ Config.HiddenCoords = vector4(-1725, -194, 58, 0)
 Config.PedCoords = vector4(-1741.27, -201.29, 57.49, 180)
 Config.CamCoords = vector4(-1741.27, -205.29, 57.49, 0)
 
-Config.DefaultNumberOfCharacters = 1 -- Define maximum amount of default characters (maximum 5 characters defined by default)
+Config.DefaultNumberOfCharacters = 2 -- Define maximum amount of default characters (maximum 5 characters defined by default)
 Config.PlayersNumberOfCharacters = { -- Define maximum amount of player characters by rockstar license (you can find this license in your server's database in the player table)
     { license = "license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", numberOfChars = 2 },
 }
