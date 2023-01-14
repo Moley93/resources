@@ -244,7 +244,7 @@ function createFreeUseShop(shopShape, name)
                                 }
                             }
                         },
-                        --[[{
+                        {
                             header = Lang:t('menus.finance_header'),
                             txt = Lang:t('menus.freeuse_finance_txt'),
                             icon = "fa-solid fa-coins",
@@ -255,7 +255,7 @@ function createFreeUseShop(shopShape, name)
                                     buyVehicle = Config.Shops[insideShop]["ShowroomVehicles"][ClosestVehicle].chosenVehicle
                                 }
                             }
-                        },]]
+                        },
                         {
                             header = Lang:t('menus.swap_header'),
                             txt = Lang:t('menus.swap_txt'),
@@ -318,7 +318,7 @@ function createManagedShop(shopShape, name)
                                 }
                             }
                         },
-                        --[[{
+                        {
                             header = Lang:t('menus.finance_header'),
                             txt = Lang:t('menus.managed_finance_txt'),
                             icon = "fa-solid fa-coins",
@@ -329,7 +329,7 @@ function createManagedShop(shopShape, name)
                                     vehicle = Config.Shops[insideShop]["ShowroomVehicles"][ClosestVehicle].chosenVehicle
                                 }
                             }
-                        },]]
+                        },
                         {
                             header = Lang:t('menus.swap_header'),
                             txt = Lang:t('menus.swap_txt'),
@@ -558,7 +558,7 @@ RegisterNetEvent('qb-vehicleshop:client:openVehCats', function(data)
     exports['qb-menu']:openMenu(vehMenu)
 end)
 
---[[RegisterNetEvent('qb-vehicleshop:client:openFinance', function(data)
+RegisterNetEvent('qb-vehicleshop:client:openFinance', function(data)
     local dialog = exports['qb-input']:ShowInput({
         header = getVehBrand():upper() .. ' ' .. data.buyVehicle:upper() .. ' - $' .. data.price,
         submitText = Lang:t('menus.submit_text'),
@@ -581,9 +581,9 @@ end)
         if not dialog.downPayment or not dialog.paymentAmount then return end
         TriggerServerEvent('qb-vehicleshop:server:financeVehicle', dialog.downPayment, dialog.paymentAmount, data.buyVehicle)
     end
-end)]]
+end)
 
---[[RegisterNetEvent('qb-vehicleshop:client:openCustomFinance', function(data)
+RegisterNetEvent('qb-vehicleshop:client:openCustomFinance', function(data)
     TriggerEvent('animations:client:EmoteCommandStart', {"tablet2"})
     local dialog = exports['qb-input']:ShowInput({
         header = getVehBrand():upper() .. ' ' .. data.vehicle:upper() .. ' - $' .. data.price,
@@ -614,7 +614,7 @@ end)]]
         TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         TriggerServerEvent('qb-vehicleshop:server:sellfinanceVehicle', dialog.downPayment, dialog.paymentAmount, data.vehicle, dialog.playerid)
     end
-end)]]
+end)
 
 RegisterNetEvent('qb-vehicleshop:client:swapVehicle', function(data)
     local shopName = data.ClosestShop
