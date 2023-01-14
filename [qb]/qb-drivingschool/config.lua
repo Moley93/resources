@@ -19,10 +19,10 @@ Config.scoretopass = 5
 Config.SpeedMultiplier = 3.6
 
 Config.Prices = {
-	N  = 500, -- theory
-	A = 1500, -- bike
-	B = 2000, -- car
-	C = 5000, -- trunk
+	N  = 250, -- theory
+	A = 750, -- bike
+	B = 1000, -- car
+	C = 2500, -- truck
 }
 
 Config.VehicleModels = {
