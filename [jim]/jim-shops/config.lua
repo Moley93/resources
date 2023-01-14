@@ -383,7 +383,7 @@ Config.Locations = {
 				`mp_m_boatstaff_01`,
 				`a_m_y_beach_01`,
 			},
-			["coords"] = { vector4(-1597.9, 5201.15, 4.39, 69.79), },
+			["coords"] = { vector4(-1592.56, 5203.27, 4.31, 293.91), },
 			["products"] = Config.Products["fishing"],
 			["blipsprite"] = 68,
 			["blipcolour"] = 38,

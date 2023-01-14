@@ -290,7 +290,7 @@ Config = {
 			{ name = "pickaxe",	price = 100, amount = 100, info = {}, type = "item", slot = 6, },
 			{ name = "miningdrill",	price = 2000, amount = 50, info = {}, type = "item", slot = 7, },
 			{ name = "mininglaser",	price = 6000, amount = 5, info = {}, type = "item", slot = 8, },
-			{ name = "drillbit", price =500, amount = 100, info = {}, type = "item", slot = 9, },
+			{ name = "drillbit", price = 25, amount = 100, info = {}, type = "item", slot = 9, },
 		},
 	},
 }
