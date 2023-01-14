@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 _G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true,"NetworkIsInSpectatorMode() == true":true,"inventory:server:OpenInventory":true,"police:server:SetHandcuffStatus":true,"InteractSound_SV:PlayOnSource":true,"hud:server:RelieveStress":true}]==])
+=======
+_G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true,"NetworkIsInSpectatorMode() == true":true,"inventory:server:OpenInventory":true,"police:server:SetHandcuffStatus":true,"InteractSound_SV:PlayOnSource":true}]==])
+>>>>>>> parent of 61e7db6b (Vehicleshop Config)
 =======
 _G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true,"NetworkIsInSpectatorMode() == true":true,"inventory:server:OpenInventory":true,"police:server:SetHandcuffStatus":true,"InteractSound_SV:PlayOnSource":true}]==])
 >>>>>>> parent of 61e7db6b (Vehicleshop Config)
