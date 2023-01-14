@@ -412,7 +412,7 @@ function LockpickFinishCallback(success)
 
     local chance = math.random()
     if success then
-        TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+        TriggerServerEvent('hud:server:GainStress', math.random(1, 2))
         lastPickedVehicle = vehicle
 
         if GetPedInVehicleSeat(vehicle, -1) == PlayerPedId() then
@@ -423,7 +423,7 @@ function LockpickFinishCallback(success)
         end
 
     else
-        TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+        TriggerServerEvent('hud:server:GainStress', math.random(1, 2))
         AttemptPoliceAlert("steal")
     end
 
@@ -456,7 +456,7 @@ function Hotwire(vehicle, plate)
         flags = 16
     }, {}, {}, function() -- Done
         StopAnimTask(ped, "anim@amb@clubhouse@tutorial@bkr_tut_ig3@", "machinic_loop_mechandplayer", 1.0)
-        TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+        TriggerServerEvent('hud:server:GainStress', math.random(1, 2))
         if (math.random() <= Config.HotwireChance) then
             TriggerServerEvent('qb-vehiclekeys:server:AcquireVehicleKeys', plate)
         else
@@ -521,12 +521,12 @@ function CarjackVehicle(target)
                         MakePedFlee(ped)
                     end)
                 end
-                TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+                TriggerServerEvent('hud:server:GainStress', math.random(1, 2))
                 TriggerServerEvent('qb-vehiclekeys:server:AcquireVehicleKeys', plate)
             else
                 QBCore.Functions.Notify(Lang:t("notify.cjackfail"), "error")
                 MakePedFlee(target)
-                TriggerServerEvent('hud:server:GainStress', math.random(1, 4))
+                TriggerServerEvent('hud:server:GainStress', math.random(1, 2))
             end
             isCarjacking = false
             Wait(2000)
