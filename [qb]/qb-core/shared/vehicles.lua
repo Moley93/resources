@@ -22,7 +22,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `blista`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['brioso'] = {
         ['name'] = 'Brioso R/A',
@@ -33,7 +32,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `brioso`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['club'] = {
         ['name'] = 'Club',
@@ -44,7 +42,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `club`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['dilettante'] = {
         ['name'] = 'Dilettante',
@@ -55,7 +52,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `dilettante`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['dilettante2'] = {
         ['name'] = 'Dilettante Patrol',
@@ -66,7 +62,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `dilettante2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['kanjo'] = {
         ['name'] = 'Blista Kanjo',
@@ -77,7 +72,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `kanjo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['issi2'] = {
         ['name'] = 'Issi',
@@ -88,7 +82,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `issi2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['issi3'] = {
         ['name'] = 'Issi Classic',
@@ -99,7 +92,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `issi3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['issi4'] = {                            --DLC
         ['name'] = 'Issi Arena',
@@ -110,7 +102,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `issi4`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['issi5'] = {                            --DLC
         ['name'] = 'Issi Arena',
@@ -121,7 +112,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `issi5`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['issi6'] = {                            --DLC
         ['name'] = 'Issi Arena',
@@ -132,7 +122,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `issi6`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['panto'] = {
         ['name'] = 'Panto',
@@ -143,7 +132,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `panto`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['prairie'] = {
         ['name'] = 'Prairie',
@@ -154,7 +142,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `prairie`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['rhapsody'] = {
         ['name'] = 'Rhapsody',
@@ -165,7 +152,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `rhapsody`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['brioso2'] = {
         ['name'] = 'Brioso 300',
@@ -176,7 +162,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `brioso2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['weevil'] = {
         ['name'] = 'Weevil',
@@ -187,7 +172,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `weevil`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     --- Coupes
     ['cogcabrio'] = {
@@ -199,7 +183,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `cogcabrio`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['exemplar'] = {
         ['name'] = 'Exemplar',
@@ -210,7 +193,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `exemplar`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['f620'] = {
         ['name'] = 'F620',
@@ -221,7 +203,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `f620`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['felon'] = {
         ['name'] = 'Felon',
@@ -232,7 +213,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `felon`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['felon2'] = {
         ['name'] = 'Felon GT',
@@ -243,7 +223,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `felon2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['jackal'] = {
         ['name'] = 'Jackal',
@@ -254,7 +233,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `jackal`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['oracle'] = {
         ['name'] = 'Oracle',
@@ -265,7 +243,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `oracle`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['oracle2'] = {
         ['name'] = 'Oracle XS',
@@ -276,7 +253,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `oracle2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['sentinel'] = {
         ['name'] = 'Sentinel',
@@ -287,7 +263,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `sentinel`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['sentinel2'] = {
         ['name'] = 'Sentinel XS',
@@ -298,7 +273,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `sentinel2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['windsor'] = {
         ['name'] = 'Windsor',
@@ -309,7 +283,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `windsor`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['windsor2'] = {
         ['name'] = 'Windsor Drop',
@@ -320,7 +293,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `windsor2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['zion'] = {
         ['name'] = 'Zion',
@@ -331,7 +303,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `zion`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['zion2'] = {
         ['name'] = 'Zion Cabrio',
@@ -339,10 +310,9 @@ QBShared.Vehicles = {
         ['model'] = 'zion2',
         ['price'] = 28000,
         ['category'] = 'coupes',
-        ['categoryLabel'] = 'Coupes',
+        ['categoryLabel'] = 'Coupes',-
         ['hash'] = `zion2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['previon'] = {            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Previon',
@@ -353,7 +323,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `previon`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['champion'] = {        --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Champion',
@@ -364,7 +333,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `champion`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
     },
     ['ignus'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Ignus',
@@ -375,7 +343,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `ignus`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zeno'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Zeno',
@@ -386,7 +354,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `zeno`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Cycles
     ['bmx'] = {
@@ -469,7 +437,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `akuma`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['avarus'] = {
         ['name'] = 'Avarus',
@@ -480,7 +448,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `avarus`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bagger'] = {
         ['name'] = 'Bagger',
@@ -491,7 +459,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `bagger`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bati'] = {
         ['name'] = 'Bati 801',
@@ -502,7 +470,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `bati`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bati2'] = {
         ['name'] = 'Bati 801RR',
@@ -513,7 +481,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `bati2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bf400'] = {
         ['name'] = 'BF400',
@@ -524,7 +492,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `bf400`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['carbonrs'] = {
         ['name'] = 'Carbon RS',
@@ -535,7 +503,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `carbonrs`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['chimera'] = {
         ['name'] = 'Chimera',
@@ -546,7 +514,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `chimera`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cliffhanger'] = {
         ['name'] = 'Cliffhanger',
@@ -557,7 +525,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `cliffhanger`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['daemon'] = {
         ['name'] = 'Daemon',
@@ -568,7 +536,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `daemon`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['daemon2'] = {
         ['name'] = 'Daemon Custom',
@@ -579,7 +547,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `daemon2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['defiler'] = {
         ['name'] = 'Defiler',
@@ -590,7 +558,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `defiler`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['deathbike'] = {                            --DLC
         ['name'] = 'deathbike',
@@ -601,7 +569,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `deathbike`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['deathbike2'] = {                            --DLC
         ['name'] = 'deathbike2',
@@ -612,7 +580,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `deathbike2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['deathbike3'] = {                            --DLC
         ['name'] = 'deathbike3',
@@ -623,7 +591,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `deathbike3`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['diablous'] = {
         ['name'] = 'Diablous',
@@ -634,7 +602,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `diablous`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['diablous2'] = {
         ['name'] = 'Diablous Custom',
@@ -645,7 +613,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `diablous2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['double'] = {
         ['name'] = 'Double-T',
@@ -656,7 +624,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `double`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['enduro'] = {
         ['name'] = 'Enduro',
@@ -667,7 +635,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `enduro`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['esskey'] = {
         ['name'] = 'Esskey',
@@ -678,7 +646,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `esskey`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['faggio'] = {
         ['name'] = 'Faggio Sport',
@@ -689,7 +657,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `faggio`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['faggio2'] = {
         ['name'] = 'Faggio',
@@ -700,7 +668,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `faggio2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['faggio3'] = {
         ['name'] = 'Faggio Mod',
@@ -711,7 +679,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `faggio3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['fcr'] = {
         ['name'] = 'FCR 1000',
@@ -722,7 +690,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `fcr`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['fcr2'] = {
         ['name'] = 'FCR 1000 Custom',
@@ -733,7 +701,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `fcr2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gargoyle'] = {
         ['name'] = 'Gargoyle',
@@ -744,7 +712,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `gargoyle`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hakuchou'] = {
         ['name'] = 'Hakuchou',
@@ -755,7 +723,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `hakuchou`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hakuchou2'] = {
         ['name'] = 'Hakuchou Drag',
@@ -766,7 +734,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `hakuchou2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hexer'] = {
         ['name'] = 'Hexer',
@@ -777,7 +745,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `hexer`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['innovation'] = {
         ['name'] = 'Innovation',
@@ -788,7 +756,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `innovation`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['lectro'] = {
         ['name'] = 'Lectro',
@@ -799,7 +767,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `lectro`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['manchez'] = {
         ['name'] = 'Manchez',
@@ -810,7 +778,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `manchez`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['nemesis'] = {
         ['name'] = 'Nemesis',
@@ -821,7 +789,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `nemesis`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['nightblade'] = {
         ['name'] = 'Nightblade',
@@ -832,7 +800,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `nightblade`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['oppressor'] = {
         ['name'] = 'Oppressor',
@@ -843,7 +811,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `oppressor`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['pcj'] = {
         ['name'] = 'PCJ-600',
@@ -854,7 +822,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `pcj`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ratbike'] = {
         ['name'] = 'Rat Bike',
@@ -865,7 +833,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `ratbike`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ruffian'] = {
         ['name'] = 'Ruffian',
@@ -876,7 +844,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `ruffian`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sanchez'] = {
         ['name'] = 'Sanchez Livery',
@@ -887,7 +855,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `sanchez`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sanchez2'] = {
         ['name'] = 'Sanchez',
@@ -898,7 +866,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `sanchez2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sanctus'] = {
         ['name'] = 'Sanctus',
@@ -909,7 +877,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `sanctus`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sovereign'] = {
         ['name'] = 'Sovereign',
@@ -920,7 +888,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `sovereign`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stryder'] = {
         ['name'] = 'Stryder',
@@ -931,7 +899,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `stryder`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['thrust'] = {
         ['name'] = 'Thrust',
@@ -942,7 +910,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `thrust`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vader'] = {
         ['name'] = 'Vader',
@@ -953,7 +921,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `vader`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vindicator'] = {
         ['name'] = 'Vindicator',
@@ -964,7 +932,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `vindicator`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vortex'] = {
         ['name'] = 'Vortex',
@@ -975,7 +943,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `vortex`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['wolfsbane'] = {
         ['name'] = 'Wolfsbane',
@@ -986,7 +954,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `wolfsbane`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zombiea'] = {
         ['name'] = 'Zombie Bobber',
@@ -997,7 +965,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `zombiea`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zombieb'] = {
         ['name'] = 'Zombie Chopper',
@@ -1008,7 +976,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `zombieb`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['manchez2'] = {
         ['name'] = 'Manchez',
@@ -1019,7 +987,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `manchez2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['shinobi'] = {        --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Shinobi',
@@ -1030,7 +998,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `shinobi`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['reever'] = {        --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Reever',
@@ -1041,7 +1009,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Motorcycles',
         ['hash'] = `reever`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Muscle
     ['blade'] = {
@@ -1053,7 +1021,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `blade`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['buccaneer'] = {
         ['name'] = 'Buccaneer',
@@ -1064,7 +1032,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `buccaneer`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['buccaneer2'] = {
         ['name'] = 'Buccaneer Rider',
@@ -1075,7 +1043,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `buccaneer2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['chino'] = {
         ['name'] = 'Chino',
@@ -1086,7 +1054,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `chino`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['chino2'] = {
         ['name'] = 'Chino Luxe',
@@ -1097,7 +1065,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `chino2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['clique'] = {                            --DLC
         ['name'] = 'Clique',
@@ -1108,7 +1076,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `clique`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['coquette3'] = {
         ['name'] = 'Coquette BlackFin',
@@ -1119,7 +1087,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `coquette3`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['deviant'] = {                            --DLC
         ['name'] = 'Deviant',
@@ -1130,7 +1098,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `deviant`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dominator'] = {
         ['name'] = 'Dominator',
@@ -1141,7 +1109,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dominator`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dominator2'] = {
         ['name'] = 'Pißwasser Dominator',
@@ -1152,7 +1120,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dominator2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dominator3'] = {
         ['name'] = 'Dominator GTX',
@@ -1163,7 +1131,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dominator3`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dominator4'] = {                            --DLC
         ['name'] = 'Dominator Arena',
@@ -1174,7 +1142,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dominator4`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dominator7'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Dominator ASP',
@@ -1185,7 +1153,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dominator7`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dominator8'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Dominator GTT',
@@ -1196,7 +1164,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dominator8`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dukes'] = {
         ['name'] = 'Dukes',
@@ -1207,7 +1175,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dukes`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dukes2'] = {
         ['name'] = 'Dukes Nightrider',
@@ -1218,7 +1186,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dukes2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dukes3'] = {
         ['name'] = 'Beater Dukes',
@@ -1229,7 +1197,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `dukes3`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['faction'] = {
         ['name'] = 'Faction',
@@ -1240,7 +1208,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `faction`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['faction2'] = {
         ['name'] = 'Faction Rider',
@@ -1251,7 +1219,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `faction2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['faction3'] = {
         ['name'] = 'Faction Custom Donk',
@@ -1262,7 +1230,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `faction3`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ellie'] = {
         ['name'] = 'Ellie',
@@ -1273,7 +1241,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `ellie`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gauntlet'] = {
         ['name'] = 'Gauntlet',
@@ -1284,7 +1252,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `gauntlet`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gauntlet2'] = {
         ['name'] = 'Redwood Gauntlet',
@@ -1295,7 +1263,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `gauntlet2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gauntlet3'] = {                            --DLC
         ['name'] = 'Classic Gauntlet',
@@ -1306,7 +1274,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `gauntlet3`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gauntlet4'] = {                            --DLC
         ['name'] = 'Gauntlet Hellfire',
@@ -1317,7 +1285,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `gauntlet4`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gauntlet5'] = {
         ['name'] = 'Gauntlet Classic Custom',
@@ -1328,7 +1296,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `gauntlet5`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hermes'] = {
         ['name'] = 'Hermes',
@@ -1339,7 +1307,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `hermes`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hotknife'] = {
         ['name'] = 'Hotknife',
@@ -1350,7 +1318,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `hotknife`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hustler'] = {
         ['name'] = 'Hustler',
@@ -1361,7 +1329,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `hustler`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['impaler'] = {                            --DLC
         ['name'] = 'impaler',
@@ -1372,7 +1340,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `impaler`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['impaler2'] = {                            --DLC
         ['name'] = 'impaler2',
@@ -1383,7 +1351,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `impaler2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['impaler3'] = {                            --DLC
         ['name'] = 'impaler3',
@@ -1394,7 +1362,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `impaler3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['impaler4'] = {                            --DLC
         ['name'] = 'impaler4',
@@ -1405,7 +1373,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `impaler4`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['imperator'] = {                            --DLC
         ['name'] = 'imperator',
@@ -1416,7 +1384,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `imperator`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['imperator2'] = {                            --DLC
         ['name'] = 'imperator2',
@@ -1427,7 +1395,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `imperator2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['imperator3'] = {                            --DLC
         ['name'] = 'imperator3',
@@ -1438,7 +1406,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `imperator3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['lurcher'] = {
         ['name'] = 'Gauntlet Classic Custom',
@@ -1449,7 +1417,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `lurcher`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['moonbeam'] = {
         ['name'] = 'Moonbeam',
@@ -1460,7 +1428,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `moonbeam`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['moonbeam2'] = {
         ['name'] = 'Moonbeam Custom',
@@ -1471,7 +1439,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `moonbeam2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['nightshade'] = {
         ['name'] = 'Nightshade',
@@ -1482,7 +1450,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `nightshade`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['peyote2'] = {                            --DLC
         ['name'] = 'Peyote Gasser',
@@ -1493,7 +1461,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `peyote2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['phoenix'] = {
         ['name'] = 'Phoenix',
@@ -1504,7 +1472,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `phoenix`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['picador'] = {
         ['name'] = 'Picador',
@@ -1515,7 +1483,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `picador`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ratloader2'] = {
         ['name'] = 'ratloader2',
@@ -1526,7 +1494,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `ratloader2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ruiner'] = {
         ['name'] = 'Ruiner',
@@ -1537,7 +1505,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `ruiner`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ruiner2'] = {
         ['name'] = 'Ruiner 2000',
@@ -1548,7 +1516,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `ruiner2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sabregt'] = {
         ['name'] = 'Sabre Turbo',
@@ -1559,7 +1527,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `sabregt`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sabregt2'] = {
         ['name'] = 'Sabre GT',
@@ -1570,7 +1538,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `sabregt2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['slamvan'] = {
         ['name'] = 'Slam Van',
@@ -1581,7 +1549,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `slamvan`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['slamvan2'] = {
         ['name'] = 'Lost Slam Van',
@@ -1592,7 +1560,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `slamvan2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['slamvan3'] = {
         ['name'] = 'Slam Van Custom',
@@ -1603,7 +1571,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `slamvan3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stalion'] = {
         ['name'] = 'Stallion',
@@ -1614,7 +1582,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `stalion`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stalion2'] = {
         ['name'] = 'Stallion Burgershot',
@@ -1625,7 +1593,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `stalion2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tampa'] = {
         ['name'] = 'Tampa',
@@ -1636,7 +1604,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `tampa`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tulip'] = {                            --DLC
         ['name'] = 'Tulip',
@@ -1647,7 +1615,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `tulip`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vamos'] = {                            --DLC
         ['name'] = 'Vamos',
@@ -1658,7 +1626,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `vamos`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vigero'] = {
         ['name'] = 'Vigero',
@@ -1669,7 +1637,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `vigero`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['virgo'] = {
         ['name'] = 'Virgo',
@@ -1680,7 +1648,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `virgo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['virgo2'] = {
         ['name'] = 'Virgo Custom Classic',
@@ -1691,7 +1659,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `virgo2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['virgo3'] = {
         ['name'] = 'Virgo Custom Classic',
@@ -1702,7 +1670,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `virgo3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['voodoo'] = {
         ['name'] = 'Voodoo',
@@ -1713,7 +1681,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `voodoo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['yosemite'] = {
         ['name'] = 'Yosemite',
@@ -1724,7 +1692,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `yosemite`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['yosemite2'] = {
         ['name'] = 'Yosemite Drift',
@@ -1735,7 +1703,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `yosemite2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['yosemite3'] = {
         ['name'] = 'Yosemite Rancher',
@@ -1746,7 +1714,7 @@ QBShared.Vehicles = {
         ['model'] = 'yosemite3',
         ['hash'] = `yosemite3`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['buffalo4'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Buffalo STX',
@@ -1757,7 +1725,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `buffalo4`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Off-Road
     ['bfinjection'] = {
@@ -1780,7 +1748,7 @@ QBShared.Vehicles = {
         ['model'] = 'bifta',
         ['hash'] = `bifta`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blazer'] = {
         ['name'] = 'Blazer',
@@ -1791,7 +1759,7 @@ QBShared.Vehicles = {
         ['model'] = 'blazer',
         ['hash'] = `blazer`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blazer2'] = {
         ['name'] = 'Blazer Lifeguard',
@@ -1802,7 +1770,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `blazer2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blazer3'] = {
         ['name'] = 'Blazer Hot Rod',
@@ -1813,7 +1781,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `blazer3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blazer4'] = {
         ['name'] = 'Blazer Sport',
@@ -1824,7 +1792,7 @@ QBShared.Vehicles = {
         ['model'] = 'blazer4',
         ['hash'] = `blazer4`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blazer5'] = {
         ['name'] = 'Blazer Aqua',
@@ -1835,7 +1803,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `blazer5`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['brawler'] = {
         ['name'] = 'Brawler',
@@ -1846,7 +1814,7 @@ QBShared.Vehicles = {
         ['model'] = 'brawler',
         ['hash'] = `brawler`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['caracara'] = {
         ['name'] = 'Caracara',
@@ -1857,7 +1825,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `caracara`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['caracara2'] = {                            --DLC
         ['name'] = 'Caracara 4x4',
@@ -1868,7 +1836,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `caracara2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dubsta3'] = {
         ['name'] = 'Dubsta 6x6',
@@ -1879,7 +1847,7 @@ QBShared.Vehicles = {
         ['model'] = 'dubsta3',
         ['hash'] = `dubsta3`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dune'] = {
         ['name'] = 'Dune Buggy',
@@ -1890,7 +1858,7 @@ QBShared.Vehicles = {
         ['model'] = 'dune',
         ['hash'] = `dune`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['everon'] = {
         ['name'] = 'Everon',
@@ -1901,7 +1869,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `everon`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['freecrawler'] = {                            --DLC
         ['name'] = 'Freecrawler',
@@ -1912,7 +1880,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `freecrawler`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hellion'] = {                            --DLC
         ['name'] = 'Hellion',
@@ -1923,7 +1891,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `hellion`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['kalahari'] = {
         ['name'] = 'Kalahari',
@@ -1934,7 +1902,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `kalahari`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['kamacho'] = {
         ['name'] = 'Kamacho',
@@ -1945,7 +1913,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `kamacho`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['mesa3'] = {
         ['name'] = 'Mesa Merryweather',
@@ -1956,7 +1924,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `mesa3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['outlaw'] = {
         ['name'] = 'Outlaw',
@@ -1967,7 +1935,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `outlaw`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rancherxl'] = {
         ['name'] = 'Rancher XL',
@@ -1978,7 +1946,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `rancherxl`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rebel2'] = {
         ['name'] = 'Rebel',
@@ -1989,7 +1957,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `rebel2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['riata'] = {
         ['name'] = 'Riata',
@@ -2000,7 +1968,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `riata`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sandking'] = {
         ['name'] = 'Sandking',
@@ -2011,7 +1979,7 @@ QBShared.Vehicles = {
         ['model'] = 'sandking',
         ['hash'] = `sandking`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sandking2'] = {
         ['name'] = 'Sandking SWB',
@@ -2022,7 +1990,7 @@ QBShared.Vehicles = {
         ['model'] = 'sandking2',
         ['hash'] = `sandking2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['trophytruck'] = {
         ['name'] = 'Trophy Truck',
@@ -2033,7 +2001,7 @@ QBShared.Vehicles = {
         ['model'] = 'trophytruck',
         ['hash'] = `trophytruck`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['trophytruck2'] = {
         ['name'] = 'Trophy Truck Limited',
@@ -2044,7 +2012,7 @@ QBShared.Vehicles = {
         ['model'] = 'trophytruck2',
         ['hash'] = `trophytruck2`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vagrant'] = {
         ['name'] = 'Vagrant',
@@ -2055,7 +2023,7 @@ QBShared.Vehicles = {
         ['model'] = 'vagrant',
         ['hash'] = `vagrant`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['verus'] = {
         ['name'] = 'Verus',
@@ -2066,7 +2034,7 @@ QBShared.Vehicles = {
         ['model'] = 'verus',
         ['hash'] = `verus`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['winky'] = {
         ['name'] = 'Winky',
@@ -2077,7 +2045,7 @@ QBShared.Vehicles = {
         ['model'] = 'winky',
         ['hash'] = `winky`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- SUVs
     ['baller'] = {
@@ -2089,7 +2057,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `baller`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['baller2'] = {
         ['name'] = 'Baller',
@@ -2100,7 +2068,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `baller2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['baller3'] = {
         ['name'] = 'Baller LE',
@@ -2111,7 +2079,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `baller3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['baller4'] = {
         ['name'] = 'Baller LE LWB',
@@ -2122,7 +2090,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `baller4`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['baller5'] = {
         ['name'] = 'Baller LE (Armored)',
@@ -2133,7 +2101,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `baller5`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['baller6'] = {
         ['name'] = 'Baller LE LWB (Armored)',
@@ -2144,7 +2112,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `baller6`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bjxl'] = {
         ['name'] = 'BeeJay XL',
@@ -2155,7 +2123,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `bjxl`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cavalcade'] = {
         ['name'] = 'Cavalcade',
@@ -2166,7 +2134,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `cavalcade`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cavalcade2'] = {
         ['name'] = 'Cavalcade',
@@ -2177,7 +2145,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `cavalcade2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['contender'] = {
         ['name'] = 'Contender',
@@ -2188,7 +2156,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `contender`,
         ['shop'] = 'pdm',
-        ["tier"] = "C", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dubsta'] = {
         ['name'] = 'Dubsta',
@@ -2199,7 +2167,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `dubsta`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['dubsta2'] = {
         ['name'] = 'Dubsta Luxuary',
@@ -2210,7 +2178,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `dubsta2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['fq2'] = {
         ['name'] = 'FQ2',
@@ -2221,7 +2189,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `fq2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['granger'] = {
         ['name'] = 'Granger',
@@ -2232,7 +2200,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `granger`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gresley'] = {
         ['name'] = 'Gresley',
@@ -2243,7 +2211,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `gresley`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['habanero'] = {
         ['name'] = 'Habanero',
@@ -2254,7 +2222,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `habanero`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['huntley'] = {
         ['name'] = 'Huntley S',
@@ -2265,7 +2233,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `huntley`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['landstalker'] = {
         ['name'] = 'Landstalker',
@@ -2276,7 +2244,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `landstalker`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['landstalker2'] = {
         ['name'] = 'Landstalker XL',
@@ -2287,7 +2255,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `landstalker2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['mesa'] = {
         ['name'] = 'Mesa',
@@ -2298,7 +2266,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `mesa`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['novak'] = {                            --DLC
         ['name'] = 'Novak',
@@ -2309,7 +2277,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `novak`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['patriot'] = {
         ['name'] = 'Patriot',
@@ -2320,7 +2288,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `patriot`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['radi'] = {
         ['name'] = 'Radius',
@@ -2331,7 +2299,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `radi`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rebla'] = {
         ['name'] = 'Rebla GTS',
@@ -2342,7 +2310,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `rebla`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rocoto'] = {
         ['name'] = 'Rocoto',
@@ -2353,7 +2321,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `rocoto`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['seminole'] = {
         ['name'] = 'Seminole',
@@ -2364,7 +2332,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `seminole`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['seminole2'] = {
         ['name'] = 'Seminole Frontier',
@@ -2375,7 +2343,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `seminole2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['serrano'] = {
         ['name'] = 'Serrano',
@@ -2386,7 +2354,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `serrano`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['toros'] = {                            --DLC
         ['name'] = 'Toros',
@@ -2397,7 +2365,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `toros`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['xls'] = {
         ['name'] = 'XLS',
@@ -2408,7 +2376,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `xls`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['granger2'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Granger 3600LX',
@@ -2419,7 +2387,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'SUVs',
         ['hash'] = `granger2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Sedans
     ['asea'] = {
@@ -2431,7 +2399,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `asea`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['asterope'] = {
         ['name'] = 'Asterope',
@@ -2442,7 +2410,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `asterope`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cog55'] = {
         ['name'] = 'Cognoscenti 55',
@@ -2453,7 +2421,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `cog55`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cognoscenti'] = {
         ['name'] = 'Cognoscenti',
@@ -2464,7 +2432,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `cognoscenti`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['emperor'] = {
         ['name'] = 'Emperor',
@@ -2475,7 +2443,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `emperor`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['fugitive'] = {
         ['name'] = 'Fugitive',
@@ -2486,7 +2454,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `fugitive`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['glendale'] = {
         ['name'] = 'Glendale',
@@ -2497,7 +2465,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `glendale`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['glendale2'] = {
         ['name'] = 'Glendale',
@@ -2508,7 +2476,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `glendale2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ingot'] = {
         ['name'] = 'Ingot',
@@ -2519,7 +2487,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `ingot`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['intruder'] = {
         ['name'] = 'Intruder',
@@ -2530,7 +2498,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `intruder`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['premier'] = {
         ['name'] = 'Premier',
@@ -2541,7 +2509,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `premier`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['primo'] = {
         ['name'] = 'Primo',
@@ -2552,7 +2520,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `primo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['primo2'] = {
         ['name'] = 'Primo Custom',
@@ -2563,7 +2531,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `primo2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['regina'] = {
         ['name'] = 'Regina',
@@ -2574,7 +2542,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `regina`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stafford'] = {                            --DLC
         ['name'] = 'Stafford',
@@ -2585,7 +2553,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `stafford`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stanier'] = {
         ['name'] = 'Stanier',
@@ -2596,7 +2564,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `stanier`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stratum'] = {
         ['name'] = 'Stratum',
@@ -2607,7 +2575,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `stratum`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stretch'] = {
         ['name'] = 'Stretch',
@@ -2618,7 +2586,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `stretch`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['superd'] = {
         ['name'] = 'Super Diamond',
@@ -2629,7 +2597,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `superd`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['surge'] = {
         ['name'] = 'Surge',
@@ -2640,7 +2608,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `surge`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tailgater'] = {
         ['name'] = 'Tailgater',
@@ -2651,7 +2619,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `tailgater`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['warrener'] = {
         ['name'] = 'Warrener',
@@ -2662,7 +2630,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `warrener`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['washington'] = {
         ['name'] = 'Washington',
@@ -2673,7 +2641,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `washington`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tailgater2'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Tailgater S',
@@ -2684,7 +2652,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `tailgater2`,
         ['shop'] = 'pdm',
-        ["tier"] = "B", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cinquemila'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Lampadati',
@@ -2695,7 +2663,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `cinquemila`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['iwagen'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Obey',
@@ -2706,7 +2674,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `iwagen`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['astron'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Pfister',
@@ -2717,7 +2685,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `astron`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['baller7'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Baller ST',
@@ -2728,7 +2696,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `baller7`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['comet7'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Comet',
@@ -2739,7 +2707,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `comet7`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['deity'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Deity',
@@ -2750,7 +2718,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `deity`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['jubilee'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Jubilee',
@@ -2761,7 +2729,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `jubilee`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['patriot3'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Patriot',
@@ -2772,7 +2740,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `patriot3`,
         ['shop'] = 'pdm',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Sports
     ['alpha'] = {
@@ -2784,7 +2752,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `alpha`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['banshee'] = {
         ['name'] = 'Banshee',
@@ -2795,7 +2763,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `banshee`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bestiagts'] = {
         ['name'] = 'Bestia GTS',
@@ -2806,7 +2774,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `bestiagts`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blista2'] = {
         ['name'] = 'Blista Compact',
@@ -2817,7 +2785,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `blista2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['blista3'] = {
         ['name'] = 'Blista Go Go Monkey',
@@ -2828,7 +2796,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `blista3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['buffalo'] = {
         ['name'] = 'Buffalo',
@@ -2839,7 +2807,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `buffalo`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['buffalo2'] = {
         ['name'] = 'Buffalo S',
@@ -2850,7 +2818,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `buffalo2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['carbonizzare'] = {
         ['name'] = 'Carbonizzare',
@@ -2861,7 +2829,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `carbonizzare`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['comet2'] = {
         ['name'] = 'Comet',
@@ -2872,7 +2840,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['comet3'] = {
         ['name'] = 'Comet Retro Custom',
@@ -2883,7 +2851,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet3`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['comet4'] = {
         ['name'] = 'Comet Safari',
@@ -2894,7 +2862,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet4`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['comet5'] = {
         ['name'] = 'Comet SR',
@@ -2905,7 +2873,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet5`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['coquette'] = {
         ['name'] = 'Coquette',
@@ -2916,7 +2884,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `coquette`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['coquette2'] = {
         ['name'] = 'Coquette Classic',
@@ -2927,7 +2895,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `coquette2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['coquette4'] = {
         ['name'] = 'Coquette D10',
@@ -2938,7 +2906,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `coquette4`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['drafter'] = {                            --DLC
         ['name'] = '8F Drafter',
@@ -2949,7 +2917,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `drafter`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['deveste'] = {                            --DLC
         ['name'] = 'Deveste',
@@ -2960,7 +2928,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `deveste`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['elegy'] = {                            --DLC
         ['name'] = 'Elegy Retro Custom',
@@ -2971,7 +2939,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `elegy`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['elegy2'] = {
         ['name'] = 'Elegy RH8',
@@ -2982,7 +2950,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `elegy2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['feltzer2'] = {
         ['name'] = 'Feltzer',
@@ -2993,7 +2961,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `feltzer2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['flashgt'] = {
         ['name'] = 'Flash GT',
@@ -3004,7 +2972,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `flashgt`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['furoregt'] = {
         ['name'] = 'Furore GT',
@@ -3015,7 +2983,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `furoregt`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['futo'] = {
         ['name'] = 'Futo',
@@ -3026,7 +2994,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `futo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gb200'] = {
         ['name'] = 'GB 200',
@@ -3037,7 +3005,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `gb200`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['komoda'] = {
         ['name'] = 'Komoda',
@@ -3048,7 +3016,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `komoda`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['imorgon'] = {
         ['name'] = 'Imorgon',
@@ -3059,7 +3027,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `imorgon`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['issi7'] = {                            --DLC
         ['name'] = 'Issi Sport',
@@ -3070,7 +3038,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `issi7`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['italigto'] = {                            --DLC
         ['name'] = 'Itali GTO',
@@ -3081,7 +3049,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `italigto`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['jugular'] = {                            --DLC
         ['name'] = 'Jugular',
@@ -3092,7 +3060,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jugular`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['jester'] = {
         ['name'] = 'Jester',
@@ -3103,7 +3071,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['jester2'] = {
         ['name'] = 'Jester Racecar',
@@ -3114,7 +3082,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['jester3'] = {
         ['name'] = 'Jester Classic',
@@ -3125,7 +3093,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester3`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['khamelion'] = {
         ['name'] = 'Khamelion',
@@ -3136,7 +3104,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `khamelion`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['kuruma'] = {
         ['name'] = 'Kuruma',
@@ -3147,7 +3115,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `kuruma`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['locust'] = {                            --DLC
         ['name'] = 'Locust',
@@ -3158,7 +3126,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `locust`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['lynx'] = {
         ['name'] = 'Lynx',
@@ -3169,7 +3137,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `lynx`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['massacro'] = {
         ['name'] = 'Massacro',
@@ -3180,7 +3148,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `massacro`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['massacro2'] = {
         ['name'] = 'Massacro Racecar',
@@ -3191,7 +3159,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `massacro2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['neo'] = {                            --DLC
         ['name'] = 'Neo',
@@ -3202,7 +3170,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `neo`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['neon'] = {                            --DLC
         ['name'] = 'Neon',
@@ -3213,7 +3181,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `neon`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ninef'] = {
         ['name'] = '9F',
@@ -3224,7 +3192,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `ninef`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ninef2'] = {
         ['name'] = '9F Cabrio',
@@ -3235,7 +3203,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `ninef2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['omnis'] = {
         ['name'] = 'Omnis',
@@ -3246,7 +3214,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `omnis`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['paragon'] = {                            --DLC
         ['name'] = 'Paragon',
@@ -3257,7 +3225,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `paragon`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['pariah'] = {
         ['name'] = 'Pariah',
@@ -3268,7 +3236,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `pariah`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['penumbra'] = {
         ['name'] = 'Penumbra',
@@ -3279,7 +3247,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `penumbra`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['penumbra2'] = {
         ['name'] = 'Penumbra FF',
@@ -3290,7 +3258,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `penumbra2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rapidgt'] = {
         ['name'] = 'Rapid GT',
@@ -3301,7 +3269,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `rapidgt`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rapidgt2'] = {
         ['name'] = 'Rapid GT Convertible',
@@ -3312,7 +3280,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `rapidgt2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['raptor'] = {
         ['name'] = 'Raptor',
@@ -3323,7 +3291,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `raptor`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['revolter'] = {
         ['name'] = 'Revolter',
@@ -3334,7 +3302,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `revolter`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ruston'] = {
         ['name'] = 'Ruston',
@@ -3345,7 +3313,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `ruston`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['schafter2'] = {
         ['name'] = 'Schafter',
@@ -3356,7 +3324,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `schafter2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['schafter3'] = {
         ['name'] = 'Schafter V12',
@@ -3367,7 +3335,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schafter3`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['schafter4'] = {
         ['name'] = 'Schafter LWB',
@@ -3378,7 +3346,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schafter4`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['schlagen'] = {                            --DLC
         ['name'] = 'Schlagen GT',
@@ -3389,7 +3357,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schlagen`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['schwarzer'] = {
         ['name'] = 'Schwartzer',
@@ -3400,7 +3368,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `schwarzer`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sentinel3'] = {
         ['name'] = 'Sentinel Classic',
@@ -3411,7 +3379,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `sentinel3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['seven70'] = {
         ['name'] = 'Seven-70',
@@ -3422,7 +3390,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `seven70`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['specter'] = {
         ['name'] = 'Specter',
@@ -3433,7 +3401,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `specter`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['streiter'] = {
         ['name'] = 'Streiter',
@@ -3444,7 +3412,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `streiter`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sugoi'] = {
         ['name'] = 'Sugoi',
@@ -3455,7 +3423,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sugoi`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sultan'] = {
         ['name'] = 'Sultan',
@@ -3466,7 +3434,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultan`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sultan2'] = {
         ['name'] = 'Sultan Custom',
@@ -3477,7 +3445,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultan2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['surano'] = {
         ['name'] = 'Surano',
@@ -3488,7 +3456,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `surano`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tampa2'] = {
         ['name'] = 'Drift Tampa',
@@ -3499,7 +3467,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `tampa2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tropos'] = {
         ['name'] = 'Tropos Rallye',
@@ -3510,7 +3478,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `tropos`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['verlierer2'] = {
         ['name'] = 'Verlierer',
@@ -3521,7 +3489,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `verlierer2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vstr'] = {
         ['name'] = 'V-STR',
@@ -3532,7 +3500,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `vstr`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['italirsx'] = {
         ['name'] = 'Itali RSX',
@@ -3543,7 +3511,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `italirsx`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zr350'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'ZR350',
@@ -3554,7 +3522,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `zr350`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['calico'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Calico GTF',
@@ -3565,7 +3533,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `calico`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['futo2'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Futo GTX',
@@ -3576,7 +3544,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `futo2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['euros'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Euros',
@@ -3587,7 +3555,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `euros`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['jester4'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Jester RR',
@@ -3598,7 +3566,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `jester4`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['remus'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Remus',
@@ -3609,7 +3577,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `remus`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['comet6'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Comet S2',
@@ -3620,7 +3588,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `comet6`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['growler'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Growler',
@@ -3631,7 +3599,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `growler`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vectre'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Emperor Vectre',
@@ -3642,7 +3610,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `vectre`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cypher'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Cypher',
@@ -3653,7 +3621,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `cypher`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sultan3'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Sultan Classic Custom',
@@ -3664,7 +3632,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultan3`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rt3000'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'RT3000',
@@ -3675,7 +3643,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `rt3000`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Sports Classic
     ['ardent'] = {
@@ -3687,7 +3655,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `ardent`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['btype'] = {              --meme car that goes pretty fast
         ['name'] = 'Roosevelt',
@@ -3698,7 +3666,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `btype`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['btype2'] = {
         ['name'] = 'Franken Stange',
@@ -3709,7 +3677,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `btype2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['btype3'] = {
         ['name'] = 'Roosevelt Valor',
@@ -3720,7 +3688,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `btype3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['casco'] = {
         ['name'] = 'Casco',
@@ -3731,7 +3699,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `casco`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['cheetah2'] = {
         ['name'] = 'Cheetah Classic',
@@ -3742,7 +3710,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `cheetah2`,
         ['shop'] = 'luxury',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['deluxo'] = {
         ['name'] = 'Deluxo',
@@ -3753,7 +3721,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `deluxo`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['dynasty'] = {                            --DLC
         ['name'] = 'Dynasty',
@@ -3764,7 +3732,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `dynasty`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+    
+    
     },
     ['fagaloa'] = {
         ['name'] = 'Fagaloa',
@@ -3775,7 +3743,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `fagaloa`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+ 
+ 
         },
     ['feltzer3'] = {                            --DLC
         ['name'] = 'Stirling GT',
@@ -3786,7 +3754,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `feltzer3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['gt500'] = {
         ['name'] = 'GT500',
@@ -3797,7 +3765,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `gt500`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['infernus2'] = {
         ['name'] = 'Infernus Classic',
@@ -3808,7 +3776,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `infernus2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['jb700'] = {
         ['name'] = 'JB 700',
@@ -3819,7 +3787,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `jb700`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['jb7002'] = {
         ['name'] = 'JB 700W',
@@ -3830,7 +3798,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `jb7002`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['mamba'] = {
         ['name'] = 'Mamba',
@@ -3841,7 +3809,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `mamba`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['manana'] = {
         ['name'] = 'Manana',
@@ -3852,7 +3820,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `manana`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['manana2'] = {
         ['name'] = 'Manana Custom',
@@ -3863,7 +3831,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `manana2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['michelli'] = {
         ['name'] = 'Michelli GT',
@@ -3874,7 +3842,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `michelli`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['monroe'] = {
         ['name'] = 'Monroe',
@@ -3885,7 +3853,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `monroe`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['nebula'] = {                            --DLC
         ['name'] = 'Nebula',
@@ -3896,7 +3864,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `nebula`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['peyote'] = {
         ['name'] = 'Peyote',
@@ -3907,7 +3875,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `peyote`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['peyote3'] = {
         ['name'] = 'Peyote Custom',
@@ -3918,7 +3886,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `peyote3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['pigalle'] = {
         ['name'] = 'Pigalle',
@@ -3929,7 +3897,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `pigalle`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rapidgt3'] = {
         ['name'] = 'Rapid GT',
@@ -3940,7 +3908,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `rapidgt3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['retinue'] = {
         ['name'] = 'Retinue',
@@ -3951,7 +3919,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `retinue`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['retinue2'] = {
         ['name'] = 'Retinue MKII',
@@ -3962,7 +3930,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `retinue2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['savestra'] = {
         ['name'] = 'Savestra',
@@ -3973,7 +3941,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `savestra`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stinger'] = {
         ['name'] = 'Stinger',
@@ -3984,7 +3952,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `stinger`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stingergt'] = {
         ['name'] = 'Stinger GT',
@@ -3995,7 +3963,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `stingergt`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['stromberg'] = {
         ['name'] = 'Stromberg',
@@ -4006,7 +3974,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `stromberg`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['swinger'] = {                            --DLC
         ['name'] = 'Swinger',
@@ -4017,7 +3985,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `swinger`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['torero'] = {
         ['name'] = 'Torero',
@@ -4028,7 +3996,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `torero`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tornado'] = {
         ['name'] = 'Tornado',
@@ -4039,7 +4007,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `tornado`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tornado2'] = {
         ['name'] = 'Tornado Gang',
@@ -4050,7 +4018,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `tornado2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tornado5'] = {
         ['name'] = 'Tornado Custom',
@@ -4061,7 +4029,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `tornado5`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['turismo2'] = {
         ['name'] = 'Turismo Classic',
@@ -4072,7 +4040,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `turismo2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['viseris'] = {
         ['name'] = 'Viseris',
@@ -4083,7 +4051,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `viseris`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['z190'] = {
         ['name'] = '190Z',
@@ -4094,7 +4062,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `z190`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ztype'] = {
         ['name'] = 'Z-Type',
@@ -4105,7 +4073,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `ztype`,
         ['shop'] = 'pdm',
-        ["tier"] = "A+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zion3'] = {                            --DLC
         ['name'] = 'Zion Classic',
@@ -4116,7 +4084,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `zion3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['cheburek'] = {
         ['name'] = 'Cheburek',
@@ -4127,7 +4095,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `cheburek`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['toreador'] = {
         ['name'] = 'Toreador',
@@ -4138,7 +4106,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports Classics',
         ['hash'] = `toreador`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     --- Super
     ['adder'] = {
@@ -4150,7 +4118,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `adder`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['autarch'] = {
         ['name'] = 'Autarch',
@@ -4161,7 +4129,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `autarch`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['banshee2'] = {
         ['name'] = 'Banshee 900R',
@@ -4172,7 +4140,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `banshee2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['bullet'] = {
         ['name'] = 'Bullet',
@@ -4183,7 +4151,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `bullet`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['cheetah'] = {
         ['name'] = 'Cheetah',
@@ -4194,7 +4162,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `cheetah`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['cyclone'] = {         --might be too overpowered
         ['name'] = 'Cyclone',
@@ -4205,7 +4173,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `cyclone`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['entity2'] = {
         ['name'] = 'Entity XXR',
@@ -4216,7 +4184,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `entity2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['entityxf'] = {
         ['name'] = 'Entity XF',
@@ -4227,7 +4195,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `entityxf`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['emerus'] = {                            --DLC
         ['name'] = 'Emerus',
@@ -4238,7 +4206,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `emerus`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['fmj'] = {
         ['name'] = 'FMJ',
@@ -4249,7 +4217,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `fmj`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['furia'] = {
         ['name'] = 'Furia',
@@ -4260,7 +4228,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `furia`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['gp1'] = {
         ['name'] = 'GP1',
@@ -4271,7 +4239,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `gp1`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['infernus'] = {
         ['name'] = 'Infernus',
@@ -4282,7 +4250,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `infernus`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['italigtb'] = {
         ['name'] = 'Itali GTB',
@@ -4293,7 +4261,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `italigtb`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['italigtb2'] = {
         ['name'] = 'Itali GTB',
@@ -4304,7 +4272,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `italigtb2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['krieger'] = {                            --DLC
         ['name'] = 'Krieger',
@@ -4315,7 +4283,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `krieger`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
             },
     ['le7b'] = {
         ['name'] = 'RE-7B',
@@ -4326,7 +4294,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `le7b`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['nero'] = {
         ['name'] = 'Nero',
@@ -4337,7 +4305,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `nero`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['nero2'] = {
         ['name'] = 'Nero Custom',
@@ -4348,7 +4316,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `nero2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['osiris'] = {
         ['name'] = 'Osiris',
@@ -4359,7 +4327,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `osiris`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['penetrator'] = {
         ['name'] = 'Penetrator',
@@ -4370,7 +4338,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `penetrator`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
         },
     ['pfister811'] = {
         ['name'] = '811',
@@ -4381,7 +4349,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `pfister811`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['prototipo'] = {
         ['name'] = 'X80 Proto',
@@ -4392,7 +4360,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `prototipo`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['reaper'] = {
         ['name'] = 'Reaper',
@@ -4403,7 +4371,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `reaper`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['s80'] = {                            --DLC
         ['name'] = 'S80RR',
@@ -4414,7 +4382,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `s80`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sc1'] = {
         ['name'] = 'SC1',
@@ -4425,7 +4393,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `sc1`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sheava'] = {                            --DLC
         ['name'] = 'ETR1',
@@ -4436,7 +4404,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `sheava`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sultanrs'] = {
         ['name'] = 'Sultan RS',
@@ -4447,7 +4415,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sultanrs`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['t20'] = {
         ['name'] = 'T20',
@@ -4458,7 +4426,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `t20`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['taipan'] = {
         ['name'] = 'Taipan',
@@ -4469,7 +4437,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `taipan`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tempesta'] = {
         ['name'] = 'Tempesta',
@@ -4480,7 +4448,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `tempesta`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tezeract'] = {
         ['name'] = 'Tezeract',
@@ -4491,7 +4459,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `tezeract`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['thrax'] = {                            --DLC
         ['name'] = 'Thrax',
@@ -4502,7 +4470,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `thrax`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tigon'] = {
         ['name'] = 'Tigon',
@@ -4513,7 +4481,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `tigon`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['turismor'] = {
         ['name'] = 'Turismo R',
@@ -4524,7 +4492,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `turismor`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tyrant'] = {
         ['name'] = 'Tyrant',
@@ -4535,7 +4503,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `tyrant`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tyrus'] = {
         ['name'] = 'Tyrus',
@@ -4546,7 +4514,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `tyrus`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vacca'] = {
         ['name'] = 'Vacca',
@@ -4557,7 +4525,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `vacca`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vagner'] = {
         ['name'] = 'Vagner',
@@ -4568,7 +4536,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `vagner`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['visione'] = {
         ['name'] = 'Visione',
@@ -4579,7 +4547,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `visione`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['voltic'] = {
         ['name'] = 'Voltic',
@@ -4590,7 +4558,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `voltic`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['voltic2'] = {
         ['name'] = 'Rocket Voltic',
@@ -4601,7 +4569,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `voltic2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['xa21'] = {
         ['name'] = 'XA-21',
@@ -4612,7 +4580,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `xa21`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zentorno'] = {
         ['name'] = 'Zentorno',
@@ -4623,7 +4591,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `zentorno`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['zorrusso'] = {                            --DLC
         ['name'] = 'Zorrusso',
@@ -4634,7 +4602,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `zorrusso`,
         ['shop'] = 'luxury',
-        ["tier"] = "S+", -- Can either be D, C, B, A, A+, S, S+
+
     },
     -- Vans
     ['bison'] = {
@@ -4646,7 +4614,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `bison`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['bobcatxl'] = {
         ['name'] = 'Bobcat XL Open',
@@ -4657,7 +4625,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `bobcatxl`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['burrito3'] = {
         ['name'] = 'Burrito',
@@ -4668,7 +4636,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `burrito3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['gburrito2'] = {
         ['name'] = 'Burrito Custom',
@@ -4679,7 +4647,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `gburrito2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rumpo'] = {
         ['name'] = 'Rumpo',
@@ -4690,7 +4658,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `rumpo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['journey'] = {
         ['name'] = 'Journey',
@@ -4701,7 +4669,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `journey`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['minivan'] = {
         ['name'] = 'Minivan',
@@ -4712,7 +4680,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `minivan`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['minivan2'] = {
         ['name'] = 'Minivan Custom',
@@ -4723,7 +4691,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `minivan2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['paradise'] = {
         ['name'] = 'Paradise',
@@ -4734,7 +4702,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `paradise`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rumpo3'] = {
         ['name'] = 'Rumpo Custom',
@@ -4745,7 +4713,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `rumpo3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['speedo'] = {
         ['name'] = 'Speedo',
@@ -4756,7 +4724,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `speedo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['speedo4'] = {
         ['name'] = 'Speedo Custom',
@@ -4767,7 +4735,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `speedo4`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['surfer'] = {
         ['name'] = 'Surfer',
@@ -4778,7 +4746,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `surfer`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['youga3'] = {
         ['name'] = 'Youga Classic 4x4',
@@ -4789,7 +4757,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `youga3`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['youga'] = {
         ['name'] = 'Youga',
@@ -4800,7 +4768,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `youga`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['youga2'] = {
         ['name'] = 'Youga Classic',
@@ -4811,7 +4779,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `youga2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['youga4'] = {          --DLC +set sv_enforceGameBuild 2545
         ['name'] = 'Youga',
@@ -4822,7 +4790,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Vans',
         ['hash'] = `youga4`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     -- Utility
     ['sadler'] = {
@@ -4834,7 +4802,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `sadler`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['slamtruck'] = {
         ['name'] = 'Slam Truck',
@@ -4845,7 +4813,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `slamtruck`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['warrener2'] = {                            --DLC +set sv_enforceGameBuild 2372
         ['name'] = 'Warrener HKR',
@@ -4856,7 +4824,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `warrener2`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+
     },
         -- Boats
     ['squalo'] = {
@@ -5310,7 +5278,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `brioso3`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['conada'] = {
         ['name'] = 'Conada',
@@ -5331,7 +5299,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `corsita`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['draugur'] = {
         ['name'] = 'Draugur',
@@ -5342,7 +5310,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Off Road',
         ['hash'] = `draugur`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['greenwood'] = {
         ['name'] = 'Greenwood',
@@ -5353,7 +5321,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `greenwood`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['kanjosj'] = {
         ['name'] = 'Kanjo SJ',
@@ -5364,7 +5332,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `kanjosj`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['lm87'] = {
         ['name'] = 'LM87',
@@ -5375,7 +5343,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `lm87`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['omnisegt'] = {
         ['name'] = 'Omnis e-GT',
@@ -5386,7 +5354,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `omnisegt`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['postlude'] = {
         ['name'] = 'Postlude',
@@ -5397,7 +5365,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Coupes',
         ['hash'] = `postlude`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['rhinehart'] = {
         ['name'] = 'Rhinehart',
@@ -5408,7 +5376,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sedans',
         ['hash'] = `rhinehart`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['ruiner4'] = {
         ['name'] = 'Ruiner ZZ-8',
@@ -5419,7 +5387,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `ruiner4`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sentinel4'] = {
         ['name'] = 'Sentinel Classic Widebody',
@@ -5430,7 +5398,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sentinel4`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['sm722'] = {
         ['name'] = 'SM722',
@@ -5441,7 +5409,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `sm722`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tenf'] = {
         ['name'] = '10F',
@@ -5452,7 +5420,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `tenf`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['tenf2'] = {
         ['name'] = '10F Widebody',
@@ -5463,7 +5431,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Sports',
         ['hash'] = `tenf2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['torero2'] = {
         ['name'] = 'Torero XO',
@@ -5474,7 +5442,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Super',
         ['hash'] = `torero2`,
         ['shop'] = 'luxury',
-        ["tier"] = "S", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['vigero2'] = {
         ['name'] = 'Vigero ZX',
@@ -5485,7 +5453,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `vigero2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['weevil2'] = {
         ['name'] = 'Weevil Custom',
@@ -5496,7 +5464,7 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Muscle',
         ['hash'] = `weevil2`,
         ['shop'] = 'pdm',
-        ["tier"] = "A", -- Can either be D, C, B, A, A+, S, S+
+
     },
     ['hauler'] = {
         ['name'] = 'Hauler',
