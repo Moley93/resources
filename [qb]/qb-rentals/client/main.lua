@@ -23,7 +23,7 @@ RegisterNetEvent('qb-rental:openMenu', function()
                 event = "qb-rental:spawncar",
                 args = {
                     model = 'asterope',
-                    money = 250,
+                    money = 25,
                 }
             }
         },
@@ -35,7 +35,7 @@ RegisterNetEvent('qb-rental:openMenu', function()
                 event = "qb-rental:spawncar",
                 args = {
                     model = 'bison',
-                    money = 500,
+                    money = 50,
                 }
             }
         },
@@ -47,7 +47,7 @@ RegisterNetEvent('qb-rental:openMenu', function()
                 event = "qb-rental:spawncar",
                 args = {
                     model = 'sanchez',
-                    money = 750,
+                    money = 75,
                 }
             }
         },

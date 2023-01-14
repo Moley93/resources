@@ -12,7 +12,6 @@ QBShared.Vehicles = {
         ['categoryLabel'] = 'Compacts',
         ['hash'] = `asbo`,
         ['shop'] = 'pdm',
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
     },
     ['blista'] = {
         ['name'] = 'Blista',
