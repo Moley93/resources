@@ -1,16 +1,21 @@
-server_script "5M441.lua"
-client_script "5M441.lua"
+-- Resource Metadata
 fx_version 'cerulean'
-game 'gta5'
+games { 'gta5' }
 
-description 'QB-LapRaces'
+author 'ItsANoBrainer'
+description 'Standalone lapraces for QB-Core'
 version '1.0.0'
 
 ui_page 'html/index.html'
 
-shared_script 'config.lua'
+shared_scripts {
+    'config.lua',
+    '@qb-core/shared/locale.lua',
+    'locales/en.lua', 
+}
 
 client_script 'client/main.lua'
+
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'server/main.lua'
