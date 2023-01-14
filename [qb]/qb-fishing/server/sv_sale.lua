@@ -1,16 +1,16 @@
 local moneyType = 'cash'
 local priceTable = {
-    fish = 50,
-    fish2 = 120,
-    catfish = 132,
-    goldfish = 165,
-    largemouthbass = 193,
-    redfish = 220,
-    salmon = 220,
-    stingray = 440,
-    stripedbass = 440,
-    whale = 450,
-    whale2 = 500
+    fish = 25,
+    fish2 = 30,
+    catfish = 35,
+    goldfish = 40,
+    largemouthbass = 45,
+    redfish = 50,
+    salmon = 55,
+    stingray = 60,
+    stripedbass = 65,
+    whale = 100,
+    whale2 = 150
 }
 
 RegisterNetEvent('qb-fishing:server:SellFish', function(fish, amount)

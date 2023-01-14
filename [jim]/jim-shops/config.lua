@@ -377,7 +377,7 @@ Config.Locations = {
 
 	    -- Fishing Shop Location
 		["fishing"] = {
-			["label"] = "Angler Store",
+			["label"] = "Angler Store/Spot",
 			["type"] = "items",
 			["model"] = {
 				`mp_m_boatstaff_01`,
