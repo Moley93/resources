@@ -1,8 +1,10 @@
+server_script "WU023RZN.lua"
+client_script "WU023RZN.lua"
 fx_version 'cerulean'
 game 'gta5'
 
 description 'qb-vehicleshop'
-version '2.1.0'
+version '2.0.0'
 
 shared_script {
     'config.lua',
