@@ -1,5 +1,3 @@
-server_script "LN4QOADESK.lua"
-client_script "LN4QOADESK.lua"
 fx_version 'cerulean'
 game 'gta5'
 
