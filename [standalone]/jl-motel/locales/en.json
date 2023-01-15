@@ -52,7 +52,6 @@
   "info_not_nearby": "That person is not near the door anymore...",
   "info_invite_success": "Succesfully invited the person to the room",
   "info_invited": "Your request has been accepted by room owner",
-  "info_autopayment": "Your auto payment is set to %{status}",
 
   "control_motel_menu": "[E] Motel Menu",
   "control_stash": "[E] STASH",
@@ -140,11 +139,5 @@
   "ui_select_welcome": "Welcome",
   "ui_select_rent_time": "Rent time: %{time}",
   "ui_select_price": "Price: %{price}",
-  "ui_select_spawn": "Spawn",
-
-  "auto_debit": "Auto Pay: %{status}",
-  "active": "Active",
-  "not_active": "Not Active",
-
-  "button_debit": "Auto Pay"
+  "ui_select_spawn": "Spawn"
 }
