@@ -25,7 +25,7 @@ Crafting = {
 		{ ['engine3'] = { ['steel'] = 125, ['iron'] = 125, ['carbon'] = 125, } },
 		{ ['engine4'] = { ['steel'] = 150, ['iron'] = 150, ['carbon'] = 150, } },
 		{ ['transmission1'] = { ['steel'] = 75, ['iron'] = 75, ['carbon'] = 75, } },
-		{ ['transmission2'] = { ['steel'] = 100, ['iron'] = 100, ['carbon'] = 100,, } },
+		{ ['transmission2'] = { ['steel'] = 100, ['iron'] = 100, ['carbon'] = 100, } },
 		{ ['transmission3'] = { ['steel'] = 125, ['iron'] = 125, ['carbon'] = 125, } },
 		{ ['brakes1'] = { ['steel'] = 75, ['iron'] = 75, ['carbon'] = 75, } },
 		{ ['brakes2'] = { ['steel'] = 100, ['iron'] = 100, ['carbon'] = 100, } },
