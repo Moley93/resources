@@ -8,7 +8,7 @@ CreateThread(function()
         SetDiscordAppId()
 
         -- Here you will have to put the image name for the "large" icon.
-        SetDiscordRichPresenceAsset('nrlargeogotrans')
+        SetDiscordRichPresenceAsset('nrlargelogotrans')
 
         -- (11-11-2018) New Natives:
 

@@ -866,16 +866,16 @@ Config.Locations = {
         isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(286.562, -570.565, 43.168),
         PedCoords = {
-            [1] = {coords = vector4(284.27, -613.55, 43.32, 295.72), model = "a_m_m_fatlatin_01", scenario = "WORLD_HUMAN_SMOKING"},
-            [2] = {coords = vector4(286.10, -613.12, 43.34, 80.05), model = "a_f_m_fatwhite_01", scenario = "WORLD_HUMAN_SMOKING"},
-            [3] = {coords = vector4(284.31, -611.11, 43.30, 187.24), model = "a_f_m_fatbla_01", scenario = "WORLD_HUMAN_SMOKING"},
-            [4] = {coords = vector4(300.45, -578.30, 43.26, 143.94), model = "a_f_m_fatbla_01", scenario = "WORLD_HUMAN_SMOKING"},
-            [5] = {coords = vector4(299.30, -580.53, 43.26, 336.25), model = "a_m_m_farmer_01", scenario = "WORLD_HUMAN_SMOKING"},
-            [6] = {coords = vector4(310.55, -586.17, 43.28, 342.41), model = "s_m_m_paramedic_01", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
-            [7] = {coords = vector4(303.94, -591.88, 43.28, 72.24), model = "a_m_m_salton_03", scenario = "WORLD_HUMAN_MOBILE_FILM_SHOCKING"},
-            [8] = {coords = vector4(310.72, -596.61, 42.28, 160.73), model = "s_m_m_paramedic_01", scenario = "PROP_HUMAN_BUM_BIN"},
-            [9] = {coords = vector4(308.50, -595.13, 43.28, 68.50), model = "s_m_m_doctor_01", scenario = "WORLD_HUMAN_CLIPBOARD"},  
-            [10] = {coords = vector4(322.94, -582.35, 43.28, 337.13), model = "s_m_m_paramedic_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
+            [1] = {coords = vector4(284.27, -613.55, 43, 295.72), model = "a_m_m_fatlatin_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [2] = {coords = vector4(286.10, -613.12, 43, 80.05), model = "a_f_m_fatwhite_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [3] = {coords = vector4(284.31, -611.11, 42, 187.24), model = "a_f_m_fatbla_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [4] = {coords = vector4(300.45, -578.30, 42, 143.94), model = "a_f_m_fatbla_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [5] = {coords = vector4(299.30, -580.53, 43, 336.25), model = "a_m_m_farmer_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [6] = {coords = vector4(310.55, -586.17, 43, 342.41), model = "s_m_m_paramedic_01", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
+            [7] = {coords = vector4(303.94, -591.88, 43, 72.24), model = "a_m_m_salton_03", scenario = "WORLD_HUMAN_MOBILE_FILM_SHOCKING"},
+            [8] = {coords = vector4(310.72, -596.61, 42, 160.73), model = "s_m_m_paramedic_01", scenario = "PROP_HUMAN_BUM_BIN"},
+            [9] = {coords = vector4(308.50, -595.13, 43, 68.50), model = "s_m_m_doctor_01", scenario = "WORLD_HUMAN_CLIPBOARD"},  
+            [10] = {coords = vector4(322.94, -582.35, 43, 337.13), model = "s_m_m_paramedic_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
         
         }
     },
