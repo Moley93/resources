@@ -24,21 +24,72 @@ function Camera(status)
 	end
 end
 
-RegisterNetEvent('apartments:client:setupSpawnUI', function(cData, isnewplayer)
+RegisterNetEvent('apartments:client:setupSpawnUI', function(cData, isnew)
+
 	if Config.ReplaceApartment then
 		local res = lib.callback.await('jl-motel:server:getOwnedMotel', false, cData.citizenid)
-		if isnewplayer and not res and SetupSpawn() then
-			Camera(true)
-			Wait(500)
-			DoScreenFadeIn(500)
-		elseif not isnewplayer then
+		if res and not isnew then
 			TriggerEvent('qb-spawn:client:setupSpawns', cData, false, nil)
 			TriggerEvent('qb-spawn:client:openUI', true)
-		else
-			TriggerEvent('qb-multicharacter:client:closeNUIdefault')
+		elseif isnew then
+			local count = 0
+			local translated = {}
+			for k, v in pairs(Config.Motel) do
+				if v.type == 'shell' then
+					translated[k] = {
+						label  = v.label,
+						name   = k,
+						coords = v.rent.coords
+					}
+					count += 1
+				end
+			end
+			if count >= 1 then
+				TriggerEvent('qb-spawn:client:setupSpawns', cData, true, translated)
+				TriggerEvent('qb-spawn:client:openUI', true)
+			else
+				TriggerEvent('qb-spawn:client:setupSpawns', cData, false, nil)
+				TriggerEvent('qb-spawn:client:openUI', true)
+			end
 		end
 	end
 end)
+
+RegisterNetEvent('jl-motel:client:startMotel', function(motel)
+	if not motel then return end
+
+	local FreeRoom
+	for k, v in pairs(Config.Motel[motel].motel) do
+		if not v.owned then
+			FreeRoom = k
+			break
+		end
+	end
+	if not FreeRoom then return end
+	local res = lib.callback.await('jl-motel:server:rentMotel', false, motel, FreeRoom)
+	if res.type == "success" then
+		lib.notify({ description = "Your motel is at " .. Config.Motel[motel].motel[FreeRoom].label, type = "success" })
+		if Config.Motel[motel].type == "shell" then
+			EnterMotel(motel, FreeRoom, true)
+		end
+	end
+end)
+
+-- RegisterNetEvent('apartments:client:setupSpawnUI', function(cData, isnewplayer)
+-- 	if Config.ReplaceApartment then
+-- 		local res = lib.callback.await('jl-motel:server:getOwnedMotel', false, cData.citizenid)
+-- 		if isnewplayer and not res and SetupSpawn() then
+-- 			Camera(true)
+-- 			Wait(500)
+-- 			DoScreenFadeIn(500)
+-- 		elseif not isnewplayer then
+-- 			TriggerEvent('qb-spawn:client:setupSpawns', cData, false, nil)
+-- 			TriggerEvent('qb-spawn:client:openUI', true)
+-- 		else
+-- 			TriggerEvent('qb-multicharacter:client:closeNUIdefault')
+-- 		end
+-- 	end
+-- end)
 
 -- Notification
 function Notification(text, type)
@@ -219,7 +270,9 @@ end
 -- SHELL ONLY!!!
 RegisterNetEvent("jl-motel:client:onMotelEnter")
 AddEventHandler('jl-motel:client:onMotelEnter', function(motel, room)
+	print("ENTER MOTEL", motel, room)
 end)
 RegisterNetEvent("jl-motel:client:onMotelExit")
 AddEventHandler('jl-motel:client:onMotelExit', function(motel, room)
+	print("EXIT MOTEL", motel, room)
 end)

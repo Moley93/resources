@@ -10,6 +10,8 @@ CREATE TABLE IF NOT EXISTS `motel` (
   KEY `serialkey` (`serialkey`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
+ALTER TABLE motel ADD COLUMN IF NOT EXISTS autopay TINYINT(0);
+
 CREATE TABLE IF NOT EXISTS `motel_owner` (
   `motel` varchar(50) NOT NULL,
   `balance` int(11) DEFAULT 0,
