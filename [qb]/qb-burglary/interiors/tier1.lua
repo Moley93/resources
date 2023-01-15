@@ -56,7 +56,7 @@ Config.T1_Interiors = {
                 ["time"] = math.random(750, 1500),
             },
             [5] = {
-                ["name"] = { "pills", "oxy" }, -- [1] = Display name, [2] = QB item name
+                ["name"] = { "Female Seed", "femaleseed" }, -- [1] = Display name, [2] = QB item name
                 ["spawn"] = { vector3(258.6812, -996.7059, -99.56231), },
                 ["rotation"] = { vector3(0, 0, -54.5556), },
                 ["searched"] = false,

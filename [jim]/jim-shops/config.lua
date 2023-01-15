@@ -51,7 +51,7 @@ Config = {
 			{ name = "vodka", price = 15, amount = 50, },
 		},
 		["hardware"] = {
-			{ name = "lockpick", price = 200, amount = 50, },
+			{ name = "lockpick", price = 40, amount = 50, },
 			{ name = "weapon_wrench", price = 250, amount = 250, },
 			{ name = "weapon_hammer", price = 250, amount = 250, },
 			{ name = "weapon_bat", price = 500, amount = 50,  requiredGang = { "lostmc" } },  -- Gang only options in stores
