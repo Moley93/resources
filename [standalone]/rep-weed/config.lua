@@ -51,14 +51,14 @@ Config.Plant = {
     Collect = {
         [1] = {min = 1, max = 1},
         [2] = {min = 1, max = 1},
-        [3] = {min = 1, max = 2},
-        [4] = {min = 2, max = 2},
-        [5] = {min = 2, max = 2},
-        [6] = {min = 2, max = 2},
-        [7] = {min = 2, max = 3},
-        [8] = {min = 2, max = 3},
-        [9] = {min = 2, max = 4}, -- at 80-90% ...
-        [10] = {min = 3, max = 4}, -- at 90-100% water, you can harvest 3-4 buds/seeds
+        [3] = {min = 1, max = 1},
+        [4] = {min = 1, max = 1},
+        [5] = {min = 1, max = 1},
+        [6] = {min = 1, max = 1},
+        [7] = {min = 1, max = 2},
+        [8] = {min = 1 max = 2},
+        [9] = {min = 1, max = 3}, -- at 80-90% ...
+        [10] = {min = 2, max = 3}, -- at 90-100% water, you can harvest 3-4 buds/seeds
     },
     DestroyReward = { -- destroying plants give you fertilizers
         min = 1,
@@ -89,7 +89,7 @@ Config.Plant = {
         [223086562] = true,
         [1109728704] = true
     },
-    MaxHarvest = 5,
+    MaxHarvest = 3,
 }
 
 Config.TacoShop = {

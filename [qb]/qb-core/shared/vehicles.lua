@@ -5538,8 +5538,8 @@ QBShared.Vehicles = {
         ['hash'] = `lib121tahoe`,
         ['shop'] = 'luxury',
     },
-    }
 }
+
 
 for _, v in pairs(QBShared.Vehicles) do
     QBShared.VehicleHashes[v.hash] = v

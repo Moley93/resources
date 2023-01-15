@@ -130,11 +130,10 @@ Config = {
 			{ name = "weapon_snspistol", price = 15000, amount = 1},
 			{ name = "weapon_vintagepistol", price = 12000, amount = 1},
 			{ name = "armor", price = 10000, amount = 1},
-			{ name = "heavyarmor", price = 18000, amount = 1},
 			{ name = "handcuffs", price = 13000, amount = 1},
 			{ name = "trackerdisabler", price = 1000, amount = 10},
-			{ name = "headbag", price = 15000, amount = 1},
-			{ name = "ziptie", price = 100, amount = 100},	
+			{ name = "headbag", price = 1000, amount = 1},
+			{ name = "ziptie", price = 500, amount = 100},	
 		},
 		["fishing"] = {
 			{ name = "fishingrod", price = 250, amount = 50},
@@ -507,7 +506,6 @@ if Config.BlackMarket then
 			`MP_M_Meth_01`,
 		},
 		["coords"] = {
-			vector4(726.79, 4169.33, 40.71, 359.64),
 			vector4(2728.09, 4142.1, 44.29, 66.32),
 			vector4(417.08, -1833.34, 28.07, 136.99),
 			vector4(-101.28, 6506.3, 31.49, 133.8),
