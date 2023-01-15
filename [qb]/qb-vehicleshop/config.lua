@@ -12,19 +12,15 @@ Config.Shops = {
     ['pdm'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a car
         ['Zone'] = {
-            ['Shape'] = {--polygon that surrounds the shop
-                vector2(-56.727394104004, -1086.2325439453),
-                vector2(-60.612808227539, -1096.7795410156),
-                vector2(-58.26834487915, -1100.572265625),
-                vector2(-35.927803039551, -1109.0034179688),
-                vector2(-34.427627563477, -1108.5111083984),
-                vector2(-32.02657699585, -1101.5877685547),
-                vector2(-33.342102050781, -1101.0377197266),
-                vector2(-31.292987823486, -1095.3717041016)
+            ['Shape'] = { --polygon that surrounds the shop
+                vector2(-59.171298980713, -1098.0219726562),
+                vector2(-52.382118225098, -1079.4240722656),
+                vector2(-45.066371917725, -1081.2681884766),
+                vector2(-27.219314575195, -1088.2438964844),
+                vector2(-33.021835327148, -1108.6146240234)
             },
-            ['minZ'] = 25.0, -- min height of the shop zone
-            ['maxZ'] = 28.0, -- max height of the shop zone
-            ['size'] = 2.75 -- size of the vehicles zones
+            ['minZ'] = 26.0,  -- min height of the shop zone
+            ['maxZ'] = 28.0  -- max height of the shop zone
         },
         ['Job'] = 'none', -- Name of job or none
         ['ShopLabel'] = 'Premium Deluxe Motorsport', -- Blip name
@@ -38,49 +34,34 @@ Config.Shops = {
         ['TestDriveSpawn'] = vector4(-56.79, -1109.85, 26.43, 71.5), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-45.65, -1093.66, 25.44, 69.5), -- where the vehicle will spawn on display
-                defaultVehicle = 'adder', -- Default display vehicle
-                chosenVehicle = 'adder', -- Same as default but is dynamically changed when swapping vehicles
+                coords = vector4(-42.14, -1101.5, 26.66, 19.46),
+                defaultVehicle = 'zr350',
+                chosenVehicle = 'zr350',
             },
             [2] = {
-                coords = vector4(-48.27, -1101.86, 25.44, 294.5),
-                defaultVehicle = 'schafter2',
-                chosenVehicle = 'schafter2'
+                coords = vector4(-54.58, -1097.09, 26.66, 31.02),
+                defaultVehicle = 'calico',
+                chosenVehicle = 'calico',
             },
             [3] = {
-                coords = vector4(-39.6, -1096.01, 25.44, 66.5),
-                defaultVehicle = 'comet2',
-                chosenVehicle = 'comet2'
+                coords = vector4(-50.01, -1083.48, 26.66, 251.83),
+                defaultVehicle = 'jester4',
+                chosenVehicle = 'jester4',
             },
             [4] = {
-                coords = vector4(-51.21, -1096.77, 25.44, 254.5),
-                defaultVehicle = 'vigero',
-                chosenVehicle = 'vigero'
+                coords = vector4(-37.05, -1093.44, 26.66, 18.96),
+                defaultVehicle = 'rt3000',
+                chosenVehicle = 'rt3000',
             },
             [5] = {
-                coords = vector4(-40.18, -1104.13, 25.44, 338.5),
-                defaultVehicle = 't20',
-                chosenVehicle = 't20'
-            },
-            [6] = {
-                coords = vector4(-43.31, -1099.02, 25.44, 52.5),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
-            },
-            [7] = {
-                coords = vector4(-50.66, -1093.05, 25.44, 222.5),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
-            },
-            [8] = {
-                coords = vector4(-44.28, -1102.47, 25.44, 298.5),
-                defaultVehicle = 'bati',
-                chosenVehicle = 'bati'
+                coords = vector4(-47.3, -1091.95, 26.66, 94.8),
+                defaultVehicle = 'comet6',
+                chosenVehicle = 'comet6',
             }
         },
     },
     ['luxury'] = {
-        ['Type'] = 'managed', -- meaning a real player has to sell the car
+        ['Type'] = 'free-use', -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
                 vector2(-1260.6973876953, -349.21334838867),

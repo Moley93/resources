@@ -11,8 +11,7 @@ QBShared.Vehicles = {
         ['category'] = 'compacts', -- This must match "VehicleClass" in vehicles.meta for the vehicle and must also exist in https://docs.fivem.net/natives/?_0x29439776AAA00A62
         ['categoryLabel'] = 'Compacts', -- Customize for your Vehicle Shop headings (can even include spaces)
         ['hash'] = `asbo`, -- This has to match the spawn code of the vehicle and must be surrounded by backticks. Example of a Backtick: `
-        ['shop'] = 'pdm', -- Can be a single shop or multiple shops. For multiple shops for example {'shopname1','shopname2','shopname3'},
-        ["tier"] = "D", -- Can either be D, C, B, A, A+, S, S+
+        ['shop'] = 'pdm', -- Can be a single shop or multiple shops. For multiple shops for example {'shopname1','shopname2','shopname3'}
     },
     ['blista'] = {
         ['name'] = 'Blista',
@@ -5540,7 +5539,6 @@ QBShared.Vehicles = {
         ['shop'] = 'luxury',
     },
 }
-
 
 for _, v in pairs(QBShared.Vehicles) do
     QBShared.VehicleHashes[v.hash] = v
