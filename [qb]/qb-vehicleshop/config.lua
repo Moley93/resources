@@ -5,8 +5,8 @@ Config.FinanceCommission = 0.05 -- Percent that goes to sales person from a fina
 Config.FinanceZone = vector3(-29.53, -1103.67, 26.42)-- Where the finance menu is located
 Config.PaymentWarning = 10 -- time in minutes that player has to make payment before repo
 Config.PaymentInterval = 24 -- time in hours between payment being due
-Config.MinimumDown = 10 -- minimum percentage allowed down
-Config.MaximumPayments = 24 -- maximum payments allowed
+Config.MinimumDown = 50 -- minimum percentage allowed down
+Config.MaximumPayments = 4 -- maximum payments allowed
 Config.PreventFinanceSelling = false -- allow/prevent players from using /transfervehicle if financed
 Config.Shops = {
     ['pdm'] = {
@@ -34,34 +34,34 @@ Config.Shops = {
         ['TestDriveSpawn'] = vector4(-56.79, -1109.85, 26.43, 71.5), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-42.14, -1101.5, 26.66, 19.46),
+                coords = vector4(-42.14, -1101.5, 25, 19.46),
                 defaultVehicle = 'zr350',
                 chosenVehicle = 'zr350',
             },
             [2] = {
-                coords = vector4(-54.58, -1097.09, 26.66, 31.02),
+                coords = vector4(-54.58, -1097.09, 25, 31.02),
                 defaultVehicle = 'calico',
                 chosenVehicle = 'calico',
             },
             [3] = {
-                coords = vector4(-50.01, -1083.48, 26.66, 251.83),
+                coords = vector4(-50.01, -1083.48, 25, 251.83),
                 defaultVehicle = 'jester4',
                 chosenVehicle = 'jester4',
             },
             [4] = {
-                coords = vector4(-37.05, -1093.44, 26.66, 18.96),
+                coords = vector4(-37.05, -1093.44, 25, 18.96),
                 defaultVehicle = 'rt3000',
                 chosenVehicle = 'rt3000',
             },
             [5] = {
-                coords = vector4(-47.3, -1091.95, 26.66, 94.8),
+                coords = vector4(-47.3, -1091.95, 25, 94.8),
                 defaultVehicle = 'comet6',
                 chosenVehicle = 'comet6',
             }
         },
     },
     ['luxury'] = {
-        ['Type'] = 'free-use', -- meaning a real player has to sell the car
+        ['Type'] = 'managed', -- meaning a real player has to sell the car
         ['Zone'] = {
             ['Shape'] = {
                 vector2(-1260.6973876953, -349.21334838867),
