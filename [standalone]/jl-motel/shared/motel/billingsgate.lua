@@ -1,4 +1,5 @@
 Config.Motel["bilingsgate"] = {
+    owner = "police",
     label = "Bilingsgate",
     image = "https://media.discordapp.net/attachments/1011890882968031272/1042689036088787024/image.png",
     rent = {

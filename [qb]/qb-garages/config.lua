@@ -204,9 +204,9 @@ Garages = {
     },
     ["cartel"] = {
         label = "Cartel",
-        takeVehicle = vector3(1407.18, 1118.04, 114.84),
-        spawnPoint = vector4(1407.18, 1118.04, 114.84, 88.34),
-        putVehicle = vector3(1407.18, 1118.04, 114.84),
+        takeVehicle = vector3(478.72, -1531.33, 29.31),
+        spawnPoint = vector4(482.67, -1526.05, 29.3, 14.08),
+        putVehicle = vector3(486.77, -1524.26, 29.3),
         showBlip = false,
         blipName = "Cartel",
         blipNumber = 357,

