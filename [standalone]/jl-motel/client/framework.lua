@@ -62,8 +62,8 @@ CreateThread(function()
             Wait(1000)
         end
         exports.ox_inventory:displayMetadata({
-           motel_label = "Motel: ",
-           room_label = "Room: ",
+            motel_label = "Motel: ",
+            room_label = "Room: ",
         })
     end
 end)
