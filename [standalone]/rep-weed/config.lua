@@ -1,7 +1,7 @@
 Config = {}
 -- Config Depen
 Config.Framework = 'qb-core'
-Config.UseOxLib = true -- If false will use qb-menu and qb-input
+Config.UseOxLib = false -- If false will use qb-menu and qb-input
 Config.OxInventory = false -- Use Oxinventory
 Config.Target = 'qb-target' -- ox_target or qtarget, qb-taget
 Config.Boss = { -- you can add more boss location here, he switch locations every restart
@@ -33,16 +33,16 @@ Config.Plant = {
         {hash = `bkr_prop_weed_lrg_01a`, zOffset = -3.0},
         {hash = `bkr_prop_weed_lrg_01b`, zOffset = -3.0},
     },
-    Factor = 1.5, -- How much longer should a male plant take to grow
+    Factor = 1.3, -- How much longer should a male plant take to grow
     GrowthTime = 240, -- Plant Growing time in minutes 240
     LifeTime = 1440, -- Plant lifetime in minutes before wiped-- Water drained from plants per minutes
     MinusWater = 0.25, -- 0.05% per minute on plants
     Water = { -- Watering Can
         Minus = 10, -- Minus 10% water in can per watering
-        Add = 25, -- Add 50% to plant per water
+        Add = 50, -- Add 50% to plant per water
     },
     HarvestPercent = 95, -- If more than it can destroy and can't add male or fertilizers
-    MaleZone = true, -- If true, male plants will pollinate females around it, and turn them into males, in a perimeter of 20
+    MaleZone = false, -- If true, male plants will pollinate females around it, and turn them into males, in a perimeter of 20
     Dry = 0.25, -- 6 hours to dry weed
     Job = { -- Jobs that can destroy weed at any stage
         'police', -- Add more job if u want
@@ -51,14 +51,14 @@ Config.Plant = {
     Collect = {
         [1] = {min = 1, max = 1},
         [2] = {min = 1, max = 1},
-        [3] = {min = 1, max = 1},
-        [4] = {min = 1, max = 1},
-        [5] = {min = 1, max = 1},
-        [6] = {min = 1, max = 1},
-        [7] = {min = 1, max = 2},
-        [8] = {min = 1 max = 2},
-        [9] = {min = 1, max = 3}, -- at 80-90% ...
-        [10] = {min = 2, max = 3}, -- at 90-100% water, you can harvest 3-4 buds/seeds
+        [3] = {min = 1, max = 2},
+        [4] = {min = 2, max = 2},
+        [5] = {min = 2, max = 2},
+        [6] = {min = 2, max = 2},
+        [7] = {min = 2, max = 3},
+        [8] = {min = 2, max = 3},
+        [9] = {min = 2, max = 4}, -- at 80-90% ...
+        [10] = {min = 3, max = 4}, -- at 90-100% water, you can harvest 3-4 buds/seeds
     },
     DestroyReward = { -- destroying plants give you fertilizers
         min = 1,
@@ -89,7 +89,7 @@ Config.Plant = {
         [223086562] = true,
         [1109728704] = true
     },
-    MaxHarvest = 3,
+    MaxHarvest = 5,
 }
 
 Config.TacoShop = {
