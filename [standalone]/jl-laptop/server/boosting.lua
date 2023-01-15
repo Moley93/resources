@@ -500,7 +500,7 @@ RegisterNetEvent('jl-laptop:server:finishBoost', function(netId, isvin)
         if Config.RenewedPhone then
             exports['qb-phone']:AddCrypto(src, "gne", reward)
         else
-            Player.Functions.AddMoney("crypto", reward, Lang:t('boosting.info.rewardboost'))
+            Player.Functions.AddMoney("bank", reward, Lang:t('boosting.info.rewardboost'))
         end
         Notify(src, Lang:t('boosting.success.received_reward', { reward = reward }), "success", 7500)
         if DoesEntityExist(NetworkGetEntityFromNetworkId(currentRuns[CID].NetID)) then

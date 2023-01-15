@@ -84,34 +84,6 @@ QBCore.Functions.CreateUseableItem("sprunklight", function(source, item)
     TriggerClientEvent("consumables:client:Drink", source, item.name)
 end)
 
------------ / Drug
-
-QBCore.Functions.CreateUseableItem("joint", function(source, item)
-    local Player = QBCore.Functions.GetPlayer(source)
-	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
-    TriggerClientEvent("consumables:client:UseJoint", source)
-end)
-
-QBCore.Functions.CreateUseableItem("cokebaggy", function(source)
-    TriggerClientEvent("consumables:client:Cokebaggy", source)
-end)
-
-QBCore.Functions.CreateUseableItem("crack_baggy", function(source)
-    TriggerClientEvent("consumables:client:Crackbaggy", source)
-end)
-
-QBCore.Functions.CreateUseableItem("xtcbaggy", function(source, _)
-    TriggerClientEvent("consumables:client:EcstasyBaggy", source)
-end)
-
-QBCore.Functions.CreateUseableItem("oxy", function(source)
-    TriggerClientEvent("consumables:client:oxy", source)
-end)
-
-QBCore.Functions.CreateUseableItem("meth", function(source)
-    TriggerClientEvent("consumables:client:meth", source)
-end)
-
 ----------- / Tools
 
 QBCore.Functions.CreateUseableItem("armor", function(source)

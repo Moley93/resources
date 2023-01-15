@@ -43,7 +43,7 @@ Config.Plant = {
     },
     HarvestPercent = 95, -- If more than it can destroy and can't add male or fertilizers
     MaleZone = false, -- If true, male plants will pollinate females around it, and turn them into males, in a perimeter of 20
-    Dry = 0.01, -- 6 hours to dry weed
+    Dry = 0.00025, -- 6 hours to dry weed
     Job = { -- Jobs that can destroy weed at any stage
         'police', -- Add more job if u want
     },
