@@ -594,7 +594,7 @@ QBShared.Items = {
 	['trackerdisabler']            	 = {['name'] = "trackerdisabler",                	['label'] = "Hacking device",        	['weight'] = 500,        ['type'] = 'item',         ['image'] = 'hacking_device.png',            ['unique'] = true,        ['useable']    = true,            ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = "A multi purpose hacking device"},
 	
 	-- qb-moneywash
- 	["mwkey"]       				 = {["name"] = "mwkey",        						["label"] = "Dodgy Key",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "The key engraving reads L_un_re_te"},
+ 	["mwkey"]       				 = {["name"] = "mwkey",        						["label"] = "Dodgy Key",        ["weight"] = 0,     ["type"] = "item",      ["image"] = "mwkey.png",      ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,      ["combinable"] = nil,     ["description"] = "The key engraving reads L_un_re_te & H_rm_ny"},
 	
 	-- jim-payments
 	["payticket"] 					 = {["name"] = "payticket", 						["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
