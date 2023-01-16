@@ -6,7 +6,7 @@ Config.Boosting.Notifications = "NPWD" -- Use this for qb // renewed phone inter
 
 Config.Boosting.Debug = true -- Make this true to make boosting faster lmao
 
-Config.Boosting.HackingDevice = "phone" -- Whatever item you use to hack a car with
+Config.Boosting.HackingDevice = "trackerdisabler" -- Whatever item you use to hack a car with
 
 Config.Boosting.HackDelayMin = 30 -- Seconds
 Config.Boosting.HackDelayMax = 60 -- Seconds
@@ -558,22 +558,22 @@ Config.Boosting.Locations = {
 
 Config.Boosting.TiersPerRep = {
     ["D"] = 0,
-    ["C"] = 50,
-    ["B"] = 100,
-    ["A"] = 150,
-    ["A+"] = 200,
-    ["S"] = 250,
-    ["S+"] = 300,
+    ["C"] = 25,
+    ["B"] = 50,
+    ["A"] = 75,
+    ["A+"] = 100,
+    ["S"] = 125,
+    ["S+"] = 150,
 }
 
 Config.Boosting.Price = {
-    ["D"] = { min = 0, max = 3 },
-    ["C"] = { min = 5, max = 10 },
-    ["B"] = { min = 10, max = 20 },
-    ["A"] = { min = 15, max = 30 },
-    ["A+"] = { min = 20, max = 45 },
-    ["S"] = { min = 30, max = 50 },
-    ["S+"] = { min = 40, max = 80 },
+    ["D"] = { min = 500, max = 1500 },
+    ["C"] = { min = 1500, max = 3000 },
+    ["B"] = { min = 3000, max = 5000 },
+    ["A"] = { min = 5000, max = 7500 },
+    ["A+"] = { min = 7500, max = 10000 },
+    ["S"] = { min = 10000, max = 12500 },
+    ["S+"] = { min = 12500, max = 15000 },
 }
 
 Config.Boosting.RandomNames = {
