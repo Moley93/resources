@@ -63,19 +63,19 @@ Config.Routes = {
 
     [0] = {
         --You can add more Routes to this level
-        [1] = {trailerModel = "trailers4", materialWarehouse = 1, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 500, rewardEXP = 10}
+        [1] = {trailerModel = "trailers4", materialWarehouse = 1, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 250, rewardEXP = 10}
     },
     [1] = {
         --You can add more Routes to this level
-        [1] = {trailerModel = "trailers2", materialWarehouse = 1, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 1000, rewardEXP = 15}
+        [1] = {trailerModel = "trailers2", materialWarehouse = 1, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 500, rewardEXP = 15}
     },
     [2] = {
         --You can add more Routes to this level
-        [1] = {trailerModel = "tanker", materialWarehouse = 0, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 2000, rewardEXP = 25}
+        [1] = {trailerModel = "tanker", materialWarehouse = 0, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 1000, rewardEXP = 25}
     },
     [3] = {
         --You can add more Routes to this level
-        [1] = {trailerModel = "armytanker", materialWarehouse = 0, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 3000, rewardEXP = 35}
+        [1] = {trailerModel = "armytanker", materialWarehouse = 0, delivery = {dropCoords = vector4(2041.76, 3172.26, 44.98, 155.2), pedCoords = vector4(2041.86, 3163.47, 45.27, 46.98)}, rewardMoney = 2500, rewardEXP = 35}
     }
 }
 
