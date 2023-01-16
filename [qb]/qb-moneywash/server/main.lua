@@ -44,7 +44,7 @@ RegisterNetEvent("qb-laundrette:server:giveMoney")
 AddEventHandler("qb-laundrette:server:giveMoney", function(amt)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
-    payment = math.random(11000,13000)
+    payment = math.random(100,2500)
     Player.Functions.AddMoney('cash', payment*amt)
     TriggerServerEvent("qb-log:server:CreateLog", "moneywash", Player.. " Has washed " ..amt.. " and recieved "..payment*amt )
 end)
