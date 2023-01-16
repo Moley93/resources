@@ -141,11 +141,11 @@ Config.T2_RewardItems = {
         },
         [2] = {
             ["item"] = "t2_safe_key",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [3] = {
             ["item"] = "laptop",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
     },
     ["noway"] = { ["chance"] = 15, ["exp"] = { 205, 245 },
@@ -163,7 +163,7 @@ Config.T2_RewardItems = {
     },
     [4] = {
         ["item"] = "quality",
-        ["amount"] = { 1 },
+        ["amount"] = { 1, 1 },
         }
     },
 }

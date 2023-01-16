@@ -139,21 +139,21 @@ Config.T1_RewardItems = {
         },
         [2] = {
             ["item"] = "t1_safe_key",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [3] = {
             ["item"] = "laptop",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
     },
     ["noway"] = { ["chance"] = 15, ["exp"] = { 175, 215 },
         [1] = {
             ["item"] = "vpn",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [2] = {
             ["item"] = "mwkey",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [3] = {
             ["item"] = "fitbit",
@@ -161,7 +161,7 @@ Config.T1_RewardItems = {
         },
         [4] = {
             ["item"] = "smallscales",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         }
     },
 }
@@ -207,21 +207,21 @@ Config.T1_SafeRewardItems = {
         },
         [2] = {
             ["item"] = "t1_safe_key",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [3] = {
             ["item"] = "laptop",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
     },
     ["noway"] = { ["chance"] = 15, ["exp"] = { 175, 215 },
         [1] = {
             ["item"] = "vpn",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [2] = {
             ["item"] = "mwkey",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         },
         [3] = {
             ["item"] = "fitbit",
@@ -229,7 +229,7 @@ Config.T1_SafeRewardItems = {
         },
         [4] = {
             ["item"] = "smallscales",
-            ["amount"] = { 1 },
+            ["amount"] = { 1, 1 },
         }
     },
 }
