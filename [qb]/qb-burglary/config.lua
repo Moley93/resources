@@ -48,7 +48,7 @@ Config.SecuritySkillcheck = "ps-scrambler"
 
 -- Set the skill check minigame for cracking the safe
 -- Options: "circle", "ps-circle", "square"
-Config.SafeSkillcheck = "ps-scrambler"
+Config.SafeSkillcheck = "square"
 
 -- Example: if the time is 5AM or later you cannot break in
 -- You can remove the time check in cl_public.lua
@@ -179,55 +179,55 @@ Config.BuyersList = {
     [1] = {
         ["itemName"] = "bigtv",
         ["itemWorth"] = { 1000, 1500 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [2] = {
         ["itemName"] = "stereo",
         ["itemWorth"] = { 1000, 1500 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [3] = {
         ["itemName"] = "microwave",
-        ["itemWorth"] = { 1000, 1500 },
-        ["dirtyCash"] = false,
+        ["itemWorth"] = { 500, 750 },
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [4] = {
         ["itemName"] = "computer",
         ["itemWorth"] = { 1000, 1500 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [5] = {
         ["itemName"] = "trojan_usb",
         ["itemWorth"] = { 400, 700 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [6] = {
         ["itemName"] = "goldchain",
         ["itemWorth"] = { 300, 500 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [7] = {
         ["itemName"] = "iphone",
         ["itemWorth"] = { 400, 700 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [8] = {
         ["itemName"] = "rolex",
         ["itemWorth"] = { 400, 700 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
     [9] = {
         ["itemName"] = "laptop",
         ["itemWorth"] = { 300, 500 },
-        ["dirtyCash"] = false,
+        ["dirtyCash"] = true,
         ["dirtyCashName"] = "markedbills"
     },
 }

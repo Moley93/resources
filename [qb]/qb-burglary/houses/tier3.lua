@@ -105,33 +105,33 @@ Config.T3_RewardItems = {
     ["common"] = { ["chance"] = 100, ["exp"] = { 125, 165 },
         [1] = {
             ["item"] = "twerks_candy",
-            ["amount"] = { 1, 2 },
+            ["amount"] = { 1, 5 },
         },
         [2] = {
-            ["item"] = "lighter",
-            ["amount"] = { 1, 2 },
+            ["item"] = "joint",
+            ["amount"] = { 1, 6},
         },
         [3] = {
-            ["item"] = "copper",
-            ["amount"] = { 1, 2 },
+            ["item"] = "pistol_ammo",
+            ["amount"] = { 1, 4 },
         },
         [4] = {
             ["item"] = "bandage",
-            ["amount"] = { 1, 2 },
+            ["amount"] = { 1, 5 },
         },
     },
     ["uncommon"] = { ["chance"] = 55, ["exp"] = { 165, 205 },
         [1] = {
             ["item"] = "joint",
-            ["amount"] = { 1, 3 },
+            ["amount"] = { 1, 7 },
         },
         [2] = {
-            ["item"] = "rolling_paper",
-            ["amount"] = { 1, 3 },
+            ["item"] = "trackerdisabler",
+            ["amount"] = { 1, 4 },
         },
         [3] = {
-            ["item"] = "firstaid",
-            ["amount"] = { 1, 3 },
+            ["item"] = "advancedlockpick",
+            ["amount"] = { 1, 6 },
         },
         [4] = {
             ["item"] = "screwdriverset",
@@ -140,16 +140,16 @@ Config.T3_RewardItems = {
     },
     ["rare"] = { ["chance"] = 35, ["exp"] = { 205, 245 },
         [1] = {
-            ["item"] = "cokebaggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "femaleseed",
+            ["amount"] = { 9, 15 },
         },
         [2] = {
-            ["item"] = "xtcbaggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "t3_safe_key",
+            ["amount"] = { 1, 1 },
         },
         [3] = {
-            ["item"] = "crack_baggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "laptop",
+            ["amount"] = { 1, 2 },
         },
         [4] = {
             ["item"] = "ifaks",
@@ -157,21 +157,21 @@ Config.T3_RewardItems = {
         },
     },
     ["noway"] = { ["chance"] = 15, ["exp"] = { 245, 285 },
-        [1] = {
-            ["item"] = "goldchain",
-            ["amount"] = { 1, 5 },
-        },
-        [2] = {
-            ["item"] = "10kgoldchain",
-            ["amount"] = { 1, 5 },
-        },
-        [3] = {
-            ["item"] = "fitbit",
-            ["amount"] = { 1, 5 },
-        },
-        [4] = {
-            ["item"] = "trojan_usb",
-            ["amount"] = { 1, 5 },
+    [1] = {
+        ["item"] = "vpn",
+        ["amount"] = { 1, 2 },
+    },
+    [2] = {
+        ["item"] = "mwkey",
+        ["amount"] = { 1, 2 },
+    },
+    [3] = {
+        ["item"] = "fitbit",
+        ["amount"] = { 1, 5 },
+    },
+    [4] = {
+        ["item"] = "quality",
+        ["amount"] = { 1, 2 },
         },
         [5] = {
             ["item"] = "goldbar",

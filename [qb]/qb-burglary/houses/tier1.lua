@@ -106,11 +106,11 @@ Config.T1_RewardItems = {
             ["amount"] = { 1, 2 },
         },
         [2] = {
-            ["item"] = "metalscrap",
+            ["item"] = "joint",
             ["amount"] = { 1, 2 },
         },
         [3] = {
-            ["item"] = "copper",
+            ["item"] = "pistol_ammo",
             ["amount"] = { 1, 2 },
         },
         [4] = {
@@ -124,112 +124,112 @@ Config.T1_RewardItems = {
             ["amount"] = { 1, 3 },
         },
         [2] = {
-            ["item"] = "rolling_paper",
-            ["amount"] = { 1, 3 },
+            ["item"] = "trackerdisabler",
+            ["amount"] = { 1, 2 },
         },
         [3] = {
-            ["item"] = "firstaid",
+            ["item"] = "advancedlockpick",
             ["amount"] = { 1, 3 },
         }
     },
     ["rare"] = { ["chance"] = 35, ["exp"] = { 135, 175 },
         [1] = {
-            ["item"] = "cokebaggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "femaleseed",
+            ["amount"] = { 5, 10 },
         },
         [2] = {
-            ["item"] = "xtcbaggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "t1_safe_key",
+            ["amount"] = { 1 },
         },
         [3] = {
-            ["item"] = "crack_baggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "laptop",
+            ["amount"] = { 1 },
         },
     },
     ["noway"] = { ["chance"] = 15, ["exp"] = { 175, 215 },
         [1] = {
-            ["item"] = "goldchain",
-            ["amount"] = { 1, 5 },
+            ["item"] = "vpn",
+            ["amount"] = { 1 },
         },
         [2] = {
-            ["item"] = "10kgoldchain",
-            ["amount"] = { 1, 5 },
+            ["item"] = "mwkey",
+            ["amount"] = { 1 },
         },
         [3] = {
             ["item"] = "fitbit",
             ["amount"] = { 1, 5 },
         },
         [4] = {
-            ["item"] = "trojan_usb",
-            ["amount"] = { 1, 5 },
+            ["item"] = "smallscales",
+            ["amount"] = { 1 },
         }
     },
 }
 
 -- Set the reward items for T1 safes
 Config.T1_SafeRewardItems = {
-    ["common"] = { ["chance"] = 100, ["exp"] = { 100, 150 },
+    ["common"] = { ["chance"] = 100, ["exp"] = { 100, 175 },
         [1] = {
-            ["item"] = "sandwich",
+            ["item"] = "twerks_candy",
             ["amount"] = { 1, 2 },
         },
         [2] = {
-            ["item"] = "metalscrap",
+            ["item"] = "joint",
             ["amount"] = { 1, 2 },
         },
         [3] = {
-            ["item"] = "copper",
+            ["item"] = "pistol_ammo",
             ["amount"] = { 1, 2 },
         },
         [4] = {
-            ["item"] = "rubber",
+            ["item"] = "bandage",
             ["amount"] = { 1, 2 },
         },
     },
-    ["uncommon"] = { ["chance"] = 55, ["exp"] = { 200, 250 },
+    ["uncommon"] = { ["chance"] = 55, ["exp"] = { 125, 200 },
         [1] = {
             ["item"] = "joint",
             ["amount"] = { 1, 3 },
         },
         [2] = {
-            ["item"] = "rolling_paper",
-            ["amount"] = { 1, 3 },
+            ["item"] = "trackerdisabler",
+            ["amount"] = { 1, 2 },
         },
         [3] = {
-            ["item"] = "bandage",
+            ["item"] = "advancedlockpick",
             ["amount"] = { 1, 3 },
         }
     },
-    ["rare"] = { ["chance"] = 35, ["exp"] = { 300, 350 },
+    ["rare"] = { ["chance"] = 35, ["exp"] = { 135, 200 },
         [1] = {
-            ["item"] = "cokebaggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "femaleseed",
+            ["amount"] = { 5, 10 },
         },
         [2] = {
-            ["item"] = "xtcbaggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "t1_safe_key",
+            ["amount"] = { 1 },
         },
         [3] = {
-            ["item"] = "crack_baggy",
-            ["amount"] = { 1, 4 },
+            ["item"] = "laptop",
+            ["amount"] = { 1 },
         },
     },
-    ["noway"] = { ["chance"] = 15, ["exp"] = { 350, 400 },
+    ["noway"] = { ["chance"] = 15, ["exp"] = { 175, 215 },
         [1] = {
-            ["item"] = "goldchain",
-            ["amount"] = { 1, 5 },
+            ["item"] = "vpn",
+            ["amount"] = { 1 },
         },
         [2] = {
-            ["item"] = "10kgoldchain",
-            ["amount"] = { 1, 5 },
+            ["item"] = "mwkey",
+            ["amount"] = { 1 },
         },
         [3] = {
             ["item"] = "fitbit",
             ["amount"] = { 1, 5 },
         },
         [4] = {
-            ["item"] = "trojan_usb",
-            ["amount"] = { 1, 5 },
+            ["item"] = "smallscales",
+            ["amount"] = { 1 },
         }
     },
 }
