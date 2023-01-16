@@ -103,63 +103,155 @@ Config.SecurityCameras = {
     },
 }
 
-Config.AuthorizedVehicles = {
-	-- Grade 0
-	[0] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 1
-	[1] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 2
-	[2] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 3
-	[3] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 4
-	[4] = {
-		["police"] = "Police Car 1",
-	},
-    -- Grade 5
-	[5] = {
-		["police"] = "Police Car 1",
-	},
-    -- Grade 6
-    [6] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 7
-	[7] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 8
-	[8] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 9
-	[9] = {
-		["police"] = "Police Car 1",
-	},
-	-- Grade 10
-	[10] = {
-		["police"] = "Police Car 1",
-	},
-    -- Grade 11
-	[11] = {
-		["police"] = "Police Car 1",
-	},
-    -- Grade 12
-	[12] = {
-		["police"] = "Police Car 1",
-	},
-    -- Grade 13
-	[13] = {
-		["police"] = "Police Car 1",
-	}
+Config.AuthorizedVehicles = {     
+    --Grade 0     
+    [0] = {    
+        ["lib111vic"] = "Crown Vic", 
+    },     
+    --Grade 1     
+    [1] = {         
+        ["lib111vic"] = "Crown Vic", 
+        ["lib1caprice"] = "Caprice",             
+    },     
+    --Grade 2     
+    [2] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",     
+    },     
+    --Grade 3     
+    [3] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",     
+    },     
+    --Grade 4     
+    [4] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",     
+    },     
+    --Grade 5     
+    [5] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus", 
+        ["lib18charger"] = "18 Charger",    
+    },     
+    --Grade 6     
+    [6] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib18charger"] = "18 Charger",     
+    },     
+    --Grade 7     
+    [7] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"] = "20 Explorer",     
+    },     
+    --Grade 8     
+    [8] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib119tahoe"] = "19 Tahoe",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"] = "20 Explorer",     
+    },     
+    --Grade 9     
+    [9] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib119tahoe"] = "19 Tahoe",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"]  = "20 Explorer",     
+    },    
+   --Grade 10     
+    [10] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib119tahoe"] = "19 Tahoe",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"] = "20 Explorer",
+        ["lib121tahoe"] = "21 Tahoe",     
+    },
+    --Grade 11    
+    [11] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib119tahoe"] = "19 Tahoe",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"] = "20 Explorer",
+        ["lib121tahoe"] = "21 Tahoe",     
+        },
+    --Grade 12     
+    [12] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib119tahoe"] = "19 Tahoe",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"] = "20 Explorer",
+        ["lib121tahoe"] = "21 Tahoe",     
+        },
+    --Grade 13     
+    [13] = {         
+        ["lib111vic"] = "Crown Vic",
+        ["lib1caprice"] = "Caprice",
+        ["lib113explorer"] = "13 Explorer",
+        ["lib114tahoe"] = "14 Tahoe",
+        ["lib114charger"] = "14 Charger",
+        ["lib118taurus"] = "Taurus",
+        ["lib116explorer"] = "16 Explorer",
+        ["lib119tahoe"] = "19 Tahoe",
+        ["lib18charger"] = "18 Charger",
+        ["lib120explorer"] = "20 Explorer",
+        ["lib121tahoe"] = "21 Tahoe",     
+    } 
 }
 
 Config.WhitelistedVehicles = {}
@@ -382,40 +474,123 @@ Config.Items = {
 }
 
 Config.VehicleSettings = {
-    ["car1"] = { --- Model name
+    ["lib111vic"] = { --- Model name
         ["extras"] = {
             ["1"] = true, -- on/off
-            ["2"] = true,
-            ["3"] = true,
             ["4"] = true,
             ["5"] = true,
-            ["6"] = true,
             ["7"] = true,
-            ["8"] = true,
-            ["9"] = true,
             ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
+
         },
-		["livery"] = 1,
+		["livery"] = 0,
     },
-    ["car2"] = {
+    ["lib1caprice"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib113explorer"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib114tahoe"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib114charger"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib118taurus"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib118charger"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib116explorer"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib119tahoe"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+
+        },
+		["livery"] = 0,
+    },
+    ["lib120explorer"] = { --- Model name
+        ["extras"] = {
+            ["1"] = true, -- on/off
+            ["4"] = true,
+            ["5"] = true,
+            ["7"] = true,
+            ["10"] = true,
+        },
+		["livery"] = 0,
+    },
+    ["lib121tahoe"] = {
         ["extras"] = {
             ["1"] = true,
-            ["2"] = true,
-            ["3"] = true,
             ["4"] = true,
             ["5"] = true,
-            ["6"] = true,
             ["7"] = true,
-            ["8"] = true,
-            ["9"] = true,
             ["10"] = true,
-            ["11"] = true,
-            ["12"] = true,
-            ["13"] = true,
         },
-		["livery"] = 1,
+		["livery"] = 0,
     }
 }
