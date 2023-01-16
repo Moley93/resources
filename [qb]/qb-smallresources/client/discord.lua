@@ -5,7 +5,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 CreateThread(function()
     while true do
         -- This is the Application ID (Replace this with you own)
-        SetDiscordAppId()
+        SetDiscordAppId(1051575611455455286)
 
         -- Here you will have to put the image name for the "large" icon.
         SetDiscordRichPresenceAsset('nrlargelogotrans')

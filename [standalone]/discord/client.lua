@@ -4,7 +4,7 @@ Citizen.CreateThread(function()
 		SetDiscordAppId(1051575611455455286)
 
         -- Here you will have to put the image name for the "large" icon.
-		SetDiscordRichPresenceAsset('nr-logo-monogram-with-negative-space-circle-rounded-design-template-free-vector.jpg')
+		SetDiscordRichPresenceAsset('nrbiglogotrans.png')
         
         -- (11-11-2018) New Natives:
 
@@ -12,7 +12,7 @@ Citizen.CreateThread(function()
         SetDiscordRichPresenceAssetText('Join Near Reality Today!')
        
         -- Here you will have to put the image name for the "small" icon.
-        SetDiscordRichPresenceAssetSmall('nr-logo-monogram-with-negative-space-circle-rounded-design-template-free-vector.jpg')
+        SetDiscordRichPresenceAssetSmall('nrsmalllogotrans')
 
         -- Here you can add hover text for the "small" icon.
         SetDiscordRichPresenceAssetSmallText('Join Near Reality Today!')
