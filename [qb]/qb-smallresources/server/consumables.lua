@@ -4,14 +4,17 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 QBCore.Functions.CreateUseableItem("vodka", function(source, item)
     TriggerClientEvent("consumables:client:DrinkAlcohol", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 QBCore.Functions.CreateUseableItem("beer", function(source, item)
     TriggerClientEvent("consumables:client:DrinkAlcohol", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 QBCore.Functions.CreateUseableItem("whiskey", function(source, item)
     TriggerClientEvent("consumables:client:DrinkAlcohol", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 ----------- / Eat
@@ -20,24 +23,35 @@ QBCore.Functions.CreateUseableItem("sandwich", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Eat", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 2))
+end)
+
+QBCore.Functions.CreateUseableItem("joint", function(source, item)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
+        TriggerClientEvent("consumables:client:UseJoint", source)
+        TriggerEvent('hud:server:RelieveStress', math.random(4, 8))
 end)
 
 QBCore.Functions.CreateUseableItem("twerks_candy", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Eat", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 2))
 end)
 
 QBCore.Functions.CreateUseableItem("snikkel_candy", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Eat", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 2))
 end)
 
 QBCore.Functions.CreateUseableItem("tosti", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Eat", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 2))
 end)
 
 ----------- / Drink
@@ -46,42 +60,49 @@ QBCore.Functions.CreateUseableItem("water_bottle", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 2))
 end)
 
 QBCore.Functions.CreateUseableItem("coffee", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(3, 5))
 end)
 
 QBCore.Functions.CreateUseableItem("kurkakola", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 QBCore.Functions.CreateUseableItem("ecola", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 QBCore.Functions.CreateUseableItem("ecolalight", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 QBCore.Functions.CreateUseableItem("sprunk", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 QBCore.Functions.CreateUseableItem("sprunklight", function(source, item)
     local Player = QBCore.Functions.GetPlayer(source)
 	if not Player.Functions.RemoveItem(item.name, 1, item.slot) then return end
     TriggerClientEvent("consumables:client:Drink", source, item.name)
+    TriggerEvent('hud:server:RelieveStress', math.random(1, 3))
 end)
 
 ----------- / Tools
