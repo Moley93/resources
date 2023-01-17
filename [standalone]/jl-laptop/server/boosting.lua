@@ -496,7 +496,7 @@ RegisterNetEvent('jl-laptop:server:finishBoost', function(netId, isvin)
         if currentRuns[CID].cost == 0 then
             currentRuns[CID].cost = math.random(1, 2) -- makes it so they can actually get GNE when the boost is Free
         end
-        local reward = math.ceil(currentRuns[CID].cost * math.random(2, 3))
+        local reward = math.ceil(currentRuns[CID].cost * math.random(1500, 5000))
         if Config.RenewedPhone then
             exports['qb-phone']:AddCrypto(src, "gne", reward)
         else
