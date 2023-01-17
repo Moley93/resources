@@ -13,7 +13,7 @@ Config.Motel["pinkcage"] = {
     rent = {
         coords = vector4(325.03, -229.67, 54.22, 155.9)
     },
-    price = 2000,
+    price = 110,
     motel = {
         ["pinkcage:1"] = {
             enter = vec3(306.848938, -213.674500, 54.371540),

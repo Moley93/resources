@@ -1,15 +1,15 @@
 Config.Motel['rhones'] = {
     renew = '1w',
     label = "Rhones Motel",
-    type = "shell",
-    price = 2000,
+    type = "mlo",
+    price = 1000,
     rent = {
         coords = vector4(61.31, -270.08, 48.19, 159.59)
     },
     motel = {
         -- Downstairs
         ["Rhones-rhones:1"] = {
-            enter = vector3(63.51, -262.03, 52.35),
+            enter = vec3(67.428948, -254.644866, 48.237294),
             locked = true,
             label = "Rhones 1",
             owned = false,
@@ -33,7 +33,7 @@ Config.Motel['rhones'] = {
             },
         },
         ["Rhones-rhones:2"] = {
-            enter = vector3(66.39, -256.08, 52.35),
+            enter = vec3(72.520408, -256.496704, 48.237294),
             locked = true,
             label = "Rhones 2",
             owned = false,
@@ -57,7 +57,7 @@ Config.Motel['rhones'] = {
             },
         },
         ["Rhones-rhones:3"] = {
-            enter = vector3(67.25, -253.63, 52.35),
+            enter = vec3(77.609718, -258.350586, 48.237294),
             locked = true,
             label = "Rhones 3",
             owned = false,
@@ -81,7 +81,7 @@ Config.Motel['rhones'] = {
             },
         },
         ["Rhones-rhones:4"] = {
-            enter = vector3(64.83, -254.56, 48.19),
+            enter = vec3(66.801284, -256.358886, 48.237294),
             locked = true,
             label = "Rhones 4",
             owned = false,
@@ -101,6 +101,54 @@ Config.Motel['rhones'] = {
                 name = "rhones:4:outfit",
                 coords = vec3(64.5, -258.4, 47.5),
                 size = vec3(1.05, 1.65, 1.15),
+                rotation = 340.0,
+            },
+        },
+        ["Rhones-rhones:5"] = {
+            enter = vec3(71.895278, -258.201752, 48.237294),
+            locked = true,
+            label = "Rhones 5",
+            owned = false,
+            logout = {
+                name = "rhones:5:logout",
+                coords = vec3(70.85, -262.25, 47.5),
+                size = vec3(0.8, 0.75, 1.0),
+                rotation = 340.0,
+            },
+            stash = {
+                name = "rhones:5:stash",
+                coords = vec3(68.9, -264.15, 47.6),
+                size = vec3(1.5, 0.7, 1.2),
+                rotation = 339.25,
+            },
+            outfit = {
+                name = "rhones:5:outfit",
+                coords = vec3(69.6, -260.3, 47.65),
+                size = vec3(1.15, 1.3, 1.25),
+                rotation = 340.0,
+            },
+        },
+        ["Rhones-rhones:6"] = {
+            enter = vec3(76.985000, -260.066834, 48.237294),
+            locked = true,
+            label = "Rhones 6",
+            owned = false,
+            logout = {
+                name = "rhones:6:logout",
+                coords = vec3(75.95, -264.1, 47.5),
+                size = vec3(0.7, 0.7, 1.0),
+                rotation = 340.25,
+            },
+            stash = {
+                name = "rhones:6:stash",
+                coords = vec3(74.0, -265.95, 47.6),
+                size = vec3(1.55, 0.8, 1.2),
+                rotation = 340.0,
+            },
+            outfit = {
+                name = "rhones:6:outfit",
+                coords = vec3(74.75, -262.2, 47.65),
+                size = vec3(1.15, 1.4, 1.4),
                 rotation = 340.0,
             },
         },

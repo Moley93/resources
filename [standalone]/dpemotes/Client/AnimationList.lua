@@ -737,15 +737,15 @@ DP.Emotes = {
    {
        EmoteLoop = true,
    }},
-  -- ["lean3"] = {"amb@world_human_leaning@female@wall@back@holding_elbow@idle_a", "idle_a", "Lean 3", AnimationOptions =
+   ["lean3"] = {"amb@world_human_leaning@female@wall@back@holding_elbow@idle_a", "idle_a", "Lean 3", AnimationOptions =
    {
        EmoteLoop = true,
    }},
-   ["lean3"] = {"amb@world_human_leaning@male@wall@back@foot_up@idle_a", "idle_a", "Lean 3", AnimationOptions =
+   ["lean4"] = {"amb@world_human_leaning@male@wall@back@foot_up@idle_a", "idle_a", "Lean 4", AnimationOptions =
    {
        EmoteLoop = true,
    }},
-   ["lean4"] = {"amb@world_human_leaning@male@wall@back@hands_together@idle_b", "idle_b", "Lean 4", AnimationOptions =
+   ["lean5"] = {"amb@world_human_leaning@male@wall@back@hands_together@idle_b", "idle_b", "Lean 5", AnimationOptions =
    {
        EmoteLoop = true,
    }},
@@ -1454,27 +1454,27 @@ DP.Emotes = {
    {
        EmoteLoop = true,
    }},
---   ["clown"] = {"rcm_barry2", "clown_idle_0", "Clown", AnimationOptions =
---   {
---       EmoteLoop = true,
---   }},
---   ["clown2"] = {"rcm_barry2", "clown_idle_1", "Clown 2", AnimationOptions =
---   {
---       EmoteLoop = true,
---   }},
---   ["clown3"] = {"rcm_barry2", "clown_idle_2", "Clown 3", AnimationOptions =
---   {
---       EmoteLoop = true,
---   }},
---  ["clown4"] = {"rcm_barry2", "clown_idle_3", "Clown 4", AnimationOptions =
---   {
---       EmoteLoop = true,
---       EmoteMoving = true,
---   }},
---   ["clown5"] = {"rcm_barry2", "clown_idle_6", "Clown 5", AnimationOptions =
---   {
---       EmoteLoop = true,
- --  }}, 
+   ["clown"] = {"rcm_barry2", "clown_idle_0", "Clown", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},
+   ["clown2"] = {"rcm_barry2", "clown_idle_1", "Clown 2", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},
+   ["clown3"] = {"rcm_barry2", "clown_idle_2", "Clown 3", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},
+   ["clown4"] = {"rcm_barry2", "clown_idle_3", "Clown 4", AnimationOptions =
+   {
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+   ["clown5"] = {"rcm_barry2", "clown_idle_6", "Clown 5", AnimationOptions =
+   {
+       EmoteLoop = true,
+   }},
    ["tryclothes"] = {"mp_clothing@female@trousers", "try_trousers_neutral_a", "Try Clothes", AnimationOptions =
    {
        EmoteLoop = true,
@@ -1540,7 +1540,7 @@ DP.Emotes = {
    }},
    ["bark"] = {"random@peyote@dog", "wakeup", "Bark"},
    ["rabbit"] = {"random@peyote@rabbit", "wakeup", "Rabbit"},
-   --["spiderman"] = {"missexile3", "ex03_train_roof_idle", "Spider-Man", AnimationOptions =
+   ["spiderman"] = {"missexile3", "ex03_train_roof_idle", "Spider-Man", AnimationOptions =
    {
        EmoteLoop = true,
    }},
@@ -1613,8 +1613,8 @@ DP.Emotes = {
    ["smoke"] = {"Scenario", "WORLD_HUMAN_SMOKING", "Smoke"},
    ["smokeweed"] = {"MaleScenario", "WORLD_HUMAN_DRUG_DEALER", "Smoke Weed"},
    ["statue"] = {"Scenario", "WORLD_HUMAN_HUMAN_STATUE", "Statue"},
-   --["sunbathe3"] = {"Scenario", "WORLD_HUMAN_SUNBATHE", "Sunbathe 3"},
-  -- ["sunbatheback"] = {"Scenario", "WORLD_HUMAN_SUNBATHE_BACK", "Sunbathe Back"},
+   ["sunbathe3"] = {"Scenario", "WORLD_HUMAN_SUNBATHE", "Sunbathe 3"},
+   ["sunbatheback"] = {"Scenario", "WORLD_HUMAN_SUNBATHE_BACK", "Sunbathe Back"},
    ["weld"] = {"Scenario", "WORLD_HUMAN_WELDING", "Weld"},
    ["windowshop"] = {"Scenario", "WORLD_HUMAN_WINDOW_SHOP_BROWSE", "Window Shop"},
    ["yoga"] = {"Scenario", "WORLD_HUMAN_YOGA", "Yoga"},
