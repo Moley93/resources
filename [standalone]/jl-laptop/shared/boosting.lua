@@ -589,13 +589,13 @@ Config.Boosting.RandomNames = {
 }
 
 Config.Boosting.MetaReward = {
-    ["D"] = { min = 1, max = 1 },
-    ["C"] = { min = 1, max = 2 },
-    ["B"] = { min = 1, max = 3 },
-    ["A"] = { min = 2, max = 4 },
-    ["A+"] = { min = 2, max = 5 },
-    ["S"] = { min = 2, max = 6 },
-    ["S+"] = { min = 3, max = 7 },
+    ["D"] = { min = 500, max = 1500 },
+    ["C"] = { min = 1500, max = 3000 },
+    ["B"] = { min = 3000, max = 5000 },
+    ["A"] = { min = 5000, max = 7500 },
+    ["A+"] = { min = 7500, max = 10000 },
+    ["S"] = { min = 10000, max = 12500 },
+    ["S+"] = { min = 12500, max = 15000 },
 }
 
 Config.Boosting.ReturnLocation = {

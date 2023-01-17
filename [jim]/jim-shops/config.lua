@@ -131,7 +131,7 @@ Config = {
 			{ name = "weapon_vintagepistol", price = 12000, amount = 1},
 			{ name = "armor", price = 10000, amount = 1},
 			{ name = "handcuffs", price = 13000, amount = 1},
-			{ name = "trackerdisabler", price = 1000, amount = 10},
+			{ name = "trackerdisabler", price = 250, amount = 10},
 			{ name = "headbag", price = 1000, amount = 1},
 			{ name = "ziptie", price = 500, amount = 100},	
 		},
