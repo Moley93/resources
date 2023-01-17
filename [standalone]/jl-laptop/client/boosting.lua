@@ -173,7 +173,6 @@ RegisterNetEvent('jl-laptop:client:MissionStarted',
         if missionBlip then RemoveBlip(missionBlip) end
 
         if coords then
-            if Config.Boosting.Debug then SetNewWaypoint(coords.x, coords.y) end
 
             missionBlip = AddBlipForRadius(coords.x + math.random(-100, 100), coords.y + math.random(-100, 100), coords.z
                 , 250.0)

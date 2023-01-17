@@ -34,27 +34,27 @@ Config.Shops = {
         ['TestDriveSpawn'] = vector4(-56.79, -1109.85, 26.43, 71.5), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-42.14, -1101.5, 25, 19.46),
+                coords = vector4(-42.14, -1101.5, 25.5, 19.46),
                 defaultVehicle = 'zr350',
                 chosenVehicle = 'zr350',
             },
             [2] = {
-                coords = vector4(-54.58, -1097.09, 25, 31.02),
+                coords = vector4(-54.58, -1097.09, 25.5, 31.02),
                 defaultVehicle = 'calico',
                 chosenVehicle = 'calico',
             },
             [3] = {
-                coords = vector4(-50.01, -1083.48, 25, 251.83),
+                coords = vector4(-50.01, -1083.48, 25.5, 251.83),
                 defaultVehicle = 'jester4',
                 chosenVehicle = 'jester4',
             },
             [4] = {
-                coords = vector4(-37.05, -1093.44, 25, 18.96),
+                coords = vector4(-37.05, -1093.44, 25.5, 18.96),
                 defaultVehicle = 'rt3000',
                 chosenVehicle = 'rt3000',
             },
             [5] = {
-                coords = vector4(-47.3, -1091.95, 25, 94.8),
+                coords = vector4(-47.3, -1091.95, 25.5, 94.8),
                 defaultVehicle = 'comet6',
                 chosenVehicle = 'comet6',
             }
