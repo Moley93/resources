@@ -93,12 +93,12 @@ CreateThread(function()
                     sleep = 0
 
                     local vehiclePos = GetOffsetFromEntityInWorldCoords(vehicle, 0.0, 1.0, 0.5)
-                    DrawText3D(vehiclePos.x, vehiclePos.y, vehiclePos.z, Lang:t("info.skeys"))
+--                    DrawText3D(vehiclePos.x, vehiclePos.y, vehiclePos.z, Lang:t("info.skeys"))
                     SetVehicleEngineOn(vehicle, false, false, true)
 
-                    if IsControlJustPressed(0, 74) then
-                        Hotwire(vehicle, plate)
-                    end
+--                    if IsControlJustPressed(0, 74) then
+--                        Hotwire(vehicle, plate)
+--                    end
                 end
             end
 
