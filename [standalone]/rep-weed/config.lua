@@ -34,7 +34,7 @@ Config.Plant = {
         {hash = `bkr_prop_weed_lrg_01b`, zOffset = -3.0},
     },
     Factor = 1.3, -- How much longer should a male plant take to grow
-    GrowthTime = 240, -- Plant Growing time in minutes 240
+    GrowthTime = 1,--240, -- Plant Growing time in minutes 240
     LifeTime = 1440, -- Plant lifetime in minutes before wiped-- Water drained from plants per minutes
     MinusWater = 0.25, -- 0.05% per minute on plants
     Water = { -- Watering Can

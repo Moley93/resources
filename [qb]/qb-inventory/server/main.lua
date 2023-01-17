@@ -584,11 +584,6 @@ local function SaveStashItems(stashId, items)
 	Stashes[stashId].isOpen = false
 end
 
-RegisterNetEvent('rep-weed:server:updateDry',function (stashId, slot, item)
-	Stashes[stashId].items[slot] = item
-	SaveStashItems(stashId, Stashes[stashId].items)
-end)
-
 ---Add items to a stash
 ---@param stashId string Stash id to save it to
 ---@param slot number Slot of the stash to save the item to
@@ -1067,6 +1062,13 @@ end
 --#endregion Functions
 
 --#region Events
+RegisterNetEvent('rep-weed:server:updateDry',function(stashId, slot, item)
+	print('ID: '..stashId)
+	print('slot: '..slot)
+	print('Item: '..json.encode(item))
+	Stashes[stashId].items[slot] = item
+	SaveStashItems(stashId, Stashes[stashId].items)
+end)
 
 AddEventHandler('QBCore:Server:PlayerLoaded', function(Player)
 	QBCore.Functions.AddPlayerMethod(Player.PlayerData.source, "AddItem", function(item, amount, slot, info)
@@ -1270,6 +1272,8 @@ RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
 					end
 				end
 				local item = GetStashItems(id) or {}
+				print('ID: '..id)
+				print('Item: '..json.encode(item))
 				TriggerEvent('rep-weed:server:checkDry',id, item)
 			elseif name == "trunk" then
 				if Trunks[id] then
@@ -2197,9 +2201,9 @@ QBCore.Commands.Add("giveitem", "Give An Item (Admin Only)", {{name="id", help="
 					info.k = 0
 				elseif itemData["name"] == "wetbud" then
 					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
+					info.n = 5
+					info.p = 2
+					info.k = 1
 					info.dry = 0
 				elseif itemData["name"] == "joint" then
 					info.strain = "Unknown"
