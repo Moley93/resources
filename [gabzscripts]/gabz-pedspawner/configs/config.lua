@@ -598,10 +598,9 @@ Config.Locations = {
         isEnabled = false, -- will be false for locations (if you set this to true, it will force spawn the peds even if the MLO is not loaded)
         coords = vector3(116.16, -1022.99, 29.3),
         PedCoords = {
-            [1] = {coords = vector4(121.46, -1041.06, 29.27, 70.39), model = "s_m_y_barman_01", scenario = "WORLD_HUMAN_CLIPBOARD"},
-            [2] = {coords = vector4(120.89, -1037.16, 29.27, 251.37), model = "ig_car3guy2", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
-            [3] = {coords = vector4(114.56, -1033.69, 29.34, 153.51), model = "a_f_m_tourist_01", scenario = "WORLD_HUMAN_SMOKING"},
-            [4] = {coords = vector4(113.90, -1035.59, 29.33, 336.77), model = "a_f_y_tourist_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [1] = {coords = vector4(120.89, -1037.16, 29.27, 251.37), model = "ig_car3guy2", scenario = "WORLD_HUMAN_STAND_IMPATIENT"},
+            [2] = {coords = vector4(114.56, -1033.69, 29.34, 153.51), model = "a_f_m_tourist_01", scenario = "WORLD_HUMAN_SMOKING"},
+            [3] = {coords = vector4(113.90, -1035.59, 29.33, 336.77), model = "a_f_y_tourist_01", scenario = "WORLD_HUMAN_SMOKING"},
         }
     },
     ["bowling"] = {

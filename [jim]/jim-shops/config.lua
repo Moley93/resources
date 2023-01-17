@@ -341,7 +341,7 @@ Config.Locations = {
 		},
 		["coords"] = {
 			vector4(-628.97, 238.27, 81.9, 1.28),
-			vector4(126.55, -1028.12, 29.36, 343.0),
+			vector4(121.46, -1041.06, 29.27, 70.39),
 		},
 		["products"] = Config.Products["coffeeplace"],
 		["blipsprite"] = 52,

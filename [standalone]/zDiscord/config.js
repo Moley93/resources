@@ -12,7 +12,7 @@ const LanguageLocaleCode = "en";
 
 // PUBLIC VALUES
 const FiveMServerName = "Near Reality";
-const DiscordInviteLink = "https://dsg.gg/near-reality";
+const DiscordInviteLink = "https://discord.gg/near-reality";
 const FiveMServerIP = "147.189.170.236:30120";
 
 // This spams the console, only enable for testing if needed
