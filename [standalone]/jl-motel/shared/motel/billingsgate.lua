@@ -5,7 +5,7 @@ Config.Motel["bilingsgate"] = {
     rent = {
         coords = vector4(570.02, -1746.43, 29.22, 247.45)
     },
-    price = 2000,
+    price = 1200,
     type = "shell",
     motel = {
         ['bilingsgate:1'] = {
@@ -13,6 +13,7 @@ Config.Motel["bilingsgate"] = {
             label = "Bilingsgate 1",
             locked = true,
             owned = false,
+            price = 500
         },
         ['bilingsgate:2'] = {
             enter = vector4(550.45, -1775.61, 29.31, 247.68),

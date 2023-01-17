@@ -104,8 +104,8 @@ Config = {
 		hundMin = 5,
 		hundMax = 14,
 
-		thouMin = 35,
-		thouMax = 70,
+		thouMin = 10,
+		thouMax = 28,
 	}
 }
 

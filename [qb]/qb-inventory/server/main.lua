@@ -2219,7 +2219,7 @@ QBCore.Commands.Add("giveitem", "Give An Item (Admin Only)", {{name="id", help="
 				elseif itemData["name"] == "wateringcan" then
 					info.water = 0
 				elseif itemData["name"] == "markedbills" then
-					info.worth = math.random(100, 2500)
+					info.worth = math.random(5000, 10000)
 				elseif itemData["name"] == "printerdocument" then
 					info.url = "https://cdn.discordapp.com/attachments/870094209783308299/870104331142189126/Logo_-_Display_Picture_-_Stylized_-_Red.png"
 				end
