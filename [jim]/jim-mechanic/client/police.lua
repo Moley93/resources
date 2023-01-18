@@ -57,7 +57,7 @@ RegisterNetEvent('jim-mechanic:client:Police:Extra', function()
 	ExtraMenu[#ExtraMenu+1] = { icon = "fas fa-toolbox", isMenuHeader = true, header = Loc[Config.Lan]["police"].extras, txt = "Toggle Vehicle Extras" }
 	ExtraMenu[#ExtraMenu+1] = { icon = "fas fa-circle-arrow-left", header = "", txt = string.gsub(Loc[Config.Lan]["common"].ret, "⬅️ ", ""), params = { event = "jim-mechanic:client:Police:Menu" }, }
 	for i = 0, 20 do
-		if DoesExtraExist(vehicle, i) then hadMod = false
+		if DoesExtraExist(vehicle, i) then hadMod = true
 		if IsVehicleExtraTurnedOn(vehicle, i) then icon = "fas fa-check" else icon = "fas fa-x" end
 		ExtraMenu[#ExtraMenu+1] = { icon = icon, header = "Extra "..i, txt = "", params = { event = "jim-mechanic:client:Police:Extra:Apply", args = { id = i }, }, } end
 	end
