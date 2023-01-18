@@ -696,20 +696,20 @@ local function generateTier(boostData)
             generateTier(src)
         end
 
-    elseif chance >= 80 then -- 10%
+    elseif chance >= 85 then -- 10%
         if boostData >= Config.Boosting.TiersPerRep["B"] then -- You can jump 1 tier above the current tier you are at so someone at D can't get a S+ Contract
             tier = "A"
         else
             generateTier(src)
         end
 
-    elseif chance >= 60 then -- 20%
+    elseif chance >= 65 then -- 20%
         if boostData >= Config.Boosting.TiersPerRep["C"] then -- You can jump 1 tier above the current tier you are at so someone at D can't get a S+ Contract
             tier = "B"
         else
             generateTier(src)
         end
-    elseif chance >= 35 then -- 25%
+    elseif chance >= 40 then -- 25%
         if boostData >= Config.Boosting.TiersPerRep["D"] then -- You can jump 1 tier above the current tier you are at so someone at D can't get a S+ Contract
             tier = "C"
         else
