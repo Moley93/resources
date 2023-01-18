@@ -429,6 +429,7 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
             local r, g, b = GetVehicleCustomSecondaryColour(vehicle)
             colorSecondary = { r, g, b, colorSecondary }
         end
+        
         local extras = {}
         for extraId = 0, 12 do
             if DoesExtraExist(vehicle, extraId) then
@@ -436,18 +437,37 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
                 extras[tostring(extraId)] = state
             end
         end
+
         local modLivery = GetVehicleMod(vehicle, 48)
-        if GetVehicleMod(vehicle, 48) == -1 and GetVehicleLivery(vehicle) ~= 0 then modLivery = GetVehicleLivery(vehicle) end
+        if GetVehicleMod(vehicle, 48) == -1 then
+            modLivery = GetVehicleLivery(vehicle)
+        end
+
         local tireHealth = {}
-        for i = 0, 3 do tireHealth[i] = GetVehicleWheelHealth(vehicle, i) end
+        for i = 0, 3 do
+            tireHealth[i] = GetVehicleWheelHealth(vehicle, i)
+        end
+
         local tireBurstState = {}
-        for i = 0, 5 do tireBurstState[i] = IsVehicleTyreBurst(vehicle, i, false) end
+        for i = 0, 5 do
+            tireBurstState[i] = IsVehicleTyreBurst(vehicle, i, false)
+        end
+
         local tireBurstCompletely = {}
-        for i = 0, 5 do tireBurstCompletely[i] = IsVehicleTyreBurst(vehicle, i, true) end
+        for i = 0, 5 do
+            tireBurstCompletely[i] = IsVehicleTyreBurst(vehicle, i, true)
+        end
+
         local windowStatus = {}
-        for i = 0, 7 do windowStatus[i] = IsVehicleWindowIntact(vehicle, i) == 1 end
+        for i = 0, 7 do
+            windowStatus[i] = IsVehicleWindowIntact(vehicle, i) == 1
+        end
+
         local doorStatus = {}
-        for i = 0, 5 do doorStatus[i] = IsVehicleDoorDamaged(vehicle, i) == 1 end
+        for i = 0, 5 do
+            doorStatus[i] = IsVehicleDoorDamaged(vehicle, i) == 1
+        end
+
         return {
             model = GetEntityModel(vehicle),
             plate = QBCore.Functions.GetPlate(vehicle),
