@@ -275,7 +275,10 @@ Config.LogPerms = {
 		[4] = true,
 	},
 	['police'] = {
-		[4] = true,
+		[10] = true,
+		[11] = true,
+		[12] = true,
+		[13] = true,
 	},
 }
 

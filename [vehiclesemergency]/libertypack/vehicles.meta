@@ -104,14 +104,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -230,14 +228,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -356,14 +352,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -482,14 +476,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -608,14 +600,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -731,14 +721,12 @@
       <trailers />
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -854,14 +842,12 @@
       <trailers />
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -980,14 +966,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -1106,14 +1090,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -1232,14 +1214,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -1358,14 +1338,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -1484,14 +1462,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -1607,14 +1583,12 @@
       <trailers />
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>
@@ -1734,14 +1708,12 @@
       </trailers>
       <additionalTrailers />
       <drivers />
-      <extraIncludes>
-        <Item>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</Item>
-      </extraIncludes>
+      <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
       <bumpersNeedToCollideWithMap value="false" />
       <needsRopeTexture value="false" />
-      <requiredExtras>EXTRA_1 EXTRA_4 EXTRA_5 EXTRA_7 EXTRA_10</requiredExtras>
+      <requiredExtras />
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_FRONT_RIGHT_CAMERA</Item>

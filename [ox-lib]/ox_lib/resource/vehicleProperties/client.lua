@@ -264,7 +264,7 @@ function lib.setVehicleProperties(vehicle, props)
     local pearlescentColor, wheelColor = GetVehicleExtraColours(vehicle)
 
     SetVehicleModKit(vehicle, 0)
-    SetVehicleAutoRepairDisabled(vehicle, true)
+    SetVehicleAutoRepairDisabled(vehicle, false)
 
     if props.plate then
         SetVehicleNumberPlateText(vehicle, props.plate)
