@@ -199,7 +199,7 @@ body {
 	text-transform: uppercase;
 	font-size: 1.2vh;
 	font-weight: 900;
-	background-color: rgba(220, 20, 60, 0.6);
+	background-color: rgba(255, 145, 0, 0.692);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -223,7 +223,7 @@ body {
 	left: 2px;
 	color: white;
 	border: 1px solid rgba(255, 255, 255, .01);
-	background-color: rgba(220, 20, 60, 0.6);
+	background-color: rgba(255, 145, 0, 0.692);
 	text-align: center;
 	line-height: 48px;
 	text-transform: uppercase;

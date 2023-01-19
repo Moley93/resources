@@ -26,9 +26,9 @@ Config.Prices = {
 }
 
 Config.VehicleModels = {
-	A = 'sanchez',
+	A = 'faggio',
 	B = 'emperor',
-	C = 'pounder',
+	C = 'hauler',
 }
 
 Config.SpeedLimits = {
