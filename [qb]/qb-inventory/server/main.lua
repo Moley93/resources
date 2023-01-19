@@ -535,8 +535,8 @@ local function SetupShopItems(shopItems)
 end
 
 ---Get items in a stash
----@param stashId string The id of the stash to get
----@return table items
+----@param stashId string The id of the stash to get
+----@return table items
 local function GetStashItems(stashId)
 	local items = {}
 	local result = MySQL.scalar.await('SELECT items FROM stashitems WHERE stash = ?', {stashId})
@@ -1059,16 +1059,222 @@ local function CreateNewDrop(source, fromSlot, toSlot, itemAmount)
 	end
 end
 
+local function OpenInventory(name, id, other, origin)
+	local src = origin
+	local ply = Player(src)
+    local Player = QBCore.Functions.GetPlayer(src)
+	if ply.state.inv_busy then
+		return QBCore.Functions.Notify(src, Lang:t("notify.noaccess"), 'error')
+	end
+	if name and id then
+		local secondInv = {}
+		if name == "stash" then
+			if Stashes[id] then
+				if Stashes[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Stashes[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Stashes[id].isOpen, name, id, Stashes[id].label)
+					else
+						Stashes[id].isOpen = false
+					end
+				end
+			end
+			local maxweight = 1000000
+			local slots = 50
+			if other then
+				maxweight = other.maxweight or 1000000
+				slots = other.slots or 50
+			end
+			secondInv.name = "stash-"..id
+			secondInv.label = "Stash-"..id
+			secondInv.maxweight = maxweight
+			secondInv.inventory = {}
+			secondInv.slots = slots
+			if Stashes[id] and Stashes[id].isOpen then
+				secondInv.name = "none-inv"
+				secondInv.label = "Stash-None"
+				secondInv.maxweight = 1000000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			else
+				local stashItems = GetStashItems(id)
+				if next(stashItems) then
+					secondInv.inventory = stashItems
+					Stashes[id] = {}
+					Stashes[id].items = stashItems
+					Stashes[id].isOpen = src
+					Stashes[id].label = secondInv.label
+				else
+					Stashes[id] = {}
+					Stashes[id].items = {}
+					Stashes[id].isOpen = src
+					Stashes[id].label = secondInv.label
+				end
+			end
+		elseif name == "trunk" then
+			if Trunks[id] then
+				if Trunks[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Trunks[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Trunks[id].isOpen, name, id, Trunks[id].label)
+					else
+						Trunks[id].isOpen = false
+					end
+				end
+			end
+			secondInv.name = "trunk-"..id
+			secondInv.label = "Trunk-"..id
+			secondInv.maxweight = other.maxweight or 60000
+			secondInv.inventory = {}
+			secondInv.slots = other.slots or 50
+			if (Trunks[id] and Trunks[id].isOpen) or (QBCore.Shared.SplitStr(id, "PLZI")[2] and (Player.PlayerData.job.name ~= "police" or Player.PlayerData.job.type ~= "leo")) then
+				secondInv.name = "none-inv"
+				secondInv.label = "Trunk-None"
+				secondInv.maxweight = other.maxweight or 60000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			else
+				if id then
+					local ownedItems = GetOwnedVehicleItems(id)
+					if IsVehicleOwned(id) and next(ownedItems) then
+						secondInv.inventory = ownedItems
+						Trunks[id] = {}
+						Trunks[id].items = ownedItems
+						Trunks[id].isOpen = src
+						Trunks[id].label = secondInv.label
+					elseif Trunks[id] and not Trunks[id].isOpen then
+						secondInv.inventory = Trunks[id].items
+						Trunks[id].isOpen = src
+						Trunks[id].label = secondInv.label
+					else
+						Trunks[id] = {}
+						Trunks[id].items = {}
+						Trunks[id].isOpen = src
+						Trunks[id].label = secondInv.label
+					end
+				end
+			end
+		elseif name == "glovebox" then
+			if Gloveboxes[id] then
+				if Gloveboxes[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Gloveboxes[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Gloveboxes[id].isOpen, name, id, Gloveboxes[id].label)
+					else
+						Gloveboxes[id].isOpen = false
+					end
+				end
+			end
+			secondInv.name = "glovebox-"..id
+			secondInv.label = "Glovebox-"..id
+			secondInv.maxweight = 10000
+			secondInv.inventory = {}
+			secondInv.slots = 5
+			if Gloveboxes[id] and Gloveboxes[id].isOpen then
+				secondInv.name = "none-inv"
+				secondInv.label = "Glovebox-None"
+				secondInv.maxweight = 10000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			else
+				local ownedItems = GetOwnedVehicleGloveboxItems(id)
+				if Gloveboxes[id] and not Gloveboxes[id].isOpen then
+					secondInv.inventory = Gloveboxes[id].items
+					Gloveboxes[id].isOpen = src
+					Gloveboxes[id].label = secondInv.label
+				elseif IsVehicleOwned(id) and next(ownedItems) then
+					secondInv.inventory = ownedItems
+					Gloveboxes[id] = {}
+					Gloveboxes[id].items = ownedItems
+					Gloveboxes[id].isOpen = src
+					Gloveboxes[id].label = secondInv.label
+				else
+					Gloveboxes[id] = {}
+					Gloveboxes[id].items = {}
+					Gloveboxes[id].isOpen = src
+					Gloveboxes[id].label = secondInv.label
+				end
+			end
+		elseif name == "shop" then
+			secondInv.name = "itemshop-"..id
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = SetupShopItems(other.items)
+			ShopItems[id] = {}
+			ShopItems[id].items = other.items
+			secondInv.slots = #other.items
+		elseif name == "traphouse" then
+			secondInv.name = "traphouse-"..id
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = other.items
+			secondInv.slots = other.slots
+		elseif name == "crafting" then
+			secondInv.name = "crafting"
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = other.items
+			secondInv.slots = #other.items
+		elseif name == "attachment_crafting" then
+			secondInv.name = "attachment_crafting"
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = other.items
+			secondInv.slots = #other.items
+		elseif name == "otherplayer" then
+			local OtherPlayer = QBCore.Functions.GetPlayer(tonumber(id))
+			if OtherPlayer then
+				secondInv.name = "otherplayer-"..id
+				secondInv.label = "Player-"..id
+				secondInv.maxweight = Config.MaxInventoryWeight
+				secondInv.inventory = OtherPlayer.PlayerData.items
+				if (Player.PlayerData.job.name == "police" or Player.PlayerData.job.type == "leo") and Player.PlayerData.job.onduty then
+					secondInv.slots = Config.MaxInventorySlots
+				else
+					secondInv.slots = Config.MaxInventorySlots - 1
+				end
+				Wait(250)
+			end
+		else
+			if Drops[id] then
+				if Drops[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Drops[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Drops[id].isOpen, name, id, Drops[id].label)
+					else
+						Drops[id].isOpen = false
+					end
+				end
+			end
+			if Drops[id] and not Drops[id].isOpen then
+				secondInv.coords = Drops[id].coords
+				secondInv.name = id
+				secondInv.label = "Dropped-"..tostring(id)
+				secondInv.maxweight = 100000
+				secondInv.inventory = Drops[id].items
+				secondInv.slots = 30
+				Drops[id].isOpen = src
+				Drops[id].label = secondInv.label
+				Drops[id].createdTime = os.time()
+			else
+				secondInv.name = "none-inv"
+				secondInv.label = "Dropped-None"
+				secondInv.maxweight = 100000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			end
+		end
+		TriggerClientEvent("qb-inventory:client:closeinv", id)
+		TriggerClientEvent("inventory:client:OpenInventory", src, {}, Player.PlayerData.items, secondInv)
+	else
+		TriggerClientEvent("inventory:client:OpenInventory", src, {}, Player.PlayerData.items)
+	end
+end
+exports('OpenInventory',OpenInventory)
+
 --#endregion Functions
 
 --#region Events
-RegisterNetEvent('rep-weed:server:updateDry',function(stashId, slot, item)
-	print('ID: '..stashId)
-	print('slot: '..slot)
-	print('Item: '..json.encode(item))
-	Stashes[stashId].items[slot] = item
-	SaveStashItems(stashId, Stashes[stashId].items)
-end)
 
 AddEventHandler('QBCore:Server:PlayerLoaded', function(Player)
 	QBCore.Functions.AddPlayerMethod(Player.PlayerData.source, "AddItem", function(item, amount, slot, info)
@@ -1133,20 +1339,20 @@ AddEventHandler('onResourceStart', function(resourceName)
 		end)
 	end
 end)
-
 RegisterNetEvent('QBCore:Server:UpdateObject', function()
     if source ~= '' then return end -- Safety check if the event was not called from the server.
     QBCore = exports['qb-core']:GetCoreObject()
 end)
-
-RegisterNetEvent('inventory:server:addTrunkItems', function(plate, items)
+function addTrunkItems(plate, items)
 	Trunks[plate] = {}
 	Trunks[plate].items = items
-end)
-RegisterNetEvent('inventory:server:addGloveboxItems', function(plate, items)
+end
+exports('addTrunkItems',addTrunkItems)
+function addGloveboxItems(plate, items)
 	Gloveboxes[plate] = {}
 	Gloveboxes[plate].items = items
-end)
+end
+exports('addGloveboxItems',addGloveboxItems)
 
 RegisterNetEvent('inventory:server:combineItem', function(item, fromItem, toItem)
 	local src = source
@@ -1222,219 +1428,215 @@ RegisterNetEvent('inventory:server:SetIsOpenState', function(IsOpen, type, id)
 end)
 
 RegisterNetEvent('inventory:server:OpenInventory', function(name, id, other)
+--	print('inventory:server:OpenInventory is deprecated use exports[\'qb-inventory\']:OpenInventory() instead.')
 	local src = source
 	local ply = Player(src)
 	local Player = QBCore.Functions.GetPlayer(src)
-	if not ply.state.inv_busy then
-		if name and id then
-			local secondInv = {}
-			if name == "stash" then
-				if Stashes[id] then
-					if Stashes[id].isOpen then
-						local Target = QBCore.Functions.GetPlayer(Stashes[id].isOpen)
-						if Target then
-							TriggerClientEvent('inventory:client:CheckOpenState', Stashes[id].isOpen, name, id, Stashes[id].label)
-						else
-							Stashes[id].isOpen = false
-						end
-					end
-				end
-				local maxweight = 1000000
-				local slots = 50
-				if other then
-					maxweight = other.maxweight or 1000000
-					slots = other.slots or 50
-				end
-				secondInv.name = "stash-"..id
-				secondInv.label = "Stash-"..id
-				secondInv.maxweight = maxweight
-				secondInv.inventory = {}
-				secondInv.slots = slots
-				if Stashes[id] and Stashes[id].isOpen then
-					secondInv.name = "none-inv"
-					secondInv.label = "Stash-None"
-					secondInv.maxweight = 1000000
-					secondInv.inventory = {}
-					secondInv.slots = 0
-				else
-					local stashItems = GetStashItems(id)
-					if next(stashItems) then
-						secondInv.inventory = stashItems
-						Stashes[id] = {}
-						Stashes[id].items = stashItems
-						Stashes[id].isOpen = src
-						Stashes[id].label = secondInv.label
+	if ply.state.inv_busy then
+		return QBCore.Functions.Notify(src, Lang:t("notify.noaccess"), 'error')
+	end
+	if name and id then
+		local secondInv = {}
+		if name == "stash" then
+			if Stashes[id] then
+				if Stashes[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Stashes[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Stashes[id].isOpen, name, id, Stashes[id].label)
 					else
-						Stashes[id] = {}
-						Stashes[id].items = {}
-						Stashes[id].isOpen = src
-						Stashes[id].label = secondInv.label
+						Stashes[id].isOpen = false
 					end
-				end
-				local item = GetStashItems(id) or {}
-				print('ID: '..id)
-				print('Item: '..json.encode(item))
-				TriggerEvent('rep-weed:server:checkDry',id, item)
-			elseif name == "trunk" then
-				if Trunks[id] then
-					if Trunks[id].isOpen then
-						local Target = QBCore.Functions.GetPlayer(Trunks[id].isOpen)
-						if Target then
-							TriggerClientEvent('inventory:client:CheckOpenState', Trunks[id].isOpen, name, id, Trunks[id].label)
-						else
-							Trunks[id].isOpen = false
-						end
-					end
-				end
-				secondInv.name = "trunk-"..id
-				secondInv.label = "Trunk-"..id
-				secondInv.maxweight = other.maxweight or 60000
-				secondInv.inventory = {}
-				secondInv.slots = other.slots or 50
-				if (Trunks[id] and Trunks[id].isOpen) or (QBCore.Shared.SplitStr(id, "PLZI")[2] and (Player.PlayerData.job.name ~= "police" or Player.PlayerData.job.type ~= "leo")) then
-					secondInv.name = "none-inv"
-					secondInv.label = "Trunk-None"
-					secondInv.maxweight = other.maxweight or 60000
-					secondInv.inventory = {}
-					secondInv.slots = 0
-				else
-					if id then
-						local ownedItems = GetOwnedVehicleItems(id)
-						if IsVehicleOwned(id) and next(ownedItems) then
-							secondInv.inventory = ownedItems
-							Trunks[id] = {}
-							Trunks[id].items = ownedItems
-							Trunks[id].isOpen = src
-							Trunks[id].label = secondInv.label
-						elseif Trunks[id] and not Trunks[id].isOpen then
-							secondInv.inventory = Trunks[id].items
-							Trunks[id].isOpen = src
-							Trunks[id].label = secondInv.label
-						else
-							Trunks[id] = {}
-							Trunks[id].items = {}
-							Trunks[id].isOpen = src
-							Trunks[id].label = secondInv.label
-						end
-					end
-				end
-			elseif name == "glovebox" then
-				if Gloveboxes[id] then
-					if Gloveboxes[id].isOpen then
-						local Target = QBCore.Functions.GetPlayer(Gloveboxes[id].isOpen)
-						if Target then
-							TriggerClientEvent('inventory:client:CheckOpenState', Gloveboxes[id].isOpen, name, id, Gloveboxes[id].label)
-						else
-							Gloveboxes[id].isOpen = false
-						end
-					end
-				end
-				secondInv.name = "glovebox-"..id
-				secondInv.label = "Glovebox-"..id
-				secondInv.maxweight = 10000
-				secondInv.inventory = {}
-				secondInv.slots = 5
-				if Gloveboxes[id] and Gloveboxes[id].isOpen then
-					secondInv.name = "none-inv"
-					secondInv.label = "Glovebox-None"
-					secondInv.maxweight = 10000
-					secondInv.inventory = {}
-					secondInv.slots = 0
-				else
-					local ownedItems = GetOwnedVehicleGloveboxItems(id)
-					if Gloveboxes[id] and not Gloveboxes[id].isOpen then
-						secondInv.inventory = Gloveboxes[id].items
-						Gloveboxes[id].isOpen = src
-						Gloveboxes[id].label = secondInv.label
-					elseif IsVehicleOwned(id) and next(ownedItems) then
-						secondInv.inventory = ownedItems
-						Gloveboxes[id] = {}
-						Gloveboxes[id].items = ownedItems
-						Gloveboxes[id].isOpen = src
-						Gloveboxes[id].label = secondInv.label
-					else
-						Gloveboxes[id] = {}
-						Gloveboxes[id].items = {}
-						Gloveboxes[id].isOpen = src
-						Gloveboxes[id].label = secondInv.label
-					end
-				end
-			elseif name == "shop" then
-				secondInv.name = "itemshop-"..id
-				secondInv.label = other.label
-				secondInv.maxweight = 900000
-				secondInv.inventory = SetupShopItems(other.items)
-				ShopItems[id] = {}
-				ShopItems[id].items = other.items
-				secondInv.slots = #other.items
-			elseif name == "traphouse" then
-				secondInv.name = "traphouse-"..id
-				secondInv.label = other.label
-				secondInv.maxweight = 900000
-				secondInv.inventory = other.items
-				secondInv.slots = other.slots
-			elseif name == "crafting" then
-				secondInv.name = "crafting"
-				secondInv.label = other.label
-				secondInv.maxweight = 900000
-				secondInv.inventory = other.items
-				secondInv.slots = #other.items
-			elseif name == "attachment_crafting" then
-				secondInv.name = "attachment_crafting"
-				secondInv.label = other.label
-				secondInv.maxweight = 900000
-				secondInv.inventory = other.items
-				secondInv.slots = #other.items
-			elseif name == "otherplayer" then
-				local OtherPlayer = QBCore.Functions.GetPlayer(tonumber(id))
-				if OtherPlayer then
-					secondInv.name = "otherplayer-"..id
-					secondInv.label = "Player-"..id
-					secondInv.maxweight = Config.MaxInventoryWeight
-					secondInv.inventory = OtherPlayer.PlayerData.items
-					if (Player.PlayerData.job.name == "police" or Player.PlayerData.job.type == "leo") and Player.PlayerData.job.onduty then
-						secondInv.slots = Config.MaxInventorySlots
-					else
-						secondInv.slots = Config.MaxInventorySlots - 1
-					end
-					Wait(250)
-				end
-			else
-				if Drops[id] then
-					if Drops[id].isOpen then
-						local Target = QBCore.Functions.GetPlayer(Drops[id].isOpen)
-						if Target then
-							TriggerClientEvent('inventory:client:CheckOpenState', Drops[id].isOpen, name, id, Drops[id].label)
-						else
-							Drops[id].isOpen = false
-						end
-					end
-				end
-				if Drops[id] and not Drops[id].isOpen then
-					secondInv.coords = Drops[id].coords
-					secondInv.name = id
-					secondInv.label = "Dropped-"..tostring(id)
-					secondInv.maxweight = 100000
-					secondInv.inventory = Drops[id].items
-					secondInv.slots = 30
-					Drops[id].isOpen = src
-					Drops[id].label = secondInv.label
-					Drops[id].createdTime = os.time()
-				else
-					secondInv.name = "none-inv"
-					secondInv.label = "Dropped-None"
-					secondInv.maxweight = 100000
-					secondInv.inventory = {}
-					secondInv.slots = 0
 				end
 			end
-			TriggerClientEvent("qb-inventory:client:closeinv", id)
-			TriggerClientEvent("inventory:client:OpenInventory", src, {}, Player.PlayerData.items, secondInv)
+			local maxweight = 1000000
+			local slots = 50
+			if other then
+				maxweight = other.maxweight or 1000000
+				slots = other.slots or 50
+			end
+			secondInv.name = "stash-"..id
+			secondInv.label = "Stash-"..id
+			secondInv.maxweight = maxweight
+			secondInv.inventory = {}
+			secondInv.slots = slots
+			if Stashes[id] and Stashes[id].isOpen then
+				secondInv.name = "none-inv"
+				secondInv.label = "Stash-None"
+				secondInv.maxweight = 1000000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			else
+				local stashItems = GetStashItems(id)
+				if next(stashItems) then
+					secondInv.inventory = stashItems
+					Stashes[id] = {}
+					Stashes[id].items = stashItems
+					Stashes[id].isOpen = src
+					Stashes[id].label = secondInv.label
+				else
+					Stashes[id] = {}
+					Stashes[id].items = {}
+					Stashes[id].isOpen = src
+					Stashes[id].label = secondInv.label
+				end
+			end
+		elseif name == "trunk" then
+			if Trunks[id] then
+				if Trunks[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Trunks[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Trunks[id].isOpen, name, id, Trunks[id].label)
+					else
+						Trunks[id].isOpen = false
+					end
+				end
+			end
+			secondInv.name = "trunk-"..id
+			secondInv.label = "Trunk-"..id
+			secondInv.maxweight = other.maxweight or 60000
+			secondInv.inventory = {}
+			secondInv.slots = other.slots or 50
+			if (Trunks[id] and Trunks[id].isOpen) or (QBCore.Shared.SplitStr(id, "PLZI")[2] and (Player.PlayerData.job.name ~= "police" or Player.PlayerData.job.type ~= "leo")) then
+				secondInv.name = "none-inv"
+				secondInv.label = "Trunk-None"
+				secondInv.maxweight = other.maxweight or 60000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			else
+				if id then
+					local ownedItems = GetOwnedVehicleItems(id)
+					if IsVehicleOwned(id) and next(ownedItems) then
+						secondInv.inventory = ownedItems
+						Trunks[id] = {}
+						Trunks[id].items = ownedItems
+						Trunks[id].isOpen = src
+						Trunks[id].label = secondInv.label
+					elseif Trunks[id] and not Trunks[id].isOpen then
+						secondInv.inventory = Trunks[id].items
+						Trunks[id].isOpen = src
+						Trunks[id].label = secondInv.label
+					else
+						Trunks[id] = {}
+						Trunks[id].items = {}
+						Trunks[id].isOpen = src
+						Trunks[id].label = secondInv.label
+					end
+				end
+			end
+		elseif name == "glovebox" then
+			if Gloveboxes[id] then
+				if Gloveboxes[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Gloveboxes[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Gloveboxes[id].isOpen, name, id, Gloveboxes[id].label)
+					else
+						Gloveboxes[id].isOpen = false
+					end
+				end
+			end
+			secondInv.name = "glovebox-"..id
+			secondInv.label = "Glovebox-"..id
+			secondInv.maxweight = 10000
+			secondInv.inventory = {}
+			secondInv.slots = 5
+			if Gloveboxes[id] and Gloveboxes[id].isOpen then
+				secondInv.name = "none-inv"
+				secondInv.label = "Glovebox-None"
+				secondInv.maxweight = 10000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			else
+				local ownedItems = GetOwnedVehicleGloveboxItems(id)
+				if Gloveboxes[id] and not Gloveboxes[id].isOpen then
+					secondInv.inventory = Gloveboxes[id].items
+					Gloveboxes[id].isOpen = src
+					Gloveboxes[id].label = secondInv.label
+				elseif IsVehicleOwned(id) and next(ownedItems) then
+					secondInv.inventory = ownedItems
+					Gloveboxes[id] = {}
+					Gloveboxes[id].items = ownedItems
+					Gloveboxes[id].isOpen = src
+					Gloveboxes[id].label = secondInv.label
+				else
+					Gloveboxes[id] = {}
+					Gloveboxes[id].items = {}
+					Gloveboxes[id].isOpen = src
+					Gloveboxes[id].label = secondInv.label
+				end
+			end
+		elseif name == "shop" then
+			secondInv.name = "itemshop-"..id
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = SetupShopItems(other.items)
+			ShopItems[id] = {}
+			ShopItems[id].items = other.items
+			secondInv.slots = #other.items
+		elseif name == "traphouse" then
+			secondInv.name = "traphouse-"..id
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = other.items
+			secondInv.slots = other.slots
+		elseif name == "crafting" then
+			secondInv.name = "crafting"
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = other.items
+			secondInv.slots = #other.items
+		elseif name == "attachment_crafting" then
+			secondInv.name = "attachment_crafting"
+			secondInv.label = other.label
+			secondInv.maxweight = 900000
+			secondInv.inventory = other.items
+			secondInv.slots = #other.items
+		elseif name == "otherplayer" then
+			local OtherPlayer = QBCore.Functions.GetPlayer(tonumber(id))
+			if OtherPlayer then
+				secondInv.name = "otherplayer-"..id
+				secondInv.label = "Player-"..id
+				secondInv.maxweight = Config.MaxInventoryWeight
+				secondInv.inventory = OtherPlayer.PlayerData.items
+				if (Player.PlayerData.job.name == "police" or Player.PlayerData.job.type == "leo") and Player.PlayerData.job.onduty then
+					secondInv.slots = Config.MaxInventorySlots
+				else
+					secondInv.slots = Config.MaxInventorySlots - 1
+				end
+				Wait(250)
+			end
 		else
-			TriggerClientEvent("inventory:client:OpenInventory", src, {}, Player.PlayerData.items)
+			if Drops[id] then
+				if Drops[id].isOpen then
+					local Target = QBCore.Functions.GetPlayer(Drops[id].isOpen)
+					if Target then
+						TriggerClientEvent('inventory:client:CheckOpenState', Drops[id].isOpen, name, id, Drops[id].label)
+					else
+						Drops[id].isOpen = false
+					end
+				end
+			end
+			if Drops[id] and not Drops[id].isOpen then
+				secondInv.coords = Drops[id].coords
+				secondInv.name = id
+				secondInv.label = "Dropped-"..tostring(id)
+				secondInv.maxweight = 100000
+				secondInv.inventory = Drops[id].items
+				secondInv.slots = 30
+				Drops[id].isOpen = src
+				Drops[id].label = secondInv.label
+				Drops[id].createdTime = os.time()
+			else
+				secondInv.name = "none-inv"
+				secondInv.label = "Dropped-None"
+				secondInv.maxweight = 100000
+				secondInv.inventory = {}
+				secondInv.slots = 0
+			end
 		end
+		TriggerClientEvent("qb-inventory:client:closeinv", id)
+		TriggerClientEvent("inventory:client:OpenInventory", src, {}, Player.PlayerData.items, secondInv)
 	else
-		QBCore.Functions.Notify(src, Lang:t("notify.noaccess"), 'error')
+		TriggerClientEvent("inventory:client:OpenInventory", src, {}, Player.PlayerData.items)
 	end
 end)
 
@@ -2011,13 +2213,6 @@ RegisterNetEvent('inventory:server:SetInventoryData', function(fromInventory, to
 	end
 end)
 
-RegisterNetEvent('qb-inventory:server:SaveStashItems', function(stashId, items)
-    MySQL.insert('INSERT INTO stashitems (stash, items) VALUES (:stash, :items) ON DUPLICATE KEY UPDATE items = :items', {
-        ['stash'] = stashId,
-        ['items'] = json.encode(items)
-    })
-end)
-
 RegisterServerEvent("inventory:server:GiveItem", function(target, name, amount, slot)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
@@ -2066,7 +2261,12 @@ RegisterNetEvent('inventory:server:snowball', function(action)
 		RemoveItem(source, "weapon_snowball")
 	end
 end)
-
+RegisterNetEvent('inventory:server:addTrunkItems', function()
+	print('inventory:server:addTrunkItems has been deprecated please use exports[\'qb-inventory\']:addTrunkItems(plate, items)')
+end)
+RegisterNetEvent('inventory:server:addGloveboxItems', function()
+	print('inventory:server:addGloveboxItems has been deprecated please use exports[\'qb-inventory\']:addGloveboxItems(plate, items)')
+end)
 --#endregion Events
 
 --#region Callbacks
@@ -2174,52 +2374,10 @@ QBCore.Commands.Add("giveitem", "Give An Item (Admin Only)", {{name="id", help="
 					info.quality = 100
 				elseif itemData["name"] == "harness" then
 					info.uses = 20
-				elseif itemData["name"] == "femaleseed" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "driedbud" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "smallbud" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "weedpackage" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "weedbaggie" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "wetbud" then
-					info.strain = "Unknown"
-					info.n = 5
-					info.p = 2
-					info.k = 1
-					info.dry = 0
-				elseif itemData["name"] == "joint" then
-					info.strain = "Unknown"
-					info.dry = 0
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "maleseed" then
-					info.strain = "Unknown"
-					info.n = 0
-					info.p = 0
-					info.k = 0
-				elseif itemData["name"] == "wateringcan" then
-					info.water = 0
 				elseif itemData["name"] == "markedbills" then
-					info.worth = math.random(100, 2500)
+					info.worth = math.random(5000, 10000)
+				elseif itemData["name"] == "labkey" then
+					info.lab = exports["qb-methlab"]:GenerateRandomLab()
 				elseif itemData["name"] == "printerdocument" then
 					info.url = "https://cdn.discordapp.com/attachments/870094209783308299/870104331142189126/Logo_-_Display_Picture_-_Stylized_-_Red.png"
 				end

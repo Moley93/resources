@@ -1,11 +1,8 @@
-server_script "FYTHAUCSNSU.lua"
-client_script "FYTHAUCSNSU.lua"
-client_script "FOYJ9X2I.lua"
 fx_version 'cerulean'
 game 'gta5'
 
 description 'QB-Inventory'
-version '1.1.0'
+version '1.2.0'
 
 shared_scripts {
     '@qb-core/shared/locale.lua',

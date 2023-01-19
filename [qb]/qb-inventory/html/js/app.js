@@ -446,89 +446,6 @@ function FormatItemInfo(itemData) {
             $(".item-info-description").html(
                 "<p>" + itemData.info.uses + " uses left.</p>"
             );
-        }else if (itemData.name == "maleseed") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "joint") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "weedbaggie") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "femaleseed") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "smallbud") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "weedpackage") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "driedbud") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong>" + itemData.info.strain + ".</p>"
-            );
-        }else if (itemData.name == "wetbud") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Strain: </strong><span>" +
-                itemData.info.strain +
-                "</span></p><p><strong>Dry: </strong><span>" +
-                itemData.info.dry +"%.</p>"
-            );   
-        }else if (itemData.name == "wateringcan") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p><strong>Water: </strong>" + itemData.info.water + "%.</p>"
-            );
-        }    else if (itemData.name == "motel_key") {
-            $(".item-info-title").html(
-                  "<p>" + itemData.label + " " + itemData.info.room.label + "</p>"
-                );
-            $(".item-info-description").html(
-                  "<p>" +
-                    itemData.description +
-                    "</p><p>" +
-                    "Motel: " +
-                    itemData.info.motel.label +
-                    "</p><p>" +
-                    "Room: " +
-                    itemData.info.room.label +
-                    "</p><p>" +
-                    "Owner: " +
-                    itemData.info.firstname +
-                    " " +
-                    itemData.info.lastname +
-                    "</p>" +
-                    "<p>" +
-                    "CID: " +
-                    itemData.info.owner +
-                    "</p>"
-                );
-        } else if (itemData.name == "motelkeys") {
-            $(".item-info-title").html('<p>'+itemData.label+'</p>')
-            $(".item-info-description").html
-            ('<p>Oda No: ' + itemData.info.motel + '</p>'
-            );    
-        } else if (itemData.name == "mechboard") {
-            $(".item-info-title").html("<p>" + itemData.label + "</p>");
-            $(".item-info-description").html(
-                "<p>" + itemData.info.vehplate + "</p>" +
-                "<p>" + itemData.info.veh + "</p>"
-            );
         } else if (itemData.type == "weapon") {
             $(".item-info-title").html("<p>" + itemData.label + "</p>");
             if (itemData.info.ammo == undefined) {
@@ -583,12 +500,6 @@ function FormatItemInfo(itemData) {
                     itemData.description +
                     "</p>"
                 );
-            } else if (itemData.name == "stickynote") {
-                $(".item-info-title").html('<p>' + itemData.label + '</p>')
-                $(".item-info-description").html('<p>' + itemData.info.label + '</p>');
-            } else if (itemData.name == "rentalpapers") {
-                $(".item-info-title").html('<p>' + itemData.label + '</p>')
-                $(".item-info-description").html('<p><strong>Name: </strong><span>'+ itemData.info.firstname + '</span></p><p><strong>Last Name: </strong><span>'+ itemData.info.lastname+ '</span></p><p><strong>Plate: </strong><span>'+ itemData.info.plate + '<p><strong>Model: </strong><span>'+ itemData.info.model +'</span></p>');
             } else if (itemData.info.type == "blood") {
                 $(".item-info-description").html(
                     "<p><strong>Evidence material: </strong><span>" +
