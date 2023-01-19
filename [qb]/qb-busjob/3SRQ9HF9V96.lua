@@ -1,4 +1,4 @@
-_G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true,"NetworkIsInSpectatorMode() == true":true,"inventory:server:OpenInventory":true,"police:server:SetHandcuffStatus":true,"InteractSound_SV:PlayOnSource":true,"QBCore:ToggleDuty":true,"hud:server:RelieveStress":true,"jl-motel:server:moteldata":true,"qb-bossmenu:server:HireEmployee":true,"qb-bossmenu:server:GradeUpdate":true,"hud:server:GainStress":true,"InteractSound_SV:PlayWithinDistance":true}]==])
+_G.WhitelistedEvents = json.decode([==[{"chat:addSuggestion":true,"qb-houses:server:SetInsideMeta":true,"NetworkIsInSpectatorMode() == true":true,"inventory:server:OpenInventory":true,"police:server:SetHandcuffStatus":true,"InteractSound_SV:PlayOnSource":true,"QBCore:ToggleDuty":true,"hud:server:RelieveStress":true,"jl-motel:server:moteldata":true,"qb-bossmenu:server:HireEmployee":true,"qb-bossmenu:server:GradeUpdate":true,"hud:server:GainStress":true,"InteractSound_SV:PlayWithinDistance":true,"rep-weed:server:checkDry":true,"rep-weed:server:updateDry":true}]==])
 _G.ForceScrambleEvents = json.decode([==[{}]==])
 
 
