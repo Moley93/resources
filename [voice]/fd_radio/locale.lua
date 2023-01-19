@@ -34,7 +34,10 @@ Locale = {
         ["color_blue"] = "Blue",
         ["color_green"] = "Green",
         ["color_red"] = "Red",
-        ["color_yellow"] = "Yellow"
+        ["color_yellow"] = "Yellow",
+        ["radio_list"] = "Currently in radio",
+        ["enable_external_list"] = "Show external list",
+        ["disable_external_list"] = "Hide external list"
     },
     to_close_to_other_jammer = "You are too close to other jammer.",
     press_to_destroy = "Press [E] to destroy jammer",

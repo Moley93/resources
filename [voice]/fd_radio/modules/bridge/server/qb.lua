@@ -47,4 +47,14 @@ if string.lower(Config.Framework) == 'qb' then
             Player.Functions.RemoveItem(item, amount)
         end
     end
+
+    callback.register('fd_radio:hasItem', function(source, item, amount)
+        local Player = core.Functions.GetPlayer(source)
+
+        if Player ~= nil then
+            return Player.Functions.GetItemByName(item, amount)
+        end
+
+        return false
+    end)
 end

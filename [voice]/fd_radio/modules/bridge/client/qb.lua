@@ -49,20 +49,19 @@ if string.lower(Config.Framework) == 'qb' then
     end)
 
     function bridge.hasItem(item, amount)
-        amount = amount or 1
-        if Config.oldItemCheckingForQBCore then
-            local p = promise:new()
+        local item = callback.await('fd_radio:hasItem', false, item, amount)
 
-            core.Functions.TriggerCallback('QBCore:HasItem', function(hasItem)
-                p:resolve(hasItem)
-            end, item, amount)
-
-            return Citizen.Await(p)
+        if not item then
+            return false
         end
 
-        local hasRadio = core.Functions.HasItem(item, amount)
+        local count = item.count or item.amount
 
-        return hasRadio or false
+        if type(count) == 'number' then
+            return count >= amount
+        end
+
+        return false
     end
 
     function bridge.beforeOpen()

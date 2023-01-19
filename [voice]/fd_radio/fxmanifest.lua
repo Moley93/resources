@@ -5,7 +5,7 @@ game 'gta5'
 
 --[[ Resource Information ]] --
 name 'fd_radio_v2'
-version      '1.1.3'
+version      '1.4.0'
 repository 'https://https://github.com/FelisDevelopment/fd_radio_v2'
 description 'Felis Development Radio v2'
 
