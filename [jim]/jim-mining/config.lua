@@ -164,10 +164,10 @@ Config = {
 		['uncut_diamond'] = 20,
 		['uncut_sapphire'] = 20,
 
-		['emerald'] = 40,
-		['ruby'] = 40,
-		['diamond'] = 40,
-		['sapphire'] = 40,
+		['emerald'] = 85,
+		['ruby'] = 85,
+		['diamond'] = 85,
+		['sapphire'] = 85,
 
 		['diamond_ring'] = 125,
 		['emerald_ring'] = 125,
@@ -290,7 +290,7 @@ Config = {
 			{ name = "pickaxe",	price = 100, amount = 100, info = {}, type = "item", slot = 6, },
 			{ name = "miningdrill",	price = 4000, amount = 50, info = {}, type = "item", slot = 7, },
 			{ name = "mininglaser",	price = 12000, amount = 5, info = {}, type = "item", slot = 8, },
-			{ name = "drillbit", price = 35, amount = 100, info = {}, type = "item", slot = 9, },
+			{ name = "drillbit", price = 25, amount = 100, info = {}, type = "item", slot = 9, },
 		},
 	},
 }
