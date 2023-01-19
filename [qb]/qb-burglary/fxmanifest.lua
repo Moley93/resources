@@ -2,11 +2,12 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'SKryptz'
-description 'FiveM Burglary Script | QBCore'
-version '2.1.73'
+description 'An advanced burglary script for fivem | QBCore'
+version '2.1.74'
 
 dependencies {
     '/onesync',
+    'qb-target'
 }
 
 client_scripts { 

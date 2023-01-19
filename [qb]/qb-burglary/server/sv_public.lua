@@ -100,7 +100,6 @@ RegisterNetEvent("burglary:server:SetSellBusyState", function(id, state)
     TriggerClientEvent("burglary:client:SetSellBusyState", -1, id, state)
 end)
 
-
 -- Temp method due to police:SetCopCount not updating
 local function CurrentCopCount()
     local amount = 0
@@ -109,6 +108,7 @@ local function CurrentCopCount()
         for id, job in pairs(Config.Departments) do
             if player.PlayerData.job.name == job then
                 amount = amount + 1
+                break
             end
         end
     end
@@ -117,9 +117,9 @@ end
 
 Core.Functions.CreateCallback("burglary:NotEnoughCopsOnline", function(_, cb)
     local currentCoppas = CurrentCopCount()
+    local notEnoughCops = false
     if currentCoppas < Config.MinPolice then
-        cb(true)
-    else
-        cb(false)
+        notEnoughCops = true
     end
+    cb(notEnoughCops)
 end)

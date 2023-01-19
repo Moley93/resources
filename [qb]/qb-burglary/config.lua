@@ -24,7 +24,7 @@ Config.PsUiResourceName = "ps-ui"
 
 -- TriggerEvent(Config.LockpickResourceName..':client:openLockpick')
 -- If you have renamed your qb-lockpick resource replace "qb-lockpick" with your name
-Config.LockpickResourceName = "qb-lockpick"
+Config.LockpickResourceName = "ps-ui"
 
 -- If true the required break in item will be removed if the minigame is failed
 Config.RemoveLockpick = true
@@ -40,7 +40,7 @@ Config.RemoveRequiredItem = false
 
 -- Set the skill check minigame for lockpicking a door
 -- Options: "circle", "ps-circle", "square", "lockpick"
-Config.DoorSkillcheck = "lockpick"
+Config.DoorSkillcheck = "circle"
 
 -- Set the skill check minigame for disabling the security system
 -- Options: "circle", "ps-circle", "ps-scrambler", "square"

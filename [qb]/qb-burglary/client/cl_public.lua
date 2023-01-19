@@ -43,51 +43,12 @@ local function RandomTier()
 end
 
 local function OpenMainMenu()
-    -- ???? --
-    local notenoughOfEm = false
+    local notEnoughCops = false
     Core.Functions.TriggerCallback('burglary:NotEnoughCopsOnline', function(enough)
-        notenoughOfEm = enough
-    end)
-    Wait(75)
-    -- ???? --
-    local copStatus = notenoughOfEm and Config.Prompts["police1"] or Config.Prompts["bossman6"]
-    local mainMenu = {
-        {
-            header = Config.Prompts["group6"],
-            txt = Config.Prompts["group7"],
-            params = {
-                event = "burglary:client:OpenGroupMenu",
-            }
-        }, {
-            header = Config.Prompts["requestjob1"],
-            txt = copStatus,
-            disabled = notenoughOfEm,
-            params = {
-                event = "burglary:client:StartRobbery",
-                args = RandomTier()
-            }
-        },  {         
-            header = Config.Prompts["bossman5"],
-            txt = Config.Prompts["bossman4"],
-            params = {
-                event = "burglary:client:CancelRobbery",
-                args = InGroup and Groups[CurrentGroup].members or nil
-            }
-        }
-    }
-    if Config.Reputation then
-        LoadRep()
-        local info = GetLevelInfo()
-        local currentLevel = info[1]
-        local currentRep = info[2]
-        local nextRep = info[3]
-        local expInfo = string.format("EXP: %s/%s", currentRep, nextRep)
-        mainMenu = {
+        notEnoughCops = enough
+        local copStatus = notEnoughCops and Config.Prompts["police1"] or Config.Prompts["bossman6"]
+        local mainMenu = {
             {
-                header = Config.Prompts["level5"].." "..currentLevel,
-                txt = expInfo,
-                isMenuHeader = true
-            }, {
                 header = Config.Prompts["group6"],
                 txt = Config.Prompts["group7"],
                 params = {
@@ -95,11 +56,13 @@ local function OpenMainMenu()
                 }
             }, {
                 header = Config.Prompts["requestjob1"],
-                txt = Config.Prompts["bossman3"],
+                txt = copStatus,
+                disabled = notEnoughCops,
                 params = {
-                    event = "burglary:client:OpenJobMenu",
+                    event = "burglary:client:StartRobbery",
+                    args = RandomTier()
                 }
-            }, {         
+            },  {         
                 header = Config.Prompts["bossman5"],
                 txt = Config.Prompts["bossman4"],
                 params = {
@@ -108,8 +71,42 @@ local function OpenMainMenu()
                 }
             }
         }
-    end
-    exports[Config.MenuResourceName]:openMenu(mainMenu)
+        if Config.Reputation then
+            LoadRep()
+            local info = GetLevelInfo()
+            local currentLevel = info[1]
+            local currentRep = info[2]
+            local nextRep = info[3]
+            local expInfo = string.format("EXP: %s/%s", currentRep, nextRep)
+            mainMenu = {
+                {
+                    header = Config.Prompts["level5"].." "..currentLevel,
+                    txt = expInfo,
+                    isMenuHeader = true
+                }, {
+                    header = Config.Prompts["group6"],
+                    txt = Config.Prompts["group7"],
+                    params = {
+                        event = "burglary:client:OpenGroupMenu",
+                    }
+                }, {
+                    header = Config.Prompts["requestjob1"],
+                    txt = Config.Prompts["bossman3"],
+                    params = {
+                        event = "burglary:client:OpenJobMenu",
+                    }
+                }, {         
+                    header = Config.Prompts["bossman5"],
+                    txt = Config.Prompts["bossman4"],
+                    params = {
+                        event = "burglary:client:CancelRobbery",
+                        args = InGroup and Groups[CurrentGroup].members or nil
+                    }
+                }
+            }
+        end
+        exports[Config.MenuResourceName]:openMenu(mainMenu)
+    end)
 end
 
 RegisterNetEvent("burglary:client:OpenMainMenu", function()
@@ -216,54 +213,53 @@ RegisterNetEvent("burglary:client:OpenMemberMenu", function(groupId)
 end)
 
 local function OpenJobMenu()
-    local notenoughOfEm = false
+    local notEnoughCops = false
     Core.Functions.TriggerCallback('burglary:NotEnoughCopsOnline', function(enough)
-        notenoughOfEm = enough
+        notEnoughCops = enough
+        local info = GetLevelInfo()
+        local currentLevel = info[1]
+        local copStatus = notEnoughCops and Config.Prompts["police1"]
+        local lvl1Status = currentLevel < Config.T1_RequiredLvl and Config.Prompts["level1"] or Config.Prompts["level2"]
+        local lvl2Status = currentLevel < Config.T2_RequiredLvl and Config.Prompts["level1"] or Config.Prompts["level3"]
+        local lvl3Status = currentLevel < Config.T3_RequiredLvl and Config.Prompts["level1"] or Config.Prompts["level4"]
+        local jobMenu = {
+            {
+                header = "Jobs available",
+                txt = "Request a job",
+                isMenuHeader = true
+            }, {
+                header = "Tier #1",
+                txt = copStatus or lvl1Status,
+                disabled = currentLevel < Config.T1_RequiredLvl and true or notEnoughCops,
+                params = {
+                    event = "burglary:client:StartRobbery",
+                    args = 1,
+                }
+            }, {
+                header = "Tier #2",
+                txt = copStatus or lvl2Status,
+                disabled = currentLevel < Config.T2_RequiredLvl and true or notEnoughCops,
+                params = {
+                    event = "burglary:client:StartRobbery",
+                    args = 2,
+                }
+            }, {
+                header = "Tier #3",
+                txt = copStatus or lvl3Status,
+                disabled = currentLevel < Config.T3_RequiredLvl and true or notEnoughCops,
+                params = {
+                    event = "burglary:client:StartRobbery",
+                    args = 3,
+                }
+            }, {
+                header = Config.Prompts["back"],
+                params = {
+                    event = "burglary:client:OpenMainMenu",
+                }
+            },
+        }
+        exports[Config.MenuResourceName]:openMenu(jobMenu)
     end)
-    Wait(75)
-    local info = GetLevelInfo()
-    local currentLevel = info[1]
-    local copStatus = notenoughOfEm and Config.Prompts["police1"]
-    local lvl1Status = currentLevel < Config.T1_RequiredLvl and Config.Prompts["level1"] or Config.Prompts["level2"]
-    local lvl2Status = currentLevel < Config.T2_RequiredLvl and Config.Prompts["level1"] or Config.Prompts["level3"]
-    local lvl3Status = currentLevel < Config.T3_RequiredLvl and Config.Prompts["level1"] or Config.Prompts["level4"]
-    local jobMenu = {
-        {
-            header = "Jobs available",
-            txt = "Request a job",
-            isMenuHeader = true
-        }, {
-            header = "Tier #1",
-            txt = copStatus or lvl1Status,
-            disabled = currentLevel < Config.T1_RequiredLvl and true or notenoughOfEm,
-            params = {
-                event = "burglary:client:StartRobbery",
-                args = 1,
-            }
-        }, {
-            header = "Tier #2",
-            txt = copStatus or lvl2Status,
-            disabled = currentLevel < Config.T2_RequiredLvl and true or notenoughOfEm,
-            params = {
-                event = "burglary:client:StartRobbery",
-                args = 2,
-            }
-        }, {
-            header = "Tier #3",
-            txt = copStatus or lvl3Status,
-            disabled = currentLevel < Config.T3_RequiredLvl and true or notenoughOfEm,
-            params = {
-                event = "burglary:client:StartRobbery",
-                args = 3,
-            }
-        }, {
-            header = Config.Prompts["back"],
-            params = {
-                event = "burglary:client:OpenMainMenu",
-            }
-        },
-    }
-    exports[Config.MenuResourceName]:openMenu(jobMenu)
 end
 
 RegisterNetEvent("burglary:client:OpenJobMenu", function()
@@ -288,8 +284,8 @@ end
 --- @param remove boolean
 local function TargetBoss(remove)
     if not remove then
-        exports[Config.TargetResourceName]:AddEntityZone("bossEntity", bossEntity, {
-            name = "bossEntity",
+        exports[Config.TargetResourceName]:AddEntityZone("bossEntityBurglary", bossEntity, {
+            name = "bossEntityBurglary",
             heading = GetEntityHeading(bossEntity),
             debugPoly = false,
         }, {
@@ -311,7 +307,7 @@ local function TargetBoss(remove)
             },
             distance = 1.5
         })
-    else exports[Config.TargetResourceName]:RemoveZone("bossEntity") end
+    else exports[Config.TargetResourceName]:RemoveZone("bossEntityBurglary") end
 end
 
 local function SpawnBoss()
@@ -325,7 +321,7 @@ local function SpawnBoss()
             Wait(0)
         end
     
-        bossEntity = CreatePed(0, model, pos.x, pos.y, pos.z, pos.w, false, false)
+        bossEntity = CreatePed(0, model, pos.x, pos.y, pos.z, pos.w, false, false, false)
         FreezeEntityPosition(bossEntity, true)
         SetEntityInvincible(bossEntity, true)
         SetBlockingOfNonTemporaryEvents(bossEntity, true)
