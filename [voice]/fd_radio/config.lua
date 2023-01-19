@@ -1,5 +1,5 @@
 Config = {}
-Config.Framework = 'none' -- Server core: QB - QBCore, ESX - ESX, none - Standalone
+Config.Framework = 'qb' -- Server core: QB - QBCore, ESX - ESX, none - Standalone
 Config.CoreResource = 'qb-core' -- Only used for QBCore servers
 
 Config.DefaultColor = "red" -- Options: default, white, red, blue, green, yellow
