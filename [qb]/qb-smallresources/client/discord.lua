@@ -8,7 +8,7 @@ CreateThread(function()
         SetDiscordAppId(1051575611455455286)
 
         -- Here you will have to put the image name for the "large" icon.
-        SetDiscordRichPresenceAsset('nrlargelogotrans')
+        SetDiscordRichPresenceAsset('nrbiglogotrans.png')
 
         -- (11-11-2018) New Natives:
 
@@ -16,7 +16,7 @@ CreateThread(function()
         SetDiscordRichPresenceAssetText('Join Near Reality with the below buttons!')
 
         -- Here you will have to put the image name for the "small" icon.
-        SetDiscordRichPresenceAssetSmall('nrsmalllogotrans')
+        SetDiscordRichPresenceAssetSmall('nrsmalllogotrans.png')
 
         -- Here you can add hover text for the "small" icon.
         SetDiscordRichPresenceAssetSmallText('Get involved today!')
