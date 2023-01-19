@@ -1,13 +1,13 @@
--- THIS CONFIG JUST FOR TESTING
-Config.Motel['davis'] = {
-    label = "Davis Motel",
+Config.Motel["davis"] = {
+    owner = "police",
+    label = "Davis",
     rent = {
         coords = vector4(362.37, -1798.56, 29.1, 136.48)
     },
     type = "shell",
     price = 2000,
     motel = {
-        ['Davis-davis:1'] = {
+        ['davis:1'] = {
             enter = vector3(367.57, -1802.29, 29.07),
             locked = true,
             label = "Davis 14",
@@ -31,7 +31,7 @@ Config.Motel['davis'] = {
                 rotation = 42.0,
             }
         },
-        ['Davis-davis:2'] = {
+        ['davis:2'] = {
             enter = vector3(379.19, -1812.03, 29.05),
             locked = true,
             label = "Davis 15",
@@ -55,7 +55,7 @@ Config.Motel['davis'] = {
                 rotation = 320.0,
             }
         },
-        ['Davis-davis:3'] = {
+        ['davis:3'] = {
             enter = vector3(380.84, -1813.31, 29.05),
             locked = true,
             label = "Davis 16",
@@ -79,7 +79,7 @@ Config.Motel['davis'] = {
                 rotation = 321.0,
             }
         },
-        ['Davis-davis:4'] = {
+        ['davis:4'] = {
             enter = vector3(372.23, -1791.4, 29.1),
             locked = true,
             label = "Davis 13",
@@ -102,6 +102,6 @@ Config.Motel['davis'] = {
                 size = vec3(0.75, 0.8, 0.95),
                 rotation = 40.0,
             }
-        },
+        }
     }
 }

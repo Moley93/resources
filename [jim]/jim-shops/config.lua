@@ -71,7 +71,6 @@ Config = {
 			{ name = "ziptie", price = 150, amount = 100},
 		},
 		["weedshop"] = {
-			{ name = "joint", price = 20, amount = 1000, },
 			{ name = "smallscales", price = 2500, amount = 1000, },
 			{ name = "qualityscales", price = 15000, amount = 1000, },
 			{ name = "fertilizer", price = 25, amount = 1000, },

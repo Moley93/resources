@@ -1,14 +1,13 @@
-Config.Motel['rhones'] = {
-    renew = '1w',
-    label = "Rhones Motel",
-    type = "shell",
-    price = 2000,
+Config.Motel["rhones"] = {
+    owner = "police",
+    label = "Rhones",
     rent = {
         coords = vector4(61.31, -270.08, 48.19, 159.59)
     },
+    price = 2000,
+    type = "shell",
     motel = {
-        -- Downstairs
-        ["Rhones-rhones:1"] = {
+        ["rhones:1"] = {
             enter = vector3(63.51, -262.03, 52.35),
             locked = true,
             label = "Rhones 1",
@@ -32,7 +31,7 @@ Config.Motel['rhones'] = {
                 rotation = 339.5,
             },
         },
-        ["Rhones-rhones:2"] = {
+        ["rhones:2"] = {
             enter = vector3(66.39, -256.08, 52.35),
             locked = true,
             label = "Rhones 2",
@@ -56,7 +55,7 @@ Config.Motel['rhones'] = {
                 rotation = 340.5,
             },
         },
-        ["Rhones-rhones:3"] = {
+        ["rhones:3"] = {
             enter = vector3(67.25, -253.63, 52.35),
             locked = true,
             label = "Rhones 3",
@@ -80,7 +79,7 @@ Config.Motel['rhones'] = {
                 rotation = 339.5,
             },
         },
-        ["Rhones-rhones:4"] = {
+        ["rhones:4"] = {
             enter = vector3(64.83, -254.56, 48.19),
             locked = true,
             label = "Rhones 4",
@@ -102,7 +101,7 @@ Config.Motel['rhones'] = {
                 coords = vec3(64.5, -258.4, 47.5),
                 size = vec3(1.05, 1.65, 1.15),
                 rotation = 340.0,
-            },
-        },
+            }
+        }
     }
 }
