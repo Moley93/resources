@@ -12,8 +12,8 @@ Config.Boss = { -- you can add more boss location here, he switch locations ever
 }
 
 Config.MinCops = {
-    Corner = 2, -- allowed to do weed runs/cornering
-    Taco = 3,
+    Corner = 0, -- allowed to do weed runs/cornering
+    Taco = 1,
 }
 
 Config.PoliceAlert = {
@@ -206,7 +206,7 @@ Config.JointLossRate = {
 
 Config.Amount = { 
     ['smallbud'] = 20, -- 1 packed bud to 20 joints
-    ['weedpackage'] = 5, -- 1 weedpackge = 5 weed baggies
+    ['weedpackage'] = 14, -- 1 weedpackge = 5 weed baggies
     ['weedbaggie'] = 8 -- 1 weed baggie = 8 joints
 }
 
