@@ -86,7 +86,7 @@ Config = {
 	FineJobs = {
 		['police'] = { Commission = 0.3, },
 		['ambulance'] = { Commission = 0.3, },
-		['lsmech'] = { Commission = 0.2, },
+		['eastcustoms'] = { Commission = 0.2, },
 		['r68mech'] = { Commission = 0.2, },
 		['ottomech'] = { Commission = 0.2, },
 		['paletomech'] = { Commission = 0.2, },

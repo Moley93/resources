@@ -295,7 +295,7 @@ QBShared.Jobs = {
             },
         },
 	},
-    ['lsmech'] = {
+    ['eastcustoms'] = {
 		label = 'East Customs',
         type = "mechanic",
 		defaultDuty = true,

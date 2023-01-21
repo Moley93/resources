@@ -5,7 +5,7 @@ Config.Jobs = {
     "police",
     "judge",
     "lawyer",
-    "lsmech",
+    "eastcustoms",
     "r68mech",
     "paletomech",
     "ottomech",

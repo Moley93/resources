@@ -69,7 +69,7 @@ Config.Locations = {
 		discordimg = "https://static.wikia.nocookie.net/gtawiki/images/4/40/Beeker%27s_logo_GTA_V.png",
 	},
 	-- GABZ LS TUNER SHOP --
-	{	job = "lsmech",
+	{	job = "eastcustoms",
 		zones = {
 			vector2(873.05, -2095.81),
 			vector2(917.37, -2098.74),
